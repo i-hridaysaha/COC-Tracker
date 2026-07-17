@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-17T20:29:21.087108+00:00",
+  "captured_at": "2026-07-17T21:54:39.191421+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3426,7 +3426,171 @@
           18
         ]
       ]
-    }
+    },
+    "building_ids": {
+      "1000002": {
+        "n": "Elixir Collector",
+        "c": "resources"
+      },
+      "1000003": {
+        "n": "Elixir Storage",
+        "c": "resources"
+      },
+      "1000004": {
+        "n": "Gold Mine",
+        "c": "resources"
+      },
+      "1000005": {
+        "n": "Gold Storage",
+        "c": "resources"
+      },
+      "1000008": {
+        "n": "Cannon",
+        "c": "defenses"
+      },
+      "1000009": {
+        "n": "Archer Tower",
+        "c": "defenses"
+      },
+      "1000011": {
+        "n": "Wizard Tower",
+        "c": "defenses"
+      },
+      "1000012": {
+        "n": "Air Defense",
+        "c": "defenses"
+      },
+      "1000013": {
+        "n": "Mortar",
+        "c": "defenses"
+      },
+      "1000019": {
+        "n": "Hidden Tesla",
+        "c": "defenses"
+      },
+      "1000021": {
+        "n": "X-Bow",
+        "c": "defenses"
+      },
+      "1000023": {
+        "n": "Dark Elixir Drill",
+        "c": "resources"
+      },
+      "1000024": {
+        "n": "Dark Elixir Storage",
+        "c": "resources"
+      },
+      "1000027": {
+        "n": "Inferno Tower",
+        "c": "defenses"
+      },
+      "1000028": {
+        "n": "Air Sweeper",
+        "c": "defenses"
+      },
+      "1000031": {
+        "n": "Eagle Artillery",
+        "c": "defenses"
+      },
+      "1000032": {
+        "n": "Bomb Tower",
+        "c": "defenses"
+      },
+      "1000067": {
+        "n": "Scattershot",
+        "c": "defenses"
+      },
+      "1000072": {
+        "n": "Spell Tower",
+        "c": "defenses"
+      },
+      "1000077": {
+        "n": "Monolith",
+        "c": "defenses"
+      },
+      "1000079": {
+        "n": "Multi-Gear Tower",
+        "c": "defenses"
+      },
+      "1000084": {
+        "n": "Multi-Archer Tower",
+        "c": "defenses"
+      },
+      "1000085": {
+        "n": "Ricochet Cannon",
+        "c": "defenses"
+      },
+      "1000086": {
+        "n": "Revenge Tower",
+        "c": "defenses"
+      },
+      "1000089": {
+        "n": "Firespitter",
+        "c": "defenses"
+      },
+      "1000102": {
+        "n": "Super Wizard Tower",
+        "c": "defenses"
+      }
+    },
+    "trap_ids": {
+      "12000000": "Bomb",
+      "12000001": "Spring Trap",
+      "12000002": "Giant Bomb",
+      "12000005": "Air Bomb",
+      "12000006": "Seeking Air Mine",
+      "12000008": "Skeleton Trap",
+      "12000016": "Tornado Trap",
+      "12000020": "Giga Bomb"
+    },
+    "wall_id": 1000010,
+    "town_hall_id": 1000001,
+    "known_building_ids": [
+      1000000,
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009,
+      1000010,
+      1000011,
+      1000012,
+      1000013,
+      1000014,
+      1000015,
+      1000019,
+      1000020,
+      1000021,
+      1000023,
+      1000024,
+      1000026,
+      1000027,
+      1000028,
+      1000029,
+      1000031,
+      1000032,
+      1000059,
+      1000064,
+      1000067,
+      1000068,
+      1000070,
+      1000071,
+      1000072,
+      1000077,
+      1000079,
+      1000083,
+      1000084,
+      1000085,
+      1000086,
+      1000089,
+      1000093,
+      1000097,
+      1000102
+    ]
   },
   "accounts": [
     {
@@ -3438,7 +3602,7 @@
       "war_stars": 554,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1226,
+      "donations": 1248,
       "received": 144,
       "offense_completion_pct": 81.9,
       "rush": {
@@ -4702,7 +4866,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "14d 11h",
+          "ends_in": "14d 10h",
           "active": true
         },
         "scheduled": [
@@ -4710,25 +4874,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "14d 11h"
+            "starts_in": "14d 10h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 11h"
+            "starts_in": "4d 10h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 11h"
+            "starts_in": "14d 10h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 10h"
+            "ends_in": "2d 9h"
           }
         ],
         "raid_weekend": {
@@ -4736,7 +4900,7 @@
           "state": "ongoing",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "2d 10h"
+          "ends_in": "2d 9h"
         },
         "cwl": null
       },
