@@ -225,26 +225,68 @@ function defenseItemsFromVillage(v){
   const norm=s=>String(s||'').trim().toLowerCase();
   const idx=table=>{const m={};for(const k in table)m[norm(k)]=table[k];return m;};
   const bIdx=idx(T.buildings),tIdx=idx(T.traps);
+  const allBuildingIds=new Set(T.known_building_ids||[]);
   const maxTh=e=>{let m=0;for(const l of e.l)if(l[3]<=th&&l[0]>m)m=l[0];return m;};
   // Next level only: a builder/lab slot performs one level-up at a time, not
   // the whole remaining climb to the Town Hall cap.
   const remain=(e,cur,target)=>{if(cur>=target)return[0,0,e.r];const by={};for(const l of e.l)by[l[0]]=l;const d=by[cur+1];return d?[d[1],d[2],e.r]:[0,0,e.r];};
-  const addFrom=(list,cat,lookup)=>{(list||[]).forEach(b=>{total++;const e=lookup[norm(b.name)];
-    if(!e){misses.push((b.name||'(no name)')+' -- name not recognized');return;}
+  const pushItem=(cat,name,lvl,lookup)=>{
+    const e=lookup[norm(name)];
+    if(!e){misses.push(name+' -- name not recognized');return false;}
     const target=maxTh(e);
-    if(!target){misses.push((b.name||'(no name)')+' -- not unlocked at Town Hall '+th+' in the bundled data (check your "town_hall" field, or this is very new content the library doesn\'t know yet)');return;}
-    matched++;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:cat,name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});};
-  addFrom(v.buildings||v.defenses,'defenses',bIdx);
-  addFrom(v.resources,'resources',bIdx);
-  addFrom(v.traps,'traps',tIdx);
+    if(!target){misses.push(name+' -- not unlocked at Town Hall '+th+' in the bundled data (check your "town_hall" field, or this is very new content the library doesn\'t know yet)');return false;}
+    const level=Math.min(+lvl||0,target);const[c,s,r]=remain(e,level,target);
+    out.push({category:cat,name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});
+    return true;
+  };
+  const wallGroups={}; // level -> count, merged from an explicit v.walls array and any id-based wall entries
+  const addWall=(level,count)=>{if(count>0)wallGroups[level]=(wallGroups[level]||0)+count;};
+
+  // --- our own {name, level} schema, used as-is ---
+  (v.buildings||v.defenses||[]).forEach(b=>{if(b.name==null)return;total++;if(pushItem('defenses',b.name,b.level,bIdx))matched++;});
+  (v.resources||[]).forEach(b=>{if(b.name==null)return;total++;if(pushItem('resources',b.name,b.level,bIdx))matched++;});
+  (v.traps||[]).forEach(t=>{if(t.name==null)return;total++;if(pushItem('traps',t.name,t.level,tIdx))matched++;});
+  (v.walls||[]).forEach(g=>addWall(+g.level||0,+g.count||0));
+
+  // --- an id-based export, e.g. {"data": 1000008, "lvl": 21, "cnt": 2} --
+  // the shape some base-analysis / game-data-dump tools produce. "data" is
+  // the exact internal id from the same bundled tables everything else
+  // here reads from, so it translates directly with no name typing.
+  (v.buildings||v.defenses||[]).forEach(b=>{
+    if(b.data==null||b.name!=null)return;
+    if(T.wall_id!=null&&b.data===T.wall_id){addWall(+b.lvl||0,Math.max(0,+b.cnt||1));return;}
+    if(T.town_hall_id!=null&&b.data===T.town_hall_id)return; // Town Hall itself: not tracked, not a miss
+    const info=(T.building_ids||{})[b.data];
+    if(!info){
+      // a real building we just don't track (Army Camp, Laboratory, Clan Castle, ...): not counted at all,
+      // as opposed to an id we've genuinely never heard of, which is worth flagging
+      if(!allBuildingIds.has(b.data)){total++;misses.push('building id '+b.data+' -- not recognized');}
+      return;
+    }
+    total++;
+    const count=Math.max(1,+b.cnt||1);let ok=0;
+    for(let i=0;i<count;i++)if(pushItem(info.c,info.n,b.lvl,bIdx))ok++;
+    if(ok>0)matched++;
+  });
+  (v.traps||[]).forEach(t=>{
+    if(t.data==null||t.name!=null)return;
+    total++;
+    const name=(T.trap_ids||{})[t.data];
+    if(!name){misses.push('trap id '+t.data+' -- not recognized');return;}
+    const count=Math.max(1,+t.cnt||1);let ok=0;
+    for(let i=0;i<count;i++)if(pushItem('traps',name,t.lvl,tIdx))ok++;
+    if(ok>0)matched++;
+  });
+
   const we=T.wall;
-  if(we&&we.l.length&&(v.walls||[]).length){
-    const target=maxTh(we);
-    (v.walls||[]).forEach(g=>{total++;const level=+g.level||0,count=+g.count||0;
-      if(count<=0){misses.push('Wall lvl '+level+' -- count is 0');return;}
-      if(!target){misses.push('Wall lvl '+level+' -- not unlocked at Town Hall '+th);return;}
-      matched++;const[c]=remain(we,level,target);out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});});
-  }
+  Object.entries(wallGroups).forEach(([levelStr,count])=>{
+    const level=+levelStr;total++;
+    const target=we?maxTh(we):0;
+    if(!we||!we.l.length||!target){misses.push('Wall lvl '+level+' -- not unlocked at Town Hall '+th);return;}
+    matched++;const[c]=remain(we,level,target);
+    out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});
+  });
+
   out.__match={total,matched,misses};
   return out;
 }
@@ -428,7 +470,7 @@ def render(data_dir: Path, out_path: Path) -> bool:
         "<div id=\"page-planner\" class=\"page\"></div>"
         "<div id=\"vmodal\" class=\"modal\"><div class=\"modalbox\">"
         "<h3 style=\"color:var(--gold)\">Paste your village JSON</h3>"
-        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, resource-building, trap and wall levels. Saved in this browser only, per account. It adds the defense side to your Overview, Tracker and Planner instantly. Names must match the game exactly (case doesn't matter) &mdash; \"buildings\" or \"defenses\" both work as the key for defensive buildings.</p>"
+        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, resource-building, trap and wall levels. Saved in this browser only, per account. It adds the defense side to your Overview, Tracker and Planner instantly. Names must match the game exactly (case doesn't matter) &mdash; \"buildings\" or \"defenses\" both work as the key for defensive buildings. A raw account export with numeric building ids (e.g. from a base-analysis tool) works too, translated automatically.</p>"
         "<textarea id=\"vjson\" spellcheck=\"false\" placeholder='{ \"town_hall\": 17, \"buildings\": [ {\"name\":\"Cannon\",\"level\":21} ], \"resources\": [ {\"name\":\"Gold Mine\",\"level\":17} ], \"traps\": [ {\"name\":\"Bomb\",\"level\":12} ], \"walls\": [ {\"level\":17,\"count\":250} ] }'></textarea>"
         "<div id=\"verr\" class=\"verr\"></div>"
         "<div class=\"modalbtns\"><button class=\"af\" onclick=\"saveVillage()\">Save</button><button class=\"af\" onclick=\"closeVillageModal()\">Cancel</button></div>"

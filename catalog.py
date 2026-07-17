@@ -116,7 +116,14 @@ def completion(items: list[dict]) -> dict:
 def defense_tables() -> dict:
     """Compact building/trap/wall cost tables for the dashboard, so it can
     compute defenses from a village JSON you paste in the browser, with no
-    repo file needed. Levels are [level, build_cost, build_time, req_townhall]."""
+    repo file needed. Levels are [level, build_cost, build_time, req_townhall].
+
+    Also ships id-keyed lookup tables (building_ids, trap_ids, wall_id,
+    town_hall_id). Some export tools (game-data dumps, base-analysis apps)
+    give you buildings/traps as {"data": <internal id>, "lvl": ...} instead
+    of {"name": ..., "level": ...} -- these ids are the exact _id values
+    from the same bundled static tables everything else here reads from, so
+    the browser can translate them without any extra guesswork."""
     bt = defenses._buildings()
     tt = defenses._traps()
 
@@ -129,4 +136,26 @@ def defense_tables() -> dict:
     buildings = {n: pack(e) for n, e in bt.items() if n != "Wall"}
     traps = {n: pack(e) for n, e in tt.items()}
     wall = pack(bt["Wall"]) if "Wall" in bt else {"r": "gold", "l": []}
-    return {"buildings": buildings, "traps": traps, "wall": wall}
+
+    building_ids = {}
+    for n, e in bt.items():
+        if n == "Wall":
+            continue
+        cat = "resources" if n in defenses.RESOURCE_BUILDING_NAMES else "defenses" if n in defenses.DEFENSE_BUILDING_NAMES else None
+        if cat and e.get("_id"):
+            building_ids[e["_id"]] = {"n": n, "c": cat}
+    trap_ids = {e["_id"]: n for n, e in tt.items() if e.get("_id")}
+    wall_id = bt["Wall"].get("_id") if "Wall" in bt else None
+    th_id = bt["Town Hall"].get("_id") if "Town Hall" in bt else None
+    # Every home-village building id, tracked or not (Army Camp, Clan
+    # Castle, Laboratory, etc aren't in building_ids above since they're
+    # neither a defense nor a resource building) -- lets the browser tell
+    # "recognized but out of scope, skip quietly" apart from "never heard
+    # of this id, that's a real problem" when translating an id-based
+    # export.
+    known_building_ids = [e["_id"] for e in bt.values() if e.get("_id")]
+
+    return {"buildings": buildings, "traps": traps, "wall": wall,
+            "building_ids": building_ids, "trap_ids": trap_ids,
+            "wall_id": wall_id, "town_hall_id": th_id,
+            "known_building_ids": known_building_ids}
