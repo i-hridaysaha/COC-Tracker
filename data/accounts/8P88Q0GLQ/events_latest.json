@@ -1,0 +1,43 @@
+{
+  "gold_pass_season": {
+    "source": "api",
+    "season_start": "2026-07-01 08:00:00+00:00",
+    "season_end": "2026-08-01 08:00:00+00:00",
+    "ends_in": "14d 18h",
+    "active": true
+  },
+  "scheduled": [
+    {
+      "event": "Season reset",
+      "estimate": false,
+      "active": false,
+      "starts_in": "14d 18h"
+    },
+    {
+      "event": "Clan Games",
+      "estimate": true,
+      "active": false,
+      "starts_in": "4d 18h"
+    },
+    {
+      "event": "CWL",
+      "estimate": true,
+      "active": false,
+      "starts_in": "14d 18h"
+    },
+    {
+      "event": "Raid Weekend",
+      "estimate": true,
+      "active": true,
+      "ends_in": "2d 17h"
+    }
+  ],
+  "raid_weekend": {
+    "source": "api",
+    "state": "ongoing",
+    "start": "2026-07-17 07:00:00+00:00",
+    "end": "2026-07-20 07:00:00+00:00",
+    "ends_in": "2d 17h"
+  },
+  "cwl": null
+}

@@ -1,0 +1,1149 @@
+{
+  "town_hall": 17,
+  "mode": "time_to_max",
+  "active_events": null,
+  "includes_defenses": false,
+  "total_build_time_one_builder": "1901 days, 18:00:00",
+  "total_cost": {
+    "dark_elixir": 42431000,
+    "elixir": 1209300000,
+    "shiny_ore": 705260,
+    "glowy_ore": 51900,
+    "starry_ore": 4450
+  },
+  "total_cost_text": "1,209,300,000 elixir, 42,431,000 DE, 705,260 shiny, 51,900 glowy, 4,450 starry",
+  "items": [
+    {
+      "rank": 1,
+      "category": "heroes",
+      "name": "Barbarian King",
+      "from_level": 69,
+      "to_level": 110,
+      "cost": {
+        "dark_elixir": 9310000
+      },
+      "cost_text": "9,310,000 DE",
+      "build_time": "234 days",
+      "build_seconds": 20217600,
+      "reason": "one of your longest builds at 234 days, start early to reach max sooner"
+    },
+    {
+      "rank": 2,
+      "category": "heroes",
+      "name": "Archer Queen",
+      "from_level": 80,
+      "to_level": 110,
+      "cost": {
+        "dark_elixir": 7660000
+      },
+      "cost_text": "7,660,000 DE",
+      "build_time": "182 days, 12:00:00",
+      "build_seconds": 15768000,
+      "reason": "one of your longest builds at 182 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 3,
+      "category": "heroes",
+      "name": "Minion Prince",
+      "from_level": 76,
+      "to_level": 95,
+      "cost": {
+        "dark_elixir": 6520000
+      },
+      "cost_text": "6,520,000 DE",
+      "build_time": "150 days",
+      "build_seconds": 12960000,
+      "reason": "one of your longest builds at 150 days, start early to reach max sooner"
+    },
+    {
+      "rank": 4,
+      "category": "heroes",
+      "name": "Grand Warden",
+      "from_level": 61,
+      "to_level": 85,
+      "cost": {
+        "elixir": 404500000
+      },
+      "cost_text": "404,500,000 elixir",
+      "build_time": "139 days, 12:00:00",
+      "build_seconds": 12052800,
+      "reason": "one of your longest builds at 139 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 5,
+      "category": "pets",
+      "name": "Electro Owl",
+      "from_level": 6,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1485000
+      },
+      "cost_text": "1,485,000 DE",
+      "build_time": "62 days",
+      "build_seconds": 5356800,
+      "reason": "one of your longest builds at 62 days, start early to reach max sooner"
+    },
+    {
+      "rank": 6,
+      "category": "pets",
+      "name": "Unicorn",
+      "from_level": 7,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1765000
+      },
+      "cost_text": "1,765,000 DE",
+      "build_time": "57 days",
+      "build_seconds": 4924800,
+      "reason": "one of your longest builds at 57 days, start early to reach max sooner"
+    },
+    {
+      "rank": 7,
+      "category": "pets",
+      "name": "L.A.S.S.I",
+      "from_level": 5,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1050000
+      },
+      "cost_text": "1,050,000 DE",
+      "build_time": "52 days, 12:00:00",
+      "build_seconds": 4536000,
+      "reason": "one of your longest builds at 52 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 8,
+      "category": "pets",
+      "name": "Poison Lizard",
+      "from_level": 7,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1520000
+      },
+      "cost_text": "1,520,000 DE",
+      "build_time": "50 days, 12:00:00",
+      "build_seconds": 4363200,
+      "reason": "one of your longest builds at 50 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 9,
+      "category": "pets",
+      "name": "Mighty Yak",
+      "from_level": 6,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1170000
+      },
+      "cost_text": "1,170,000 DE",
+      "build_time": "49 days, 12:00:00",
+      "build_seconds": 4276800,
+      "reason": "one of your longest builds at 49 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 10,
+      "category": "spells",
+      "name": "Poison Spell",
+      "from_level": 7,
+      "to_level": 12,
+      "cost": {
+        "dark_elixir": 990000
+      },
+      "cost_text": "990,000 DE",
+      "build_time": "45 days, 16:00:00",
+      "build_seconds": 3945600,
+      "reason": "one of your longest builds at 45 days, 16:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 11,
+      "category": "spells",
+      "name": "Ice Block Spell",
+      "from_level": 2,
+      "to_level": 6,
+      "cost": {
+        "dark_elixir": 800000
+      },
+      "cost_text": "800,000 DE",
+      "build_time": "41 days",
+      "build_seconds": 3542400,
+      "reason": "one of your longest builds at 41 days, start early to reach max sooner"
+    },
+    {
+      "rank": 12,
+      "category": "troops",
+      "name": "Minion",
+      "from_level": 8,
+      "to_level": 14,
+      "cost": {
+        "dark_elixir": 1005000
+      },
+      "cost_text": "1,005,000 DE",
+      "build_time": "40 days, 12:00:00",
+      "build_seconds": 3499200,
+      "reason": "one of your longest builds at 40 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 13,
+      "category": "heroes",
+      "name": "Royal Champion",
+      "from_level": 50,
+      "to_level": 55,
+      "cost": {
+        "dark_elixir": 2110000
+      },
+      "cost_text": "2,110,000 DE",
+      "build_time": "40 days",
+      "build_seconds": 3456000,
+      "reason": "one of your longest builds at 40 days, start early to reach max sooner"
+    },
+    {
+      "rank": 14,
+      "category": "spells",
+      "name": "Healing Spell",
+      "from_level": 8,
+      "to_level": 12,
+      "cost": {
+        "elixir": 73000000
+      },
+      "cost_text": "73,000,000 elixir",
+      "build_time": "39 days",
+      "build_seconds": 3369600,
+      "reason": "one of your longest builds at 39 days, start early to reach max sooner"
+    },
+    {
+      "rank": 15,
+      "category": "troops",
+      "name": "Miner",
+      "from_level": 8,
+      "to_level": 12,
+      "cost": {
+        "elixir": 67500000
+      },
+      "cost_text": "67,500,000 elixir",
+      "build_time": "37 days, 20:00:00",
+      "build_seconds": 3268800,
+      "reason": "one of your longest builds at 37 days, 20:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 16,
+      "category": "spells",
+      "name": "Lightning Spell",
+      "from_level": 9,
+      "to_level": 13,
+      "cost": {
+        "elixir": 69000000
+      },
+      "cost_text": "69,000,000 elixir",
+      "build_time": "37 days",
+      "build_seconds": 3196800,
+      "reason": "one of your longest builds at 37 days, start early to reach max sooner"
+    },
+    {
+      "rank": 17,
+      "category": "troops",
+      "name": "Wizard",
+      "from_level": 10,
+      "to_level": 14,
+      "cost": {
+        "elixir": 64500000
+      },
+      "cost_text": "64,500,000 elixir",
+      "build_time": "37 days",
+      "build_seconds": 3196800,
+      "reason": "one of your longest builds at 37 days, start early to reach max sooner"
+    },
+    {
+      "rank": 18,
+      "category": "spells",
+      "name": "Recall Spell",
+      "from_level": 3,
+      "to_level": 7,
+      "cost": {
+        "elixir": 41000000
+      },
+      "cost_text": "41,000,000 elixir",
+      "build_time": "33 days, 12:00:00",
+      "build_seconds": 2894400,
+      "reason": "one of your longest builds at 33 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 19,
+      "category": "troops",
+      "name": "Druid",
+      "from_level": 2,
+      "to_level": 6,
+      "cost": {
+        "dark_elixir": 662500
+      },
+      "cost_text": "662,500 DE",
+      "build_time": "32 days, 12:00:00",
+      "build_seconds": 2808000,
+      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 20,
+      "category": "pets",
+      "name": "Frosty",
+      "from_level": 11,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1100000
+      },
+      "cost_text": "1,100,000 DE",
+      "build_time": "32 days",
+      "build_seconds": 2764800,
+      "reason": "one of your longest builds at 32 days, start early to reach max sooner"
+    },
+    {
+      "rank": 21,
+      "category": "pets",
+      "name": "Angry Jelly",
+      "from_level": 6,
+      "to_level": 10,
+      "cost": {
+        "dark_elixir": 860000
+      },
+      "cost_text": "860,000 DE",
+      "build_time": "32 days",
+      "build_seconds": 2764800,
+      "reason": "one of your longest builds at 32 days, start early to reach max sooner"
+    },
+    {
+      "rank": 22,
+      "category": "spells",
+      "name": "Bat Spell",
+      "from_level": 5,
+      "to_level": 8,
+      "cost": {
+        "dark_elixir": 660000
+      },
+      "cost_text": "660,000 DE",
+      "build_time": "28 days, 12:00:00",
+      "build_seconds": 2462400,
+      "reason": "one of your longest builds at 28 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 23,
+      "category": "spells",
+      "name": "Haste Spell",
+      "from_level": 3,
+      "to_level": 7,
+      "cost": {
+        "dark_elixir": 588500
+      },
+      "cost_text": "588,500 DE",
+      "build_time": "28 days, 12:00:00",
+      "build_seconds": 2462400,
+      "reason": "one of your longest builds at 28 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 24,
+      "category": "troops",
+      "name": "Battle Drill",
+      "from_level": 1,
+      "to_level": 6,
+      "cost": {
+        "elixir": 41500000
+      },
+      "cost_text": "41,500,000 elixir",
+      "build_time": "26 days",
+      "build_seconds": 2246400,
+      "reason": "one of your longest builds at 26 days, start early to reach max sooner"
+    },
+    {
+      "rank": 25,
+      "category": "troops",
+      "name": "Wall Breaker",
+      "from_level": 12,
+      "to_level": 14,
+      "cost": {
+        "elixir": 41500000
+      },
+      "cost_text": "41,500,000 elixir",
+      "build_time": "24 days",
+      "build_seconds": 2073600,
+      "reason": "one of your longest builds at 24 days, start early to reach max sooner"
+    },
+    {
+      "rank": 26,
+      "category": "troops",
+      "name": "Troop Launcher",
+      "from_level": 1,
+      "to_level": 4,
+      "cost": {
+        "elixir": 35500000
+      },
+      "cost_text": "35,500,000 elixir",
+      "build_time": "24 days",
+      "build_seconds": 2073600,
+      "reason": "one of your longest builds at 24 days, start early to reach max sooner"
+    },
+    {
+      "rank": 27,
+      "category": "pets",
+      "name": "Phoenix",
+      "from_level": 6,
+      "to_level": 10,
+      "cost": {
+        "dark_elixir": 695000
+      },
+      "cost_text": "695,000 DE",
+      "build_time": "23 days",
+      "build_seconds": 1987200,
+      "reason": "one of your longest builds at 23 days, start early to reach max sooner"
+    },
+    {
+      "rank": 28,
+      "category": "pets",
+      "name": "Diggy",
+      "from_level": 6,
+      "to_level": 10,
+      "cost": {
+        "dark_elixir": 660000
+      },
+      "cost_text": "660,000 DE",
+      "build_time": "23 days",
+      "build_seconds": 1987200,
+      "reason": "one of your longest builds at 23 days, start early to reach max sooner"
+    },
+    {
+      "rank": 29,
+      "category": "troops",
+      "name": "Wall Wrecker",
+      "from_level": 4,
+      "to_level": 6,
+      "cost": {
+        "elixir": 36000000
+      },
+      "cost_text": "36,000,000 elixir",
+      "build_time": "22 days, 12:00:00",
+      "build_seconds": 1944000,
+      "reason": "one of your longest builds at 22 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 30,
+      "category": "troops",
+      "name": "Archer",
+      "from_level": 9,
+      "to_level": 14,
+      "cost": {
+        "elixir": 34000000
+      },
+      "cost_text": "34,000,000 elixir",
+      "build_time": "21 days, 12:00:00",
+      "build_seconds": 1857600,
+      "reason": "one of your longest builds at 21 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 31,
+      "category": "troops",
+      "name": "Siege Barracks",
+      "from_level": 3,
+      "to_level": 6,
+      "cost": {
+        "elixir": 26000000
+      },
+      "cost_text": "26,000,000 elixir",
+      "build_time": "19 days",
+      "build_seconds": 1641600,
+      "reason": "one of your longest builds at 19 days, start early to reach max sooner"
+    },
+    {
+      "rank": 32,
+      "category": "troops",
+      "name": "Baby Dragon",
+      "from_level": 9,
+      "to_level": 12,
+      "cost": {
+        "elixir": 30000000
+      },
+      "cost_text": "30,000,000 elixir",
+      "build_time": "17 days, 6:00:00",
+      "build_seconds": 1490400,
+      "reason": "one of your longest builds at 17 days, 6:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 33,
+      "category": "troops",
+      "name": "Electro Dragon",
+      "from_level": 8,
+      "to_level": 9,
+      "cost": {
+        "elixir": 30000000
+      },
+      "cost_text": "30,000,000 elixir",
+      "build_time": "16 days",
+      "build_seconds": 1382400,
+      "reason": "one of your longest builds at 16 days, start early to reach max sooner"
+    },
+    {
+      "rank": 34,
+      "category": "spells",
+      "name": "Totem Spell",
+      "from_level": 3,
+      "to_level": 4,
+      "cost": {
+        "elixir": 23000000
+      },
+      "cost_text": "23,000,000 elixir",
+      "build_time": "16 days",
+      "build_seconds": 1382400,
+      "reason": "one of your longest builds at 16 days, start early to reach max sooner"
+    },
+    {
+      "rank": 35,
+      "category": "troops",
+      "name": "Battle Blimp",
+      "from_level": 3,
+      "to_level": 6,
+      "cost": {
+        "elixir": 16500000
+      },
+      "cost_text": "16,500,000 elixir",
+      "build_time": "16 days",
+      "build_seconds": 1382400,
+      "reason": "one of your longest builds at 16 days, start early to reach max sooner"
+    },
+    {
+      "rank": 36,
+      "category": "troops",
+      "name": "Dragon Rider",
+      "from_level": 5,
+      "to_level": 6,
+      "cost": {
+        "elixir": 29500000
+      },
+      "cost_text": "29,500,000 elixir",
+      "build_time": "15 days, 12:00:00",
+      "build_seconds": 1339200,
+      "reason": "one of your longest builds at 15 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 37,
+      "category": "troops",
+      "name": "Apprentice Warden",
+      "from_level": 2,
+      "to_level": 4,
+      "cost": {
+        "dark_elixir": 295000
+      },
+      "cost_text": "295,000 DE",
+      "build_time": "15 days, 12:00:00",
+      "build_seconds": 1339200,
+      "reason": "one of your longest builds at 15 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 38,
+      "category": "troops",
+      "name": "Healer",
+      "from_level": 10,
+      "to_level": 11,
+      "cost": {
+        "elixir": 28500000
+      },
+      "cost_text": "28,500,000 elixir",
+      "build_time": "15 days",
+      "build_seconds": 1296000,
+      "reason": "one of your longest builds at 15 days, start early to reach max sooner"
+    },
+    {
+      "rank": 39,
+      "category": "troops",
+      "name": "Thrower",
+      "from_level": 3,
+      "to_level": 4,
+      "cost": {
+        "elixir": 27000000
+      },
+      "cost_text": "27,000,000 elixir",
+      "build_time": "15 days",
+      "build_seconds": 1296000,
+      "reason": "one of your longest builds at 15 days, start early to reach max sooner"
+    },
+    {
+      "rank": 40,
+      "category": "troops",
+      "name": "Bowler",
+      "from_level": 9,
+      "to_level": 10,
+      "cost": {
+        "dark_elixir": 360000
+      },
+      "cost_text": "360,000 DE",
+      "build_time": "15 days",
+      "build_seconds": 1296000,
+      "reason": "one of your longest builds at 15 days, start early to reach max sooner"
+    },
+    {
+      "rank": 41,
+      "category": "troops",
+      "name": "P.E.K.K.A",
+      "from_level": 12,
+      "to_level": 13,
+      "cost": {
+        "elixir": 28000000
+      },
+      "cost_text": "28,000,000 elixir",
+      "build_time": "14 days, 12:00:00",
+      "build_seconds": 1252800,
+      "reason": "one of your longest builds at 14 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 42,
+      "category": "troops",
+      "name": "Giant",
+      "from_level": 13,
+      "to_level": 14,
+      "cost": {
+        "elixir": 25000000
+      },
+      "cost_text": "25,000,000 elixir",
+      "build_time": "13 days, 12:00:00",
+      "build_seconds": 1166400,
+      "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 43,
+      "category": "troops",
+      "name": "Barbarian",
+      "from_level": 8,
+      "to_level": 13,
+      "cost": {
+        "elixir": 20800000
+      },
+      "cost_text": "20,800,000 elixir",
+      "build_time": "11 days",
+      "build_seconds": 950400,
+      "reason": "one of your longest builds at 11 days, start early to reach max sooner"
+    },
+    {
+      "rank": 44,
+      "category": "troops",
+      "name": "Hog Rider",
+      "from_level": 13,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 240000
+      },
+      "cost_text": "240,000 DE",
+      "build_time": "10 days",
+      "build_seconds": 864000,
+      "reason": "one of your longest builds at 10 days, start early to reach max sooner"
+    },
+    {
+      "rank": 45,
+      "category": "troops",
+      "name": "Golem",
+      "from_level": 13,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 230000
+      },
+      "cost_text": "230,000 DE",
+      "build_time": "10 days",
+      "build_seconds": 864000,
+      "reason": "one of your longest builds at 10 days, start early to reach max sooner"
+    },
+    {
+      "rank": 46,
+      "category": "pets",
+      "name": "Sneezy",
+      "from_level": 9,
+      "to_level": 10,
+      "cost": {
+        "dark_elixir": 360000
+      },
+      "cost_text": "360,000 DE",
+      "build_time": "8 days",
+      "build_seconds": 691200,
+      "reason": "one of your longest builds at 8 days, start early to reach max sooner"
+    },
+    {
+      "rank": 47,
+      "category": "troops",
+      "name": "Lava Hound",
+      "from_level": 6,
+      "to_level": 8,
+      "cost": {
+        "dark_elixir": 200000
+      },
+      "cost_text": "200,000 DE",
+      "build_time": "8 days",
+      "build_seconds": 691200,
+      "reason": "one of your longest builds at 8 days, start early to reach max sooner"
+    },
+    {
+      "rank": 48,
+      "category": "spells",
+      "name": "Clone Spell",
+      "from_level": 7,
+      "to_level": 9,
+      "cost": {
+        "elixir": 9000000
+      },
+      "cost_text": "9,000,000 elixir",
+      "build_time": "7 days",
+      "build_seconds": 604800,
+      "reason": "one of your longest builds at 7 days, start early to reach max sooner"
+    },
+    {
+      "rank": 49,
+      "category": "spells",
+      "name": "Jump Spell",
+      "from_level": 4,
+      "to_level": 5,
+      "cost": {
+        "elixir": 8000000
+      },
+      "cost_text": "8,000,000 elixir",
+      "build_time": "6 days, 12:00:00",
+      "build_seconds": 561600,
+      "reason": "one of your longest builds at 6 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 50,
+      "category": "spells",
+      "name": "Skeleton Spell",
+      "from_level": 7,
+      "to_level": 8,
+      "cost": {
+        "dark_elixir": 135000
+      },
+      "cost_text": "135,000 DE",
+      "build_time": "6 days, 12:00:00",
+      "build_seconds": 561600,
+      "reason": "one of your longest builds at 6 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 51,
+      "category": "equipment",
+      "name": "Dark Crown",
+      "from_level": 1,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 56060,
+        "glowy_ore": 3720,
+        "starry_ore": 480
+      },
+      "cost_text": "56,060 shiny, 3,720 glowy, 480 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 52,
+      "category": "equipment",
+      "name": "Frost Flake",
+      "from_level": 1,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 56060,
+        "glowy_ore": 3720,
+        "starry_ore": 480
+      },
+      "cost_text": "56,060 shiny, 3,720 glowy, 480 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 53,
+      "category": "equipment",
+      "name": "Stick Horse",
+      "from_level": 1,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 56060,
+        "glowy_ore": 3720,
+        "starry_ore": 480
+      },
+      "cost_text": "56,060 shiny, 3,720 glowy, 480 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 54,
+      "category": "equipment",
+      "name": "Giant Gauntlet",
+      "from_level": 15,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 36600,
+        "glowy_ore": 2400,
+        "starry_ore": 420
+      },
+      "cost_text": "36,600 shiny, 2,400 glowy, 420 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 55,
+      "category": "equipment",
+      "name": "Frozen Arrow",
+      "from_level": 16,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 34100,
+        "glowy_ore": 2400,
+        "starry_ore": 420
+      },
+      "cost_text": "34,100 shiny, 2,400 glowy, 420 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 56,
+      "category": "equipment",
+      "name": "Hog Rider Puppet",
+      "from_level": 1,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 27260,
+        "glowy_ore": 1920
+      },
+      "cost_text": "27,260 shiny, 1,920 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 57,
+      "category": "equipment",
+      "name": "Haste Vial",
+      "from_level": 1,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 27260,
+        "glowy_ore": 1920
+      },
+      "cost_text": "27,260 shiny, 1,920 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 58,
+      "category": "equipment",
+      "name": "Henchmen Puppet",
+      "from_level": 5,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 25900,
+        "glowy_ore": 1900
+      },
+      "cost_text": "25,900 shiny, 1,900 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 59,
+      "category": "equipment",
+      "name": "Metal Pants",
+      "from_level": 5,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 25900,
+        "glowy_ore": 1900
+      },
+      "cost_text": "25,900 shiny, 1,900 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 60,
+      "category": "equipment",
+      "name": "Noble Iron",
+      "from_level": 5,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 25900,
+        "glowy_ore": 1900
+      },
+      "cost_text": "25,900 shiny, 1,900 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 61,
+      "category": "equipment",
+      "name": "Barbarian Puppet",
+      "from_level": 6,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 25060,
+        "glowy_ore": 1800
+      },
+      "cost_text": "25,060 shiny, 1,800 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 62,
+      "category": "equipment",
+      "name": "Rage Vial",
+      "from_level": 6,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 25060,
+        "glowy_ore": 1800
+      },
+      "cost_text": "25,060 shiny, 1,800 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 63,
+      "category": "equipment",
+      "name": "Healing Tome",
+      "from_level": 7,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 23940,
+        "glowy_ore": 1800
+      },
+      "cost_text": "23,940 shiny, 1,800 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 64,
+      "category": "equipment",
+      "name": "Spiky Ball",
+      "from_level": 20,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 23100,
+        "glowy_ore": 1800,
+        "starry_ore": 370
+      },
+      "cost_text": "23,100 shiny, 1,800 glowy, 370 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 65,
+      "category": "equipment",
+      "name": "Fireball",
+      "from_level": 20,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 23100,
+        "glowy_ore": 1800,
+        "starry_ore": 370
+      },
+      "cost_text": "23,100 shiny, 1,800 glowy, 370 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 66,
+      "category": "equipment",
+      "name": "Magic Mirror",
+      "from_level": 20,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 23100,
+        "glowy_ore": 1800,
+        "starry_ore": 370
+      },
+      "cost_text": "23,100 shiny, 1,800 glowy, 370 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 67,
+      "category": "equipment",
+      "name": "Meteor Staff",
+      "from_level": 20,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 23100,
+        "glowy_ore": 1800,
+        "starry_ore": 370
+      },
+      "cost_text": "23,100 shiny, 1,800 glowy, 370 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 68,
+      "category": "equipment",
+      "name": "Archer Puppet",
+      "from_level": 8,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 22500,
+        "glowy_ore": 1800
+      },
+      "cost_text": "22,500 shiny, 1,800 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 69,
+      "category": "equipment",
+      "name": "Seeking Shield",
+      "from_level": 9,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 20700,
+        "glowy_ore": 1600
+      },
+      "cost_text": "20,700 shiny, 1,600 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 70,
+      "category": "equipment",
+      "name": "Royal Gem",
+      "from_level": 9,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 20700,
+        "glowy_ore": 1600
+      },
+      "cost_text": "20,700 shiny, 1,600 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 71,
+      "category": "equipment",
+      "name": "Giant Arrow",
+      "from_level": 9,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 20700,
+        "glowy_ore": 1600
+      },
+      "cost_text": "20,700 shiny, 1,600 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 72,
+      "category": "equipment",
+      "name": "Invisibility Vial",
+      "from_level": 12,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 14700,
+        "glowy_ore": 1200
+      },
+      "cost_text": "14,700 shiny, 1,200 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 73,
+      "category": "equipment",
+      "name": "Eternal Tome",
+      "from_level": 12,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 14700,
+        "glowy_ore": 1200
+      },
+      "cost_text": "14,700 shiny, 1,200 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 74,
+      "category": "equipment",
+      "name": "Earthquake Boots",
+      "from_level": 12,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 14700,
+        "glowy_ore": 1200
+      },
+      "cost_text": "14,700 shiny, 1,200 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 75,
+      "category": "equipment",
+      "name": "Rocket Spear",
+      "from_level": 23,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 13800,
+        "glowy_ore": 1200,
+        "starry_ore": 270
+      },
+      "cost_text": "13,800 shiny, 1,200 glowy, 270 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 76,
+      "category": "equipment",
+      "name": "Snake Bracelet",
+      "from_level": 23,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 13800,
+        "glowy_ore": 1200,
+        "starry_ore": 270
+      },
+      "cost_text": "13,800 shiny, 1,200 glowy, 270 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 77,
+      "category": "equipment",
+      "name": "Vampstache",
+      "from_level": 15,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 7800,
+        "glowy_ore": 600
+      },
+      "cost_text": "7,800 shiny, 600 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 78,
+      "category": "equipment",
+      "name": "Electro Boots",
+      "from_level": 26,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 3600,
+        "glowy_ore": 600,
+        "starry_ore": 150
+      },
+      "cost_text": "3,600 shiny, 600 glowy, 150 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    }
+  ]
+}

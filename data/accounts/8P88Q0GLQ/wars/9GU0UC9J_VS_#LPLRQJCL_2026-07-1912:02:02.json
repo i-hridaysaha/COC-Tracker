@@ -1,0 +1,22 @@
+{
+  "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+  "war_type": "random",
+  "state": "Preparation",
+  "opponent_clan": "AGIMAT ng PINOY",
+  "team_size": 15,
+  "attacks_per_member": 2,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 17,
+    "map_position": 10,
+    "stars_earned": 0,
+    "attacks_used": 0
+  },
+  "attacks": [],
+  "defended": {
+    "times_defended": 0,
+    "worst_defense_stars": null,
+    "worst_defense_destruction": null
+  }
+}
