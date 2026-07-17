@@ -1,0 +1,269 @@
+"""
+Builds dashboard.html: a single self-contained, three-page app.
+
+This is the shift you asked for. The old dashboard was a static picture rendered
+by Python. This one embeds the full per-item catalog plus your data, and does
+the boost math and planning in the browser. That's what lets every toggle live
+in the UI: Gold Pass tier, event discounts, builder count, goblin builder and
+researcher are controls on the page, not lines in a file. Change one and costs,
+times and queues recompute instantly. Nothing to edit, no run to wait for. Your
+settings and plan are remembered in the browser (localStorage), per account.
+
+Still one file, still offline, still private. It reads data/dashboard_data.json
+at build time and bakes it in.
+
+Pages: Overview (completion ring, village health, defense score, battle log),
+Tracker (every item as a card with level/max and a fill bar), Planner (priority
+lists with live cost/time and builder / lab / pet / blacksmith queues).
+
+Honest limits from the API: it never exposes whether a boost is live, how many
+builders you have, or their status, so those are your inputs here. Defenses,
+walls and traps come from village.json.
+"""
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+def _read_json(path: Path):
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return None
+
+
+STYLE = r"""
+:root{color-scheme:dark;
+--canvas:#0d1117;--surface:#161b22;--raised:#1c2128;--border:#30363d;--soft:#21262d;
+--text:#e6edf3;--muted:#8b949e;--faint:#6e7681;
+--blue:#58a6ff;--green:#3fb950;--amber:#e3b341;--gold:#d9a520;--orange:#f0883e;--purple:#bc8cff;--red:#f85149;--bronze:#db6d28;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--text);
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+.wrap{max-width:1120px;margin:0 auto;padding:20px 18px 80px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+h1{font-size:16px;font-weight:600;margin:0;letter-spacing:.2px}
+.sub{color:var(--muted);font-size:12px}
+.nav{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:5px;margin-bottom:16px}
+.navbtn{background:transparent;border:0;color:var(--muted);padding:9px;border-radius:7px;cursor:pointer;font-size:14px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:7px}
+.navbtn.active{background:var(--raised);color:var(--gold);box-shadow:inset 0 -2px 0 var(--gold)}
+.accts{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.acct{background:var(--surface);border:1px solid var(--border);color:var(--muted);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:13px}
+.acct.active{color:var(--text);border-color:#58a6ff66;background:var(--raised)}
+.page{display:none}.page.active{display:block}
+.card{background:var(--surface);border:1px solid var(--soft);border-radius:10px;padding:16px}
+.card+.card{margin-top:14px}
+h3{margin:0 0 12px;font-size:12px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.7px}
+.muted{color:var(--muted)}.faint{color:var(--faint)}
+.ovtop{display:grid;grid-template-columns:180px 1fr;gap:20px;align-items:center}
+.ring{position:relative;width:160px;height:160px;margin:0 auto}
+.ringpct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ringpct b{font-size:34px;font-weight:700;font-family:ui-monospace,monospace}
+.ringpct span{font-size:12px;color:var(--muted)}
+.ovstats .line{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--soft)}
+.ovstats .line:last-child{border-bottom:0}
+.ovstats .k{color:var(--muted)}.ovstats .v{font-family:ui-monospace,monospace;font-weight:600}
+.badge{display:inline-flex;align-items:center;gap:6px;border-radius:20px;padding:6px 14px;font-size:12px;font-weight:600;border:1px solid}
+.badge.ok{color:var(--green);border-color:#3fb95055;background:#3fb9500f}
+.badge.warn{color:var(--amber);border-color:#e3b34155;background:#e3b3410f}
+.health .hrow{display:grid;grid-template-columns:110px 1fr 46px;align-items:center;gap:10px;margin-bottom:9px}
+.hlabel{color:var(--muted);text-transform:capitalize}
+.htrack{height:9px;background:var(--soft);border-radius:5px;overflow:hidden}
+.hfill{height:100%;border-radius:5px}
+.hpct{font-family:ui-monospace,monospace;text-align:right;font-size:13px}
+.cards6{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.stat{background:var(--raised);border:1px solid var(--soft);border-radius:8px;padding:12px}
+.stat b{font-size:19px;font-family:ui-monospace,monospace;display:block}
+.stat span{color:var(--muted);font-size:11px}
+.log .lrow{display:grid;grid-template-columns:78px 52px 1fr auto;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--soft);font-size:13px}
+.log .lrow:last-child{border-bottom:0}
+.stars{color:var(--amber);letter-spacing:1px}
+.leaguetag{font-size:10px;color:var(--faint);border:1px solid var(--soft);border-radius:4px;padding:1px 6px;text-transform:uppercase}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.pill{background:var(--surface);border:1px solid var(--border);color:var(--muted);padding:8px 16px;border-radius:22px;cursor:pointer;font-size:13px;font-weight:600}
+.pill.active{background:var(--gold);color:#1a1200;border-color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.tile{background:var(--surface);border:1px solid var(--soft);border-radius:12px;padding:12px;text-align:center;position:relative}
+.tile.max{border-color:#3fb95055;background:#3fb9500a}
+.ic{width:56px;height:56px;border-radius:12px;margin:0 auto 8px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;font-family:ui-monospace,monospace}
+.tname{font-size:12px;color:var(--muted);min-height:30px;display:flex;align-items:center;justify-content:center}
+.tlv{font-family:ui-monospace,monospace;font-weight:600;color:var(--gold);margin:2px 0 8px}
+.tbar{height:6px;background:var(--soft);border-radius:4px;overflow:hidden}
+.tfill{height:100%;border-radius:4px}
+.maxbadge{position:absolute;top:8px;right:8px;background:var(--green);color:#04240f;font-size:10px;font-weight:700;border-radius:5px;padding:1px 6px}
+.settings{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.seg{display:flex;gap:4px}
+.seg button{flex:1;background:var(--raised);border:1px solid var(--border);color:var(--muted);padding:7px;border-radius:6px;cursor:pointer;font-family:ui-monospace,monospace;font-size:12px}
+.seg button.on{background:var(--gold);color:#1a1200;border-color:var(--gold)}
+input[type=number]{background:var(--raised);border:1px solid var(--border);color:var(--text);border-radius:6px;padding:8px;font-family:ui-monospace,monospace;width:100%}
+.toggle{display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none}
+.toggle .sw{width:38px;height:22px;border-radius:12px;background:var(--soft);position:relative;transition:.15s;flex:none}
+.toggle .sw::after{content:"";position:absolute;top:2px;left:2px;width:18px;height:18px;border-radius:50%;background:var(--faint);transition:.15s}
+.toggle.on .sw{background:#3fb95055}.toggle.on .sw::after{left:18px;background:var(--green)}
+.pcols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.prio h4{margin:0 0 8px;font-size:13px;color:var(--text)}
+.pitem{display:grid;grid-template-columns:1fr auto auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--soft)}
+.pitem:last-child{border-bottom:0}
+.pi-name{font-size:13px;min-width:0}
+.pi-name .lv{color:var(--muted);font-family:ui-monospace,monospace;font-size:11px}
+.pi-meta{font-family:ui-monospace,monospace;font-size:11px;color:var(--muted);text-align:right;white-space:nowrap}
+.addbtn{background:var(--raised);border:1px solid var(--border);color:var(--blue);border-radius:6px;padding:4px 8px;font-size:11px;cursor:pointer}
+.addbtn:hover{border-color:var(--blue)}
+.autofill{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.af{background:var(--raised);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:9px 14px;font-size:13px;cursor:pointer;font-weight:600}
+.af:hover{border-color:var(--gold)}.af.clear{color:var(--red)}
+.lanes{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.lane{background:var(--raised);border:1px solid var(--soft);border-radius:10px;padding:12px}
+.lane h5{margin:0 0 4px;font-size:13px;display:flex;justify-content:space-between}
+.lane .sum{color:var(--muted);font-size:11px;font-family:ui-monospace,monospace;margin-bottom:8px}
+.qitem{display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--soft);border-radius:6px;padding:6px 8px;margin-bottom:6px;font-size:12px}
+.qitem .x{color:var(--faint);cursor:pointer;font-weight:700}
+.qitem .x:hover{color:var(--red)}
+.empty{color:var(--faint);font-size:12px;border:1px dashed var(--border);border-radius:6px;padding:14px;text-align:center}
+.note{color:var(--faint);font-size:11px;margin-top:6px}
+@media(max-width:900px){.ovtop{grid-template-columns:1fr}.grid{grid-template-columns:repeat(4,1fr)}.pcols{grid-template-columns:1fr}.lanes{grid-template-columns:1fr}.settings{grid-template-columns:1fr 1fr}.cards6{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid{grid-template-columns:repeat(3,1fr)}}
+"""
+
+APP_JS = r"""
+const CAT_COLOR={heroes:'#bc8cff',troops:'#f0883e',spells:'#58a6ff',pets:'#3fb950',equipment:'#e3b341',defenses:'#db6d28',walls:'#8b949e',traps:'#f85149'};
+const DEFENSE=['defenses','walls','traps'];
+const LANE_OF={defenses:'builders',walls:'builders',traps:'builders',heroes:'heroes',troops:'lab',spells:'lab',pets:'pet',equipment:'smith'};
+let state=load();
+function load(){try{return JSON.parse(localStorage.getItem('coc-dash'))||{}}catch(e){return {}}}
+function save(){try{localStorage.setItem('coc-dash',JSON.stringify(state))}catch(e){}}
+function acctKey(){return (DATA.accounts[state.acc||0]||{}).tag||'x'}
+function settings(){if(!state.settings)state.settings={goldPass:(DATA.modifiers_default||{}).gold_pass_boost_pct||0,eventCost:0,eventTime:0,builders:6,goblinB:false,goblinR:false};return state.settings;}
+function plan(){state.plans=state.plans||{};const k=acctKey();if(!state.plans[k])state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};return state.plans[k];}
+function esc(s){return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function fmtNum(n){return Number(n).toLocaleString()}
+function fmtTime(sec){sec=Math.round(sec);if(sec<=0)return '—';let d=Math.floor(sec/86400),h=Math.floor(sec%86400/3600),m=Math.floor(sec%3600/60);if(d>=1)return h?d+'d '+h+'h':d+'d';if(h>=1)return m?h+'h '+m+'m':h+'h';return m+'m';}
+function fmtDate(sec){let d=new Date(Date.now()+sec*1000);return d.toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'})}
+function rampColor(pct,isMax){if(pct>=90)return '#2ea043';if(pct>=75)return '#57ab5a';if(pct>=61)return '#d4c14e';if(pct>=50)return '#e0912f';return '#e5534b';}
+function adj(item){const s=settings();const timeCut=Math.min((s.goldPass||0)+(s.eventTime||0),95)/100;const costCut=Math.min(s.eventCost||0,95)/100;const seconds=Math.round((item.seconds||0)*(1-timeCut));const cost={};for(const k in (item.cost||{})){cost[k]=Math.round(item.cost[k]*(1-costCut));}return {seconds,cost};}
+function costText(cost){const order=['gold','elixir','dark_elixir','shiny_ore','glowy_ore','starry_ore'];const lab={gold:'gold',elixir:'elixir',dark_elixir:'DE',shiny_ore:'shiny',glowy_ore:'glowy',starry_ore:'starry'};let parts=[];for(const k of order)if(cost[k])parts.push(fmtNum(cost[k])+' '+lab[k]);for(const k in cost)if(!order.includes(k)&&cost[k])parts.push(fmtNum(cost[k])+' '+k);return parts.join(' · ')||'free';}
+function acc(){return DATA.accounts[state.acc||0]}
+function remaining(){return acc().items.filter(i=>!i.is_max)}
+function overallPct(){let c=0,m=0;for(const i of acc().items){const w=i.count||1;c+=i.level*w;m+=i.max*w;}return m?Math.round(100*c/m):0;}
+function ring(pct,color){const r=68,circ=2*Math.PI*r,off=circ*(1-pct/100);return '<svg width="160" height="160" viewBox="0 0 160 160"><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="#21262d" stroke-width="12"/><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="'+color+'" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+circ+'" stroke-dashoffset="'+off+'" transform="rotate(-90 80 80)"/></svg>';}
+function renderOverview(){
+  const a=acc(),comp=a.completion||{},pct=overallPct();const rem=remaining().length;
+  let dc=0,dm=0;for(const i of a.items){if(!DEFENSE.includes(i.category))continue;const w=i.count||1;dc+=i.level*w;dm+=i.max*w;}
+  const defScore=dm?Math.round(100*dc/dm):null;
+  const order=['heroes','troops','spells','pets','equipment','defenses','walls','traps'];
+  const health=order.filter(k=>k in comp).map(k=>{const p=comp[k];const col=rampColor(p,p>=100);return '<div class="hrow"><span class="hlabel">'+k+'</span><span class="htrack"><span class="hfill" style="width:'+p+'%;background:'+col+'"></span></span><span class="hpct">'+p+'%</span></div>';}).join('');
+  const badge=a.village_present?'<span class="badge ok">● Accurate · village.json imported</span>':'<span class="badge warn">● Offense only · add village.json for defenses</span>';
+  const wars=(a.wars||[]).slice().sort((x,y)=>(y.date_seen||'').localeCompare(x.date_seen||'')).slice(0,8);
+  const log=wars.length?wars.map(w=>{const st=parseInt(w.stars||0);const stars='★'.repeat(st)+'☆'.repeat(3-st);return '<div class="lrow"><span class="stars">'+stars+'</span><span class="mono">'+Math.round(w.destruction||0)+'%</span><span class="muted">vs TH'+esc(w.defender_th)+'</span><span class="leaguetag">'+esc(w.war_type)+'</span></div>';}).join(''):'<div class="faint">No war attacks recorded yet. They log automatically when you\'re in a war.</div>';
+  document.getElementById('page-overview').innerHTML=
+   '<div class="card"><h3>TH Completion</h3><div class="ovtop"><div><div class="ring">'+ring(pct,'#d9a520')+'<div class="ringpct"><b>'+pct+'%</b><span>of TH'+esc(a.town_hall)+'</span></div></div></div>'
+   +'<div class="ovstats"><div class="line"><span class="k">Remaining upgrades</span><span class="v">'+rem+'</span></div>'
+   +'<div class="line"><span class="k">Offense to max</span><span class="v">'+a.offense_completion_pct+'%</span></div>'
+   +'<div class="line"><span class="k">Defense score</span><span class="v">'+(defScore==null?'—':defScore+'%')+'</span></div>'
+   +'<div class="line"><span class="k">Rush</span><span class="v">'+((a.rush||{}).band||'—')+'</span></div>'
+   +'<div style="margin-top:14px">'+badge+'</div></div></div></div>'
+   +'<div class="card health"><h3>Village Health</h3>'+(health||'<div class="faint">No data.</div>')+'</div>'
+   +'<div class="card"><h3>Key stats</h3><div class="cards6">'
+   +'<div class="stat"><b>'+esc(a.trophies==null?'—':a.trophies)+'</b><span>trophies</span></div>'
+   +'<div class="stat"><b>'+esc(a.war_stars==null?'—':a.war_stars)+'</b><span>war stars</span></div>'
+   +'<div class="stat"><b>'+esc(a.attack_wins==null?'—':a.attack_wins)+'</b><span>attack wins</span></div>'
+   +'<div class="stat"><b>'+esc(a.defense_wins==null?'—':a.defense_wins)+'</b><span>defense wins</span></div></div></div>'
+   +'<div class="card log"><h3>Battle log</h3>'+log+'</div>';
+}
+function renderTracker(){
+  const a=acc();const cats=[];for(const c of ['heroes','troops','spells','pets','equipment','defenses','walls','traps'])if(a.items.some(i=>i.category===c))cats.push(c);
+  if(!state.trackCat||!cats.includes(state.trackCat))state.trackCat=cats[0];
+  const pills=cats.map(c=>'<button class="pill '+(c===state.trackCat?'active':'')+'" onclick="setTrackCat(\''+c+'\')">'+c+'</button>').join('');
+  const items=a.items.filter(i=>i.category===state.trackCat);
+  const grid=items.map(i=>{const pct=i.max?Math.round(100*i.level/i.max):0;const col=rampColor(pct,i.is_max);const ini=i.name.replace(/[^A-Za-z0-9 ]/g,'').split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+    return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':'')
+      +'<div class="ic" style="background:'+CAT_COLOR[i.category]+'22;color:'+CAT_COLOR[i.category]+'">'+esc(ini)+'</div>'
+      +'<div class="tname">'+esc(i.name)+'</div><div class="tlv">Lv '+i.level+' / '+i.max+'</div>'
+      +'<div class="tbar"><div class="tfill" style="width:'+pct+'%;background:'+col+'"></div></div></div>';}).join('');
+  document.getElementById('page-tracker').innerHTML='<div class="pills">'+pills+'</div><div class="grid">'+(grid||'<div class="faint">Nothing here.</div>')+'</div>';
+}
+function setTrackCat(c){state.trackCat=c;save();renderTracker();}
+function renderPlanner(){
+  const s=settings();
+  const gp=['0','10','15','20'].map(o=>'<button class="'+(s.goldPass==o?'on':'')+'" onclick="setNum(\'goldPass\','+o+')">'+o+'%</button>').join('');
+  const settingsHtml='<div class="card"><h3>Boosts &amp; builders <span class="faint" style="text-transform:none;font-weight:400">— set to match your game; the API can\'t detect these</span></h3>'
+   +'<div class="settings"><div class="field"><label>Gold Pass build-time boost</label><div class="seg">'+gp+'</div></div>'
+   +'<div class="field"><label>Event cost discount %</label><input type="number" min="0" max="95" value="'+s.eventCost+'" onchange="setNum(\'eventCost\',this.value)"></div>'
+   +'<div class="field"><label>Event time discount %</label><input type="number" min="0" max="95" value="'+s.eventTime+'" onchange="setNum(\'eventTime\',this.value)"></div>'
+   +'<div class="field"><label>Builders you have</label><input type="number" min="1" max="6" value="'+s.builders+'" onchange="setNum(\'builders\',this.value)"></div>'
+   +'<div class="field"><label>Goblin builder (event)</label><div class="toggle '+(s.goblinB?'on':'')+'" onclick="setTog(\'goblinB\')"><span class="sw"></span><span class="muted">+1 builder</span></div></div>'
+   +'<div class="field"><label>Goblin researcher (event)</label><div class="toggle '+(s.goblinR?'on':'')+'" onclick="setTog(\'goblinR\')"><span class="sw"></span><span class="muted">lab runs two</span></div></div>'
+   +'</div><div class="note">Nothing to save. These recompute everything live and stick on this device.</div></div>';
+  const sortRem=(arr)=>arr.slice().sort((a,b)=>(b.max-b.level)-(a.max-a.level));
+  const prioBlock=(title,cats,n)=>{const items=sortRem(remaining().filter(i=>cats.includes(i.category))).slice(0,n);
+    const rows=items.map(i=>{const j=adj(i);return '<div class="pitem"><span class="pi-name">'+esc(i.name)+' <span class="lv">'+i.level+'&rarr;'+i.max+'</span></span><span class="pi-meta">'+costText(j.cost)+'<br>'+fmtTime(j.seconds)+'</span><button class="addbtn" onclick="addToLane(\''+esc(i.category)+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+ queue</button></div>';}).join('');
+    return '<div class="prio card"><h4>'+title+' <span class="faint">top '+n+'</span></h4>'+(rows||'<div class="faint">All maxed here.</div>')+'</div>';};
+  const p=plan(),bc=(s.builders||6)+(s.goblinB?1:0);
+  const findItem=(nm)=>acc().items.find(i=>i.name===nm);
+  const laneTime=(ids)=>ids.reduce((t,nm)=>{const it=findItem(nm);return t+(it?adj(it).seconds:0)},0);
+  const laneBox=(title,key,items,parallel)=>{const t=laneTime(items);const eff=parallel&&parallel>1?t/parallel:t;
+    const rows=items.length?items.map(nm=>'<div class="qitem"><span>'+esc(nm)+' <span class="faint mono">'+fmtTime(findItem(nm)?adj(findItem(nm)).seconds:0)+'</span></span><span class="x" onclick="removeFromLane(\''+key+'\',\''+esc(nm).replace(/'/g,"\\'")+'\')">✕</span></div>').join(''):'<div class="empty">Empty — add from the lists above</div>';
+    return '<div class="lane"><h5><span>'+title+'</span><span class="faint mono">'+fmtTime(eff)+'</span></h5><div class="sum">'+items.length+' item(s)'+(eff?' · done '+fmtDate(eff):'')+'</div>'+rows+'</div>';};
+  let builderLanes='';for(let b=1;b<=bc;b++){const ids=(p.builders&&p.builders[b])||[];builderLanes+=laneBox('Builder '+b+(b>(s.builders||6)?' (goblin)':''),'builders:'+b,ids,1);}
+  const lanesHtml='<div class="lanes">'+builderLanes
+   +laneBox('Laboratory'+(s.goblinR?' (goblin ×2)':''),'lab',p.lab||[],s.goblinR?2:1)
+   +laneBox('Pet House','pet',p.pet||[],1)+laneBox('Blacksmith','smith',p.smith||[],1)+laneBox('Heroes','heroes',p.heroes||[],99)+'</div>';
+  document.getElementById('page-planner').innerHTML=settingsHtml
+   +'<div class="card"><h3>Priority upgrades</h3><div class="autofill"><button class="af" onclick="autofill(\'fast\')">⚡ Auto-fill (fastest)</button><button class="af" onclick="autofill(\'balanced\')">⚖️ Auto-fill (balanced)</button><button class="af clear" onclick="clearPlan()">🗑 Clear</button></div>'
+   +'<div class="pcols">'+prioBlock('Defense',DEFENSE,10)+prioBlock('Offense (heroes)',['heroes'],10)+'</div>'
+   +'<div class="pcols" style="margin-top:14px">'+prioBlock('Lab (troops &amp; spells)',['troops','spells'],5)+prioBlock('Pets',['pets'],5)+'</div>'
+   +'<div class="pcols" style="margin-top:14px">'+prioBlock('Equipment',['equipment'],5)+'<div></div></div></div>'
+   +'<div class="card"><h3>Your plan</h3>'+lanesHtml+'<div class="note">Builder count and goblin helpers are yours to set above — the game never exposes them. Finish dates assume each lane runs start to finish from now.</div></div>';
+}
+function laneForItem(cat){return LANE_OF[cat]||'builders';}
+function addToLane(cat,name){const p=plan();const lane=laneForItem(cat);
+  if(lane==='builders'){const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);p.builders=p.builders||{};const findItem=(nm)=>acc().items.find(i=>i.name===nm);let best=1,bt=Infinity;for(let b=1;b<=bc;b++){const ids=p.builders[b]||[];const t=ids.reduce((s2,nm)=>s2+adj(findItem(nm)).seconds,0);if(t<bt){bt=t;best=b;}}p.builders[best]=p.builders[best]||[];if(!p.builders[best].includes(name))p.builders[best].push(name);}
+  else{p[lane]=p[lane]||[];if(!p[lane].includes(name))p[lane].push(name);}save();renderPlanner();}
+function removeFromLane(key,name){const p=plan();if(key.indexOf('builders:')===0){const b=key.split(':')[1];p.builders[b]=(p.builders[b]||[]).filter(n=>n!==name);}else{p[key]=(p[key]||[]).filter(n=>n!==name);}save();renderPlanner();}
+function clearPlan(){const k=acctKey();state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};save();renderPlanner();}
+function autofill(mode){const k=acctKey();state.plans=state.plans||{};state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};const p=state.plans[k];const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);
+  const sortRem=(arr)=>arr.slice().sort((a,b)=>mode==='fast'?adj(a).seconds-adj(b).seconds:(b.max-b.level)-(a.max-a.level));
+  const build=sortRem(remaining().filter(i=>['defenses','walls','traps'].includes(i.category))).slice(0,bc*4);
+  p.builders={};const t=Array(bc+1).fill(0);for(const it of build){let best=1;for(let b=2;b<=bc;b++)if(t[b]<t[best])best=b;p.builders[best]=p.builders[best]||[];p.builders[best].push(it.name);t[best]+=adj(it).seconds;}
+  p.lab=sortRem(remaining().filter(i=>['troops','spells'].includes(i.category))).slice(0,6).map(i=>i.name);
+  p.pet=sortRem(remaining().filter(i=>i.category==='pets')).slice(0,4).map(i=>i.name);
+  p.smith=sortRem(remaining().filter(i=>i.category==='equipment')).slice(0,4).map(i=>i.name);
+  p.heroes=sortRem(remaining().filter(i=>i.category==='heroes')).map(i=>i.name);save();renderPlanner();}
+function setNum(k,v){settings()[k]=Number(v);save();renderPlanner();}
+function setTog(k){settings()[k]=!settings()[k];save();renderPlanner();}
+function showPage(p){state.page=p;save();document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.p===p));document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id==='page-'+p));if(p==='overview')renderOverview();if(p==='tracker')renderTracker();if(p==='planner')renderPlanner();}
+function setAcc(i){state.acc=i;save();document.querySelectorAll('.acct').forEach((b,idx)=>b.classList.toggle('active',idx===i));renderAll();}
+function renderAll(){renderOverview();renderTracker();renderPlanner();}
+function init(){const accts=document.getElementById('accts');if(DATA.accounts.length>1){accts.innerHTML=DATA.accounts.map((a,i)=>'<button class="acct '+(i===0?'active':'')+'" onclick="setAcc('+i+')">'+esc(a.name||a.tag)+'</button>').join('');}state.acc=state.acc||0;if(state.acc>=DATA.accounts.length)state.acc=0;renderAll();showPage(state.page||'overview');}
+if(DATA.accounts.length){init();}else{document.querySelector('.wrap').innerHTML+='<div class="card"><div class="muted">No data yet. Run the tracker once and reopen this file.</div></div>';}
+"""
+
+
+def render(data_dir: Path, out_path: Path) -> bool:
+    data = _read_json(data_dir / "dashboard_data.json") or {"accounts": [], "modifiers_default": {}}
+    updated = data.get("captured_at") or datetime.now(timezone.utc).isoformat()
+    try:
+        updated = datetime.fromisoformat(updated.replace("Z", "+00:00")).strftime("%d %b %Y, %H:%M UTC")
+    except Exception:
+        pass
+    doc = (
+        "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\">"
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+        "<title>Village console</title><style>" + STYLE + "</style></head><body><div class=\"wrap\">"
+        "<div class=\"topbar\"><h1>Village console</h1><span class=\"sub\">updated " + updated + "</span></div>"
+        "<div class=\"nav\">"
+        "<button class=\"navbtn active\" data-p=\"overview\" onclick=\"showPage('overview')\">\U0001F4CA Overview</button>"
+        "<button class=\"navbtn\" data-p=\"tracker\" onclick=\"showPage('tracker')\">\U0001F4CC Tracker</button>"
+        "<button class=\"navbtn\" data-p=\"planner\" onclick=\"showPage('planner')\">\U0001F3D7 Planner</button>"
+        "</div><div class=\"accts\" id=\"accts\"></div>"
+        "<div id=\"page-overview\" class=\"page active\"></div>"
+        "<div id=\"page-tracker\" class=\"page\"></div>"
+        "<div id=\"page-planner\" class=\"page\"></div>"
+        "</div><script>const DATA=" + json.dumps(data) + ";</script><script>" + APP_JS + "</script></body></html>"
+    )
+    out_path.write_text(doc)
+    return True

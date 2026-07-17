@@ -1,0 +1,25 @@
+{
+  "_comment": "Manual toggles the API can't detect. Safe to commit and share. Update when an event runs.",
+  "modifiers": {
+    "gold_pass_boost_pct": 0,
+    "events": []
+  },
+  "_help": {
+    "gold_pass_boost_pct": "0 for none, else 10 / 15 / 20 to match your Gold Pass build-time boost tier.",
+    "events": "List of live event boosts. Each: {name, kind, scope, percent}. kind is 'time' or 'cost'. scope is 'all', or {category:'heroes'|'troops'|'spells'|'pets'|'equipment'|'defenses'|'walls'}, or {resource:'gold'|'elixir'|'dark_elixir'}. percent is the discount.",
+    "example_hammer_jam": {
+      "name": "Hammer Jam",
+      "kind": "time",
+      "scope": "all",
+      "percent": 20
+    },
+    "example_hero_sale": {
+      "name": "Hero Sale",
+      "kind": "cost",
+      "scope": {
+        "category": "heroes"
+      },
+      "percent": 25
+    }
+  }
+}

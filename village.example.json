@@ -1,0 +1,29 @@
+{
+  "_comment": "Copy to data/accounts/<YOURTAG>/village.json and fill in your current defense, trap and wall levels. Update occasionally after you upgrade. This is the one manual step; the API can't see buildings.",
+  "town_hall": 16,
+  "buildings": [
+    {"name": "Cannon", "level": 21},
+    {"name": "Cannon", "level": 21},
+    {"name": "Archer Tower", "level": 21},
+    {"name": "Wizard Tower", "level": 16},
+    {"name": "Air Defense", "level": 14},
+    {"name": "Mortar", "level": 16},
+    {"name": "Hidden Tesla", "level": 15},
+    {"name": "X-Bow", "level": 11},
+    {"name": "Inferno Tower", "level": 9},
+    {"name": "Eagle Artillery", "level": 6},
+    {"name": "Scattershot", "level": 4}
+  ],
+  "traps": [
+    {"name": "Bomb", "level": 12},
+    {"name": "Giant Bomb", "level": 10},
+    {"name": "Air Bomb", "level": 11},
+    {"name": "Seeking Air Mine", "level": 5},
+    {"name": "Skeleton Trap", "level": 4},
+    {"name": "Giga Bomb", "level": 2}
+  ],
+  "walls": [
+    {"level": 16, "count": 250},
+    {"level": 15, "count": 25}
+  ]
+}
