@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-17T19:00:26.699782+00:00",
+  "captured_at": "2026-07-17T20:24:51.113826+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3498,9 +3498,9 @@
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 7200000
+            "dark_elixir": 125000
           },
-          "seconds": 16761600
+          "seconds": 345600
         },
         {
           "category": "heroes",
@@ -3509,9 +3509,9 @@
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 5550000
+            "dark_elixir": 180000
           },
-          "seconds": 12312000
+          "seconds": 518400
         },
         {
           "category": "heroes",
@@ -3520,9 +3520,9 @@
           "max": 90,
           "is_max": false,
           "cost": {
-            "dark_elixir": 4410000
+            "dark_elixir": 250000
           },
-          "seconds": 9504000
+          "seconds": 648000
         },
         {
           "category": "heroes",
@@ -3531,9 +3531,9 @@
           "max": 75,
           "is_max": false,
           "cost": {
-            "elixir": 269500000
+            "elixir": 16000000
           },
-          "seconds": 8596800
+          "seconds": 518400
         },
         {
           "category": "heroes",
@@ -3560,9 +3560,9 @@
           "max": 12,
           "is_max": false,
           "cost": {
-            "elixir": 20800000
+            "elixir": 2500000
           },
-          "seconds": 950400
+          "seconds": 129600
         },
         {
           "category": "troops",
@@ -3589,9 +3589,9 @@
           "max": 13,
           "is_max": false,
           "cost": {
-            "elixir": 34000000
+            "elixir": 4500000
           },
-          "seconds": 1857600
+          "seconds": 302400
         },
         {
           "category": "troops",
@@ -3638,9 +3638,9 @@
           "max": 13,
           "is_max": false,
           "cost": {
-            "elixir": 37500000
+            "elixir": 10000000
           },
-          "seconds": 1987200
+          "seconds": 475200
         },
         {
           "category": "troops",
@@ -3676,9 +3676,9 @@
           "max": 11,
           "is_max": false,
           "cost": {
-            "elixir": 30000000
+            "elixir": 13500000
           },
-          "seconds": 1490400
+          "seconds": 626400
         },
         {
           "category": "troops",
@@ -3687,9 +3687,9 @@
           "max": 11,
           "is_max": false,
           "cost": {
-            "elixir": 39500000
+            "elixir": 10500000
           },
-          "seconds": 2016000
+          "seconds": 561600
         },
         {
           "category": "troops",
@@ -3761,9 +3761,9 @@
           "max": 13,
           "is_max": false,
           "cost": {
-            "dark_elixir": 595000
+            "dark_elixir": 100000
           },
-          "seconds": 2030400
+          "seconds": 345600
         },
         {
           "category": "troops",
@@ -3850,9 +3850,9 @@
           "max": 4,
           "is_max": false,
           "cost": {
-            "dark_elixir": 295000
+            "dark_elixir": 135000
           },
-          "seconds": 1339200
+          "seconds": 648000
         },
         {
           "category": "troops",
@@ -3861,9 +3861,9 @@
           "max": 5,
           "is_max": false,
           "cost": {
-            "dark_elixir": 662500
+            "dark_elixir": 175000
           },
-          "seconds": 2808000
+          "seconds": 820800
         },
         {
           "category": "troops",
@@ -3892,9 +3892,9 @@
           "max": 5,
           "is_max": false,
           "cost": {
-            "elixir": 16500000
+            "elixir": 6500000
           },
-          "seconds": 1382400
+          "seconds": 604800
         },
         {
           "category": "troops",
@@ -3912,9 +3912,9 @@
           "max": 5,
           "is_max": false,
           "cost": {
-            "elixir": 26000000
+            "elixir": 8000000
           },
-          "seconds": 1641600
+          "seconds": 604800
         },
         {
           "category": "troops",
@@ -3941,9 +3941,9 @@
           "max": 5,
           "is_max": false,
           "cost": {
-            "elixir": 41500000
+            "elixir": 6000000
           },
-          "seconds": 2246400
+          "seconds": 345600
         },
         {
           "category": "troops",
@@ -3952,9 +3952,9 @@
           "max": 4,
           "is_max": false,
           "cost": {
-            "elixir": 35500000
+            "elixir": 8500000
           },
-          "seconds": 2073600
+          "seconds": 518400
         },
         {
           "category": "spells",
@@ -3963,9 +3963,9 @@
           "max": 12,
           "is_max": false,
           "cost": {
-            "elixir": 42000000
+            "elixir": 10000000
           },
-          "seconds": 1987200
+          "seconds": 518400
         },
         {
           "category": "spells",
@@ -3983,9 +3983,9 @@
           "max": 11,
           "is_max": false,
           "cost": {
-            "elixir": 44000000
+            "elixir": 11000000
           },
-          "seconds": 2073600
+          "seconds": 561600
         },
         {
           "category": "spells",
@@ -4043,9 +4043,9 @@
           "max": 6,
           "is_max": false,
           "cost": {
-            "elixir": 41000000
+            "elixir": 9000000
           },
-          "seconds": 2894400
+          "seconds": 820800
         },
         {
           "category": "spells",
@@ -4072,9 +4072,9 @@
           "max": 11,
           "is_max": false,
           "cost": {
-            "dark_elixir": 640000
+            "dark_elixir": 100000
           },
-          "seconds": 2692800
+          "seconds": 561600
         },
         {
           "category": "spells",
@@ -4092,9 +4092,9 @@
           "max": 6,
           "is_max": false,
           "cost": {
-            "dark_elixir": 268500
+            "dark_elixir": 30000
           },
-          "seconds": 1382400
+          "seconds": 259200
         },
         {
           "category": "spells",
@@ -4114,9 +4114,9 @@
           "max": 7,
           "is_max": false,
           "cost": {
-            "dark_elixir": 360000
+            "dark_elixir": 140000
           },
-          "seconds": 1339200
+          "seconds": 604800
         },
         {
           "category": "spells",
@@ -4134,9 +4134,9 @@
           "max": 5,
           "is_max": false,
           "cost": {
-            "dark_elixir": 800000
+            "dark_elixir": 200000
           },
-          "seconds": 3542400
+          "seconds": 950400
         },
         {
           "category": "pets",
@@ -4145,9 +4145,9 @@
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1050000
+            "dark_elixir": 60000
           },
-          "seconds": 4536000
+          "seconds": 259200
         },
         {
           "category": "pets",
@@ -4156,9 +4156,9 @@
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1170000
+            "dark_elixir": 90000
           },
-          "seconds": 4276800
+          "seconds": 302400
         },
         {
           "category": "pets",
@@ -4167,9 +4167,9 @@
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1485000
+            "dark_elixir": 105000
           },
-          "seconds": 5356800
+          "seconds": 432000
         },
         {
           "category": "pets",
@@ -4178,9 +4178,9 @@
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1765000
+            "dark_elixir": 140000
           },
-          "seconds": 4924800
+          "seconds": 475200
         },
         {
           "category": "pets",
@@ -4189,9 +4189,9 @@
           "max": 10,
           "is_max": false,
           "cost": {
-            "dark_elixir": 695000
+            "dark_elixir": 155000
           },
-          "seconds": 1987200
+          "seconds": 432000
         },
         {
           "category": "pets",
@@ -4200,9 +4200,9 @@
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1520000
+            "dark_elixir": 130000
           },
-          "seconds": 4363200
+          "seconds": 345600
         },
         {
           "category": "pets",
@@ -4211,9 +4211,9 @@
           "max": 10,
           "is_max": false,
           "cost": {
-            "dark_elixir": 660000
+            "dark_elixir": 150000
           },
-          "seconds": 1987200
+          "seconds": 432000
         },
         {
           "category": "pets",
@@ -4222,9 +4222,9 @@
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1100000
+            "dark_elixir": 230000
           },
-          "seconds": 2764800
+          "seconds": 691200
         },
         {
           "category": "pets",
@@ -4242,9 +4242,9 @@
           "max": 10,
           "is_max": false,
           "cost": {
-            "dark_elixir": 860000
+            "dark_elixir": 200000
           },
-          "seconds": 2764800
+          "seconds": 691200
         },
         {
           "category": "pets",
@@ -4273,8 +4273,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 25060,
-            "glowy_ore": 1800
+            "shiny_ore": 1120
           },
           "seconds": 0
         },
@@ -4321,8 +4320,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 25060,
-            "glowy_ore": 1800
+            "shiny_ore": 1120
           },
           "seconds": 0
         },
@@ -4333,8 +4331,8 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 22500,
-            "glowy_ore": 1800
+            "shiny_ore": 1800,
+            "glowy_ore": 200
           },
           "seconds": 0
         },
@@ -4345,8 +4343,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 14700,
-            "glowy_ore": 1200
+            "shiny_ore": 2200
           },
           "seconds": 0
         },
@@ -4357,8 +4354,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 14700,
-            "glowy_ore": 1200
+            "shiny_ore": 2200
           },
           "seconds": 0
         },
@@ -4378,8 +4374,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 20700,
-            "glowy_ore": 1600
+            "shiny_ore": 1900
           },
           "seconds": 0
         },
@@ -4390,8 +4385,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 20700,
-            "glowy_ore": 1600
+            "shiny_ore": 1900
           },
           "seconds": 0
         },
@@ -4402,8 +4396,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 14700,
-            "glowy_ore": 1200
+            "shiny_ore": 2200
           },
           "seconds": 0
         },
@@ -4414,8 +4407,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 27260,
-            "glowy_ore": 1920
+            "shiny_ore": 120
           },
           "seconds": 0
         },
@@ -4426,9 +4418,7 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 36600,
-            "glowy_ore": 2400,
-            "starry_ore": 420
+            "shiny_ore": 2500
           },
           "seconds": 0
         },
@@ -4439,8 +4429,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 7800,
-            "glowy_ore": 600
+            "shiny_ore": 2500
           },
           "seconds": 0
         },
@@ -4451,8 +4440,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 27260,
-            "glowy_ore": 1920
+            "shiny_ore": 120
           },
           "seconds": 0
         },
@@ -4463,9 +4451,9 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 13800,
-            "glowy_ore": 1200,
-            "starry_ore": 270
+            "shiny_ore": 3300,
+            "glowy_ore": 600,
+            "starry_ore": 120
           },
           "seconds": 0
         },
@@ -4476,9 +4464,9 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 23100,
-            "glowy_ore": 1800,
-            "starry_ore": 370
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
           },
           "seconds": 0
         },
@@ -4489,9 +4477,7 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 34100,
-            "glowy_ore": 2400,
-            "starry_ore": 420
+            "shiny_ore": 2600
           },
           "seconds": 0
         },
@@ -4502,8 +4488,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 20700,
-            "glowy_ore": 1600
+            "shiny_ore": 1900
           },
           "seconds": 0
         },
@@ -4523,9 +4508,9 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 23100,
-            "glowy_ore": 1800,
-            "starry_ore": 370
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
           },
           "seconds": 0
         },
@@ -4545,9 +4530,9 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 13800,
-            "glowy_ore": 1200,
-            "starry_ore": 270
+            "shiny_ore": 3300,
+            "glowy_ore": 600,
+            "starry_ore": 120
           },
           "seconds": 0
         },
@@ -4558,8 +4543,7 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 23940,
-            "glowy_ore": 1800
+            "shiny_ore": 1440
           },
           "seconds": 0
         },
@@ -4570,9 +4554,7 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 56060,
-            "glowy_ore": 3720,
-            "starry_ore": 480
+            "shiny_ore": 120
           },
           "seconds": 0
         },
@@ -4583,9 +4565,9 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 23100,
-            "glowy_ore": 1800,
-            "starry_ore": 370
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
           },
           "seconds": 0
         },
@@ -4609,9 +4591,7 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 36600,
-            "glowy_ore": 2400,
-            "starry_ore": 420
+            "shiny_ore": 2500
           },
           "seconds": 0
         },
@@ -4622,8 +4602,8 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 25900,
-            "glowy_ore": 1900
+            "shiny_ore": 840,
+            "glowy_ore": 100
           },
           "seconds": 0
         },
@@ -4643,8 +4623,8 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 25900,
-            "glowy_ore": 1900
+            "shiny_ore": 840,
+            "glowy_ore": 100
           },
           "seconds": 0
         },
@@ -4655,8 +4635,8 @@
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 25900,
-            "glowy_ore": 1900
+            "shiny_ore": 840,
+            "glowy_ore": 100
           },
           "seconds": 0
         },
@@ -4676,9 +4656,9 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 23100,
-            "glowy_ore": 1800,
-            "starry_ore": 370
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
           },
           "seconds": 0
         },
@@ -4689,9 +4669,7 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 56060,
-            "glowy_ore": 3720,
-            "starry_ore": 480
+            "shiny_ore": 120
           },
           "seconds": 0
         },
@@ -4702,9 +4680,7 @@
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 56060,
-            "glowy_ore": 3720,
-            "starry_ore": 480
+            "shiny_ore": 120
           },
           "seconds": 0
         }
@@ -4726,7 +4702,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "14d 12h",
+          "ends_in": "14d 11h",
           "active": true
         },
         "scheduled": [
@@ -4734,25 +4710,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "14d 12h"
+            "starts_in": "14d 11h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 12h"
+            "starts_in": "4d 11h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 12h"
+            "starts_in": "14d 11h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 11h"
+            "ends_in": "2d 10h"
           }
         ],
         "raid_weekend": {
@@ -4760,7 +4736,7 @@
           "state": "ongoing",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "2d 11h"
+          "ends_in": "2d 10h"
         },
         "cwl": null
       },
