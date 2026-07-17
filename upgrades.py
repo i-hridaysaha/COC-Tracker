@@ -154,10 +154,7 @@ def remaining_records(player, mods: dict) -> list[dict]:
             entry = tables.get(cat, {}).get(getattr(it, "name", None))
             if not entry:
                 continue
-            try:
-                target = it.get_max_level_for_townhall(town_hall)
-            except Exception:
-                target = getattr(it, "max_level", None)
+            target = getattr(it, "max_level", None)
             if not target:
                 continue
             level = min(int(getattr(it, "level", 0) or 0), int(target))

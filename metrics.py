@@ -17,6 +17,8 @@ base. That is a limit of Supercell's API, not of this code.
 from dataclasses import dataclass, field, asdict
 from typing import Any
 
+import gamedata
+
 
 # Which player attributes map to which category. We keep regular home troops
 # and siege machines, and deliberately skip super troops (they are temporary
@@ -41,33 +43,14 @@ def _collect(player: Any) -> dict[str, list]:
 
 
 def _max_for_th(item: Any, town_hall: int) -> int:
-    """Max level this item can reach at the given Town Hall.
-
-    Falls back to the item's global max if the per-TH lookup is unavailable
-    (for example when game data did not load). Returns 0 for anything the
-    Town Hall has not unlocked, so it drops out of the calculation.
-    """
+    """The item's max level, taken straight from the API player data. This is
+    the global game max (e.g. 100 for a hero), which is exactly the figure the
+    game shows as 'Lv X / Y'. Robust: it never depends on the library's own
+    per-level tables, so it can't crash on brand-new content."""
     try:
-        capped = item.get_max_level_for_townhall(town_hall)
-    except Exception:
-        capped = None
-    if capped is None:
-        capped = getattr(item, "max_level", None)
-    try:
-        return int(capped) if capped and capped > 0 else 0
+        return int(getattr(item, "max_level", 0) or 0)
     except (TypeError, ValueError):
         return 0
-
-
-def _max_for_prev_th(item: Any, town_hall: int) -> int:
-    """Max level this item could reach at the PREVIOUS Town Hall.
-
-    This is the yardstick for rush. Returns 0 at TH1 (no previous) or when the
-    item did not exist a Town Hall ago.
-    """
-    if town_hall <= 1:
-        return 0
-    return _max_for_th(item, town_hall - 1)
 
 
 @dataclass
@@ -133,8 +116,8 @@ def _rush_risk(groups: dict[str, list], town_hall: int) -> dict:
     worst = []
     for name in ("heroes", "troops", "spells"):
         for it in groups.get(name, []):
-            cap = _max_for_prev_th(it, town_hall)
-            if cap <= 0:
+            cap = gamedata.max_for_th(name, getattr(it, "name", None), town_hall - 1) if town_hall > 1 else None
+            if not cap or cap <= 0:
                 continue
             lvl = min(int(getattr(it, "level", 0) or 0), cap)
             gap = max(0, cap - lvl)

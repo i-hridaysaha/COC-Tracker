@@ -65,7 +65,20 @@ Every run writes a ranked guide per account: `guide.md` (readable) and
 Because events are targetable (below), the guide tells a whole-base Hammer Jam
 apart from a hero-only or dark-elixir-only event, and reorders accordingly.
 
-### Defenses and walls (village.json)
+### Defenses (two ways)
+
+**Easiest: paste it in the dashboard.** On the Overview page there's a "Paste
+village JSON" button. Paste your current defense, wall and trap levels there and
+your defense score, health bars, Tracker tabs and Planner priorities light up
+instantly. It's saved in your browser, per account, and needs no repo file and
+no run. Update it the same way whenever you upgrade.
+
+**Or commit a file**, if you want the daily-committed data and guide.md to
+include defenses too: drop the same JSON at
+`data/accounts/<YOURTAG>/village.json` using `village.example.json` as the
+template. Either way works; the paste is the low-effort one.
+
+### village.json format
 
 The API can't see buildings, so defenses and walls only join the guide if you
 provide them. Copy `village.example.json` to

@@ -134,7 +134,7 @@ async def run() -> None:
                "modifiers": mods, "accounts": []}
     dash_accounts = []
 
-    async with coc.Client(load_game_data=coc.LoadGameData(always=True)) as client:
+    async with coc.Client(load_game_data=coc.LoadGameData(never=True)) as client:
         try:
             await client.login(email, password)
         except coc.InvalidCredentials as e:
@@ -226,6 +226,7 @@ async def run() -> None:
     store.write_json(DATA_DIR / "summary.json", summary)
     store.write_json(DATA_DIR / "dashboard_data.json",
                      {"captured_at": summary["captured_at"], "modifiers_default": mods,
+                      "defense_tables": catalog.defense_tables(),
                       "accounts": dash_accounts})
     dashboard.render(DATA_DIR, ROOT / "dashboard.html")
 

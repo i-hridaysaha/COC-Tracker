@@ -39,6 +39,7 @@ jobs:
         env:
           COC_EMAIL: ${{ secrets.COC_EMAIL }}
           COC_PASSWORD: ${{ secrets.COC_PASSWORD }}
+          COC_PLAYER_TAGS: ${{ secrets.COC_PLAYER_TAGS }}
           COC_PLAYER_TAG: ${{ secrets.COC_PLAYER_TAG }}
         run: python track.py
 

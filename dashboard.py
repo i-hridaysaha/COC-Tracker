@@ -70,8 +70,8 @@ h3{margin:0 0 12px;font-size:12px;font-weight:700;color:var(--gold);text-transfo
 .badge.warn{color:var(--amber);border-color:#e3b34155;background:#e3b3410f}
 .health .hrow{display:grid;grid-template-columns:110px 1fr 46px;align-items:center;gap:10px;margin-bottom:9px}
 .hlabel{color:var(--muted);text-transform:capitalize}
-.htrack{height:9px;background:var(--soft);border-radius:5px;overflow:hidden}
-.hfill{height:100%;border-radius:5px}
+.htrack{display:block;height:9px;background:var(--soft);border-radius:5px;overflow:hidden}
+.hfill{display:block;height:100%;border-radius:5px}
 .hpct{font-family:ui-monospace,monospace;text-align:right;font-size:13px}
 .cards6{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .stat{background:var(--raised);border:1px solid var(--soft);border-radius:8px;padding:12px}
@@ -127,6 +127,11 @@ input[type=number]{background:var(--raised);border:1px solid var(--border);color
 .note{color:var(--faint);font-size:11px;margin-top:6px}
 @media(max-width:900px){.ovtop{grid-template-columns:1fr}.grid{grid-template-columns:repeat(4,1fr)}.pcols{grid-template-columns:1fr}.lanes{grid-template-columns:1fr}.settings{grid-template-columns:1fr 1fr}.cards6{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.grid{grid-template-columns:repeat(3,1fr)}}
+.modal{display:none;position:fixed;inset:0;background:rgba(1,4,9,.72);z-index:50;align-items:center;justify-content:center;padding:20px}
+.modalbox{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;max-width:640px;width:100%;max-height:86vh;overflow:auto}
+.modalbox textarea{width:100%;height:300px;background:var(--canvas);border:1px solid var(--border);border-radius:8px;color:var(--text);font-family:ui-monospace,monospace;font-size:12px;padding:12px;resize:vertical;margin-top:10px}
+.modalbtns{display:flex;gap:8px;margin-top:12px}
+.verr{color:var(--red);font-size:12px;min-height:16px;margin-top:6px}
 """
 
 APP_JS = r"""
@@ -147,16 +152,31 @@ function rampColor(pct,isMax){if(pct>=90)return '#2ea043';if(pct>=75)return '#57
 function adj(item){const s=settings();const timeCut=Math.min((s.goldPass||0)+(s.eventTime||0),95)/100;const costCut=Math.min(s.eventCost||0,95)/100;const seconds=Math.round((item.seconds||0)*(1-timeCut));const cost={};for(const k in (item.cost||{})){cost[k]=Math.round(item.cost[k]*(1-costCut));}return {seconds,cost};}
 function costText(cost){const order=['gold','elixir','dark_elixir','shiny_ore','glowy_ore','starry_ore'];const lab={gold:'gold',elixir:'elixir',dark_elixir:'DE',shiny_ore:'shiny',glowy_ore:'glowy',starry_ore:'starry'};let parts=[];for(const k of order)if(cost[k])parts.push(fmtNum(cost[k])+' '+lab[k]);for(const k in cost)if(!order.includes(k)&&cost[k])parts.push(fmtNum(cost[k])+' '+k);return parts.join(' · ')||'free';}
 function acc(){return DATA.accounts[state.acc||0]}
-function remaining(){return acc().items.filter(i=>!i.is_max)}
-function overallPct(){let c=0,m=0;for(const i of acc().items){const w=i.count||1;c+=i.level*w;m+=i.max*w;}return m?Math.round(100*c/m):0;}
+function pastedVillage(){state.village=state.village||{};return state.village[acctKey()]||null;}
+function defenseItemsFromVillage(v){
+  if(!v||!DATA.defense_tables)return null;
+  const T=DATA.defense_tables,th=+(v.town_hall||acc().town_hall||0),out=[];
+  const maxTh=e=>{let m=0;for(const l of e.l)if(l[3]<=th&&l[0]>m)m=l[0];return m;};
+  const remain=(e,cur,target)=>{let cost=0,sec=0;const by={};for(const l of e.l)by[l[0]]=l;for(let lv=cur+1;lv<=target;lv++){const d=by[lv];if(!d)continue;cost+=d[1];sec+=d[2];}return[cost,sec,e.r];};
+  (v.buildings||[]).forEach(b=>{const e=T.buildings[b.name];if(!e)return;const target=maxTh(e);if(!target)return;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:'defenses',name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});
+  (v.traps||[]).forEach(b=>{const e=T.traps[b.name];if(!e)return;const target=maxTh(e);if(!target)return;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:'traps',name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});
+  const we=T.wall;if(we&&we.l.length&&(v.walls||[]).length){const target=maxTh(we);(v.walls||[]).forEach(g=>{const level=+g.level||0,count=+g.count||0;if(!target||count<=0)return;const[c]=remain(we,level,target);out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});});}
+  return out;
+}
+function IT(){const base=acc().items||[];const v=pastedVillage();if(!v)return base;const def=defenseItemsFromVillage(v);if(!def||!def.length)return base;const off=base.filter(i=>!['defenses','walls','traps'].includes(i.category));return off.concat(def);}
+function COMP(){const cur={},mx={};for(const i of IT()){const w=i.count||1;cur[i.category]=(cur[i.category]||0)+i.level*w;mx[i.category]=(mx[i.category]||0)+i.max*w;}const out={};for(const k in cur)out[k]=mx[k]?Math.round(1000*cur[k]/mx[k])/10:100;return out;}
+function haveDefenses(){return !!pastedVillage()||!!acc().village_present;}
+function remaining(){return IT().filter(i=>!i.is_max)}
+function overallPct(){let c=0,m=0;for(const i of IT()){const w=i.count||1;c+=i.level*w;m+=i.max*w;}return m?Math.round(100*c/m):0;}
 function ring(pct,color){const r=68,circ=2*Math.PI*r,off=circ*(1-pct/100);return '<svg width="160" height="160" viewBox="0 0 160 160"><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="#21262d" stroke-width="12"/><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="'+color+'" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+circ+'" stroke-dashoffset="'+off+'" transform="rotate(-90 80 80)"/></svg>';}
 function renderOverview(){
-  const a=acc(),comp=a.completion||{},pct=overallPct();const rem=remaining().length;
-  let dc=0,dm=0;for(const i of a.items){if(!DEFENSE.includes(i.category))continue;const w=i.count||1;dc+=i.level*w;dm+=i.max*w;}
+  const a=acc(),comp=COMP(),pct=overallPct();const rem=remaining().length;
+  let dc=0,dm=0;for(const i of IT()){if(!DEFENSE.includes(i.category))continue;const w=i.count||1;dc+=i.level*w;dm+=i.max*w;}
   const defScore=dm?Math.round(100*dc/dm):null;
   const order=['heroes','troops','spells','pets','equipment','defenses','walls','traps'];
   const health=order.filter(k=>k in comp).map(k=>{const p=comp[k];const col=rampColor(p,p>=100);return '<div class="hrow"><span class="hlabel">'+k+'</span><span class="htrack"><span class="hfill" style="width:'+p+'%;background:'+col+'"></span></span><span class="hpct">'+p+'%</span></div>';}).join('');
-  const badge=a.village_present?'<span class="badge ok">● Accurate · village.json imported</span>':'<span class="badge warn">● Offense only · add village.json for defenses</span>';
+  const badge=pastedVillage()?'<span class="badge ok">● Accurate · village pasted</span>':(a.village_present?'<span class="badge ok">● Accurate · village.json imported</span>':'<span class="badge warn">● Offense only · paste your village for defenses</span>');
+  const importBtn='<button class="af" style="margin-top:12px" onclick="openVillageModal()">'+(haveDefenses()?'↻ Update village (paste JSON)':'＋ Paste village JSON (adds defenses)')+'</button>'+(pastedVillage()?' <button class="af clear" style="margin-top:12px" onclick="clearVillage()">Remove pasted village</button>':'');
   const wars=(a.wars||[]).slice().sort((x,y)=>(y.date_seen||'').localeCompare(x.date_seen||'')).slice(0,8);
   const log=wars.length?wars.map(w=>{const st=parseInt(w.stars||0);const stars='★'.repeat(st)+'☆'.repeat(3-st);return '<div class="lrow"><span class="stars">'+stars+'</span><span class="mono">'+Math.round(w.destruction||0)+'%</span><span class="muted">vs TH'+esc(w.defender_th)+'</span><span class="leaguetag">'+esc(w.war_type)+'</span></div>';}).join(''):'<div class="faint">No war attacks recorded yet. They log automatically when you\'re in a war.</div>';
   document.getElementById('page-overview').innerHTML=
@@ -165,7 +185,7 @@ function renderOverview(){
    +'<div class="line"><span class="k">Offense to max</span><span class="v">'+a.offense_completion_pct+'%</span></div>'
    +'<div class="line"><span class="k">Defense score</span><span class="v">'+(defScore==null?'—':defScore+'%')+'</span></div>'
    +'<div class="line"><span class="k">Rush</span><span class="v">'+((a.rush||{}).band||'—')+'</span></div>'
-   +'<div style="margin-top:14px">'+badge+'</div></div></div></div>'
+   +'<div style="margin-top:14px">'+badge+'</div>'+importBtn+'</div></div></div>'
    +'<div class="card health"><h3>Village Health</h3>'+(health||'<div class="faint">No data.</div>')+'</div>'
    +'<div class="card"><h3>Key stats</h3><div class="cards6">'
    +'<div class="stat"><b>'+esc(a.trophies==null?'—':a.trophies)+'</b><span>trophies</span></div>'
@@ -175,10 +195,10 @@ function renderOverview(){
    +'<div class="card log"><h3>Battle log</h3>'+log+'</div>';
 }
 function renderTracker(){
-  const a=acc();const cats=[];for(const c of ['heroes','troops','spells','pets','equipment','defenses','walls','traps'])if(a.items.some(i=>i.category===c))cats.push(c);
+  const ITEMS=IT();const cats=[];for(const c of ['heroes','troops','spells','pets','equipment','defenses','walls','traps'])if(ITEMS.some(i=>i.category===c))cats.push(c);
   if(!state.trackCat||!cats.includes(state.trackCat))state.trackCat=cats[0];
   const pills=cats.map(c=>'<button class="pill '+(c===state.trackCat?'active':'')+'" onclick="setTrackCat(\''+c+'\')">'+c+'</button>').join('');
-  const items=a.items.filter(i=>i.category===state.trackCat);
+  const items=ITEMS.filter(i=>i.category===state.trackCat);
   const grid=items.map(i=>{const pct=i.max?Math.round(100*i.level/i.max):0;const col=rampColor(pct,i.is_max);const ini=i.name.replace(/[^A-Za-z0-9 ]/g,'').split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
     return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':'')
       +'<div class="ic" style="background:'+CAT_COLOR[i.category]+'22;color:'+CAT_COLOR[i.category]+'">'+esc(ini)+'</div>'
@@ -203,7 +223,7 @@ function renderPlanner(){
     const rows=items.map(i=>{const j=adj(i);return '<div class="pitem"><span class="pi-name">'+esc(i.name)+' <span class="lv">'+i.level+'&rarr;'+i.max+'</span></span><span class="pi-meta">'+costText(j.cost)+'<br>'+fmtTime(j.seconds)+'</span><button class="addbtn" onclick="addToLane(\''+esc(i.category)+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+ queue</button></div>';}).join('');
     return '<div class="prio card"><h4>'+title+' <span class="faint">top '+n+'</span></h4>'+(rows||'<div class="faint">All maxed here.</div>')+'</div>';};
   const p=plan(),bc=(s.builders||6)+(s.goblinB?1:0);
-  const findItem=(nm)=>acc().items.find(i=>i.name===nm);
+  const findItem=(nm)=>IT().find(i=>i.name===nm);
   const laneTime=(ids)=>ids.reduce((t,nm)=>{const it=findItem(nm);return t+(it?adj(it).seconds:0)},0);
   const laneBox=(title,key,items,parallel)=>{const t=laneTime(items);const eff=parallel&&parallel>1?t/parallel:t;
     const rows=items.length?items.map(nm=>'<div class="qitem"><span>'+esc(nm)+' <span class="faint mono">'+fmtTime(findItem(nm)?adj(findItem(nm)).seconds:0)+'</span></span><span class="x" onclick="removeFromLane(\''+key+'\',\''+esc(nm).replace(/'/g,"\\'")+'\')">✕</span></div>').join(''):'<div class="empty">Empty — add from the lists above</div>';
@@ -221,7 +241,7 @@ function renderPlanner(){
 }
 function laneForItem(cat){return LANE_OF[cat]||'builders';}
 function addToLane(cat,name){const p=plan();const lane=laneForItem(cat);
-  if(lane==='builders'){const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);p.builders=p.builders||{};const findItem=(nm)=>acc().items.find(i=>i.name===nm);let best=1,bt=Infinity;for(let b=1;b<=bc;b++){const ids=p.builders[b]||[];const t=ids.reduce((s2,nm)=>s2+adj(findItem(nm)).seconds,0);if(t<bt){bt=t;best=b;}}p.builders[best]=p.builders[best]||[];if(!p.builders[best].includes(name))p.builders[best].push(name);}
+  if(lane==='builders'){const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);p.builders=p.builders||{};const findItem=(nm)=>IT().find(i=>i.name===nm);let best=1,bt=Infinity;for(let b=1;b<=bc;b++){const ids=p.builders[b]||[];const t=ids.reduce((s2,nm)=>s2+adj(findItem(nm)).seconds,0);if(t<bt){bt=t;best=b;}}p.builders[best]=p.builders[best]||[];if(!p.builders[best].includes(name))p.builders[best].push(name);}
   else{p[lane]=p[lane]||[];if(!p[lane].includes(name))p[lane].push(name);}save();renderPlanner();}
 function removeFromLane(key,name){const p=plan();if(key.indexOf('builders:')===0){const b=key.split(':')[1];p.builders[b]=(p.builders[b]||[]).filter(n=>n!==name);}else{p[key]=(p[key]||[]).filter(n=>n!==name);}save();renderPlanner();}
 function clearPlan(){const k=acctKey();state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};save();renderPlanner();}
@@ -233,8 +253,11 @@ function autofill(mode){const k=acctKey();state.plans=state.plans||{};state.plan
   p.pet=sortRem(remaining().filter(i=>i.category==='pets')).slice(0,4).map(i=>i.name);
   p.smith=sortRem(remaining().filter(i=>i.category==='equipment')).slice(0,4).map(i=>i.name);
   p.heroes=sortRem(remaining().filter(i=>i.category==='heroes')).map(i=>i.name);save();renderPlanner();}
-function setNum(k,v){settings()[k]=Number(v);save();renderPlanner();}
-function setTog(k){settings()[k]=!settings()[k];save();renderPlanner();}
+function setNum(k,v){settings()[k]=Number(v);save();renderPlanner();}function setTog(k){settings()[k]=!settings()[k];save();renderPlanner();}
+function openVillageModal(){var m=document.getElementById('vmodal');var t=document.getElementById('vjson');var cur=pastedVillage();t.value=cur?JSON.stringify(cur,null,2):'';document.getElementById('verr').textContent='';m.style.display='flex';}
+function closeVillageModal(){document.getElementById('vmodal').style.display='none';}
+function saveVillage(){var t=document.getElementById('vjson').value.trim();var err=document.getElementById('verr');if(!t){err.textContent='Paste your village JSON first.';return;}var v;try{v=JSON.parse(t);}catch(e){err.textContent="That isn't valid JSON: "+e.message;return;}if(typeof v!=='object'||v===null||!(Array.isArray(v.buildings)||Array.isArray(v.walls)||Array.isArray(v.traps))){err.textContent="Parsed OK, but I don't see buildings, walls or traps. Check the format below.";return;}state.village=state.village||{};state.village[acctKey()]=v;save();closeVillageModal();renderAll();showPage('overview');}
+function clearVillage(){state.village=state.village||{};delete state.village[acctKey()];save();renderAll();}
 function showPage(p){state.page=p;save();document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.p===p));document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id==='page-'+p));if(p==='overview')renderOverview();if(p==='tracker')renderTracker();if(p==='planner')renderPlanner();}
 function setAcc(i){state.acc=i;save();document.querySelectorAll('.acct').forEach((b,idx)=>b.classList.toggle('active',idx===i));renderAll();}
 function renderAll(){renderOverview();renderTracker();renderPlanner();}
@@ -263,6 +286,13 @@ def render(data_dir: Path, out_path: Path) -> bool:
         "<div id=\"page-overview\" class=\"page active\"></div>"
         "<div id=\"page-tracker\" class=\"page\"></div>"
         "<div id=\"page-planner\" class=\"page\"></div>"
+        "<div id=\"vmodal\" class=\"modal\"><div class=\"modalbox\">"
+        "<h3 style=\"color:var(--gold)\">Paste your village JSON</h3>"
+        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, wall and trap levels. Saved in this browser only, per account. It adds the defense side to your Overview, Tracker and Planner instantly.</p>"
+        "<textarea id=\"vjson\" spellcheck=\"false\" placeholder='{ \"town_hall\": 17, \"buildings\": [ {\"name\":\"Cannon\",\"level\":21} ], \"traps\": [ {\"name\":\"Bomb\",\"level\":12} ], \"walls\": [ {\"level\":17,\"count\":250} ] }'></textarea>"
+        "<div id=\"verr\" class=\"verr\"></div>"
+        "<div class=\"modalbtns\"><button class=\"af\" onclick=\"saveVillage()\">Save</button><button class=\"af\" onclick=\"closeVillageModal()\">Cancel</button></div>"
+        "</div></div>"
         "</div><script>const DATA=" + json.dumps(data) + ";</script><script>" + APP_JS + "</script></body></html>"
     )
     out_path.write_text(doc)

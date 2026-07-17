@@ -49,17 +49,15 @@ def offense_items(player) -> list[dict]:
     out = []
     for cat, items in metrics.group_items(player).items():
         for it in items:
-            entry = tables.get(cat, {}).get(getattr(it, "name", None))
-            if not entry:
-                continue
-            try:
-                target = it.get_max_level_for_townhall(th)
-            except Exception:
-                target = getattr(it, "max_level", None)
+            target = getattr(it, "max_level", None)
             if not target:
                 continue
             level = min(int(getattr(it, "level", 0) or 0), int(target))
-            cost, seconds = upgrades._item_remaining(entry, level, int(target))
+            entry = tables.get(cat, {}).get(getattr(it, "name", None))
+            if entry and level < target:
+                cost, seconds = upgrades._item_remaining(entry, level, int(target))
+            else:
+                cost, seconds = {}, 0
             out.append(_rec(cat, getattr(it, "name", "?"), level, target, cost, seconds))
     return out
 
@@ -122,3 +120,23 @@ def completion(items: list[dict]) -> dict:
             cur[c] = cur.get(c, 0) + it["level"]
             mx[c] = mx.get(c, 0) + it["max"]
     return {c: round(100.0 * cur[c] / mx[c], 1) if mx.get(c) else 100.0 for c in cur}
+
+
+def defense_tables() -> dict:
+    """Compact building/trap/wall cost tables for the dashboard, so it can
+    compute defenses from a village JSON you paste in the browser, with no
+    repo file needed. Levels are [level, build_cost, build_time, req_townhall]."""
+    import defenses as _d
+    bt = _d._buildings()
+    tt = _traps()
+
+    def pack(entry):
+        res = (entry.get("upgrade_resource") or "Gold").lower().replace(" ", "_")
+        lv = [[l["level"], int(l.get("build_cost", 0) or 0), int(l.get("build_time", 0) or 0),
+               int(l.get("required_townhall", 99) or 99)] for l in entry.get("levels", [])]
+        return {"r": res, "l": lv}
+
+    buildings = {n: pack(e) for n, e in bt.items() if n != "Wall"}
+    traps = {n: pack(e) for n, e in tt.items()}
+    wall = pack(bt["Wall"]) if "Wall" in bt else {"r": "gold", "l": []}
+    return {"buildings": buildings, "traps": traps, "wall": wall}
