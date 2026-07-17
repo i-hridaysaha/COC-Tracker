@@ -64,6 +64,22 @@ def _item_remaining(entry: dict, current: int, target: int) -> tuple[dict, int]:
     return cost, seconds
 
 
+def _item_next_level(entry: dict, current: int, target: int) -> tuple[dict, int]:
+    """Cost/time for just the single next level (current -> current+1), not
+    the whole remaining climb to the Town Hall cap -- a lab/blacksmith slot
+    only performs one level-up at a time."""
+    if current >= target:
+        return {}, 0
+    by_level = {lvl["level"]: lvl for lvl in entry.get("levels", [])}
+    data = by_level.get(current)
+    if not data:
+        return {}, 0
+    cost = {}
+    _add_cost(cost, entry.get("upgrade_resource"), data.get("upgrade_cost"))
+    seconds = int(data.get("upgrade_time", 0) or 0)
+    return cost, seconds
+
+
 # ---- scope-aware boost application (shared with the defense engine) ----
 
 def _scope_hits_item(scope, category: str, cost: dict) -> bool:

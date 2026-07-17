@@ -29,12 +29,14 @@ Schema (levels are current in-game levels):
     }
 
 List a building once per copy you own. "buildings" is defensive structures
-(cannons, towers, etc), "resources" is Gold Mine / Elixir Collector / Dark
-Elixir Drill and their storages -- both are looked up in the same bundled
-buildings table, just kept in separate lists so the dashboard can score them
-separately. Walls are grouped by level with a count. Costs and times come
-from the same bundled game tables as everything else, so they're as fresh as
-the library.
+(cannons, towers, etc) -- "defenses" works too as an alias, since that's what
+the dashboard calls this category. "resources" is Gold Mine / Elixir
+Collector / Dark Elixir Drill and their storages -- both are looked up in the
+same bundled buildings table, just kept in separate lists so the dashboard
+can score them separately. Walls are grouped by level with a count. Name
+matching ignores case and surrounding whitespace. Costs and times come from
+the same bundled game tables as everything else, so they're as fresh as the
+library.
 """
 
 import json
@@ -82,6 +84,30 @@ def _traps() -> dict:
     return out
 
 
+def _norm(name) -> str:
+    return str(name or "").strip().lower()
+
+
+_BUILDINGS_NORM_CACHE = None
+_TRAPS_NORM_CACHE = None
+
+
+def _lookup_building(name):
+    """Case-insensitive, whitespace-trimmed building lookup, so a pasted
+    village.json with 'cannon' or ' Cannon ' still matches 'Cannon'."""
+    global _BUILDINGS_NORM_CACHE
+    if _BUILDINGS_NORM_CACHE is None:
+        _BUILDINGS_NORM_CACHE = {_norm(k): v for k, v in _buildings().items()}
+    return _BUILDINGS_NORM_CACHE.get(_norm(name))
+
+
+def _lookup_trap(name):
+    global _TRAPS_NORM_CACHE
+    if _TRAPS_NORM_CACHE is None:
+        _TRAPS_NORM_CACHE = {_norm(k): v for k, v in _traps().items()}
+    return _TRAPS_NORM_CACHE.get(_norm(name))
+
+
 def _max_level_for_th(entry: dict, town_hall: int) -> int:
     levels = [lvl["level"] for lvl in entry.get("levels", [])
               if lvl.get("required_townhall", 99) <= town_hall]
@@ -106,6 +132,26 @@ def _building_remaining(entry: dict, current: int, target: int) -> tuple[dict, i
     return cost, seconds
 
 
+def _building_next_level(entry: dict, current: int, target: int) -> tuple[dict, int]:
+    """Cost/time for just the single next level (current+1), not the whole
+    remaining climb to the Town Hall cap -- a builder only performs one
+    level-up at a time."""
+    if current >= target:
+        return {}, 0
+    resource = entry.get("upgrade_resource") or "Gold"
+    key = upgrades._RESOURCE_KEY.get(resource, resource.lower())
+    by_level = {lvl["level"]: lvl for lvl in entry.get("levels", [])}
+    data = by_level.get(current + 1)
+    if not data:
+        return {}, 0
+    cost = {}
+    c = data.get("build_cost")
+    if c:
+        cost[key] = int(c)
+    seconds = int(data.get("build_time", 0) or 0)
+    return cost, seconds
+
+
 def load_village(acc_dir: Path):
     path = acc_dir / "village.json"
     if not path.exists():
@@ -120,12 +166,11 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
     if not village:
         return []
     town_hall = int(village.get("town_hall") or town_hall_fallback or 0)
-    tables = _buildings()
     records = []
 
-    for b in village.get("buildings", []):
+    for b in village.get("buildings") or village.get("defenses") or []:
         name = b.get("name")
-        entry = tables.get(name)
+        entry = _lookup_building(name)
         if not entry:
             continue
         target = _max_level_for_th(entry, town_hall)
@@ -146,7 +191,7 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
 
     for r in village.get("resources", []):
         name = r.get("name")
-        entry = tables.get(name)
+        entry = _lookup_building(name)
         if not entry:
             continue
         target = _max_level_for_th(entry, town_hall)
@@ -165,10 +210,9 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
             "time_saved": base_seconds - adj_seconds,
         })
 
-    traps_table = _traps()
     for t in village.get("traps", []):
         name = t.get("name")
-        entry = traps_table.get(name)
+        entry = _lookup_trap(name)
         if not entry:
             continue
         target = _max_level_for_th(entry, town_hall)
@@ -187,7 +231,7 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
             "time_saved": base_seconds - adj_seconds,
         })
 
-    wall = tables.get("Wall")
+    wall = _buildings().get("Wall")
     if wall and village.get("walls"):
         target = _max_level_for_th(wall, town_hall)
         for grp in village["walls"]:

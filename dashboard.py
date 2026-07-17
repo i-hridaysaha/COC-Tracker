@@ -149,9 +149,9 @@ input[type=number]{background:var(--raised);border:1px solid var(--border);color
 APP_JS = r"""
 const CAT_COLOR={heroes:'#bc8cff',troops:'#f0883e',spells:'#58a6ff',pets:'#3fb950',equipment:'#e3b341',defenses:'#db6d28',walls:'#8b949e',traps:'#f85149',resources:'#d9a520'};
 const DEFENSE=['defenses','walls','traps'];
-const BUILDER_CATS=['defenses','walls','traps','resources'];
-const LANE_OF={defenses:'builders',walls:'builders',traps:'builders',resources:'builders',heroes:'heroes',troops:'lab',spells:'lab',pets:'pet',equipment:'smith'};
-const LANE_LABEL={lab:'Laboratory',pet:'Pet House',smith:'Blacksmith',heroes:'Hero altars'};
+const BUILDER_CATS=['defenses','walls','traps','resources','heroes'];
+const LANE_OF={defenses:'builders',walls:'builders',traps:'builders',resources:'builders',heroes:'builders',troops:'lab',spells:'lab',pets:'pet',equipment:'smith'};
+const LANE_LABEL={lab:'Laboratory',pet:'Pet House',smith:'Blacksmith'};
 
 /* Original, offline icon set -- not game art (none ships with the data
    library and embedding Supercell's would violate the offline/no-CDN rule
@@ -170,15 +170,36 @@ const ICONS={
  tower:'<path d="M6 21V10l2-2V5h2V3h4v2h2v3l2 2v11z" fill="currentColor"/><rect x="9.3" y="13.2" width="5.4" height="7.8" fill="var(--surface)"/>',
  spike:'<path d="M12 2l3 8h6l-9 12-3-8H3z" fill="currentColor"/>',
  brick:'<g fill="currentColor"><rect x="2" y="4" width="9" height="5" rx=".6"/><rect x="13" y="4" width="9" height="5" rx=".6"/><rect x="2" y="10.5" width="4" height="5" rx=".6"/><rect x="7.5" y="10.5" width="9" height="5" rx=".6"/><rect x="18" y="10.5" width="4" height="5" rx=".6"/><rect x="2" y="17" width="9" height="5" rx=".6"/><rect x="13" y="17" width="9" height="5" rx=".6"/></g>',
- coin:'<circle cx="12" cy="12" r="9.5" fill="currentColor"/><path d="M9.3 9.7c0-1.6 1.4-2.7 2.9-2.7 1.1 0 2 .4 2.5 1.1l-1 .9c-.3-.4-.8-.6-1.4-.6-.8 0-1.5.5-1.5 1.2 0 .6.5.9 1.7 1.2 1.9.5 2.5 1.3 2.5 2.5 0 1.5-1.3 2.6-3 2.6-1.2 0-2.2-.4-2.8-1.2l1-.9c.4.5 1.1.8 1.8.8.8 0 1.5-.4 1.5-1.1 0-.6-.4-1-1.8-1.4-1.7-.5-2.4-1.2-2.4-2.4z" fill="var(--surface)"/>'
+ coin:'<circle cx="12" cy="12" r="9.5" fill="currentColor"/><path d="M9.3 9.7c0-1.6 1.4-2.7 2.9-2.7 1.1 0 2 .4 2.5 1.1l-1 .9c-.3-.4-.8-.6-1.4-.6-.8 0-1.5.5-1.5 1.2 0 .6.5.9 1.7 1.2 1.9.5 2.5 1.3 2.5 2.5 0 1.5-1.3 2.6-3 2.6-1.2 0-2.2-.4-2.8-1.2l1-.9c.4.5 1.1.8 1.8.8.8 0 1.5-.4 1.5-1.1 0-.6-.4-1-1.8-1.4-1.7-.5-2.4-1.2-2.4-2.4z" fill="var(--surface)"/>',
+ golem:'<path d="M12 3l2 3-1 2h-2l-1-2 2-3z" fill="currentColor"/><path d="M7 22v-7c0-2.8 2.2-5 5-5s5 2.2 5 5v7z" fill="currentColor"/><circle cx="9.7" cy="13.2" r="1.1" fill="var(--surface)"/><circle cx="14.3" cy="13.2" r="1.1" fill="var(--surface)"/>',
+ giant:'<circle cx="12" cy="6" r="3.4" fill="currentColor"/><path d="M6 22v-6c0-3.3 2.7-6 6-6s6 2.7 6 6v6z" fill="currentColor"/><path d="M17.5 9l3-3 1.3 1.3-3 3z" fill="currentColor"/>',
+ skeleton:'<circle cx="12" cy="8" r="5" fill="currentColor"/><circle cx="9.8" cy="7.5" r="1.3" fill="var(--surface)"/><circle cx="14.2" cy="7.5" r="1.3" fill="var(--surface)"/><path d="M10.3 10.2h3.4l-.6 2h-2.2z" fill="var(--surface)"/><path d="M5 22l6-7.3 6 7.3M6.7 22l4.6-8M17.3 22l-4.6-8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>',
+ mount:'<path d="M2.5 15.5c.8-3.3 3.8-5.7 7.2-5.7 1 0 1.9.2 2.7.6.9-1 2.2-1.7 3.7-1.7 3 0 5.4 2.4 5.4 5.4 0 .6-.1 1.2-.3 1.7.7.4 1.1 1.1 1.1 2 0 1.3-1.1 2.4-2.4 2.4H7.4c-2.9 0-5.3-2.3-5.3-5.2 0-.2 0-.4.4-.5z" fill="currentColor"/><circle cx="17.5" cy="12.7" r="1" fill="var(--surface)"/>',
+ lightning:'<path d="M13 2L4 14h6l-2 8 10-13h-6z" fill="currentColor"/>',
+ snowflake:'<path d="M12 1.5v21M3.9 6.25l16.2 11.5M20.1 6.25L3.9 17.75" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 1.5l-1.8 2.2 1.8 1.3 1.8-1.3zM12 22.5l-1.8-2.2 1.8-1.3 1.8 1.3z" fill="currentColor"/>',
+ mask:'<path d="M4 9c0-3.9 3.6-7 8-7s8 3.1 8 7-3.6 7-8 7-8-3.1-8-7z" fill="currentColor"/><circle cx="9" cy="9" r="1.4" fill="var(--surface)"/><circle cx="15" cy="9" r="1.4" fill="var(--surface)"/><path d="M9 13.2c1 .9 5 .9 6 0" stroke="var(--surface)" stroke-width="1.1" fill="none" stroke-linecap="round"/><path d="M6 21c1.4-2 3.6-3 6-3s4.6 1 6 3" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/>',
+ shield:'<path d="M12 2l8 3v6c0 5.2-3.4 8.9-8 11-4.6-2.1-8-5.8-8-11V5z" fill="currentColor"/><path d="M9 12l2 2 4-4" stroke="var(--surface)" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
+ axe:'<path d="M14 2c3 0 6 2.5 6 6 0 2.6-1.6 4.4-3.4 5.2L14 11z" fill="currentColor"/><path d="M13.5 10.5L4 20l-1-1 9.5-9.5z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/>'
 };
 const CAT_ICON={heroes:'crown',troops:'sword',spells:'potion',pets:'paw',equipment:'gem',defenses:'tower',traps:'spike',walls:'brick',resources:'coin'};
+// Ordered first-match-wins keyword table so named units read closer to what
+// they actually are, instead of every troop sharing one generic 'sword'.
 const NAME_ICON=[
- [/dragon|balloon|minion\b|lava hound|owl|phoenix/i,'wing'],
+ [/bomb|wall breaker/i,'bomb'],
+ [/dragon|balloon|minion\b|lava hound|owl|phoenix|flying fortress/i,'wing'],
  [/wizard|witch|warden|druid|apprentice|healer/i,'staff'],
  [/archer|queen/i,'bow'],
+ [/valkyrie/i,'axe'],
+ [/golem/i,'golem'],
+ [/skeleton/i,'skeleton'],
+ [/hog rider/i,'mount'],
  [/miner|root rider/i,'pickaxe'],
- [/bomb|wall breaker/i,'bomb'],
+ [/electro|lightning/i,'lightning'],
+ [/\bice\b|frost|freeze/i,'snowflake'],
+ [/headhunter|invisib/i,'mask'],
+ [/shield|royal champion/i,'shield'],
+ [/giant\b/i,'giant'],
+ [/yeti/i,'paw'],
 ];
 function iconKeyFor(cat,name){for(const[re,key]of NAME_ICON)if(re.test(name))return key;return CAT_ICON[cat]||'coin';}
 function iconSVG(cat,name){const key=iconKeyFor(cat,name);return '<svg viewBox="0 0 24 24" class="ico">'+(ICONS[key]||ICONS.coin)+'</svg>';}
@@ -187,7 +208,7 @@ function load(){try{return JSON.parse(localStorage.getItem('coc-dash'))||{}}catc
 function save(){try{localStorage.setItem('coc-dash',JSON.stringify(state))}catch(e){}}
 function acctKey(){return (DATA.accounts[state.acc||0]||{}).tag||'x'}
 function settings(){if(!state.settings)state.settings={goldPass:(DATA.modifiers_default||{}).gold_pass_boost_pct||0,eventCost:0,eventTime:0,builders:6,goblinB:false,goblinR:false};return state.settings;}
-function plan(){state.plans=state.plans||{};const k=acctKey();if(!state.plans[k])state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};return state.plans[k];}
+function plan(){state.plans=state.plans||{};const k=acctKey();if(!state.plans[k])state.plans[k]={builders:{},lab:[],pet:[],smith:[]};return state.plans[k];}
 function esc(s){return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 function fmtNum(n){return n==null?'—':Number(n).toLocaleString()}
 function fmtTime(sec){sec=Math.round(sec);if(sec<=0)return '—';let d=Math.floor(sec/86400),h=Math.floor(sec%86400/3600),m=Math.floor(sec%3600/60);if(d>=1)return h?d+'d '+h+'h':d+'d';if(h>=1)return m?h+'h '+m+'m':h+'h';return m+'m';}
@@ -200,12 +221,24 @@ function pastedVillage(){state.village=state.village||{};return state.village[ac
 function defenseItemsFromVillage(v){
   if(!v||!DATA.defense_tables)return null;
   const T=DATA.defense_tables,th=+(v.town_hall||acc().town_hall||0),out=[];
+  let total=0,matched=0;
+  const norm=s=>String(s||'').trim().toLowerCase();
+  const idx=table=>{const m={};for(const k in table)m[norm(k)]=table[k];return m;};
+  const bIdx=idx(T.buildings),tIdx=idx(T.traps);
   const maxTh=e=>{let m=0;for(const l of e.l)if(l[3]<=th&&l[0]>m)m=l[0];return m;};
-  const remain=(e,cur,target)=>{let cost=0,sec=0;const by={};for(const l of e.l)by[l[0]]=l;for(let lv=cur+1;lv<=target;lv++){const d=by[lv];if(!d)continue;cost+=d[1];sec+=d[2];}return[cost,sec,e.r];};
-  (v.buildings||[]).forEach(b=>{const e=T.buildings[b.name];if(!e)return;const target=maxTh(e);if(!target)return;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:'defenses',name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});
-  (v.resources||[]).forEach(b=>{const e=T.buildings[b.name];if(!e)return;const target=maxTh(e);if(!target)return;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:'resources',name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});
-  (v.traps||[]).forEach(b=>{const e=T.traps[b.name];if(!e)return;const target=maxTh(e);if(!target)return;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:'traps',name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});
-  const we=T.wall;if(we&&we.l.length&&(v.walls||[]).length){const target=maxTh(we);(v.walls||[]).forEach(g=>{const level=+g.level||0,count=+g.count||0;if(!target||count<=0)return;const[c]=remain(we,level,target);out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});});}
+  // Next level only: a builder/lab slot performs one level-up at a time, not
+  // the whole remaining climb to the Town Hall cap.
+  const remain=(e,cur,target)=>{if(cur>=target)return[0,0,e.r];const by={};for(const l of e.l)by[l[0]]=l;const d=by[cur+1];return d?[d[1],d[2],e.r]:[0,0,e.r];};
+  const addFrom=(list,cat,lookup)=>{(list||[]).forEach(b=>{total++;const e=lookup[norm(b.name)];if(!e)return;const target=maxTh(e);if(!target)return;matched++;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:cat,name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});};
+  addFrom(v.buildings||v.defenses,'defenses',bIdx);
+  addFrom(v.resources,'resources',bIdx);
+  addFrom(v.traps,'traps',tIdx);
+  const we=T.wall;
+  if(we&&we.l.length&&(v.walls||[]).length){
+    const target=maxTh(we);
+    (v.walls||[]).forEach(g=>{total++;const level=+g.level||0,count=+g.count||0;if(!target||count<=0)return;matched++;const[c]=remain(we,level,target);out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});});
+  }
+  out.__match={total,matched};
   return out;
 }
 function IT(){const base=acc().items||[];const v=pastedVillage();if(!v)return base;const def=defenseItemsFromVillage(v);if(!def||!def.length)return base;const off=base.filter(i=>!['defenses','walls','traps','resources'].includes(i.category));return off.concat(def);}
@@ -286,7 +319,7 @@ function renderPlanner(){
   let builderLanes='';for(let b=1;b<=bc;b++){const ids=(p.builders&&p.builders[b])||[];builderLanes+=laneBox('Builder '+b+(b>(s.builders||6)?' (goblin)':''),'builders:'+b,ids,1);}
   const lanesHtml='<div class="lanes">'+builderLanes
    +laneBox('Laboratory'+(s.goblinR?' (goblin ×2)':''),'lab',p.lab||[],s.goblinR?2:1)
-   +laneBox('Pet House','pet',p.pet||[],1)+laneBox('Blacksmith','smith',p.smith||[],1)+laneBox('Heroes','heroes',p.heroes||[],99)+'</div>';
+   +laneBox('Pet House','pet',p.pet||[],1)+laneBox('Blacksmith','smith',p.smith||[],1)+'</div>';
   document.getElementById('page-planner').innerHTML=settingsHtml
    +'<div class="card"><h3>Priority upgrades</h3><div class="autofill"><button class="af" onclick="autofill(\'fast\')">⚡ Auto-fill (fastest)</button><button class="af" onclick="autofill(\'balanced\')">⚖️ Auto-fill (balanced)</button><button class="af clear" onclick="clearPlan()">🗑 Clear</button></div>'
    +'<div class="pcols">'+prioBlock('Defense',DEFENSE,10)+prioBlock('Offense (heroes)',['heroes'],10)+'</div>'
@@ -312,7 +345,7 @@ function openQueueModal(cat,name){
     }
   }else{
     const label=LANE_LABEL[lane]||lane;
-    document.getElementById('qmodal-sub').textContent=lane==='heroes'?'Heroes train independently at their own altar — this just tracks it here.':'This upgrades at your '+label+'.';
+    document.getElementById('qmodal-sub').textContent='This upgrades at your '+label+'.';
     body='<div class="qpick" onclick="confirmQueue()"><span>Add to '+label+' queue</span></div>';
   }
   document.getElementById('qmodal-body').innerHTML=body;
@@ -329,19 +362,33 @@ function confirmQueue(builderIdx){
 }
 function flashLane(key){setTimeout(()=>{const el=document.querySelector('[data-lane="'+key+'"]');if(!el)return;el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1400);},60);}
 function removeFromLane(key,name){const p=plan();if(key.indexOf('builders:')===0){const b=key.split(':')[1];p.builders[b]=(p.builders[b]||[]).filter(n=>n!==name);}else{p[key]=(p[key]||[]).filter(n=>n!==name);}save();renderPlanner();}
-function clearPlan(){const k=acctKey();state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};save();renderPlanner();}
-function autofill(mode){const k=acctKey();state.plans=state.plans||{};state.plans[k]={builders:{},lab:[],pet:[],smith:[],heroes:[]};const p=state.plans[k];const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);
+function clearPlan(){const k=acctKey();state.plans[k]={builders:{},lab:[],pet:[],smith:[]};save();renderPlanner();}
+function autofill(mode){const k=acctKey();state.plans=state.plans||{};state.plans[k]={builders:{},lab:[],pet:[],smith:[]};const p=state.plans[k];const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);
   const sortRem=(arr)=>arr.slice().sort((a,b)=>mode==='fast'?adj(a).seconds-adj(b).seconds:(b.max-b.level)-(a.max-a.level));
   const build=sortRem(remaining().filter(i=>BUILDER_CATS.includes(i.category))).slice(0,bc*4);
   p.builders={};const t=Array(bc+1).fill(0);for(const it of build){let best=1;for(let b=2;b<=bc;b++)if(t[b]<t[best])best=b;p.builders[best]=p.builders[best]||[];p.builders[best].push(it.name);t[best]+=adj(it).seconds;}
   p.lab=sortRem(remaining().filter(i=>['troops','spells'].includes(i.category))).slice(0,6).map(i=>i.name);
   p.pet=sortRem(remaining().filter(i=>i.category==='pets')).slice(0,4).map(i=>i.name);
   p.smith=sortRem(remaining().filter(i=>i.category==='equipment')).slice(0,4).map(i=>i.name);
-  p.heroes=sortRem(remaining().filter(i=>i.category==='heroes')).map(i=>i.name);save();renderPlanner();}
+  save();renderPlanner();}
 function setNum(k,v){settings()[k]=Number(v);save();renderPlanner();}function setTog(k){settings()[k]=!settings()[k];save();renderPlanner();}
 function openVillageModal(){var m=document.getElementById('vmodal');var t=document.getElementById('vjson');var cur=pastedVillage();t.value=cur?JSON.stringify(cur,null,2):'';document.getElementById('verr').textContent='';m.style.display='flex';}
 function closeVillageModal(){document.getElementById('vmodal').style.display='none';}
-function saveVillage(){var t=document.getElementById('vjson').value.trim();var err=document.getElementById('verr');if(!t){err.textContent='Paste your village JSON first.';return;}var v;try{v=JSON.parse(t);}catch(e){err.textContent="That isn't valid JSON: "+e.message;return;}if(typeof v!=='object'||v===null||!(Array.isArray(v.buildings)||Array.isArray(v.walls)||Array.isArray(v.traps)||Array.isArray(v.resources))){err.textContent="Parsed OK, but I don't see buildings, resources, walls or traps. Check the format below.";return;}state.village=state.village||{};state.village[acctKey()]=v;save();closeVillageModal();renderAll();showPage('overview');}
+function saveVillage(){
+  var t=document.getElementById('vjson').value.trim();var err=document.getElementById('verr');
+  if(!t){err.textContent='Paste your village JSON first.';return;}
+  var v;try{v=JSON.parse(t);}catch(e){err.textContent="That isn't valid JSON: "+e.message;return;}
+  if(typeof v!=='object'||v===null||!(Array.isArray(v.buildings)||Array.isArray(v.defenses)||Array.isArray(v.walls)||Array.isArray(v.traps)||Array.isArray(v.resources))){
+    err.textContent="Parsed OK, but I don't see buildings, resources, walls or traps. Check the format below.";return;
+  }
+  const preview=defenseItemsFromVillage(v);
+  const match=(preview&&preview.__match)||{total:0,matched:0};
+  state.village=state.village||{};state.village[acctKey()]=v;save();closeVillageModal();renderAll();showPage('overview');
+  if(match.total>0&&match.matched<match.total){
+    const missed=match.total-match.matched;
+    setTimeout(()=>alert('Saved, but '+missed+' of '+match.total+' name(s) in your JSON didn\'t match a known building/trap and were skipped'+(match.matched?' ('+match.matched+' matched fine).':'.')+' Names must match exactly (case doesn\'t matter) -- check spelling against village.example.json, e.g. "Cannon", "Gold Mine", "Archer Tower".'),150);
+  }
+}
 function clearVillage(){state.village=state.village||{};delete state.village[acctKey()];save();renderAll();}
 function showPage(p){state.page=p;save();document.querySelectorAll('.navbtn').forEach(b=>b.classList.toggle('active',b.dataset.p===p));document.querySelectorAll('.page').forEach(el=>el.classList.toggle('active',el.id==='page-'+p));if(p==='overview')renderOverview();if(p==='tracker')renderTracker();if(p==='planner')renderPlanner();}
 function setAcc(i){state.acc=i;save();document.querySelectorAll('.acct').forEach((b,idx)=>b.classList.toggle('active',idx===i));renderAll();}
@@ -373,7 +420,7 @@ def render(data_dir: Path, out_path: Path) -> bool:
         "<div id=\"page-planner\" class=\"page\"></div>"
         "<div id=\"vmodal\" class=\"modal\"><div class=\"modalbox\">"
         "<h3 style=\"color:var(--gold)\">Paste your village JSON</h3>"
-        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, resource-building, trap and wall levels. Saved in this browser only, per account. It adds the defense side to your Overview, Tracker and Planner instantly.</p>"
+        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, resource-building, trap and wall levels. Saved in this browser only, per account. It adds the defense side to your Overview, Tracker and Planner instantly. Names must match the game exactly (case doesn't matter) &mdash; \"buildings\" or \"defenses\" both work as the key for defensive buildings.</p>"
         "<textarea id=\"vjson\" spellcheck=\"false\" placeholder='{ \"town_hall\": 17, \"buildings\": [ {\"name\":\"Cannon\",\"level\":21} ], \"resources\": [ {\"name\":\"Gold Mine\",\"level\":17} ], \"traps\": [ {\"name\":\"Bomb\",\"level\":12} ], \"walls\": [ {\"level\":17,\"count\":250} ] }'></textarea>"
         "<div id=\"verr\" class=\"verr\"></div>"
         "<div class=\"modalbtns\"><button class=\"af\" onclick=\"saveVillage()\">Save</button><button class=\"af\" onclick=\"closeVillageModal()\">Cancel</button></div>"

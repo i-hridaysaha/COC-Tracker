@@ -37,7 +37,7 @@ def offense_items(player, raw: dict | None = None) -> list[dict]:
             level = min(int(getattr(it, "level", 0) or 0), int(target))
             entry = tables.get(cat, {}).get(getattr(it, "name", None))
             if entry and level < target:
-                cost, seconds = upgrades._item_remaining(entry, level, int(target))
+                cost, seconds = upgrades._item_next_level(entry, level, int(target))
             else:
                 cost, seconds = {}, 0
             out.append(_rec(cat, getattr(it, "name", "?"), level, target, cost, seconds))
@@ -48,44 +48,42 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
     if not village:
         return []
     th = int(village.get("town_hall") or town_hall_fallback or 0)
-    btable = defenses._buildings()
     out = []
 
-    for b in village.get("buildings", []):
-        entry = btable.get(b.get("name"))
+    for b in village.get("buildings") or village.get("defenses") or []:
+        entry = defenses._lookup_building(b.get("name"))
         if not entry:
             continue
         target = defenses._max_level_for_th(entry, th)
         level = int(b.get("level", 0) or 0)
         if not target:
             continue
-        cost, seconds = defenses._building_remaining(entry, level, target) if level < target else ({}, 0)
+        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
         out.append(_rec("defenses", b["name"], min(level, target), target, cost, seconds))
 
     for r in village.get("resources", []):
-        entry = btable.get(r.get("name"))
+        entry = defenses._lookup_building(r.get("name"))
         if not entry:
             continue
         target = defenses._max_level_for_th(entry, th)
         level = int(r.get("level", 0) or 0)
         if not target:
             continue
-        cost, seconds = defenses._building_remaining(entry, level, target) if level < target else ({}, 0)
+        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
         out.append(_rec("resources", r["name"], min(level, target), target, cost, seconds))
 
-    ttable = defenses._traps()
     for t in village.get("traps", []):
-        entry = ttable.get(t.get("name"))
+        entry = defenses._lookup_trap(t.get("name"))
         if not entry:
             continue
         target = defenses._max_level_for_th(entry, th)
         level = int(t.get("level", 0) or 0)
         if not target:
             continue
-        cost, seconds = defenses._building_remaining(entry, level, target) if level < target else ({}, 0)
+        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
         out.append(_rec("traps", t["name"], min(level, target), target, cost, seconds))
 
-    wall = btable.get("Wall")
+    wall = defenses._buildings().get("Wall")
     if wall and village.get("walls"):
         target = defenses._max_level_for_th(wall, th)
         for grp in village["walls"]:
@@ -93,7 +91,7 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
             count = int(grp.get("count", 0) or 0)
             if not target or count <= 0:
                 continue
-            per, _ = defenses._building_remaining(wall, level, target) if level < target else ({}, 0)
+            per, _ = defenses._building_next_level(wall, level, target) if level < target else ({}, 0)
             cost = {k: v * count for k, v in per.items()}
             out.append({"category": "walls", "name": f"Wall lvl {level} x{count}",
                         "level": level, "max": target, "is_max": level >= target,
