@@ -15,22 +15,33 @@
     "war_stars": 554,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 1222,
+    "donations": 1226,
     "received": 144
   },
-  "completion": {
-    "heroes": 73.8,
-    "troops": 77.7,
-    "spells": 67.4,
-    "pets": 56.4,
-    "equipment": 57.7
+  "ranked": {
+    "trophies": 122,
+    "best_trophies": 4909,
+    "attack_wins": 0,
+    "defense_wins": 0,
+    "in_legend_league": false,
+    "legend_trophies": null,
+    "current_season": null,
+    "previous_season": null,
+    "best_season": null
   },
-  "offense_completion_pct": 74.4,
-  "total_levels_remaining": 645,
+  "completion": {
+    "heroes": 80.5,
+    "troops": 85.7,
+    "spells": 76.7,
+    "pets": 56.4,
+    "equipment": 57.6
+  },
+  "offense_completion_pct": 81.9,
+  "total_levels_remaining": 575,
   "rush_risk": {
-    "score": 14.1,
+    "score": 14.0,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 111,
+    "levels_behind_prev_th": 110,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -72,41 +83,41 @@
   "categories": {
     "heroes": {
       "category": "heroes",
-      "items_counted": 5,
-      "current_total": 336,
-      "max_total": 455,
-      "levels_remaining": 119,
-      "completion_pct": 73.8,
+      "items_counted": 6,
+      "current_total": 354,
+      "max_total": 440,
+      "levels_remaining": 86,
+      "completion_pct": 80.5,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
           "level": 69,
-          "max": 110,
-          "remaining": 41
+          "max": 100,
+          "remaining": 31
         },
         {
           "name": "Archer Queen",
           "level": 80,
-          "max": 110,
-          "remaining": 30
-        },
-        {
-          "name": "Grand Warden",
-          "level": 61,
-          "max": 85,
-          "remaining": 24
+          "max": 100,
+          "remaining": 20
         },
         {
           "name": "Minion Prince",
           "level": 76,
-          "max": 95,
-          "remaining": 19
+          "max": 90,
+          "remaining": 14
         },
         {
-          "name": "Royal Champion",
-          "level": 50,
-          "max": 55,
-          "remaining": 5
+          "name": "Grand Warden",
+          "level": 61,
+          "max": 75,
+          "remaining": 14
+        },
+        {
+          "name": "Dragon Duke",
+          "level": 18,
+          "max": 25,
+          "remaining": 7
         }
       ]
     },
@@ -114,39 +125,39 @@
       "category": "troops",
       "items_counted": 41,
       "current_total": 275,
-      "max_total": 354,
-      "levels_remaining": 79,
-      "completion_pct": 77.7,
+      "max_total": 321,
+      "levels_remaining": 46,
+      "completion_pct": 85.7,
       "biggest_gaps": [
-        {
-          "name": "Minion",
-          "level": 8,
-          "max": 14,
-          "remaining": 6
-        },
         {
           "name": "Barbarian",
           "level": 8,
-          "max": 13,
-          "remaining": 5
+          "max": 12,
+          "remaining": 4
         },
         {
           "name": "Archer",
           "level": 9,
-          "max": 14,
-          "remaining": 5
+          "max": 13,
+          "remaining": 4
+        },
+        {
+          "name": "Minion",
+          "level": 9,
+          "max": 13,
+          "remaining": 4
         },
         {
           "name": "Battle Drill",
           "level": 1,
-          "max": 6,
-          "remaining": 5
+          "max": 5,
+          "remaining": 4
         },
         {
-          "name": "Wizard",
-          "level": 10,
-          "max": 14,
-          "remaining": 4
+          "name": "Sky Wagon",
+          "level": 1,
+          "max": 4,
+          "remaining": 3
         }
       ]
     },
@@ -154,39 +165,39 @@
       "category": "spells",
       "items_counted": 18,
       "current_total": 89,
-      "max_total": 132,
-      "levels_remaining": 43,
-      "completion_pct": 67.4,
+      "max_total": 116,
+      "levels_remaining": 27,
+      "completion_pct": 76.7,
       "biggest_gaps": [
         {
           "name": "Poison Spell",
           "level": 7,
-          "max": 12,
-          "remaining": 5
+          "max": 11,
+          "remaining": 4
         },
         {
           "name": "Lightning Spell",
           "level": 9,
-          "max": 13,
-          "remaining": 4
+          "max": 12,
+          "remaining": 3
+        },
+        {
+          "name": "Angry Spell",
+          "level": 1,
+          "max": 4,
+          "remaining": 3
         },
         {
           "name": "Healing Spell",
           "level": 8,
-          "max": 12,
-          "remaining": 4
+          "max": 11,
+          "remaining": 3
         },
         {
           "name": "Recall Spell",
           "level": 3,
-          "max": 7,
-          "remaining": 4
-        },
-        {
-          "name": "Haste Spell",
-          "level": 3,
-          "max": 7,
-          "remaining": 4
+          "max": 6,
+          "remaining": 3
         }
       ]
     },
@@ -232,11 +243,11 @@
     },
     "equipment": {
       "category": "equipment",
-      "items_counted": 38,
-      "current_total": 467,
-      "max_total": 810,
-      "levels_remaining": 343,
-      "completion_pct": 57.7,
+      "items_counted": 39,
+      "current_total": 482,
+      "max_total": 837,
+      "levels_remaining": 355,
+      "completion_pct": 57.6,
       "biggest_gaps": [
         {
           "name": "Dark Crown",
@@ -271,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-07-17T13:30:47.638837+00:00",
+  "captured_at": "2026-07-17T19:00:27.440381+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -279,50 +290,50 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 42431000,
-        "elixir": 1209300000,
-        "shiny_ore": 705260,
-        "glowy_ore": 51900,
-        "starry_ore": 4450
+        "dark_elixir": 32251000,
+        "elixir": 720300000,
+        "shiny_ore": 741860,
+        "glowy_ore": 54300,
+        "starry_ore": 4870
       },
-      "build_seconds": 164311200,
-      "build_time_one_builder": "1901d 18h"
+      "build_seconds": 124351200,
+      "build_time_one_builder": "1439d 6h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 42431000,
-        "elixir": 1209300000,
-        "shiny_ore": 705260,
-        "glowy_ore": 51900,
-        "starry_ore": 4450
+        "dark_elixir": 32251000,
+        "elixir": 720300000,
+        "shiny_ore": 741860,
+        "glowy_ore": 54300,
+        "starry_ore": 4870
       },
-      "build_seconds": 164311200,
-      "build_time_one_builder": "1901d 18h"
+      "build_seconds": 124351200,
+      "build_time_one_builder": "1439d 6h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 25600000,
-          "elixir": 404500000
+          "dark_elixir": 17160000,
+          "elixir": 269500000
         },
-        "build_seconds": 64454400,
-        "build_time": "746d"
+        "build_seconds": 47174400,
+        "build_time": "546d"
       },
       "troops": {
         "cost": {
-          "elixir": 581800000,
-          "dark_elixir": 2992500
+          "elixir": 306800000,
+          "dark_elixir": 2222500
         },
-        "build_seconds": 41220000,
-        "build_time": "477d 2h"
+        "build_seconds": 25884000,
+        "build_time": "299d 14h"
       },
       "spells": {
         "cost": {
-          "elixir": 223000000,
-          "dark_elixir": 3173500
+          "elixir": 144000000,
+          "dark_elixir": 2203500
         },
-        "build_seconds": 24984000,
-        "build_time": "289d 4h"
+        "build_seconds": 17640000,
+        "build_time": "204d 4h"
       },
       "pets": {
         "cost": {
@@ -333,9 +344,9 @@
       },
       "equipment": {
         "cost": {
-          "shiny_ore": 705260,
-          "glowy_ore": 51900,
-          "starry_ore": 4450
+          "shiny_ore": 741860,
+          "glowy_ore": 54300,
+          "starry_ore": 4870
         },
         "build_seconds": 0,
         "build_time": "0m"

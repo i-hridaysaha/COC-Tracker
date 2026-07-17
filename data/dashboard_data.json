@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-17T13:30:46.012088+00:00",
+  "captured_at": "2026-07-17T19:00:26.699782+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3438,13 +3438,13 @@
       "war_stars": 554,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1222,
+      "donations": 1226,
       "received": 144,
-      "offense_completion_pct": 74.4,
+      "offense_completion_pct": 81.9,
       "rush": {
-        "score": 14.1,
+        "score": 14.0,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 111,
+        "levels_behind_prev_th": 110,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -3484,73 +3484,80 @@
         ]
       },
       "completion": {
-        "heroes": 73.8,
-        "troops": 77.7,
-        "spells": 67.4,
+        "heroes": 80.5,
+        "troops": 85.7,
+        "spells": 76.7,
         "pets": 56.4,
-        "equipment": 57.7
+        "equipment": 57.6
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
           "level": 69,
-          "max": 110,
+          "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 9310000
+            "dark_elixir": 7200000
           },
-          "seconds": 20217600
+          "seconds": 16761600
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
           "level": 80,
-          "max": 110,
+          "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 7660000
+            "dark_elixir": 5550000
           },
-          "seconds": 15768000
+          "seconds": 12312000
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
           "level": 76,
-          "max": 95,
+          "max": 90,
           "is_max": false,
           "cost": {
-            "dark_elixir": 6520000
+            "dark_elixir": 4410000
           },
-          "seconds": 12960000
+          "seconds": 9504000
         },
         {
           "category": "heroes",
           "name": "Grand Warden",
           "level": 61,
-          "max": 85,
+          "max": 75,
           "is_max": false,
           "cost": {
-            "elixir": 404500000
+            "elixir": 269500000
           },
-          "seconds": 12052800
+          "seconds": 8596800
         },
         {
           "category": "heroes",
           "name": "Royal Champion",
           "level": 50,
-          "max": 55,
+          "max": 50,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "heroes",
+          "name": "Dragon Duke",
+          "level": 18,
+          "max": 25,
           "is_max": false,
-          "cost": {
-            "dark_elixir": 2110000
-          },
-          "seconds": 3456000
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Barbarian",
           "level": 8,
-          "max": 13,
+          "max": 12,
           "is_max": false,
           "cost": {
             "elixir": 20800000
@@ -3579,7 +3586,7 @@
           "category": "troops",
           "name": "Archer",
           "level": 9,
-          "max": 14,
+          "max": 13,
           "is_max": false,
           "cost": {
             "elixir": 34000000
@@ -3590,8 +3597,8 @@
           "category": "troops",
           "name": "Goblin",
           "level": 9,
-          "max": 10,
-          "is_max": false,
+          "max": 9,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3599,30 +3606,28 @@
           "category": "troops",
           "name": "Giant",
           "level": 13,
-          "max": 14,
-          "is_max": false,
-          "cost": {
-            "elixir": 25000000
-          },
-          "seconds": 1166400
+          "max": 13,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Wall Breaker",
           "level": 12,
-          "max": 14,
+          "max": 13,
           "is_max": false,
           "cost": {
-            "elixir": 41500000
+            "elixir": 15500000
           },
-          "seconds": 2073600
+          "seconds": 864000
         },
         {
           "category": "troops",
           "name": "Balloon",
           "level": 12,
-          "max": 13,
-          "is_max": false,
+          "max": 12,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3630,30 +3635,28 @@
           "category": "troops",
           "name": "Wizard",
           "level": 10,
-          "max": 14,
+          "max": 13,
           "is_max": false,
           "cost": {
-            "elixir": 64500000
+            "elixir": 37500000
           },
-          "seconds": 3196800
+          "seconds": 1987200
         },
         {
           "category": "troops",
           "name": "Healer",
           "level": 10,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 28500000
-          },
-          "seconds": 1296000
+          "max": 10,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Dragon",
           "level": 12,
-          "max": 13,
-          "is_max": false,
+          "max": 12,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3661,18 +3664,16 @@
           "category": "troops",
           "name": "P.E.K.K.A",
           "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "elixir": 28000000
-          },
-          "seconds": 1252800
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Baby Dragon",
           "level": 9,
-          "max": 12,
+          "max": 11,
           "is_max": false,
           "cost": {
             "elixir": 30000000
@@ -3683,19 +3684,19 @@
           "category": "troops",
           "name": "Miner",
           "level": 8,
-          "max": 12,
+          "max": 11,
           "is_max": false,
           "cost": {
-            "elixir": 67500000
+            "elixir": 39500000
           },
-          "seconds": 3268800
+          "seconds": 2016000
         },
         {
           "category": "troops",
           "name": "Yeti",
           "level": 7,
-          "max": 8,
-          "is_max": false,
+          "max": 7,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3703,30 +3704,26 @@
           "category": "troops",
           "name": "Electro Dragon",
           "level": 8,
-          "max": 9,
-          "is_max": false,
-          "cost": {
-            "elixir": 30000000
-          },
-          "seconds": 1382400
+          "max": 8,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Dragon Rider",
           "level": 5,
-          "max": 6,
-          "is_max": false,
-          "cost": {
-            "elixir": 29500000
-          },
-          "seconds": 1339200
+          "max": 5,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Electro Titan",
           "level": 4,
-          "max": 5,
-          "is_max": false,
+          "max": 4,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3734,8 +3731,8 @@
           "category": "troops",
           "name": "Root Rider",
           "level": 3,
-          "max": 4,
-          "is_max": false,
+          "max": 3,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3743,12 +3740,10 @@
           "category": "troops",
           "name": "Thrower",
           "level": 3,
-          "max": 4,
-          "is_max": false,
-          "cost": {
-            "elixir": 27000000
-          },
-          "seconds": 1296000
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -3762,19 +3757,19 @@
         {
           "category": "troops",
           "name": "Minion",
-          "level": 8,
-          "max": 14,
+          "level": 9,
+          "max": 13,
           "is_max": false,
           "cost": {
-            "dark_elixir": 1005000
+            "dark_elixir": 595000
           },
-          "seconds": 3499200
+          "seconds": 2030400
         },
         {
           "category": "troops",
           "name": "Hog Rider",
           "level": 13,
-          "max": 15,
+          "max": 14,
           "is_max": false,
           "cost": {
             "dark_elixir": 240000
@@ -3784,8 +3779,8 @@
         {
           "category": "troops",
           "name": "Valkyrie",
-          "level": 12,
-          "max": 12,
+          "level": 11,
+          "max": 11,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -3794,7 +3789,7 @@
           "category": "troops",
           "name": "Golem",
           "level": 13,
-          "max": 15,
+          "max": 14,
           "is_max": false,
           "cost": {
             "dark_elixir": 230000
@@ -3805,8 +3800,8 @@
           "category": "troops",
           "name": "Witch",
           "level": 7,
-          "max": 8,
-          "is_max": false,
+          "max": 7,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3814,7 +3809,7 @@
           "category": "troops",
           "name": "Lava Hound",
           "level": 6,
-          "max": 8,
+          "max": 7,
           "is_max": false,
           "cost": {
             "dark_elixir": 200000
@@ -3825,12 +3820,10 @@
           "category": "troops",
           "name": "Bowler",
           "level": 9,
-          "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 360000
-          },
-          "seconds": 1296000
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -3845,8 +3838,8 @@
           "category": "troops",
           "name": "Headhunter",
           "level": 3,
-          "max": 4,
-          "is_max": false,
+          "max": 3,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3865,7 +3858,7 @@
           "category": "troops",
           "name": "Druid",
           "level": 2,
-          "max": 6,
+          "max": 5,
           "is_max": false,
           "cost": {
             "dark_elixir": 662500
@@ -3885,18 +3878,18 @@
           "category": "troops",
           "name": "Wall Wrecker",
           "level": 4,
-          "max": 6,
+          "max": 5,
           "is_max": false,
           "cost": {
-            "elixir": 36000000
+            "elixir": 10000000
           },
-          "seconds": 1944000
+          "seconds": 777600
         },
         {
           "category": "troops",
           "name": "Battle Blimp",
           "level": 3,
-          "max": 6,
+          "max": 5,
           "is_max": false,
           "cost": {
             "elixir": 16500000
@@ -3907,8 +3900,8 @@
           "category": "troops",
           "name": "Stone Slammer",
           "level": 5,
-          "max": 6,
-          "is_max": false,
+          "max": 5,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3916,7 +3909,7 @@
           "category": "troops",
           "name": "Siege Barracks",
           "level": 3,
-          "max": 6,
+          "max": 5,
           "is_max": false,
           "cost": {
             "elixir": 26000000
@@ -3927,8 +3920,8 @@
           "category": "troops",
           "name": "Log Launcher",
           "level": 5,
-          "max": 6,
-          "is_max": false,
+          "max": 5,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -3945,7 +3938,7 @@
           "category": "troops",
           "name": "Battle Drill",
           "level": 1,
-          "max": 6,
+          "max": 5,
           "is_max": false,
           "cost": {
             "elixir": 41500000
@@ -3967,12 +3960,12 @@
           "category": "spells",
           "name": "Lightning Spell",
           "level": 9,
-          "max": 13,
+          "max": 12,
           "is_max": false,
           "cost": {
-            "elixir": 69000000
+            "elixir": 42000000
           },
-          "seconds": 3196800
+          "seconds": 1987200
         },
         {
           "category": "spells",
@@ -3987,19 +3980,19 @@
           "category": "spells",
           "name": "Healing Spell",
           "level": 8,
-          "max": 12,
+          "max": 11,
           "is_max": false,
           "cost": {
-            "elixir": 73000000
+            "elixir": 44000000
           },
-          "seconds": 3369600
+          "seconds": 2073600
         },
         {
           "category": "spells",
           "name": "Rage Spell",
           "level": 6,
-          "max": 7,
-          "is_max": false,
+          "max": 6,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -4018,8 +4011,8 @@
           "category": "spells",
           "name": "Freeze Spell",
           "level": 7,
-          "max": 8,
-          "is_max": false,
+          "max": 7,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -4027,7 +4020,7 @@
           "category": "spells",
           "name": "Clone Spell",
           "level": 7,
-          "max": 9,
+          "max": 8,
           "is_max": false,
           "cost": {
             "elixir": 9000000
@@ -4047,7 +4040,7 @@
           "category": "spells",
           "name": "Recall Spell",
           "level": 3,
-          "max": 7,
+          "max": 6,
           "is_max": false,
           "cost": {
             "elixir": 41000000
@@ -4058,8 +4051,8 @@
           "category": "spells",
           "name": "Revive Spell",
           "level": 4,
-          "max": 5,
-          "is_max": false,
+          "max": 4,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -4067,30 +4060,28 @@
           "category": "spells",
           "name": "Totem Spell",
           "level": 3,
-          "max": 4,
-          "is_max": false,
-          "cost": {
-            "elixir": 23000000
-          },
-          "seconds": 1382400
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "spells",
           "name": "Poison Spell",
           "level": 7,
-          "max": 12,
+          "max": 11,
           "is_max": false,
           "cost": {
-            "dark_elixir": 990000
+            "dark_elixir": 640000
           },
-          "seconds": 3945600
+          "seconds": 2692800
         },
         {
           "category": "spells",
           "name": "Earthquake Spell",
           "level": 5,
-          "max": 8,
-          "is_max": false,
+          "max": 5,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -4098,12 +4089,12 @@
           "category": "spells",
           "name": "Haste Spell",
           "level": 3,
-          "max": 7,
+          "max": 6,
           "is_max": false,
           "cost": {
-            "dark_elixir": 588500
+            "dark_elixir": 268500
           },
-          "seconds": 2462400
+          "seconds": 1382400
         },
         {
           "category": "spells",
@@ -4120,19 +4111,19 @@
           "category": "spells",
           "name": "Bat Spell",
           "level": 5,
-          "max": 8,
+          "max": 7,
           "is_max": false,
           "cost": {
-            "dark_elixir": 660000
+            "dark_elixir": 360000
           },
-          "seconds": 2462400
+          "seconds": 1339200
         },
         {
           "category": "spells",
           "name": "Overgrowth Spell",
           "level": 4,
-          "max": 5,
-          "is_max": false,
+          "max": 4,
+          "is_max": true,
           "cost": {},
           "seconds": 0
         },
@@ -4140,7 +4131,7 @@
           "category": "spells",
           "name": "Ice Block Spell",
           "level": 2,
-          "max": 6,
+          "max": 5,
           "is_max": false,
           "cost": {
             "dark_elixir": 800000
@@ -4613,6 +4604,19 @@
         },
         {
           "category": "equipment",
+          "name": "Lavaloon Puppet",
+          "level": 15,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 36600,
+            "glowy_ore": 2400,
+            "starry_ore": 420
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
           "name": "Henchmen Puppet",
           "level": 5,
           "max": 18,
@@ -4705,13 +4709,24 @@
           "seconds": 0
         }
       ],
+      "ranked": {
+        "trophies": 122,
+        "best_trophies": 4909,
+        "attack_wins": 0,
+        "defense_wins": 0,
+        "in_legend_league": false,
+        "legend_trophies": null,
+        "current_season": null,
+        "previous_season": null,
+        "best_season": null
+      },
       "village_present": false,
       "events": {
         "gold_pass_season": {
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "14d 18h",
+          "ends_in": "14d 12h",
           "active": true
         },
         "scheduled": [
@@ -4719,25 +4734,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "14d 18h"
+            "starts_in": "14d 12h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 18h"
+            "starts_in": "4d 12h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 18h"
+            "starts_in": "14d 12h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 17h"
+            "ends_in": "2d 11h"
           }
         ],
         "raid_weekend": {
@@ -4745,7 +4760,7 @@
           "state": "ongoing",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "2d 17h"
+          "ends_in": "2d 11h"
         },
         "cwl": null
       },
