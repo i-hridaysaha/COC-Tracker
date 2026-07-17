@@ -25,8 +25,9 @@ For every account you list, each day:
   stars, destruction, defender and Town Hall matchup
 
 The honest limit: the public API returns your army and heroes, **not** your
-buildings, defenses, traps or walls. So progress numbers describe your offense,
-not your base. That's a Supercell API limit, not a bug here.
+buildings, defenses, traps, resource buildings or walls. So progress numbers
+describe your offense, not your base. That's a Supercell API limit, not a bug
+here.
 
 
 ## Events, costs and boosts
@@ -96,7 +97,7 @@ Committed and safe to share (no secrets).
     "events": [ ... ]     one entry per live event boost, each shaped:
         { "name": "Hammer Jam", "kind": "time", "scope": "all", "percent": 20 }
       kind    "time" or "cost"
-      scope   "all", or {"category": "heroes|troops|spells|pets|equipment|defenses|walls"},
+      scope   "all", or {"category": "heroes|troops|spells|pets|equipment|defenses|walls|traps|resources"},
               or {"resource": "gold|elixir|dark_elixir"}
       percent the discount
 
@@ -120,16 +121,22 @@ page tuned to GitHub's palette. It's now a small app with three pages and all
 controls built in. No file editing, ever.
 
 **Overview** — town hall completion, village health per category (heroes,
-troops, spells, pets, equipment, defenses, walls, traps), a defense score, and
-a battle log of your recent war attacks grouped by league.
+troops, spells, pets, equipment, defenses, walls, traps, resource buildings), a
+defense score, your **Ranked** (Legend league) season trophies and rank (the
+public API only exposes season-level aggregates, never a per-attack log, so
+that's what's shown — no fabricated hit-by-hit feed), and a **War Log** of
+your recent clan war / CWL attacks.
 
-**Tracker** — every item as a card with its level, its max, a fill bar, and a
-MAX badge when it's done. Tabs across the categories.
+**Tracker** — every item as a card with an icon, its level, its max, a fill
+bar, and a MAX badge when it's done. Tabs across the categories, including
+buildings, traps and resource buildings once you've pasted `village.json`.
 
 **Planner** — priority upgrade lists (top defenses, heroes, lab, pets,
-equipment) with cost and time, and builder / lab / pet / blacksmith queues you
-fill or auto-fill, with a projected finish date per lane. Your plan is saved in
-the browser.
+equipment, resources) with cost and time. Tapping "+ queue" opens a picker: for
+builder-lane items (defenses, walls, traps, resources) you choose which
+builder queues it; for single-slot lanes (Laboratory, Pet House, Blacksmith)
+it confirms into that queue. Auto-fill can also fill the plan for you, with a
+projected finish date per lane. Your plan is saved in the browser.
 
 ### Toggles live in the UI now
 
@@ -142,8 +149,10 @@ files, but you never have to touch it for day-to-day use.
 
 It's fully offline: no server, no GitHub Pages, no internet needed. Download
 `dashboard.html` and open it, and a private repo stays private without a paid
-plan. Defenses, traps and walls on the Overview and Planner come from your
-`village.json`.
+plan. Defenses, traps, resource buildings and walls on the Overview and
+Planner come from your `village.json`. Item icons are a small original SVG set
+built for this project (there's no offline, license-free source of real game
+art), color-coded by category.
 
 ## Output
 
@@ -158,7 +167,7 @@ Everything lands under `data/`:
         village_latest.json            full detail of the most recent run (incl. upgrades)
         events_latest.json             gold pass, raid, CWL, countdowns
         guide.md / guide_latest.json   ranked upgrade guide (shifts with events)
-        village.json                   YOUR defense + wall levels (you provide this)
+        village.json                   YOUR defense + resource-building + trap + wall levels (you provide this)
         snapshots/<date>.json          full snapshot kept per day (never lost)
         wars.csv                       one row per war attack you make
         wars/<war_id>.json             full record of each war

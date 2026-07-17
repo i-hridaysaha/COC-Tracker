@@ -1,5 +1,5 @@
 {
-  "_comment": "Copy to data/accounts/<YOURTAG>/village.json and fill in your current defense, trap and wall levels. Update occasionally after you upgrade. This is the one manual step; the API can't see buildings.",
+  "_comment": "Copy to data/accounts/<YOURTAG>/village.json and fill in your current defense, resource-building, trap and wall levels. Update occasionally after you upgrade. This is the one manual step; the API can't see buildings.",
   "town_hall": 16,
   "buildings": [
     {"name": "Cannon", "level": 21},
@@ -13,6 +13,16 @@
     {"name": "Inferno Tower", "level": 9},
     {"name": "Eagle Artillery", "level": 6},
     {"name": "Scattershot", "level": 4}
+  ],
+  "resources": [
+    {"name": "Gold Mine", "level": 16},
+    {"name": "Gold Mine", "level": 16},
+    {"name": "Elixir Collector", "level": 16},
+    {"name": "Elixir Collector", "level": 16},
+    {"name": "Dark Elixir Drill", "level": 10},
+    {"name": "Gold Storage", "level": 16},
+    {"name": "Elixir Storage", "level": 16},
+    {"name": "Dark Elixir Storage", "level": 10}
   ],
   "traps": [
     {"name": "Bomb", "level": 12},

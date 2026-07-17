@@ -1,10 +1,10 @@
 """
-Defenses and walls, from the village JSON you paste in.
+Defenses, walls, traps and resource buildings, from the village JSON you paste in.
 
 The public API can't see buildings, so this half runs on a file you provide:
 data/accounts/<TAG>/village.json. It's the only manual step in the whole
 tracker, and it's why defenses are "occasional paste" rather than automatic.
-Update it when you've upgraded a few defenses and want the guide to know.
+Update it when you've upgraded a few buildings and want the guide to know.
 
 Schema (levels are current in-game levels):
 
@@ -15,15 +15,26 @@ Schema (levels are current in-game levels):
         {"name": "Cannon", "level": 20},
         {"name": "Inferno Tower", "level": 9}
       ],
+      "resources": [
+        {"name": "Gold Mine", "level": 16},
+        {"name": "Gold Storage", "level": 16}
+      ],
+      "traps": [
+        {"name": "Bomb", "level": 12}
+      ],
       "walls": [
         {"level": 16, "count": 250},
         {"level": 15, "count": 25}
       ]
     }
 
-List a building once per copy you own. Walls are grouped by level with a count.
-Costs and times come from the same bundled game tables as everything else, so
-they're as fresh as the library.
+List a building once per copy you own. "buildings" is defensive structures
+(cannons, towers, etc), "resources" is Gold Mine / Elixir Collector / Dark
+Elixir Drill and their storages -- both are looked up in the same bundled
+buildings table, just kept in separate lists so the dashboard can score them
+separately. Walls are grouped by level with a count. Costs and times come
+from the same bundled game tables as everything else, so they're as fresh as
+the library.
 """
 
 import json
@@ -48,6 +59,26 @@ def _buildings() -> dict:
             continue
         out.setdefault(b["name"], b)
     _BUILDINGS_CACHE = out
+    return out
+
+
+_TRAPS_CACHE = None
+
+
+def _traps() -> dict:
+    """Home-village traps, indexed by name. Same destination-level cost
+    convention as buildings."""
+    global _TRAPS_CACHE
+    if _TRAPS_CACHE is not None:
+        return _TRAPS_CACHE
+    import coc
+    raw = json.loads((Path(coc.__file__).parent / "static" / "static_data.json").read_text())
+    out = {}
+    for t in raw.get("traps", []):
+        if t.get("village") not in (None, "home"):
+            continue
+        out.setdefault(t["name"], t)
+    _TRAPS_CACHE = out
     return out
 
 
@@ -107,6 +138,49 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
         adj_cost, adj_seconds = upgrades.apply_boosts("defenses", base_cost, base_seconds, mods)
         records.append({
             "category": "defenses", "name": name, "level": level, "target": target,
+            "base_cost": base_cost, "base_seconds": base_seconds,
+            "adj_cost": adj_cost, "adj_seconds": adj_seconds,
+            "cost_saved": sum(base_cost.values()) - sum(adj_cost.values()),
+            "time_saved": base_seconds - adj_seconds,
+        })
+
+    for r in village.get("resources", []):
+        name = r.get("name")
+        entry = tables.get(name)
+        if not entry:
+            continue
+        target = _max_level_for_th(entry, town_hall)
+        level = int(r.get("level", 0) or 0)
+        if not target or level >= target:
+            continue
+        base_cost, base_seconds = _building_remaining(entry, level, target)
+        if not base_cost and base_seconds == 0:
+            continue
+        adj_cost, adj_seconds = upgrades.apply_boosts("resources", base_cost, base_seconds, mods)
+        records.append({
+            "category": "resources", "name": name, "level": level, "target": target,
+            "base_cost": base_cost, "base_seconds": base_seconds,
+            "adj_cost": adj_cost, "adj_seconds": adj_seconds,
+            "cost_saved": sum(base_cost.values()) - sum(adj_cost.values()),
+            "time_saved": base_seconds - adj_seconds,
+        })
+
+    traps_table = _traps()
+    for t in village.get("traps", []):
+        name = t.get("name")
+        entry = traps_table.get(name)
+        if not entry:
+            continue
+        target = _max_level_for_th(entry, town_hall)
+        level = int(t.get("level", 0) or 0)
+        if not target or level >= target:
+            continue
+        base_cost, base_seconds = _building_remaining(entry, level, target)
+        if not base_cost and base_seconds == 0:
+            continue
+        adj_cost, adj_seconds = upgrades.apply_boosts("traps", base_cost, base_seconds, mods)
+        records.append({
+            "category": "traps", "name": name, "level": level, "target": target,
             "base_cost": base_cost, "base_seconds": base_seconds,
             "adj_cost": adj_cost, "adj_seconds": adj_seconds,
             "cost_saved": sum(base_cost.values()) - sum(adj_cost.values()),

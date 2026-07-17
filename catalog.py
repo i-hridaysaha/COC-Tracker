@@ -1,41 +1,23 @@
 """
 Full per-item catalog for the dashboard: every hero, troop, spell, pet, piece
-of equipment, defense, wall and trap, with its current level, its max for this
-Town Hall, and the BASE cost and time still to go.
+of equipment, defense, wall, trap and resource building, with its current
+level, its max for this Town Hall, and the BASE cost and time still to go.
 
 Base, not adjusted, on purpose. The dashboard applies your Gold Pass and event
 boosts live in the browser as you move the toggles, so the numbers here are the
 raw ones and the page does the discount math. That's what lets the toggles work
 with no file editing and no waiting for a run.
 
-Offense comes from the API. Defenses, walls and traps come from your
+Offense comes from the API. Defenses, walls, traps and resource buildings
+(Gold Mine, Elixir Collector, Dark Elixir Drill, storages) come from your
 village.json (the one manual paste), so they're only as current as your last
 update.
 """
 
-import json
-from pathlib import Path
-
 import defenses
+import gamedata
 import metrics
 import upgrades
-
-_TRAPS_CACHE = None
-
-
-def _traps() -> dict:
-    global _TRAPS_CACHE
-    if _TRAPS_CACHE is not None:
-        return _TRAPS_CACHE
-    import coc
-    raw = json.loads((Path(coc.__file__).parent / "static" / "static_data.json").read_text())
-    out = {}
-    for t in raw.get("traps", []):
-        if t.get("village") not in (None, "home"):
-            continue
-        out.setdefault(t["name"], t)
-    _TRAPS_CACHE = out
-    return out
 
 
 def _rec(category, name, level, target, cost, seconds):
@@ -43,13 +25,13 @@ def _rec(category, name, level, target, cost, seconds):
             "is_max": int(level) >= int(target), "cost": cost, "seconds": int(seconds)}
 
 
-def offense_items(player) -> list[dict]:
+def offense_items(player, raw: dict | None = None) -> list[dict]:
     th = int(getattr(player, "town_hall", 0) or 0)
     tables = upgrades._static()
     out = []
-    for cat, items in metrics.group_items(player).items():
+    for cat, items in metrics.group_items(player, raw).items():
         for it in items:
-            target = getattr(it, "max_level", None)
+            target = gamedata.item_target_level(cat, it, th)
             if not target:
                 continue
             level = min(int(getattr(it, "level", 0) or 0), int(target))
@@ -80,7 +62,18 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
         cost, seconds = defenses._building_remaining(entry, level, target) if level < target else ({}, 0)
         out.append(_rec("defenses", b["name"], min(level, target), target, cost, seconds))
 
-    ttable = _traps()
+    for r in village.get("resources", []):
+        entry = btable.get(r.get("name"))
+        if not entry:
+            continue
+        target = defenses._max_level_for_th(entry, th)
+        level = int(r.get("level", 0) or 0)
+        if not target:
+            continue
+        cost, seconds = defenses._building_remaining(entry, level, target) if level < target else ({}, 0)
+        out.append(_rec("resources", r["name"], min(level, target), target, cost, seconds))
+
+    ttable = defenses._traps()
     for t in village.get("traps", []):
         entry = ttable.get(t.get("name"))
         if not entry:
@@ -126,9 +119,8 @@ def defense_tables() -> dict:
     """Compact building/trap/wall cost tables for the dashboard, so it can
     compute defenses from a village JSON you paste in the browser, with no
     repo file needed. Levels are [level, build_cost, build_time, req_townhall]."""
-    import defenses as _d
-    bt = _d._buildings()
-    tt = _traps()
+    bt = defenses._buildings()
+    tt = defenses._traps()
 
     def pack(entry):
         res = (entry.get("upgrade_resource") or "Gold").lower().replace(" ", "_")

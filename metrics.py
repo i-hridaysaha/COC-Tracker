@@ -17,14 +17,39 @@ base. That is a limit of Supercell's API, not of this code.
 from dataclasses import dataclass, field, asdict
 from typing import Any
 
+import coc
+
 import gamedata
+
+
+def _merge_missing_heroes(heroes: list, raw: dict | None) -> list:
+    """coc.py's player.heroes silently drops any hero whose name isn't in
+    the library's own hardcoded HERO_ORDER constant, which lags real game
+    content -- a brand-new hero (e.g. one added after the installed coc.py
+    release) simply vanishes from the list, no error, nothing. The raw API
+    payload has no such filter, so when it's available we patch in whatever
+    the parsed list is missing. Never raises: worst case it just falls back
+    to the (possibly incomplete) parsed list."""
+    if not raw:
+        return heroes
+    try:
+        known = {getattr(h, "name", None) for h in heroes}
+        extra = []
+        for hdata in raw.get("heroes", []) or []:
+            if hdata.get("name") in known or hdata.get("village") not in (None, "home"):
+                continue
+            extra.append(coc.Hero(data=hdata, static_data=None))
+        return heroes + extra
+    except Exception:
+        return heroes
 
 
 # Which player attributes map to which category. We keep regular home troops
 # and siege machines, and deliberately skip super troops (they are temporary
 # boosts, not permanent progress).
-def _collect(player: Any) -> dict[str, list]:
+def _collect(player: Any, raw: dict | None = None) -> dict[str, list]:
     heroes = [h for h in getattr(player, "heroes", []) if getattr(h, "is_home_base", True)]
+    heroes = _merge_missing_heroes(heroes, raw)
     spells = [s for s in getattr(player, "spells", []) if getattr(s, "is_home_base", True)]
     pets = list(getattr(player, "pets", []) or [])
     equipment = list(getattr(player, "equipment", []) or [])
@@ -40,17 +65,6 @@ def _collect(player: Any) -> dict[str, list]:
         "pets": pets,
         "equipment": equipment,
     }
-
-
-def _max_for_th(item: Any, town_hall: int) -> int:
-    """The item's max level, taken straight from the API player data. This is
-    the global game max (e.g. 100 for a hero), which is exactly the figure the
-    game shows as 'Lv X / Y'. Robust: it never depends on the library's own
-    per-level tables, so it can't crash on brand-new content."""
-    try:
-        return int(getattr(item, "max_level", 0) or 0)
-    except (TypeError, ValueError):
-        return 0
 
 
 @dataclass
@@ -72,7 +86,7 @@ def _score_category(name: str, items: list, town_hall: int) -> CategoryResult:
     counted = 0
 
     for it in items:
-        cap = _max_for_th(it, town_hall)
+        cap = gamedata.item_target_level(name, it, town_hall)
         if cap <= 0:
             continue
         lvl = int(getattr(it, "level", 0) or 0)
@@ -141,10 +155,36 @@ def _rush_risk(groups: dict[str, list], town_hall: int) -> dict:
             "worst_offenders": worst[:5]}
 
 
-def analyse(player: Any) -> dict:
+def _season(s: Any) -> dict | None:
+    if not s:
+        return None
+    return {"trophies": getattr(s, "trophies", None), "rank": getattr(s, "rank", None)}
+
+
+def _ranked_stats(player: Any) -> dict:
+    """Real Ranked/Legend numbers, nothing invented. The public API has no
+    per-attack Ranked battle log at all -- LegendStatistics only exposes
+    season-level aggregates (current/previous/best season trophies + rank),
+    never individual hits. So this reports exactly that: the honest season
+    numbers, not a fabricated attack-by-attack feed."""
+    legend = getattr(player, "legend_statistics", None)
+    return {
+        "trophies": getattr(player, "trophies", None),
+        "best_trophies": getattr(player, "best_trophies", None),
+        "attack_wins": getattr(player, "attack_wins", None),
+        "defense_wins": getattr(player, "defense_wins", None),
+        "in_legend_league": legend is not None,
+        "legend_trophies": getattr(legend, "legend_trophies", None) if legend else None,
+        "current_season": _season(getattr(legend, "current_season", None)) if legend else None,
+        "previous_season": _season(getattr(legend, "previous_season", None)) if legend else None,
+        "best_season": _season(getattr(legend, "best_season", None)) if legend else None,
+    }
+
+
+def analyse(player: Any, raw: dict | None = None) -> dict:
     """Full analysis. Returns a nested dict ready to serialise to JSON."""
     town_hall = int(getattr(player, "town_hall", 0) or 0)
-    groups = _collect(player)
+    groups = _collect(player, raw)
     cats = {name: _score_category(name, items, town_hall) for name, items in groups.items()}
 
     offense_cur = sum(cats[c].current_total for c in ("heroes", "troops", "spells"))
@@ -176,6 +216,7 @@ def analyse(player: Any) -> dict:
             "donations": getattr(player, "donations", None),
             "received": getattr(player, "received", None),
         },
+        "ranked": _ranked_stats(player),
         "completion": {name: round(c.completion_pct, 1) for name, c in cats.items()},
         "offense_completion_pct": offense_pct,
         "total_levels_remaining": total_remaining,
@@ -222,7 +263,7 @@ def to_csv_row(analysis: dict, date_str: str) -> dict:
     }
 
 
-def group_items(player):
+def group_items(player, raw: dict | None = None):
     """Public accessor for the per-category item groups, used by the
     upgrade-cost engine so it can reuse the exact same category rules."""
-    return _collect(player)
+    return _collect(player, raw)

@@ -153,8 +153,13 @@ async def run() -> None:
                 print(f"\n{tag}: not found, skipping.")
                 continue
 
-            analysis = metrics.analyse(player)
-            cost_analysis = upgrades.analyse_costs(player, mods)
+            try:
+                raw_player = await client.http.get_player(player.tag)
+            except Exception:
+                raw_player = None
+
+            analysis = metrics.analyse(player, raw_player)
+            cost_analysis = upgrades.analyse_costs(player, mods, raw_player)
             acc_dir = DATA_DIR / "accounts" / store.safe_tag(tag)
             _save_village(acc_dir, analysis, cost_analysis, date_str, mods)
 
@@ -168,20 +173,18 @@ async def run() -> None:
 
             # dynamic upgrade guide (offense always; defenses if village.json present)
             village = defenses.load_village(acc_dir)
-            off_records = upgrades.remaining_records(player, mods)
+            off_records = upgrades.remaining_records(player, mods, raw_player)
             def_records = defenses.remaining_records(village, analysis["identity"]["town_hall"], mods)
             the_guide = guide.build(off_records, def_records, mods, analysis["identity"]["town_hall"])
             store.write_json(acc_dir / "guide_latest.json", the_guide)
             (acc_dir / "guide.md").write_text(guide.to_markdown(the_guide))
 
-            items = off_records  # noqa (kept for readability)
-            all_items = catalog.offense_items(player) + catalog.defense_items(village, analysis["identity"]["town_hall"])
+            all_items = catalog.offense_items(player, raw_player) + catalog.defense_items(village, analysis["identity"]["town_hall"])
             merged_completion = dict(analysis.get("completion", {}))
-            merged_completion.update(catalog.completion([i for i in all_items if i["category"] in ("defenses", "walls", "traps")]))
+            merged_completion.update(catalog.completion([i for i in all_items if i["category"] in ("defenses", "walls", "traps", "resources")]))
             war_note = await _save_wars(client, acc_dir, player, date_str)
             _print(analysis, cost_analysis, war_note, date_str)
 
-            battle_log = store.__dict__  # placeholder to avoid lints
             war_rows = []
             wcsv = acc_dir / "wars.csv"
             if wcsv.exists():
@@ -203,6 +206,7 @@ async def run() -> None:
                 "rush": analysis["rush_risk"],
                 "completion": merged_completion,
                 "items": all_items,
+                "ranked": analysis.get("ranked"),
                 "village_present": bool(village),
                 "events": {"gold_pass_season": gp, "scheduled": scheduled,
                            "raid_weekend": acc_events.get("raid_weekend"),

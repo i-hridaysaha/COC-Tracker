@@ -51,3 +51,24 @@ def max_for_th(category: str, name: str, town_hall: int):
         return None
     levels = [l["level"] for l in e.get("levels", []) if l.get("required_townhall", 99) <= town_hall]
     return max(levels) if levels else None
+
+
+def item_target_level(category: str, item, town_hall: int) -> int:
+    """The max level for this item at the player's CURRENT Town Hall -- the
+    same number the in-game 'Lv X / Y' reads. This is NOT the same as
+    item.max_level from the API: that field is the item's global max
+    (the highest level it can ever reach, at any Town Hall), so using it
+    directly overstates how much is left to do at your actual TH.
+
+    Prefers the per-TH static table (max_for_th above). Falls back to the
+    API's own max_level when the item isn't in the bundled table yet (new
+    content), so this never crashes or goes blank on levels the library
+    doesn't know about -- it just reports the honest global max until the
+    library catches up."""
+    api_max = int(getattr(item, "max_level", 0) or 0)
+    th_cap = max_for_th(category, getattr(item, "name", None), town_hall)
+    if not th_cap:
+        return api_max
+    if api_max:
+        return min(th_cap, api_max)
+    return th_cap

@@ -16,6 +16,7 @@ one. Gold Pass is a plain build-time boost across everything.
 import json
 from pathlib import Path
 
+import gamedata
 import metrics
 
 _STATIC_CACHE = None
@@ -143,18 +144,18 @@ def load_modifiers(config_path: Path) -> dict:
     return out
 
 
-def remaining_records(player, mods: dict) -> list[dict]:
+def remaining_records(player, mods: dict, raw: dict | None = None) -> list[dict]:
     """One record per offense item that still has levels to go."""
     town_hall = int(getattr(player, "town_hall", 0) or 0)
     tables = _static()
-    groups = metrics.group_items(player)
+    groups = metrics.group_items(player, raw)
     records = []
     for cat, items in groups.items():
         for it in items:
             entry = tables.get(cat, {}).get(getattr(it, "name", None))
             if not entry:
                 continue
-            target = getattr(it, "max_level", None)
+            target = gamedata.item_target_level(cat, it, town_hall)
             if not target:
                 continue
             level = min(int(getattr(it, "level", 0) or 0), int(target))
@@ -190,8 +191,8 @@ def _aggregate(records: list[dict]) -> dict:
     }
 
 
-def analyse_costs(player, mods: dict) -> dict:
-    records = remaining_records(player, mods)
+def analyse_costs(player, mods: dict, raw: dict | None = None) -> dict:
+    records = remaining_records(player, mods, raw)
     agg = _aggregate(records)
     by_cat = {}
     for r in records:
