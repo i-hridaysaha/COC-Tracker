@@ -221,7 +221,7 @@ function pastedVillage(){state.village=state.village||{};return state.village[ac
 function defenseItemsFromVillage(v){
   if(!v||!DATA.defense_tables)return null;
   const T=DATA.defense_tables,th=+(v.town_hall||acc().town_hall||0),out=[];
-  let total=0,matched=0;
+  let total=0,matched=0;const misses=[];
   const norm=s=>String(s||'').trim().toLowerCase();
   const idx=table=>{const m={};for(const k in table)m[norm(k)]=table[k];return m;};
   const bIdx=idx(T.buildings),tIdx=idx(T.traps);
@@ -229,16 +229,23 @@ function defenseItemsFromVillage(v){
   // Next level only: a builder/lab slot performs one level-up at a time, not
   // the whole remaining climb to the Town Hall cap.
   const remain=(e,cur,target)=>{if(cur>=target)return[0,0,e.r];const by={};for(const l of e.l)by[l[0]]=l;const d=by[cur+1];return d?[d[1],d[2],e.r]:[0,0,e.r];};
-  const addFrom=(list,cat,lookup)=>{(list||[]).forEach(b=>{total++;const e=lookup[norm(b.name)];if(!e)return;const target=maxTh(e);if(!target)return;matched++;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:cat,name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});};
+  const addFrom=(list,cat,lookup)=>{(list||[]).forEach(b=>{total++;const e=lookup[norm(b.name)];
+    if(!e){misses.push((b.name||'(no name)')+' -- name not recognized');return;}
+    const target=maxTh(e);
+    if(!target){misses.push((b.name||'(no name)')+' -- not unlocked at Town Hall '+th+' in the bundled data (check your "town_hall" field, or this is very new content the library doesn\'t know yet)');return;}
+    matched++;const level=Math.min(+b.level||0,target);const[c,s,r]=remain(e,level,target);out.push({category:cat,name:b.name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});});};
   addFrom(v.buildings||v.defenses,'defenses',bIdx);
   addFrom(v.resources,'resources',bIdx);
   addFrom(v.traps,'traps',tIdx);
   const we=T.wall;
   if(we&&we.l.length&&(v.walls||[]).length){
     const target=maxTh(we);
-    (v.walls||[]).forEach(g=>{total++;const level=+g.level||0,count=+g.count||0;if(!target||count<=0)return;matched++;const[c]=remain(we,level,target);out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});});
+    (v.walls||[]).forEach(g=>{total++;const level=+g.level||0,count=+g.count||0;
+      if(count<=0){misses.push('Wall lvl '+level+' -- count is 0');return;}
+      if(!target){misses.push('Wall lvl '+level+' -- not unlocked at Town Hall '+th);return;}
+      matched++;const[c]=remain(we,level,target);out.push({category:'walls',name:'Wall lvl '+level+' x'+count,level,max:target,is_max:level>=target,cost:(c*count)?{gold:c*count}:{},seconds:0,count});});
   }
-  out.__match={total,matched};
+  out.__match={total,matched,misses};
   return out;
 }
 function IT(){const base=acc().items||[];const v=pastedVillage();if(!v)return base;const def=defenseItemsFromVillage(v);if(!def||!def.length)return base;const off=base.filter(i=>!['defenses','walls','traps','resources'].includes(i.category));return off.concat(def);}
@@ -382,11 +389,12 @@ function saveVillage(){
     err.textContent="Parsed OK, but I don't see buildings, resources, walls or traps. Check the format below.";return;
   }
   const preview=defenseItemsFromVillage(v);
-  const match=(preview&&preview.__match)||{total:0,matched:0};
+  const match=(preview&&preview.__match)||{total:0,matched:0,misses:[]};
   state.village=state.village||{};state.village[acctKey()]=v;save();closeVillageModal();renderAll();showPage('overview');
   if(match.total>0&&match.matched<match.total){
     const missed=match.total-match.matched;
-    setTimeout(()=>alert('Saved, but '+missed+' of '+match.total+' name(s) in your JSON didn\'t match a known building/trap and were skipped'+(match.matched?' ('+match.matched+' matched fine).':'.')+' Names must match exactly (case doesn\'t matter) -- check spelling against village.example.json, e.g. "Cannon", "Gold Mine", "Archer Tower".'),150);
+    const list=(match.misses||[]).map(m=>'  • '+m).join('\n');
+    setTimeout(()=>alert('Saved, but '+missed+' of '+match.total+' name(s) in your JSON didn\'t match'+(match.matched?' ('+match.matched+' matched fine):':'  :')+'\n\n'+list),150);
   }
 }
 function clearVillage(){state.village=state.village||{};delete state.village[acctKey()];save();renderAll();}
