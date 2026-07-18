@@ -293,15 +293,25 @@ function defenseItemsFromVillage(v){
 function IT(){const base=acc().items||[];const v=pastedVillage();if(!v)return base;const def=defenseItemsFromVillage(v);if(!def||!def.length)return base;const off=base.filter(i=>!['defenses','walls','traps','resources'].includes(i.category));return off.concat(def);}
 function COMP(){const cur={},mx={};for(const i of IT()){const w=i.count||1;cur[i.category]=(cur[i.category]||0)+i.level*w;mx[i.category]=(mx[i.category]||0)+i.max*w;}const out={};for(const k in cur)out[k]=mx[k]?Math.round(1000*cur[k]/mx[k])/10:100;return out;}
 function haveDefenses(){return !!pastedVillage()||!!acc().village_present;}
-function githubEditUrl(){
+function githubVillage(){
   if(!DATA.repo)return null;
   const a=acc(),tag=(a.tag||'').replace('#',''),branch=DATA.branch||'master';
-  const path='data/accounts/'+tag+'/village.json';
-  if(a.village_present)return 'https://github.com/'+DATA.repo+'/edit/'+branch+'/'+path;
-  const template=JSON.stringify({town_hall:a.town_hall||17,
-    buildings:[{name:'Cannon',level:1}],resources:[{name:'Gold Mine',level:1}],
-    traps:[{name:'Bomb',level:1}],walls:[{level:1,count:1}]},null,2);
-  return 'https://github.com/'+DATA.repo+'/new/'+branch+'?filename='+encodeURIComponent(path)+'&value='+encodeURIComponent(template);
+  // village_present is only as fresh as the last build, and it's monotonic
+  // (the file never gets deleted once created) -- so trusting a "true" is
+  // always safe, but trusting a stale "false" isn't: it can point a
+  // one-tap "create new file" link at a path that already exists on
+  // GitHub by now (exactly the "a file with the same name already exists"
+  // error), if you'd already added it since this page was last built.
+  // So only the true case gets the direct one-tap edit link; otherwise
+  // this sends you to the account's folder -- always valid, since track.py
+  // writes other files there on every run regardless of village.json --
+  // where you can see for yourself whether it's there yet.
+  if(a.village_present){
+    return {url:'https://github.com/'+DATA.repo+'/edit/'+branch+'/data/accounts/'+tag+'/village.json',
+            label:'✎ Edit on GitHub (all devices)'};
+  }
+  return {url:'https://github.com/'+DATA.repo+'/tree/'+branch+'/data/accounts/'+tag,
+          label:'✎ Add on GitHub (all devices)'};
 }
 function remaining(){return IT().filter(i=>!i.is_max)}
 function overallPct(){let c=0,m=0;for(const i of IT()){const w=i.count||1;c+=i.level*w;m+=i.max*w;}return m?Math.round(100*c/m):0;}
@@ -313,8 +323,8 @@ function renderOverview(){
   const order=['heroes','troops','spells','pets','equipment','defenses','walls','traps','resources'];
   const health=order.filter(k=>k in comp).map(k=>{const p=comp[k];const col=rampColor(p,p>=100);return '<div class="hrow"><span class="hlabel">'+k+'</span><span class="htrack"><span class="hfill" style="width:'+p+'%;background:'+col+'"></span></span><span class="hpct">'+p+'%</span></div>';}).join('');
   const badge=pastedVillage()?'<span class="badge ok">● Accurate · village pasted (this device)</span>':(a.village_present?'<span class="badge ok">● Accurate · village.json imported (all devices)</span>':'<span class="badge warn">● Offense only · add your village for defenses</span>');
-  const ghUrl=githubEditUrl();
-  const ghBtn=ghUrl?(' <a class="af" href="'+ghUrl+'" target="_blank" rel="noopener">'+(a.village_present?'✎ Edit on GitHub (all devices)':'✎ Add on GitHub (all devices)')+'</a>'):'';
+  const gh=githubVillage();
+  const ghBtn=gh?(' <a class="af" href="'+gh.url+'" target="_blank" rel="noopener">'+gh.label+'</a>'):'';
   const importBtn='<div style="margin-top:12px">'+ghBtn+' <button class="af" onclick="openVillageModal()">'+(pastedVillage()?'↻ Update paste (this device only)':'＋ Paste here instead (this device only)')+'</button>'+(pastedVillage()?' <button class="af clear" onclick="clearVillage()">Remove pasted village</button>':'')+'</div>';
   const wars=(a.wars||[]).slice().sort((x,y)=>(y.date_seen||'').localeCompare(x.date_seen||'')).slice(0,8);
   const log=wars.length?wars.map(w=>{const st=parseInt(w.stars||0);const stars='★'.repeat(st)+'☆'.repeat(3-st);return '<div class="lrow"><span class="stars">'+stars+'</span><span class="mono">'+Math.round(w.destruction||0)+'%</span><span class="muted">vs TH'+esc(w.defender_th)+'</span><span class="leaguetag">'+esc(w.war_type)+'</span></div>';}).join(''):'<div class="faint">No war attacks recorded yet. They log automatically when you\'re in a clan war.</div>';
