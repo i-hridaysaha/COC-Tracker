@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-17T21:54:39.191421+00:00",
+  "captured_at": "2026-07-18T07:47:13.981065+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3602,13 +3602,13 @@
       "war_stars": 554,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1248,
-      "received": 144,
-      "offense_completion_pct": 81.9,
+      "donations": 1290,
+      "received": 202,
+      "offense_completion_pct": 82.0,
       "rush": {
-        "score": 14.0,
+        "score": 13.9,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 110,
+        "levels_behind_prev_th": 109,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -3649,7 +3649,7 @@
       },
       "completion": {
         "heroes": 80.5,
-        "troops": 85.7,
+        "troops": 86.0,
         "spells": 76.7,
         "pets": 56.4,
         "equipment": 57.6
@@ -3972,13 +3972,11 @@
         {
           "category": "troops",
           "name": "Lava Hound",
-          "level": 6,
+          "level": 7,
           "max": 7,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 200000
-          },
-          "seconds": 691200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -4866,7 +4864,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "14d 10h",
+          "ends_in": "14d 0h",
           "active": true
         },
         "scheduled": [
@@ -4874,25 +4872,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "14d 10h"
+            "starts_in": "14d 0h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 10h"
+            "starts_in": "4d 0h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 10h"
+            "starts_in": "14d 0h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 9h"
+            "ends_in": "1d 23h"
           }
         ],
         "raid_weekend": {
@@ -4900,7 +4898,12 @@
           "state": "ongoing",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "2d 9h"
+          "ends_in": "1d 23h",
+          "me": {
+            "capital_resources_looted": 26321,
+            "attacks_used": 6,
+            "attacks_available": 6
+          }
         },
         "cwl": null
       },
