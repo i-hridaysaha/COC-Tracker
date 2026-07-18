@@ -7,12 +7,12 @@
   "total_cost": {
     "dark_elixir": 31406000,
     "elixir": 862200000,
-    "gold": 1789590000,
+    "gold": 1740590000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "1,789,590,000 gold, 862,200,000 elixir, 31,406,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "1,740,590,000 gold, 862,200,000 elixir, 31,406,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -1375,13 +1375,13 @@
     {
       "rank": 98,
       "category": "walls",
-      "name": "Wall lvl 17->18 x123",
+      "name": "Wall lvl 17->18 x116",
       "from_level": 17,
       "to_level": 18,
       "cost": {
-        "gold": 861000000
+        "gold": 812000000
       },
-      "cost_text": "861,000,000 gold",
+      "cost_text": "812,000,000 gold",
       "build_time": "no build time",
       "build_seconds": 0,
       "reason": "no build time, a pure resource sink, slot in when a builder is free"

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-18T20:49:04.309183+00:00",
+  "captured_at": "2026-07-18T20:51:45.274652+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3658,7 +3658,7 @@
         "defenses": 100.0,
         "resources": 89.0,
         "traps": 62.5,
-        "walls": 97.9
+        "walls": 98.0
       },
       "items": [
         {
@@ -5525,6 +5525,17 @@
         },
         {
           "category": "traps",
+          "name": "Air Bomb",
+          "level": 9,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 3000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "traps",
           "name": "Bomb",
           "level": 8,
           "max": 13,
@@ -5823,17 +5834,6 @@
         {
           "category": "traps",
           "name": "Air Bomb",
-          "level": 9,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 3000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
           "level": 10,
           "max": 12,
           "is_max": false,
@@ -6030,25 +6030,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 17 x123",
+          "name": "Wall lvl 17 x116",
           "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {
-            "gold": 861000000
+            "gold": 812000000
           },
           "seconds": 0,
-          "count": 123
+          "count": 116
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x202",
+          "name": "Wall lvl 18 x209",
           "level": 18,
           "max": 18,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 202
+          "count": 209
         }
       ],
       "ranked": {

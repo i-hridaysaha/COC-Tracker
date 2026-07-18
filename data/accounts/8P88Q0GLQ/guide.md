@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2062 days, 21:00:00 of build time (one builder), 1,789,590,000 gold, 862,200,000 elixir, 31,406,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 2062 days, 21:00:00 of build time (one builder), 1,740,590,000 gold, 862,200,000 elixir, 31,406,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 70 → 100 — 7,075,000 DE, 190 days
    _one of your longest builds at 190 days, start early to reach max sooner_
@@ -198,7 +198,7 @@ Total remaining: 2062 days, 21:00:00 of build time (one builder), 1,789,590,000 
    _one of your longest builds at 4 days, start early to reach max sooner_
 97. **Skeleton Trap** (traps) 3 → 4 — 1,000,000 gold, 12:00:00
    _one of your longest builds at 12:00:00, start early to reach max sooner_
-98. **Wall lvl 17->18 x123** (walls) 17 → 18 — 861,000,000 gold, no build time
+98. **Wall lvl 17->18 x116** (walls) 17 → 18 — 812,000,000 gold, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 99. **Dark Crown** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
