@@ -43,11 +43,14 @@ jobs:
           COC_PLAYER_TAG: ${{ secrets.COC_PLAYER_TAG }}
         run: python track.py
 
+      - name: Copy dashboard as the GitHub Pages entry point
+        run: cp dashboard.html index.html
+
       - name: Commit today's snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ dashboard.html
+          git add data/ dashboard.html index.html
           if git diff --staged --quiet; then
             echo "No change today, nothing to commit."
           else
