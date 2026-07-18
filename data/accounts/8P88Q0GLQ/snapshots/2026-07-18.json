@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 122,
+    "trophies": 135,
     "best_trophies": 4909,
     "war_stars": 554,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 1290,
+    "donations": 1379,
     "received": 202
   },
   "ranked": {
-    "trophies": 122,
+    "trophies": 135,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,18 +30,18 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 80.5,
-    "troops": 86.0,
+    "heroes": 80.7,
+    "troops": 86.3,
     "spells": 76.7,
     "pets": 56.4,
     "equipment": 57.6
   },
-  "offense_completion_pct": 82.0,
-  "total_levels_remaining": 574,
+  "offense_completion_pct": 82.2,
+  "total_levels_remaining": 572,
   "rush_risk": {
-    "score": 13.9,
+    "score": 13.6,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 109,
+    "levels_behind_prev_th": 107,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -52,9 +52,9 @@
       },
       {
         "name": "Archer Queen",
-        "level": 80,
+        "level": 81,
         "prev_th_max": 95,
-        "behind": 15,
+        "behind": 14,
         "category": "heroes"
       },
       {
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 354,
+      "current_total": 355,
       "max_total": 440,
-      "levels_remaining": 86,
-      "completion_pct": 80.5,
+      "levels_remaining": 85,
+      "completion_pct": 80.7,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -97,9 +97,9 @@
         },
         {
           "name": "Archer Queen",
-          "level": 80,
+          "level": 81,
           "max": 100,
-          "remaining": 20
+          "remaining": 19
         },
         {
           "name": "Minion Prince",
@@ -124,10 +124,10 @@
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 276,
+      "current_total": 277,
       "max_total": 321,
-      "levels_remaining": 45,
-      "completion_pct": 86.0,
+      "levels_remaining": 44,
+      "completion_pct": 86.3,
       "biggest_gaps": [
         {
           "name": "Barbarian",
@@ -142,12 +142,6 @@
           "remaining": 4
         },
         {
-          "name": "Minion",
-          "level": 9,
-          "max": 13,
-          "remaining": 4
-        },
-        {
           "name": "Battle Drill",
           "level": 1,
           "max": 5,
@@ -157,6 +151,12 @@
           "name": "Sky Wagon",
           "level": 1,
           "max": 4,
+          "remaining": 3
+        },
+        {
+          "name": "Wizard",
+          "level": 10,
+          "max": 13,
           "remaining": 3
         }
       ]
@@ -282,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-07-18T07:47:14.886488+00:00",
+  "captured_at": "2026-07-18T15:30:39.398828+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -290,42 +290,42 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 32051000,
+        "dark_elixir": 31771000,
         "elixir": 720300000,
         "shiny_ore": 741860,
         "glowy_ore": 54300,
         "starry_ore": 4870
       },
-      "build_seconds": 123660000,
-      "build_time_one_builder": "1431d 6h"
+      "build_seconds": 122796000,
+      "build_time_one_builder": "1421d 6h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 32051000,
+        "dark_elixir": 31771000,
         "elixir": 720300000,
         "shiny_ore": 741860,
         "glowy_ore": 54300,
         "starry_ore": 4870
       },
-      "build_seconds": 123660000,
-      "build_time_one_builder": "1431d 6h"
+      "build_seconds": 122796000,
+      "build_time_one_builder": "1421d 6h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 17160000,
+          "dark_elixir": 16980000,
           "elixir": 269500000
         },
-        "build_seconds": 47174400,
-        "build_time": "546d"
+        "build_seconds": 46656000,
+        "build_time": "540d"
       },
       "troops": {
         "cost": {
           "elixir": 306800000,
-          "dark_elixir": 2022500
+          "dark_elixir": 1922500
         },
-        "build_seconds": 25192800,
-        "build_time": "291d 14h"
+        "build_seconds": 24847200,
+        "build_time": "287d 14h"
       },
       "spells": {
         "cost": {

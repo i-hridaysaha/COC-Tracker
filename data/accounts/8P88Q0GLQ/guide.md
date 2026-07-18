@@ -4,12 +4,12 @@
 
 _Offense only. Add `village.json` to include defenses and walls._
 
-Total remaining: 1431 days, 6:00:00 of build time (one builder), 720,300,000 elixir, 32,051,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 1421 days, 6:00:00 of build time (one builder), 720,300,000 elixir, 31,771,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 69 → 100 — 7,200,000 DE, 194 days
    _one of your longest builds at 194 days, start early to reach max sooner_
-2. **Archer Queen** (heroes) 80 → 100 — 5,550,000 DE, 142 days, 12:00:00
-   _one of your longest builds at 142 days, 12:00:00, start early to reach max sooner_
+2. **Archer Queen** (heroes) 81 → 100 — 5,370,000 DE, 136 days, 12:00:00
+   _one of your longest builds at 136 days, 12:00:00, start early to reach max sooner_
 3. **Minion Prince** (heroes) 76 → 90 — 4,410,000 DE, 110 days
    _one of your longest builds at 110 days, start early to reach max sooner_
 4. **Grand Warden** (heroes) 61 → 75 — 269,500,000 elixir, 99 days, 12:00:00
@@ -42,20 +42,20 @@ Total remaining: 1431 days, 6:00:00 of build time (one builder), 720,300,000 eli
    _one of your longest builds at 24 days, start early to reach max sooner_
 18. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
-19. **Minion** (troops) 9 → 13 — 595,000 DE, 23 days, 12:00:00
-   _one of your longest builds at 23 days, 12:00:00, start early to reach max sooner_
-20. **Miner** (troops) 8 → 11 — 39,500,000 elixir, 23 days, 8:00:00
+19. **Miner** (troops) 8 → 11 — 39,500,000 elixir, 23 days, 8:00:00
    _one of your longest builds at 23 days, 8:00:00, start early to reach max sooner_
-21. **Lightning Spell** (spells) 9 → 12 — 42,000,000 elixir, 23 days
+20. **Lightning Spell** (spells) 9 → 12 — 42,000,000 elixir, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-22. **Wizard** (troops) 10 → 13 — 37,500,000 elixir, 23 days
+21. **Wizard** (troops) 10 → 13 — 37,500,000 elixir, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-23. **Phoenix** (pets) 6 → 10 — 695,000 DE, 23 days
+22. **Phoenix** (pets) 6 → 10 — 695,000 DE, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-24. **Diggy** (pets) 6 → 10 — 660,000 DE, 23 days
+23. **Diggy** (pets) 6 → 10 — 660,000 DE, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-25. **Archer** (troops) 9 → 13 — 34,000,000 elixir, 21 days, 12:00:00
+24. **Archer** (troops) 9 → 13 — 34,000,000 elixir, 21 days, 12:00:00
    _one of your longest builds at 21 days, 12:00:00, start early to reach max sooner_
+25. **Minion** (troops) 10 → 13 — 495,000 DE, 19 days, 12:00:00
+   _one of your longest builds at 19 days, 12:00:00, start early to reach max sooner_
 26. **Siege Barracks** (troops) 3 → 5 — 26,000,000 elixir, 19 days
    _one of your longest builds at 19 days, start early to reach max sooner_
 27. **Baby Dragon** (troops) 9 → 11 — 30,000,000 elixir, 17 days, 6:00:00

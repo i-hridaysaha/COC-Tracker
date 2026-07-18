@@ -3,15 +3,15 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": false,
-  "total_build_time_one_builder": "1431 days, 6:00:00",
+  "total_build_time_one_builder": "1421 days, 6:00:00",
   "total_cost": {
-    "dark_elixir": 32051000,
+    "dark_elixir": 31771000,
     "elixir": 720300000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "720,300,000 elixir, 32,051,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "720,300,000 elixir, 31,771,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -31,15 +31,15 @@
       "rank": 2,
       "category": "heroes",
       "name": "Archer Queen",
-      "from_level": 80,
+      "from_level": 81,
       "to_level": 100,
       "cost": {
-        "dark_elixir": 5550000
+        "dark_elixir": 5370000
       },
-      "cost_text": "5,550,000 DE",
-      "build_time": "142 days, 12:00:00",
-      "build_seconds": 12312000,
-      "reason": "one of your longest builds at 142 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "5,370,000 DE",
+      "build_time": "136 days, 12:00:00",
+      "build_seconds": 11793600,
+      "reason": "one of your longest builds at 136 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 3,
@@ -268,20 +268,6 @@
     {
       "rank": 19,
       "category": "troops",
-      "name": "Minion",
-      "from_level": 9,
-      "to_level": 13,
-      "cost": {
-        "dark_elixir": 595000
-      },
-      "cost_text": "595,000 DE",
-      "build_time": "23 days, 12:00:00",
-      "build_seconds": 2030400,
-      "reason": "one of your longest builds at 23 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 20,
-      "category": "troops",
       "name": "Miner",
       "from_level": 8,
       "to_level": 11,
@@ -294,7 +280,7 @@
       "reason": "one of your longest builds at 23 days, 8:00:00, start early to reach max sooner"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "category": "spells",
       "name": "Lightning Spell",
       "from_level": 9,
@@ -308,7 +294,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "category": "troops",
       "name": "Wizard",
       "from_level": 10,
@@ -322,7 +308,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "category": "pets",
       "name": "Phoenix",
       "from_level": 6,
@@ -336,7 +322,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 24,
+      "rank": 23,
       "category": "pets",
       "name": "Diggy",
       "from_level": 6,
@@ -350,7 +336,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 25,
+      "rank": 24,
       "category": "troops",
       "name": "Archer",
       "from_level": 9,
@@ -362,6 +348,20 @@
       "build_time": "21 days, 12:00:00",
       "build_seconds": 1857600,
       "reason": "one of your longest builds at 21 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 25,
+      "category": "troops",
+      "name": "Minion",
+      "from_level": 10,
+      "to_level": 13,
+      "cost": {
+        "dark_elixir": 495000
+      },
+      "cost_text": "495,000 DE",
+      "build_time": "19 days, 12:00:00",
+      "build_seconds": 1684800,
+      "reason": "one of your longest builds at 19 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 26,
