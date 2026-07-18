@@ -1,9 +1,11 @@
 # CoC Personal Tracker
 
 A tracker for your own Clash of Clans accounts that runs itself on GitHub and
-builds a history of your progress over time. No website, no server, no daily
-effort. Once a day it wakes up, pulls each village from the official Supercell
-API, works out what it means, records any war attacks, and writes it all down.
+builds a history of your progress over time. No server, no daily effort. Once
+a day it wakes up, pulls each village from the official Supercell API, works
+out what it means, records any war attacks, and writes it all down. The
+dashboard is published live via GitHub Pages, so you just open the URL --
+nothing to download or re-download.
 
 It borrows the good ideas from trackers like ClashOS (completion percentages,
 rush read, upgrade priorities) and adds the one thing those tools can't do:
@@ -147,12 +149,18 @@ instantly. Settings and plans are remembered per account in your browser
 (localStorage). `config.json` still seeds the defaults for the committed data
 files, but you never have to touch it for day-to-day use.
 
-It's fully offline: no server, no GitHub Pages, no internet needed. Download
-`dashboard.html` and open it, and a private repo stays private without a paid
-plan. Defenses, traps, resource buildings and walls on the Overview and
-Planner come from your `village.json`. Item icons are a small original SVG set
-built for this project (there's no offline, license-free source of real game
-art), color-coded by category.
+The dashboard is published at **https://i-hridaysaha.github.io/COC-Tracker/**
+via GitHub Pages, rebuilt automatically after every run -- just open the URL,
+no download or re-download needed. Note this makes the repo (and everything
+in `data/`: village levels, trophies, war history) publicly visible; that's a
+deliberate tradeoff for not needing a paid GitHub plan for private Pages. If
+you'd rather keep it private, drop back to the offline model instead: skip
+Pages, and just download `dashboard.html` from the repo whenever you want a
+fresh copy -- it's fully self-contained and works with no internet connection
+once downloaded. Defenses, traps, resource buildings and walls on the
+Overview and Planner come from your `village.json`. Item icons are a small
+original SVG set built for this project (there's no offline, license-free
+source of real game art), color-coded by category.
 
 ## Output
 
@@ -180,7 +188,10 @@ Open any CSV in anything, or plot it.
    [developer.clashofclans.com](https://developer.clashofclans.com). Free, and
    separate from your game login. You only need its email and password.
 
-2. **Create the repo.** Push this folder to a **private** GitHub repository.
+2. **Create the repo.** Push this folder to a GitHub repository. Private keeps
+   everything (village levels, trophies, war history) visible only to you;
+   public is what lets you use free GitHub Pages (see step 5) without a paid
+   plan. Private repos need GitHub Pro or higher for Pages to work.
 
 3. **Add three secrets.** Repo Settings → Secrets and variables → Actions → New
    repository secret:
@@ -194,7 +205,13 @@ Open any CSV in anything, or plot it.
    part that makes it survive on GitHub.
 
 4. **Run it once by hand.** Actions tab → "Track village" → Run workflow. Check
-   the log. On success it commits your first snapshot.
+   the log. On success it commits your first snapshot (and `index.html`).
+
+5. **(Optional) Turn on GitHub Pages.** Repo Settings → Pages → Source:
+   "Deploy from a branch" → Branch: `master` / `/ (root)` → Save. Your
+   dashboard is then live at `https://<you>.github.io/<repo>/`, rebuilt
+   automatically every run. Skip this if you'd rather keep using the
+   download-`dashboard.html` model.
 
 Done. After this it runs on its own, daily.
 
