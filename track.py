@@ -23,6 +23,8 @@ Output lands under data/accounts/<TAG>/ per account, plus data/summary.json.
 
 import asyncio
 import os
+import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -41,6 +43,33 @@ import wars
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
+
+
+def _repo_slug() -> str | None:
+    """"owner/repo" from the git remote, so the dashboard can deep-link to
+    'edit this file on GitHub' for village.json. None if it can't be
+    determined (no remote, not a git checkout, etc) -- the dashboard just
+    skips that link in that case, nothing depends on this."""
+    try:
+        url = subprocess.run(
+            ["git", "config", "--get", "remote.origin.url"],
+            cwd=ROOT, capture_output=True, text=True, timeout=5,
+        ).stdout.strip()
+        m = re.search(r"github\.com[:/]+([^/]+/[^/]+?)(\.git)?$", url)
+        return m.group(1) if m else None
+    except Exception:
+        return None
+
+
+def _repo_branch() -> str:
+    try:
+        out = subprocess.run(
+            ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+            cwd=ROOT, capture_output=True, text=True, timeout=5,
+        ).stdout.strip()
+        return out if out and out != "HEAD" else "master"
+    except Exception:
+        return "master"
 
 COST_COLUMNS = [
     "date", "remaining_gold", "remaining_elixir", "remaining_dark_elixir",
@@ -231,6 +260,7 @@ async def run() -> None:
     store.write_json(DATA_DIR / "dashboard_data.json",
                      {"captured_at": summary["captured_at"], "modifiers_default": mods,
                       "defense_tables": catalog.defense_tables(),
+                      "repo": _repo_slug(), "branch": _repo_branch(),
                       "accounts": dash_accounts})
     dashboard.render(DATA_DIR, ROOT / "dashboard.html")
 

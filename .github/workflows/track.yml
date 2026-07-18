@@ -9,6 +9,14 @@ on:
   # Also lets you trigger a run by hand from the Actions tab, handy for the
   # very first test.
   workflow_dispatch:
+  # Edited village.json straight on github.com (e.g. from a phone or iPad)?
+  # This rebuilds the dashboard within a minute instead of waiting for the
+  # next scheduled run. Safe from looping: this workflow's own commits never
+  # touch village.json, only the files it generates.
+  push:
+    branches: [master]
+    paths:
+      - "data/accounts/**/village.json"
 
 # The job needs permission to commit the new snapshot back into the repo.
 permissions:

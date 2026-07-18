@@ -114,7 +114,7 @@ input[type=number]{background:var(--raised);border:1px solid var(--border);color
 .addbtn{background:var(--raised);border:1px solid var(--border);color:var(--blue);border-radius:6px;padding:4px 8px;font-size:11px;cursor:pointer}
 .addbtn:hover{border-color:var(--blue)}
 .autofill{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
-.af{background:var(--raised);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:9px 14px;font-size:13px;cursor:pointer;font-weight:600}
+.af{background:var(--raised);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:9px 14px;font-size:13px;cursor:pointer;font-weight:600;text-decoration:none;display:inline-block}
 .af:hover{border-color:var(--gold)}.af.clear{color:var(--red)}
 .lanes{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 .lane{background:var(--raised);border:1px solid var(--soft);border-radius:10px;padding:12px}
@@ -293,6 +293,16 @@ function defenseItemsFromVillage(v){
 function IT(){const base=acc().items||[];const v=pastedVillage();if(!v)return base;const def=defenseItemsFromVillage(v);if(!def||!def.length)return base;const off=base.filter(i=>!['defenses','walls','traps','resources'].includes(i.category));return off.concat(def);}
 function COMP(){const cur={},mx={};for(const i of IT()){const w=i.count||1;cur[i.category]=(cur[i.category]||0)+i.level*w;mx[i.category]=(mx[i.category]||0)+i.max*w;}const out={};for(const k in cur)out[k]=mx[k]?Math.round(1000*cur[k]/mx[k])/10:100;return out;}
 function haveDefenses(){return !!pastedVillage()||!!acc().village_present;}
+function githubEditUrl(){
+  if(!DATA.repo)return null;
+  const a=acc(),tag=(a.tag||'').replace('#',''),branch=DATA.branch||'master';
+  const path='data/accounts/'+tag+'/village.json';
+  if(a.village_present)return 'https://github.com/'+DATA.repo+'/edit/'+branch+'/'+path;
+  const template=JSON.stringify({town_hall:a.town_hall||17,
+    buildings:[{name:'Cannon',level:1}],resources:[{name:'Gold Mine',level:1}],
+    traps:[{name:'Bomb',level:1}],walls:[{level:1,count:1}]},null,2);
+  return 'https://github.com/'+DATA.repo+'/new/'+branch+'?filename='+encodeURIComponent(path)+'&value='+encodeURIComponent(template);
+}
 function remaining(){return IT().filter(i=>!i.is_max)}
 function overallPct(){let c=0,m=0;for(const i of IT()){const w=i.count||1;c+=i.level*w;m+=i.max*w;}return m?Math.round(100*c/m):0;}
 function ring(pct,color){const r=68,circ=2*Math.PI*r,off=circ*(1-pct/100);return '<svg width="160" height="160" viewBox="0 0 160 160"><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="#21262d" stroke-width="12"/><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="'+color+'" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+circ+'" stroke-dashoffset="'+off+'" transform="rotate(-90 80 80)"/></svg>';}
@@ -302,8 +312,10 @@ function renderOverview(){
   const defScore=dm?Math.round(100*dc/dm):null;
   const order=['heroes','troops','spells','pets','equipment','defenses','walls','traps','resources'];
   const health=order.filter(k=>k in comp).map(k=>{const p=comp[k];const col=rampColor(p,p>=100);return '<div class="hrow"><span class="hlabel">'+k+'</span><span class="htrack"><span class="hfill" style="width:'+p+'%;background:'+col+'"></span></span><span class="hpct">'+p+'%</span></div>';}).join('');
-  const badge=pastedVillage()?'<span class="badge ok">● Accurate · village pasted</span>':(a.village_present?'<span class="badge ok">● Accurate · village.json imported</span>':'<span class="badge warn">● Offense only · paste your village for defenses</span>');
-  const importBtn='<button class="af" style="margin-top:12px" onclick="openVillageModal()">'+(haveDefenses()?'↻ Update village (paste JSON)':'＋ Paste village JSON (adds defenses)')+'</button>'+(pastedVillage()?' <button class="af clear" style="margin-top:12px" onclick="clearVillage()">Remove pasted village</button>':'');
+  const badge=pastedVillage()?'<span class="badge ok">● Accurate · village pasted (this device)</span>':(a.village_present?'<span class="badge ok">● Accurate · village.json imported (all devices)</span>':'<span class="badge warn">● Offense only · add your village for defenses</span>');
+  const ghUrl=githubEditUrl();
+  const ghBtn=ghUrl?(' <a class="af" href="'+ghUrl+'" target="_blank" rel="noopener">'+(a.village_present?'✎ Edit on GitHub (all devices)':'✎ Add on GitHub (all devices)')+'</a>'):'';
+  const importBtn='<div style="margin-top:12px">'+ghBtn+' <button class="af" onclick="openVillageModal()">'+(pastedVillage()?'↻ Update paste (this device only)':'＋ Paste here instead (this device only)')+'</button>'+(pastedVillage()?' <button class="af clear" onclick="clearVillage()">Remove pasted village</button>':'')+'</div>';
   const wars=(a.wars||[]).slice().sort((x,y)=>(y.date_seen||'').localeCompare(x.date_seen||'')).slice(0,8);
   const log=wars.length?wars.map(w=>{const st=parseInt(w.stars||0);const stars='★'.repeat(st)+'☆'.repeat(3-st);return '<div class="lrow"><span class="stars">'+stars+'</span><span class="mono">'+Math.round(w.destruction||0)+'%</span><span class="muted">vs TH'+esc(w.defender_th)+'</span><span class="leaguetag">'+esc(w.war_type)+'</span></div>';}).join(''):'<div class="faint">No war attacks recorded yet. They log automatically when you\'re in a clan war.</div>';
   const rk=a.ranked||{};
@@ -470,7 +482,7 @@ def render(data_dir: Path, out_path: Path) -> bool:
         "<div id=\"page-planner\" class=\"page\"></div>"
         "<div id=\"vmodal\" class=\"modal\"><div class=\"modalbox\">"
         "<h3 style=\"color:var(--gold)\">Paste your village JSON</h3>"
-        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, resource-building, trap and wall levels. Saved in this browser only, per account. It adds the defense side to your Overview, Tracker and Planner instantly. Names must match the game exactly (case doesn't matter) &mdash; \"buildings\" or \"defenses\" both work as the key for defensive buildings. A raw account export with numeric building ids (e.g. from a base-analysis tool) works too, translated automatically.</p>"
+        "<p class=\"muted\" style=\"font-size:12px;margin:4px 0 0\">Your current defense, resource-building, trap and wall levels. <b>Saved in this browser only</b> &mdash; it won't show up on your other devices. For that, use \"Edit on GitHub\" on the Overview page instead, which commits the file to the repo so every device picks it up. Names must match the game exactly (case doesn't matter) &mdash; \"buildings\" or \"defenses\" both work as the key for defensive buildings. A raw account export with numeric building ids (e.g. from a base-analysis tool) works too, translated automatically.</p>"
         "<textarea id=\"vjson\" spellcheck=\"false\" placeholder='{ \"town_hall\": 17, \"buildings\": [ {\"name\":\"Cannon\",\"level\":21} ], \"resources\": [ {\"name\":\"Gold Mine\",\"level\":17} ], \"traps\": [ {\"name\":\"Bomb\",\"level\":12} ], \"walls\": [ {\"level\":17,\"count\":250} ] }'></textarea>"
         "<div id=\"verr\" class=\"verr\"></div>"
         "<div class=\"modalbtns\"><button class=\"af\" onclick=\"saveVillage()\">Save</button><button class=\"af\" onclick=\"closeVillageModal()\">Cancel</button></div>"
