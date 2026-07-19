@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 17,
     "map_position": 10,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 6,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-07-19",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+      "opponent_clan": "AGIMAT ng PINOY",
+      "team_size": 15,
+      "attack_order": 15,
+      "attacker_th": 17,
+      "defender_tag": "#Q9RRV09YQ",
+      "defender_name": "soriano",
+      "defender_th": 16,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 99
+    },
+    {
+      "date_seen": "2026-07-19",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+      "opponent_clan": "AGIMAT ng PINOY",
+      "team_size": 15,
+      "attack_order": 17,
+      "attacker_th": 17,
+      "defender_tag": "#29RUG2QLC",
+      "defender_name": "raplyn",
+      "defender_th": 17,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 125
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 2,
+    "worst_defense_destruction": 87
   }
 }

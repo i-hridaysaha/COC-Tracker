@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-18T20:51:45.274652+00:00",
+  "captured_at": "2026-07-19T08:14:32.272567+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3599,14 +3599,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 135,
+      "trophies": 413,
       "best_trophies": 4909,
-      "war_stars": 554,
+      "war_stars": 560,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1596,
-      "received": 202,
-      "offense_completion_pct": 82.4,
+      "donations": 2006,
+      "received": 321,
+      "offense_completion_pct": 82.6,
       "rush": {
         "score": 13.5,
         "band": "slightly rushed",
@@ -3651,7 +3651,7 @@
       },
       "completion": {
         "heroes": 80.9,
-        "troops": 86.6,
+        "troops": 86.9,
         "spells": 76.7,
         "pets": 56.4,
         "equipment": 57.6,
@@ -3956,13 +3956,11 @@
         {
           "category": "troops",
           "name": "Golem",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 230000
-          },
-          "seconds": 864000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -6052,7 +6050,7 @@
         }
       ],
       "ranked": {
-        "trophies": 135,
+        "trophies": 413,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -6068,7 +6066,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "13d 11h",
+          "ends_in": "12d 23h",
           "active": true
         },
         "scheduled": [
@@ -6076,25 +6074,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "13d 11h"
+            "starts_in": "12d 23h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 11h"
+            "starts_in": "2d 23h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 11h"
+            "starts_in": "12d 23h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 10h"
+            "ends_in": "22h 45m"
           }
         ],
         "raid_weekend": {
@@ -6102,7 +6100,7 @@
           "state": "ongoing",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "1d 10h",
+          "ends_in": "22h 45m",
           "me": {
             "capital_resources_looted": 26321,
             "attacks_used": 6,
@@ -6111,7 +6109,46 @@
         },
         "cwl": null
       },
-      "wars": []
+      "wars": [
+        {
+          "date_seen": "2026-07-19",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+          "opponent_clan": "AGIMAT ng PINOY",
+          "team_size": "15",
+          "attack_order": "15",
+          "attacker_th": "17",
+          "defender_tag": "#Q9RRV09YQ",
+          "defender_name": "soriano",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "99"
+        },
+        {
+          "date_seen": "2026-07-19",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+          "opponent_clan": "AGIMAT ng PINOY",
+          "team_size": "15",
+          "attack_order": "17",
+          "attacker_th": "17",
+          "defender_tag": "#29RUG2QLC",
+          "defender_name": "raplyn",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "125"
+        }
+      ]
     }
   ]
 }
