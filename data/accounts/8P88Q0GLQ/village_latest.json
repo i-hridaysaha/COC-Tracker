@@ -30,18 +30,18 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 82.3,
-    "troops": 87.2,
-    "spells": 76.7,
+    "heroes": 83.2,
+    "troops": 88.1,
+    "spells": 77.4,
     "pets": 56.4,
     "equipment": 57.6
   },
-  "offense_completion_pct": 83.4,
-  "total_levels_remaining": 562,
+  "offense_completion_pct": 84.2,
+  "total_levels_remaining": 553,
   "rush_risk": {
-    "score": 12.8,
+    "score": 11.9,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 101,
+    "levels_behind_prev_th": 92,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -58,13 +58,6 @@
         "category": "heroes"
       },
       {
-        "name": "Meteor Golem",
-        "level": 2,
-        "prev_th_max": 11,
-        "behind": 9,
-        "category": "troops"
-      },
-      {
         "name": "Grand Warden",
         "level": 62,
         "prev_th_max": 70,
@@ -77,6 +70,13 @@
         "prev_th_max": 12,
         "behind": 4,
         "category": "troops"
+      },
+      {
+        "name": "Minion Prince",
+        "level": 77,
+        "prev_th_max": 80,
+        "behind": 3,
+        "category": "heroes"
       }
     ]
   },
@@ -85,9 +85,9 @@
       "category": "heroes",
       "items_counted": 6,
       "current_total": 362,
-      "max_total": 440,
-      "levels_remaining": 78,
-      "completion_pct": 82.3,
+      "max_total": 435,
+      "levels_remaining": 73,
+      "completion_pct": 83.2,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -112,12 +112,6 @@
           "level": 62,
           "max": 75,
           "remaining": 13
-        },
-        {
-          "name": "Dragon Duke",
-          "level": 20,
-          "max": 25,
-          "remaining": 5
         }
       ]
     },
@@ -125,9 +119,9 @@
       "category": "troops",
       "items_counted": 41,
       "current_total": 280,
-      "max_total": 321,
-      "levels_remaining": 41,
-      "completion_pct": 87.2,
+      "max_total": 318,
+      "levels_remaining": 38,
+      "completion_pct": 88.1,
       "biggest_gaps": [
         {
           "name": "Barbarian",
@@ -148,15 +142,15 @@
           "remaining": 4
         },
         {
-          "name": "Sky Wagon",
-          "level": 1,
-          "max": 4,
-          "remaining": 3
-        },
-        {
           "name": "Wizard",
           "level": 10,
           "max": 13,
+          "remaining": 3
+        },
+        {
+          "name": "Miner",
+          "level": 8,
+          "max": 11,
           "remaining": 3
         }
       ]
@@ -165,9 +159,9 @@
       "category": "spells",
       "items_counted": 18,
       "current_total": 89,
-      "max_total": 116,
-      "levels_remaining": 27,
-      "completion_pct": 76.7,
+      "max_total": 115,
+      "levels_remaining": 26,
+      "completion_pct": 77.4,
       "biggest_gaps": [
         {
           "name": "Poison Spell",
@@ -182,12 +176,6 @@
           "remaining": 3
         },
         {
-          "name": "Angry Spell",
-          "level": 1,
-          "max": 4,
-          "remaining": 3
-        },
-        {
           "name": "Healing Spell",
           "level": 8,
           "max": 11,
@@ -195,6 +183,12 @@
         },
         {
           "name": "Recall Spell",
+          "level": 3,
+          "max": 6,
+          "remaining": 3
+        },
+        {
+          "name": "Haste Spell",
           "level": 3,
           "max": 6,
           "remaining": 3
@@ -282,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-07-20T22:49:19.286892+00:00",
+  "captured_at": "2026-07-20T23:47:29.546787+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
