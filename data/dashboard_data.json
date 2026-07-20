@@ -3720,10 +3720,9 @@
           "level": 18,
           "max": 25,
           "is_max": false,
-          "cost": {
-            "dark_elixir": 25000
-          },
-          "seconds": 604800
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -3743,7 +3742,8 @@
           "max": 4,
           "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -3752,7 +3752,8 @@
           "max": 4,
           "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -3923,8 +3924,10 @@
           "level": 2,
           "max": 3,
           "is_max": false,
-          "cost": {},
-          "seconds": 0
+          "cost": {
+            "elixir": 30000000
+          },
+          "seconds": 1382400
         },
         {
           "category": "troops",
@@ -4144,7 +4147,8 @@
           "max": 4,
           "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "spells",
@@ -4434,7 +4438,8 @@
           "max": 27,
           "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "equipment",
@@ -4463,7 +4468,8 @@
           "max": 18,
           "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "equipment",
@@ -4481,7 +4487,8 @@
           "max": 18,
           "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "equipment",

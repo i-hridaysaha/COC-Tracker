@@ -24,6 +24,10 @@ _RESOURCE_KEY = {"Gold": "gold", "Elixir": "elixir", "Dark Elixir": "dark_elixir
 CATEGORIES = ("heroes", "troops", "spells", "pets", "equipment")
 
 
+def _has_upgrade_data(item: dict) -> bool:
+    return any(lvl.get("upgrade_cost") for lvl in item.get("levels", []))
+
+
 def _static() -> dict:
     global _STATIC_CACHE
     if _STATIC_CACHE is not None:
@@ -35,7 +39,13 @@ def _static() -> dict:
         for item in raw.get(section, []):
             if section in ("heroes", "troops") and item.get("village") not in (None, "home"):
                 continue
-            tables[section].setdefault(item["name"], item)
+            name = item["name"]
+            # The library's static data occasionally has two entries sharing
+            # a name (e.g. two "Meteor Golem" records, one a zero-cost decoy).
+            # Prefer whichever actually carries upgrade cost data.
+            existing = tables[section].get(name)
+            if existing is None or (_has_upgrade_data(item) and not _has_upgrade_data(existing)):
+                tables[section][name] = item
     _STATIC_CACHE = tables
     return tables
 

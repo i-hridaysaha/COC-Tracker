@@ -177,7 +177,7 @@ function fmtNum(n){return n==null?'—':Number(n).toLocaleString()}
 function fmtTime(sec){sec=Math.round(sec);if(sec<=0)return '—';let d=Math.floor(sec/86400),h=Math.floor(sec%86400/3600),m=Math.floor(sec%3600/60);if(d>=1)return h?d+'d '+h+'h':d+'d';if(h>=1)return m?h+'h '+m+'m':h+'h';return m+'m';}
 function fmtDate(sec){let d=new Date(Date.now()+sec*1000);return d.toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'})}
 function rampColor(pct,isMax){if(pct>=90)return '#2ea043';if(pct>=75)return '#57ab5a';if(pct>=61)return '#d4c14e';if(pct>=50)return '#e0912f';return '#e5534b';}
-function adj(item){const s=settings();const timeCut=Math.min((s.goldPass||0)+(s.eventTime||0),95)/100;const costCut=Math.min(s.eventCost||0,95)/100;const seconds=Math.round((item.seconds||0)*(1-timeCut));const cost={};for(const k in (item.cost||{})){cost[k]=Math.round(item.cost[k]*(1-costCut));}return {seconds,cost};}
+function adj(item){const s=settings();const timeCut=Math.min((s.goldPass||0)+(s.eventTime||0),95)/100;const costCut=Math.min(s.eventCost||0,95)/100;const seconds=Math.round((item.seconds||0)*(1-timeCut));const cost={};for(const k in (item.cost||{})){cost[k]=Math.round(item.cost[k]*(1-costCut));}return {seconds,cost,unknown:!!item.unknown_cost};}
 function costText(cost){const order=['gold','elixir','dark_elixir','shiny_ore','glowy_ore','starry_ore'];const lab={gold:'gold',elixir:'elixir',dark_elixir:'DE',shiny_ore:'shiny',glowy_ore:'glowy',starry_ore:'starry'};let parts=[];for(const k of order)if(cost[k])parts.push(fmtNum(cost[k])+' '+lab[k]);for(const k in cost)if(!order.includes(k)&&cost[k])parts.push(fmtNum(cost[k])+' '+k);return parts.join(' · ')||'free';}
 function acc(){return DATA.accounts[state.acc||0]}
 function pastedVillage(){state.village=state.village||{};return state.village[acctKey()]||null;}
@@ -322,7 +322,7 @@ function renderTracker(){
   const pills=cats.map(c=>'<button class="pill '+(c===state.trackCat?'active':'')+'" onclick="setTrackCat(\''+c+'\')">'+c+'</button>').join('');
   const items=ITEMS.filter(i=>i.category===state.trackCat);
   const grid=items.map(i=>{const pct=i.max?Math.round(100*i.level/i.max):0;const col=rampColor(pct,i.is_max);
-    return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':'')
+    return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':(i.unknown_cost?'<span class="maxbadge" style="background:var(--muted);color:#fff">NO DATA</span>':''))
       +'<div class="ic" style="background:'+CAT_COLOR[i.category]+'22;color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</div>'
       +'<div class="tname">'+esc(i.name)+'</div><div class="tlv">Lv '+i.level+' / '+i.max+'</div>'
       +'<div class="tbar"><div class="tfill" style="width:'+pct+'%;background:'+col+'"></div></div></div>';}).join('');
@@ -340,15 +340,15 @@ function renderPlanner(){
    +'<div class="field"><label>Goblin builder (event)</label><div class="toggle '+(s.goblinB?'on':'')+'" onclick="setTog(\'goblinB\')"><span class="sw"></span><span class="muted">+1 builder</span></div></div>'
    +'<div class="field"><label>Goblin researcher (event)</label><div class="toggle '+(s.goblinR?'on':'')+'" onclick="setTog(\'goblinR\')"><span class="sw"></span><span class="muted">lab runs two</span></div></div>'
    +'</div><div class="note">Nothing to save. These recompute everything live and stick on this device.</div></div>';
-  const sortRem=(arr)=>arr.slice().sort((a,b)=>(b.max-b.level)-(a.max-a.level));
+  const sortRem=(arr)=>arr.slice().sort((a,b)=>{const au=!!a.unknown_cost,bu=!!b.unknown_cost;if(au!==bu)return au?1:-1;return (b.max-b.level)-(a.max-a.level);});
   const prioBlock=(title,cats,n)=>{const items=sortRem(remaining().filter(i=>cats.includes(i.category))).slice(0,n);
-    const rows=items.map(i=>{const j=adj(i);return '<div class="pitem"><span class="pi-name"><span class="pi-ic" style="color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</span>'+esc(i.name)+' <span class="lv">'+i.level+'&rarr;'+i.max+'</span></span><span class="pi-meta">'+costText(j.cost)+'<br>'+fmtTime(j.seconds)+'</span><button class="addbtn" onclick="openQueueModal(\''+esc(i.category)+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+ queue</button></div>';}).join('');
+    const rows=items.map(i=>{const j=adj(i);const meta=j.unknown?'<span class="faint">no upgrade data yet</span>':(costText(j.cost)+'<br>'+fmtTime(j.seconds));return '<div class="pitem"><span class="pi-name"><span class="pi-ic" style="color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</span>'+esc(i.name)+' <span class="lv">'+i.level+'&rarr;'+i.max+'</span></span><span class="pi-meta">'+meta+'</span><button class="addbtn" onclick="openQueueModal(\''+esc(i.category)+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+ queue</button></div>';}).join('');
     return '<div class="prio card"><h4>'+title+' <span class="faint">top '+n+'</span></h4>'+(rows||'<div class="faint">All maxed here.</div>')+'</div>';};
   const p=plan(),bc=(s.builders||6)+(s.goblinB?1:0);
   const findItem=(nm)=>IT().find(i=>i.name===nm);
   const laneTime=(ids)=>ids.reduce((t,nm)=>{const it=findItem(nm);return t+(it?adj(it).seconds:0)},0);
   const laneBox=(title,key,items,parallel)=>{const t=laneTime(items);const eff=parallel&&parallel>1?t/parallel:t;
-    const rows=items.length?items.map(nm=>'<div class="qitem"><span>'+esc(nm)+' <span class="faint mono">'+fmtTime(findItem(nm)?adj(findItem(nm)).seconds:0)+'</span></span><span class="x" onclick="removeFromLane(\''+key+'\',\''+esc(nm).replace(/'/g,"\\'")+'\')">✕</span></div>').join(''):'<div class="empty">Empty — add from the lists above</div>';
+    const rows=items.length?items.map(nm=>{const it=findItem(nm);const timeLabel=it&&it.unknown_cost?'no data':fmtTime(it?adj(it).seconds:0);return '<div class="qitem"><span>'+esc(nm)+' <span class="faint mono">'+timeLabel+'</span></span><span class="x" onclick="removeFromLane(\''+key+'\',\''+esc(nm).replace(/'/g,"\\'")+'\')">✕</span></div>';}).join(''):'<div class="empty">Empty — add from the lists above</div>';
     return '<div class="lane" data-lane="'+key+'"><h5><span>'+title+'</span><span class="faint mono">'+fmtTime(eff)+'</span></h5><div class="sum">'+items.length+' item(s)'+(eff?' · done '+fmtDate(eff):'')+'</div>'+rows+'</div>';};
   let builderLanes='';for(let b=1;b<=bc;b++){const ids=(p.builders&&p.builders[b])||[];builderLanes+=laneBox('Builder '+b+(b>(s.builders||6)?' (goblin)':''),'builders:'+b,ids,1);}
   const lanesHtml='<div class="lanes">'+builderLanes
@@ -398,7 +398,7 @@ function flashLane(key){setTimeout(()=>{const el=document.querySelector('[data-l
 function removeFromLane(key,name){const p=plan();if(key.indexOf('builders:')===0){const b=key.split(':')[1];p.builders[b]=(p.builders[b]||[]).filter(n=>n!==name);}else{p[key]=(p[key]||[]).filter(n=>n!==name);}save();renderPlanner();}
 function clearPlan(){const k=acctKey();state.plans[k]={builders:{},lab:[],pet:[],smith:[]};save();renderPlanner();}
 function autofill(mode){const k=acctKey();state.plans=state.plans||{};state.plans[k]={builders:{},lab:[],pet:[],smith:[]};const p=state.plans[k];const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);
-  const sortRem=(arr)=>arr.slice().sort((a,b)=>mode==='fast'?adj(a).seconds-adj(b).seconds:(b.max-b.level)-(a.max-a.level));
+  const sortRem=(arr)=>arr.slice().sort((a,b)=>{const au=!!a.unknown_cost,bu=!!b.unknown_cost;if(au!==bu)return au?1:-1;return mode==='fast'?adj(a).seconds-adj(b).seconds:(b.max-b.level)-(a.max-a.level);});
   const build=sortRem(remaining().filter(i=>BUILDER_CATS.includes(i.category))).slice(0,bc*4);
   p.builders={};const t=Array(bc+1).fill(0);for(const it of build){let best=1;for(let b=2;b<=bc;b++)if(t[b]<t[best])best=b;p.builders[best]=p.builders[best]||[];p.builders[best].push(it.name);t[best]+=adj(it).seconds;}
   p.lab=sortRem(remaining().filter(i=>['troops','spells'].includes(i.category))).slice(0,6).map(i=>i.name);

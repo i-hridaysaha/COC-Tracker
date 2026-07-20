@@ -20,9 +20,12 @@ import metrics
 import upgrades
 
 
-def _rec(category, name, level, target, cost, seconds):
-    return {"category": category, "name": name, "level": int(level), "max": int(target),
-            "is_max": int(level) >= int(target), "cost": cost, "seconds": int(seconds)}
+def _rec(category, name, level, target, cost, seconds, unknown_cost=False):
+    rec = {"category": category, "name": name, "level": int(level), "max": int(target),
+           "is_max": int(level) >= int(target), "cost": cost, "seconds": int(seconds)}
+    if unknown_cost:
+        rec["unknown_cost"] = True
+    return rec
 
 
 def offense_items(player, raw: dict | None = None) -> list[dict]:
@@ -36,11 +39,16 @@ def offense_items(player, raw: dict | None = None) -> list[dict]:
                 continue
             level = min(int(getattr(it, "level", 0) or 0), int(target))
             entry = tables.get(cat, {}).get(getattr(it, "name", None))
-            if entry and level < target:
+            not_maxed = level < target
+            if entry and not_maxed:
                 cost, seconds = upgrades._item_next_level(entry, level, int(target))
             else:
                 cost, seconds = {}, 0
-            out.append(_rec(cat, getattr(it, "name", "?"), level, target, cost, seconds))
+            # entry missing entirely (not just maxed out) means the bundled game-data
+            # library has no upgrade table for this unit yet -- usually a very new
+            # release -- so cost/seconds are unknown, not actually free/instant.
+            unknown = not entry and not_maxed
+            out.append(_rec(cat, getattr(it, "name", "?"), level, target, cost, seconds, unknown))
     return out
 
 
