@@ -466,6 +466,7 @@ def render(data_dir: Path, out_path: Path) -> bool:
         "<div id=\"qmodal-body\"></div>"
         "<div class=\"modalbtns\"><button class=\"af\" onclick=\"closeQueueModal()\">Cancel</button></div>"
         "</div></div>"
+        "<div class=\"note\" style=\"text-align:center;margin-top:18px\">This material is unofficial and is not endorsed by Supercell. For more information see Supercell's <a href=\"https://www.supercell.com/fan-content-policy\" target=\"_blank\" rel=\"noopener\">Fan Content Policy</a>.</div>"
         "</div><script>const DATA=" + json.dumps(data) + ";</script><script>" + APP_JS + "</script></body></html>"
     )
     out_path.write_text(doc)

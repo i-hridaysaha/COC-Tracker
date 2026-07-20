@@ -1,5 +1,9 @@
 # CoC Personal Tracker
 
+> This material is unofficial and is not endorsed by Supercell. For more
+> information see Supercell's Fan Content Policy:
+> [www.supercell.com/fan-content-policy](https://www.supercell.com/fan-content-policy).
+
 A tracker for your own Clash of Clans accounts that runs itself on GitHub and
 builds a history of your progress over time. No server, no daily effort. Once
 a day it wakes up, pulls each village from the official Supercell API, works
@@ -247,5 +251,6 @@ Edit the `cron` line in `.github/workflows/track.yml`. It's in UTC.
 
 ## Not affiliated with Supercell
 
-Personal, fan-made tooling. Clash of Clans is a trademark of Supercell. Use is
-subject to Supercell's Fan Content Policy.
+This material is unofficial and is not endorsed by Supercell. For more
+information see Supercell's Fan Content Policy:
+[www.supercell.com/fan-content-policy](https://www.supercell.com/fan-content-policy).
