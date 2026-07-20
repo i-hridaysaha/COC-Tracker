@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-19T08:14:32.272567+00:00",
+  "captured_at": "2026-07-20T08:55:35.890303+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3599,18 +3599,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 413,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 560,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2006,
+      "donations": 2225,
       "received": 321,
-      "offense_completion_pct": 82.6,
+      "offense_completion_pct": 83.0,
       "rush": {
-        "score": 13.5,
+        "score": 13.1,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 106,
+        "levels_behind_prev_th": 103,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -3621,16 +3621,9 @@
           },
           {
             "name": "Archer Queen",
-            "level": 81,
+            "level": 82,
             "prev_th_max": 95,
-            "behind": 14,
-            "category": "heroes"
-          },
-          {
-            "name": "Grand Warden",
-            "level": 61,
-            "prev_th_max": 70,
-            "behind": 9,
+            "behind": 13,
             "category": "heroes"
           },
           {
@@ -3639,6 +3632,13 @@
             "prev_th_max": 11,
             "behind": 9,
             "category": "troops"
+          },
+          {
+            "name": "Grand Warden",
+            "level": 62,
+            "prev_th_max": 70,
+            "behind": 8,
+            "category": "heroes"
           },
           {
             "name": "Minion Prince",
@@ -3650,8 +3650,8 @@
         ]
       },
       "completion": {
-        "heroes": 80.9,
-        "troops": 86.9,
+        "heroes": 81.6,
+        "troops": 87.2,
         "spells": 76.7,
         "pets": 56.4,
         "equipment": 57.6,
@@ -3675,11 +3675,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 81,
+          "level": 82,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 190000
+            "dark_elixir": 200000
           },
           "seconds": 518400
         },
@@ -3697,11 +3697,11 @@
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 61,
+          "level": 62,
           "max": 75,
           "is_max": false,
           "cost": {
-            "elixir": 16000000
+            "elixir": 16500000
           },
           "seconds": 518400
         },
@@ -3717,7 +3717,7 @@
         {
           "category": "heroes",
           "name": "Dragon Duke",
-          "level": 18,
+          "level": 19,
           "max": 25,
           "is_max": false,
           "cost": {},
@@ -3927,13 +3927,13 @@
         {
           "category": "troops",
           "name": "Minion",
-          "level": 10,
+          "level": 11,
           "max": 13,
           "is_max": false,
           "cost": {
-            "dark_elixir": 115000
+            "dark_elixir": 160000
           },
-          "seconds": 388800
+          "seconds": 518400
         },
         {
           "category": "troops",
@@ -6050,7 +6050,7 @@
         }
       ],
       "ranked": {
-        "trophies": 413,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -6066,7 +6066,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "12d 23h",
+          "ends_in": "11d 23h",
           "active": true
         },
         "scheduled": [
@@ -6074,33 +6074,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "12d 23h"
+            "starts_in": "11d 23h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 23h"
+            "starts_in": "1d 23h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "12d 23h"
+            "starts_in": "11d 23h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "22h 45m"
+            "active": false,
+            "starts_in": "3d 22h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "22h 45m",
+          "ends_in": null,
           "me": {
             "capital_resources_looted": 26321,
             "attacks_used": 6,

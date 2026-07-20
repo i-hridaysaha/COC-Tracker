@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2052 days, 21:00:00",
+  "total_build_time_one_builder": "2036 days, 9:00:00",
   "total_cost": {
-    "dark_elixir": 31176000,
-    "elixir": 862200000,
+    "dark_elixir": 30871000,
+    "elixir": 846200000,
     "gold": 1740590000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "1,740,590,000 gold, 862,200,000 elixir, 31,176,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "1,740,590,000 gold, 846,200,000 elixir, 30,871,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -32,15 +32,15 @@
       "rank": 2,
       "category": "heroes",
       "name": "Archer Queen",
-      "from_level": 81,
+      "from_level": 82,
       "to_level": 100,
       "cost": {
-        "dark_elixir": 5370000
+        "dark_elixir": 5180000
       },
-      "cost_text": "5,370,000 DE",
-      "build_time": "136 days, 12:00:00",
-      "build_seconds": 11793600,
-      "reason": "one of your longest builds at 136 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "5,180,000 DE",
+      "build_time": "130 days, 12:00:00",
+      "build_seconds": 11275200,
+      "reason": "one of your longest builds at 130 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 3,
@@ -60,15 +60,15 @@
       "rank": 4,
       "category": "heroes",
       "name": "Grand Warden",
-      "from_level": 61,
+      "from_level": 62,
       "to_level": 75,
       "cost": {
-        "elixir": 269500000
+        "elixir": 253500000
       },
-      "cost_text": "269,500,000 elixir",
-      "build_time": "99 days, 12:00:00",
-      "build_seconds": 8596800,
-      "reason": "one of your longest builds at 99 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "253,500,000 elixir",
+      "build_time": "93 days, 12:00:00",
+      "build_seconds": 8078400,
+      "reason": "one of your longest builds at 93 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 5,
@@ -479,20 +479,6 @@
     {
       "rank": 34,
       "category": "troops",
-      "name": "Minion",
-      "from_level": 10,
-      "to_level": 13,
-      "cost": {
-        "dark_elixir": 495000
-      },
-      "cost_text": "495,000 DE",
-      "build_time": "19 days, 12:00:00",
-      "build_seconds": 1684800,
-      "reason": "one of your longest builds at 19 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 35,
-      "category": "troops",
       "name": "Siege Barracks",
       "from_level": 3,
       "to_level": 5,
@@ -505,7 +491,7 @@
       "reason": "one of your longest builds at 19 days, start early to reach max sooner"
     },
     {
-      "rank": 36,
+      "rank": 35,
       "category": "troops",
       "name": "Baby Dragon",
       "from_level": 9,
@@ -519,7 +505,7 @@
       "reason": "one of your longest builds at 17 days, 6:00:00, start early to reach max sooner"
     },
     {
-      "rank": 37,
+      "rank": 36,
       "category": "troops",
       "name": "Battle Blimp",
       "from_level": 3,
@@ -533,7 +519,7 @@
       "reason": "one of your longest builds at 16 days, start early to reach max sooner"
     },
     {
-      "rank": 38,
+      "rank": 37,
       "category": "spells",
       "name": "Haste Spell",
       "from_level": 3,
@@ -547,7 +533,7 @@
       "reason": "one of your longest builds at 16 days, start early to reach max sooner"
     },
     {
-      "rank": 39,
+      "rank": 38,
       "category": "spells",
       "name": "Bat Spell",
       "from_level": 5,
@@ -561,7 +547,7 @@
       "reason": "one of your longest builds at 15 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 40,
+      "rank": 39,
       "category": "troops",
       "name": "Apprentice Warden",
       "from_level": 2,
@@ -575,7 +561,7 @@
       "reason": "one of your longest builds at 15 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 41,
+      "rank": 40,
       "category": "resources",
       "name": "Dark Elixir Drill",
       "from_level": 6,
@@ -587,6 +573,20 @@
       "build_time": "15 days, 6:00:00",
       "build_seconds": 1317600,
       "reason": "one of your longest builds at 15 days, 6:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 41,
+      "category": "troops",
+      "name": "Minion",
+      "from_level": 11,
+      "to_level": 13,
+      "cost": {
+        "dark_elixir": 380000
+      },
+      "cost_text": "380,000 DE",
+      "build_time": "15 days",
+      "build_seconds": 1296000,
+      "reason": "one of your longest builds at 15 days, start early to reach max sooner"
     },
     {
       "rank": 42,

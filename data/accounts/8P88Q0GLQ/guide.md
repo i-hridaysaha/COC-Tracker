@@ -2,16 +2,16 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2052 days, 21:00:00 of build time (one builder), 1,740,590,000 gold, 862,200,000 elixir, 31,176,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 2036 days, 9:00:00 of build time (one builder), 1,740,590,000 gold, 846,200,000 elixir, 30,871,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 70 → 100 — 7,075,000 DE, 190 days
    _one of your longest builds at 190 days, start early to reach max sooner_
-2. **Archer Queen** (heroes) 81 → 100 — 5,370,000 DE, 136 days, 12:00:00
-   _one of your longest builds at 136 days, 12:00:00, start early to reach max sooner_
+2. **Archer Queen** (heroes) 82 → 100 — 5,180,000 DE, 130 days, 12:00:00
+   _one of your longest builds at 130 days, 12:00:00, start early to reach max sooner_
 3. **Minion Prince** (heroes) 76 → 90 — 4,410,000 DE, 110 days
    _one of your longest builds at 110 days, start early to reach max sooner_
-4. **Grand Warden** (heroes) 61 → 75 — 269,500,000 elixir, 99 days, 12:00:00
-   _one of your longest builds at 99 days, 12:00:00, start early to reach max sooner_
+4. **Grand Warden** (heroes) 62 → 75 — 253,500,000 elixir, 93 days, 12:00:00
+   _one of your longest builds at 93 days, 12:00:00, start early to reach max sooner_
 5. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
 6. **Unicorn** (pets) 7 → 15 — 1,765,000 DE, 57 days
@@ -70,22 +70,22 @@ Total remaining: 2052 days, 21:00:00 of build time (one builder), 1,740,590,000 
    _one of your longest builds at 21 days, start early to reach max sooner_
 33. **Spring Trap** (traps) 6 → 12 — 29,700,000 gold, 21 days
    _one of your longest builds at 21 days, start early to reach max sooner_
-34. **Minion** (troops) 10 → 13 — 495,000 DE, 19 days, 12:00:00
-   _one of your longest builds at 19 days, 12:00:00, start early to reach max sooner_
-35. **Siege Barracks** (troops) 3 → 5 — 26,000,000 elixir, 19 days
+34. **Siege Barracks** (troops) 3 → 5 — 26,000,000 elixir, 19 days
    _one of your longest builds at 19 days, start early to reach max sooner_
-36. **Baby Dragon** (troops) 9 → 11 — 30,000,000 elixir, 17 days, 6:00:00
+35. **Baby Dragon** (troops) 9 → 11 — 30,000,000 elixir, 17 days, 6:00:00
    _one of your longest builds at 17 days, 6:00:00, start early to reach max sooner_
-37. **Battle Blimp** (troops) 3 → 5 — 16,500,000 elixir, 16 days
+36. **Battle Blimp** (troops) 3 → 5 — 16,500,000 elixir, 16 days
    _one of your longest builds at 16 days, start early to reach max sooner_
-38. **Haste Spell** (spells) 3 → 6 — 268,500 DE, 16 days
+37. **Haste Spell** (spells) 3 → 6 — 268,500 DE, 16 days
    _one of your longest builds at 16 days, start early to reach max sooner_
-39. **Bat Spell** (spells) 5 → 7 — 360,000 DE, 15 days, 12:00:00
+38. **Bat Spell** (spells) 5 → 7 — 360,000 DE, 15 days, 12:00:00
    _one of your longest builds at 15 days, 12:00:00, start early to reach max sooner_
-40. **Apprentice Warden** (troops) 2 → 4 — 295,000 DE, 15 days, 12:00:00
+39. **Apprentice Warden** (troops) 2 → 4 — 295,000 DE, 15 days, 12:00:00
    _one of your longest builds at 15 days, 12:00:00, start early to reach max sooner_
-41. **Dark Elixir Drill** (resources) 6 → 11 — 25,500,000 elixir, 15 days, 6:00:00
+40. **Dark Elixir Drill** (resources) 6 → 11 — 25,500,000 elixir, 15 days, 6:00:00
    _one of your longest builds at 15 days, 6:00:00, start early to reach max sooner_
+41. **Minion** (troops) 11 → 13 — 380,000 DE, 15 days
+   _one of your longest builds at 15 days, start early to reach max sooner_
 42. **Giant Bomb** (traps) 2 → 11 — 25,370,000 gold, 13 days, 20:00:00
    _one of your longest builds at 13 days, 20:00:00, start early to reach max sooner_
 43. **Giant Bomb** (traps) 2 → 11 — 25,370,000 gold, 13 days, 20:00:00
