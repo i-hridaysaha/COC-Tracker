@@ -22,6 +22,10 @@ _CACHE = None
 CATS = ("heroes", "troops", "spells", "pets", "equipment")
 
 
+def _has_upgrade_data(item: dict) -> bool:
+    return any(lvl.get("upgrade_cost") for lvl in item.get("levels", []))
+
+
 def tables() -> dict:
     global _CACHE
     if _CACHE is not None:
@@ -34,13 +38,32 @@ def tables() -> dict:
         for it in raw.get(c, []):
             if c in ("heroes", "troops") and it.get("village") not in (None, "home"):
                 continue
-            out[c].setdefault(it["name"], it)
+            name = it["name"]
+            # Some entries share a name with an unrelated zero-cost decoy
+            # (e.g. two "Meteor Golem" records); prefer whichever actually
+            # carries upgrade cost data, same fix as upgrades.py's _static().
+            existing = out[c].get(name)
+            if existing is None or (_has_upgrade_data(it) and not _has_upgrade_data(existing)):
+                out[c][name] = it
     _CACHE = out
     return out
 
 
 def entry(category: str, name: str):
     return tables().get(category, {}).get(name)
+
+
+# Manual per-TH max levels for units the bundled coc.py library has no data
+# for at all yet (brand-new content, not just a missing level) -- sourced
+# from in-game observation, since static_data.json simply has no entry to
+# read from. Keyed by (category, name); each value maps town_hall -> max
+# level. Remove an entry once the library ships real data for that unit.
+_MANUAL_TH_MAX = {
+    ("heroes", "Dragon Duke"): {15: 10, 16: 15, 17: 20, 18: 25},
+    ("troops", "Sky Wagon"): {17: 3, 18: 4},
+    ("troops", "Ruin Witch"): {16: 2, 17: 3, 18: 4},
+    ("spells", "Angry Spell"): {16: 2, 17: 3, 18: 4},
+}
 
 
 def max_for_th(category: str, name: str, town_hall: int):
@@ -66,7 +89,11 @@ def item_target_level(category: str, item, town_hall: int) -> int:
     doesn't know about -- it just reports the honest global max until the
     library catches up."""
     api_max = int(getattr(item, "max_level", 0) or 0)
-    th_cap = max_for_th(category, getattr(item, "name", None), town_hall)
+    name = getattr(item, "name", None)
+    manual = _MANUAL_TH_MAX.get((category, name), {}).get(town_hall)
+    if manual:
+        return min(manual, api_max) if api_max else manual
+    th_cap = max_for_th(category, name, town_hall)
     if not th_cap:
         return api_max
     if api_max:

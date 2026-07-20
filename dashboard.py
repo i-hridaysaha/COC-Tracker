@@ -22,8 +22,10 @@ walls and traps come from village.json.
 """
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+IST = timezone(timedelta(hours=5, minutes=30))
 
 
 def _read_json(path: Path):
@@ -437,7 +439,7 @@ def render(data_dir: Path, out_path: Path) -> bool:
     data = _read_json(data_dir / "dashboard_data.json") or {"accounts": [], "modifiers_default": {}}
     updated = data.get("captured_at") or datetime.now(timezone.utc).isoformat()
     try:
-        updated = datetime.fromisoformat(updated.replace("Z", "+00:00")).strftime("%d %b %Y, %H:%M UTC")
+        updated = datetime.fromisoformat(updated.replace("Z", "+00:00")).astimezone(IST).strftime("%d %b %Y, %H:%M IST")
     except Exception:
         pass
     doc = (

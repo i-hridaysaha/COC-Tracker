@@ -3718,11 +3718,10 @@
           "category": "heroes",
           "name": "Dragon Duke",
           "level": 20,
-          "max": 25,
-          "is_max": false,
+          "max": 20,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -3739,17 +3738,16 @@
           "category": "troops",
           "name": "Ruin Witch",
           "level": 3,
-          "max": 4,
-          "is_max": false,
+          "max": 3,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
           "name": "Sky Wagon",
           "level": 1,
-          "max": 4,
+          "max": 3,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -3922,12 +3920,10 @@
           "category": "troops",
           "name": "Meteor Golem",
           "level": 2,
-          "max": 3,
-          "is_max": false,
-          "cost": {
-            "elixir": 30000000
-          },
-          "seconds": 1382400
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -4140,7 +4136,7 @@
           "category": "spells",
           "name": "Angry Spell",
           "level": 1,
-          "max": 4,
+          "max": 3,
           "is_max": false,
           "cost": {},
           "seconds": 0,
