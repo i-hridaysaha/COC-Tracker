@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-20T08:55:35.890303+00:00",
+  "captured_at": "2026-07-20T21:21:03.818673+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3599,24 +3599,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 0,
+      "trophies": 9,
       "best_trophies": 4909,
       "war_stars": 560,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2225,
-      "received": 321,
-      "offense_completion_pct": 83.0,
+      "donations": 2272,
+      "received": 379,
+      "offense_completion_pct": 83.4,
       "rush": {
-        "score": 13.1,
+        "score": 12.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 103,
+        "levels_behind_prev_th": 101,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 70,
+            "level": 71,
             "prev_th_max": 95,
-            "behind": 25,
+            "behind": 24,
             "category": "heroes"
           },
           {
@@ -3641,34 +3641,34 @@
             "category": "heroes"
           },
           {
-            "name": "Minion Prince",
-            "level": 76,
-            "prev_th_max": 80,
+            "name": "Barbarian",
+            "level": 8,
+            "prev_th_max": 12,
             "behind": 4,
-            "category": "heroes"
+            "category": "troops"
           }
         ]
       },
       "completion": {
-        "heroes": 81.6,
+        "heroes": 82.3,
         "troops": 87.2,
         "spells": 76.7,
         "pets": 56.4,
         "equipment": 57.6,
         "defenses": 100.0,
         "resources": 89.0,
-        "traps": 62.5,
-        "walls": 98.0
+        "traps": 63.1,
+        "walls": 98.9
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 70,
+          "level": 71,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 130000
+            "dark_elixir": 135000
           },
           "seconds": 388800
         },
@@ -3686,11 +3686,11 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 76,
+          "level": 77,
           "max": 90,
           "is_max": false,
           "cost": {
-            "dark_elixir": 250000
+            "dark_elixir": 260000
           },
           "seconds": 648000
         },
@@ -3717,7 +3717,7 @@
         {
           "category": "heroes",
           "name": "Dragon Duke",
-          "level": 19,
+          "level": 20,
           "max": 25,
           "is_max": false,
           "cost": {},
@@ -5523,14 +5523,25 @@
         },
         {
           "category": "traps",
-          "name": "Air Bomb",
-          "level": 9,
-          "max": 12,
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
           "is_max": false,
           "cost": {
-            "gold": 3000000
+            "gold": 5000000
           },
-          "seconds": 172800
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
         },
         {
           "category": "traps",
@@ -5810,13 +5821,13 @@
         {
           "category": "traps",
           "name": "Air Bomb",
-          "level": 7,
+          "level": 9,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 1200000
+            "gold": 3000000
           },
-          "seconds": 64800
+          "seconds": 172800
         },
         {
           "category": "traps",
@@ -5875,20 +5886,9 @@
         },
         {
           "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 5000000
@@ -6028,29 +6028,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 17 x116",
+          "name": "Wall lvl 17 x62",
           "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {
-            "gold": 812000000
+            "gold": 434000000
           },
           "seconds": 0,
-          "count": 116
+          "count": 62
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x209",
+          "name": "Wall lvl 18 x263",
           "level": 18,
           "max": 18,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 209
+          "count": 263
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 9,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -6066,7 +6066,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "11d 23h",
+          "ends_in": "11d 10h",
           "active": true
         },
         "scheduled": [
@@ -6074,25 +6074,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "11d 23h"
+            "starts_in": "11d 10h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 23h"
+            "starts_in": "1d 10h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "11d 23h"
+            "starts_in": "11d 10h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 22h"
+            "starts_in": "3d 9h"
           }
         ],
         "raid_weekend": {
