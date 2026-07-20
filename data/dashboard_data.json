@@ -3720,8 +3720,10 @@
           "level": 18,
           "max": 25,
           "is_max": false,
-          "cost": {},
-          "seconds": 0
+          "cost": {
+            "dark_elixir": 25000
+          },
+          "seconds": 604800
         },
         {
           "category": "troops",
