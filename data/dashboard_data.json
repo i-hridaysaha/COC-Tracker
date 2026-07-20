@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-18T15:56:47.495731+00:00",
+  "captured_at": "2026-07-20T22:49:17.999648+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3599,38 +3599,31 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 135,
+      "trophies": 9,
       "best_trophies": 4909,
-      "war_stars": 554,
+      "war_stars": 560,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1438,
-      "received": 202,
-      "offense_completion_pct": 82.2,
+      "donations": 2315,
+      "received": 379,
+      "offense_completion_pct": 83.4,
       "rush": {
-        "score": 13.6,
+        "score": 12.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 107,
+        "levels_behind_prev_th": 101,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 69,
+            "level": 71,
             "prev_th_max": 95,
-            "behind": 26,
+            "behind": 24,
             "category": "heroes"
           },
           {
             "name": "Archer Queen",
-            "level": 81,
+            "level": 82,
             "prev_th_max": 95,
-            "behind": 14,
-            "category": "heroes"
-          },
-          {
-            "name": "Grand Warden",
-            "level": 61,
-            "prev_th_max": 70,
-            "behind": 9,
+            "behind": 13,
             "category": "heroes"
           },
           {
@@ -3641,67 +3634,74 @@
             "category": "troops"
           },
           {
-            "name": "Minion Prince",
-            "level": 76,
-            "prev_th_max": 80,
-            "behind": 4,
+            "name": "Grand Warden",
+            "level": 62,
+            "prev_th_max": 70,
+            "behind": 8,
             "category": "heroes"
+          },
+          {
+            "name": "Barbarian",
+            "level": 8,
+            "prev_th_max": 12,
+            "behind": 4,
+            "category": "troops"
           }
         ]
       },
       "completion": {
-        "heroes": 80.7,
-        "troops": 86.3,
+        "heroes": 82.3,
+        "troops": 87.2,
         "spells": 76.7,
         "pets": 56.4,
         "equipment": 57.6,
         "defenses": 100.0,
         "resources": 89.0,
-        "traps": 62.5,
-        "walls": 97.9
+        "traps": 63.1,
+        "walls": 98.9
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 69,
+          "level": 71,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 125000
+            "dark_elixir": 135000
           },
-          "seconds": 345600
+          "seconds": 388800
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 81,
+          "level": 82,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 190000
+            "dark_elixir": 200000
           },
           "seconds": 518400
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 76,
+          "level": 77,
           "max": 90,
           "is_max": false,
           "cost": {
-            "dark_elixir": 250000
+            "dark_elixir": 260000
           },
           "seconds": 648000
         },
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 61,
+          "level": 62,
           "max": 75,
           "is_max": false,
           "cost": {
-            "elixir": 16000000
+            "elixir": 16500000
           },
           "seconds": 518400
         },
@@ -3717,7 +3717,7 @@
         {
           "category": "heroes",
           "name": "Dragon Duke",
-          "level": 18,
+          "level": 20,
           "max": 25,
           "is_max": false,
           "cost": {},
@@ -3932,24 +3932,22 @@
         {
           "category": "troops",
           "name": "Minion",
-          "level": 10,
+          "level": 11,
           "max": 13,
           "is_max": false,
           "cost": {
-            "dark_elixir": 115000
+            "dark_elixir": 160000
           },
-          "seconds": 388800
+          "seconds": 518400
         },
         {
           "category": "troops",
           "name": "Hog Rider",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 240000
-          },
-          "seconds": 864000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -3963,13 +3961,11 @@
         {
           "category": "troops",
           "name": "Golem",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 230000
-          },
-          "seconds": 864000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -5536,6 +5532,28 @@
         },
         {
           "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
           "name": "Bomb",
           "level": 8,
           "max": 13,
@@ -5812,17 +5830,6 @@
         {
           "category": "traps",
           "name": "Air Bomb",
-          "level": 7,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
           "level": 9,
           "max": 12,
           "is_max": false,
@@ -5888,20 +5895,9 @@
         },
         {
           "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 5000000
@@ -6041,29 +6037,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 17 x123",
+          "name": "Wall lvl 17 x62",
           "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {
-            "gold": 861000000
+            "gold": 434000000
           },
           "seconds": 0,
-          "count": 123
+          "count": 62
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x202",
+          "name": "Wall lvl 18 x263",
           "level": 18,
           "max": 18,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 202
+          "count": 263
         }
       ],
       "ranked": {
-        "trophies": 135,
+        "trophies": 9,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -6079,7 +6075,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "13d 16h",
+          "ends_in": "11d 9h",
           "active": true
         },
         "scheduled": [
@@ -6087,33 +6083,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "13d 16h"
+            "starts_in": "11d 9h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 16h"
+            "starts_in": "1d 9h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 16h"
+            "starts_in": "11d 9h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "1d 15h"
+            "active": false,
+            "starts_in": "3d 8h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-07-17 07:00:00+00:00",
           "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": "1d 15h",
+          "ends_in": null,
           "me": {
             "capital_resources_looted": 26321,
             "attacks_used": 6,
@@ -6122,7 +6118,46 @@
         },
         "cwl": null
       },
-      "wars": []
+      "wars": [
+        {
+          "date_seen": "2026-07-19",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+          "opponent_clan": "AGIMAT ng PINOY",
+          "team_size": "15",
+          "attack_order": "15",
+          "attacker_th": "17",
+          "defender_tag": "#Q9RRV09YQ",
+          "defender_name": "soriano",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "99"
+        },
+        {
+          "date_seen": "2026-07-19",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+          "opponent_clan": "AGIMAT ng PINOY",
+          "team_size": "15",
+          "attack_order": "17",
+          "attacker_th": "17",
+          "defender_tag": "#29RUG2QLC",
+          "defender_name": "raplyn",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "125"
+        }
+      ]
     }
   ]
 }
