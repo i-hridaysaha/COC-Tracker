@@ -260,6 +260,7 @@ async def run() -> None:
     store.write_json(DATA_DIR / "dashboard_data.json",
                      {"captured_at": summary["captured_at"], "modifiers_default": mods,
                       "defense_tables": catalog.defense_tables(),
+                      "offense_tables": catalog.offense_level_tables(),
                       "repo": _repo_slug(), "branch": _repo_branch(),
                       "accounts": dash_accounts})
     dashboard.render(DATA_DIR, ROOT / "dashboard.html")

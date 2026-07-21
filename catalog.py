@@ -121,6 +121,33 @@ def completion(items: list[dict]) -> dict:
     return {c: round(100.0 * cur[c] / mx[c], 1) if mx.get(c) else 100.0 for c in cur}
 
 
+def offense_level_tables() -> dict:
+    """Per-level cost/time for heroes, troops, spells, pets and equipment,
+    keyed by category then item name: name -> [[level, resource, amount,
+    seconds], ...], one row per level (that level -> level+1). Player-
+    independent (straight from the bundled game-data library), so this can
+    ship once and let the browser price *any* future level, not just the
+    single next level a specific account happens to be sitting at right now
+    -- needed so the planner can queue the same item more than once (each
+    add targets the next level after whatever's already queued)."""
+    tables = upgrades._static()
+    out = {}
+    for cat, items in tables.items():
+        packed = {}
+        for name, entry in items.items():
+            rows = []
+            for lvl in entry.get("levels", []):
+                cost = {}
+                upgrades._add_cost(cost, entry.get("upgrade_resource"), lvl.get("upgrade_cost"))
+                resource = next(iter(cost), None)
+                rows.append([lvl["level"], resource, cost.get(resource, 0) if resource else 0,
+                             int(lvl.get("upgrade_time", 0) or 0)])
+            if rows:
+                packed[name] = rows
+        out[cat] = packed
+    return out
+
+
 def defense_tables() -> dict:
     """Compact building/trap/wall cost tables for the dashboard, so it can
     compute defenses from a village JSON you paste in the browser, with no

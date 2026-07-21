@@ -95,6 +95,10 @@ h3{margin:0 0 12px;font-size:12px;font-weight:700;color:var(--gold);text-transfo
 .tbar{height:6px;background:var(--soft);border-radius:4px;overflow:hidden}
 .tfill{height:100%;border-radius:4px}
 .maxbadge{position:absolute;top:8px;right:8px;background:var(--green);color:#04240f;font-size:10px;font-weight:700;border-radius:5px;padding:1px 6px}
+.tileadd{position:absolute;top:8px;left:8px;background:var(--raised);border:1px solid var(--border);color:var(--blue);border-radius:6px;width:20px;height:20px;line-height:18px;padding:0;font-size:14px;font-weight:700;cursor:pointer}
+.tileadd:hover{border-color:var(--blue)}
+.herogroup{margin-bottom:18px}
+.herogroup-title{font-size:12px;color:var(--muted);margin:0 0 10px;text-transform:uppercase;letter-spacing:.5px}
 .settings{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 .field{display:flex;flex-direction:column;gap:6px}
 .field label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
@@ -161,6 +165,7 @@ const LANE_LABEL={lab:'Laboratory',pet:'Pet House',smith:'Blacksmith'};
 
 /* Real game icons from COC ICON PACK, organized by category. */
 const ICON_MAP={troops:{'Barbarian':'Avatar_Barbarian.webp','Archer':'Avatar_Archer.webp','Giant':'Avatar_Giant.webp','Goblin':'Avatar_Goblin.webp','Wall Breaker':'Avatar_Wall_Breaker.webp','Balloon':'Avatar_Balloon.webp','Wizard':'Avatar_Wizard.webp','Healer':'Avatar_Healer.webp','Dragon':'Avatar_Dragon.webp','P.E.K.K.A':'Avatar_P.E.K.K.A.webp','Baby Dragon':'Avatar_Baby_Dragon.webp','Miner':'Avatar_Miner.webp','Electro Dragon':'Avatar_Electro_Dragon.webp','Yeti':'Avatar_Yeti.webp','Dragon Rider':'Avatar_Dragon_Rider.webp','Electro Titan':'Avatar_Electro_Titan.webp','Root Rider':'Avatar_Root_Rider.webp','Druid':'Avatar_Druid.webp','Minion':'Avatar_Minion.webp','Hog Rider':'Avatar_Hog_Rider.webp','Valkyrie':'Avatar_Valkyrie.webp','Golem':'Avatar_Golem.webp','Witch':'Avatar_Witch.webp','Lava Hound':'Avatar_Lava_Hound.webp','Bowler':'Avatar_Bowler.webp','Ice Golem':'Avatar_Ice_Golem.webp','Headhunter':'Avatar_Headhunter.webp','Apprentice Warden':'Avatar_Apprentice_Warden.webp','Ruin Witch':'Avatar_Ruin_Witch.webp','Wall Wrecker':'Avatar_Wall_Wrecker.webp','Battle Blimp':'Avatar_Battle_Blimp.webp','Stone Slammer':'Avatar_Stone_Slammer.webp','Siege Barracks':'Avatar_Siege_Barracks.webp','Log Launcher':'Avatar_Log_Launcher.webp','Flame Flinger':'Avatar_Flame_Flinger.webp','Battle Drill':'Avatar_Battle_Drill.webp','Sky Wagon':'Avatar_Sky_Wagon.webp','Thrower':'Avatar_Thrower.webp','Furnace':'Avatar_Furnace.webp','Troop Launcher':'Avatar_Troop_Launcher.webp','Meteor Golem':'Avatar_Meteor_Golem.webp'},heroes:{'Barbarian King':'Avatar_Hero_Barbarian_King.webp','Archer Queen':'Avatar_Hero_Archer_Queen.webp','Grand Warden':'Avatar_Hero_Grand_Warden.webp','Royal Champion':'Avatar_Hero_Royal_Champion.webp','Minion Prince':'Avatar_Hero_Minion_Prince.webp','Dragon Duke':'Avatar_Hero_Dragon_Duke.webp'},pets:{'L.A.S.S.I':'Avatar_L.A.S.S.I.webp','Electro Owl':'Avatar_Electro_Owl.webp','Mighty Yak':'Avatar_Mighty_Yak.webp','Unicorn':'Avatar_Unicorn.webp','Frosty':'Avatar_Frosty.webp','Diggy':'Avatar_Diggy.webp','Poison Lizard':'Avatar_Poison_Lizard.webp','Phoenix':'Avatar_Phoenix.webp','Spirit Fox':'Avatar_Spirit_Fox.webp','Angry Jelly':'Avatar_Angry_Jelly.webp','Sneezy':'Avatar_Sneezy.webp','Greedy Raven':'Avatar_Greedy_Raven.webp'},defenses:{'Cannon':'Cannon21B.webp','Archer Tower':'Archer_Tower21.webp','Mortar':'Mortar18B.webp','Air Defense':'Air_Defense16.webp','Wizard Tower':'Wizard_Tower17.webp','Air Sweeper':'Air_Sweeper7.webp','Hidden Tesla':'Hidden_Tesla17.webp','Bomb Tower':'Bomb_Tower13.webp','X-Bow':'X-Bow13_Ground.webp','Inferno Tower':'Inferno_Tower12_Single.webp','Eagle Artillery':'Eagle_Artillery7.webp','Scattershot':'Scattershot7.webp','Spell Tower':'Spell_Tower4_Rage.webp','Monolith':'Monolith5.webp','Ricochet Cannon':'Ricochet_Cannon4.webp','Multi-Archer Tower':'Multi-Archer_Tower4.webp','Firespitter':'Firespitter3.webp','Revenge Tower':'Revenge_Tower2_Stage3.webp','Multi-Gear Tower':'Multi-Gear_Tower3_LongRange.webp'},traps:{'Bomb':'Bomb13.webp','Spring Trap':'Spring_Trap13.webp','Giant Bomb':'Giant_Bomb11.webp','Air Bomb':'Air_Bomb13.webp','Seeking Air Mine':'Seeking_Air_Mine7.webp','Skeleton Trap':'SkeletonTrap5.webp','Tornado Trap':'Tornado_Trap2.webp','Giga Bomb':'Giga_Bomb4.webp'},walls:{'Walls':'Wall19.webp','Wall lvl 1':'Wall19.webp','Wall lvl 2':'Wall19.webp','Wall lvl 3':'Wall19.webp','Wall lvl 4':'Wall19.webp','Wall lvl 5':'Wall19.webp','Wall lvl 6':'Wall19.webp','Wall lvl 7':'Wall19.webp','Wall lvl 8':'Wall19.webp','Wall lvl 9':'Wall19.webp','Wall lvl 10':'Wall19.webp','Wall lvl 11':'Wall19.webp','Wall lvl 12':'Wall19.webp','Wall lvl 13':'Wall19.webp','Wall lvl 14':'Wall19.webp','Wall lvl 15':'Wall19.webp','Wall lvl 16':'Wall19.webp','Wall lvl 17':'Wall17.webp','Wall lvl 18':'Wall18.webp','Wall lvl 19':'Wall19.webp'},resources:{'Gold Mine':'Gold_Mine17.webp','Elixir Collector':'Elixir_Collector17.webp','Dark Elixir Drill':'Dark_Elixir_Drill11.webp','Gold Storage':'Gold_Storage19.webp','Elixir Storage':'Elixir_Storage19.webp','Dark Elixir Storage':'Dark_Elixir_Storage13.webp'},spells:{'Lightning Spell':'Lightning_Spell_info.webp','Healing Spell':'Healing_Spell_info.webp','Rage Spell':'Rage_Spell_info.webp','Jump Spell':'Jump_Spell_info.webp','Freeze Spell':'Freeze_Spell_info.webp','Clone Spell':'Clone_Spell_info.webp','Recall Spell':'Recall_Spell_info.webp','Revive Spell':'Revive_Spell_info.webp','Poison Spell':'Poison_Spell_info.webp','Earthquake Spell':'Earthquake_Spell_info.webp','Haste Spell':'Haste_Spell_info.webp','Skeleton Spell':'Skeleton_Spell_info.webp','Bat Spell':'Bat_Spell_info.webp','Overgrowth Spell':'Overgrowth_Spell_info.webp','Angry Spell':'Angry_Spell_info.webp','Invisibility Spell':'Invisibility_Spell_info.webp','Totem Spell':'Totem_Spell_info.webp','Ice Block Spell':'Ice_Block_Spell_info.webp'},equipment:{'Barbarian Puppet':'Barbarian_Puppet.webp','Archer Puppet':'Archer_Puppet.webp','Giant Gauntlets':'Giant_Gauntlet.webp','Rage Gem':'Rage_Gem.webp','Heal Tome':'Healing_Tome.webp','Hog Rider Gauntlets':'Hog_Rider_Puppet.webp','Tornado Boots':'Earthquake_Boots.webp','Fireball Gloves':'Fireball_Equipment.webp','Electro Boots':'Electro_Boots.webp','Ice Arrows':'Frozen_Arrow.webp','Healing Tome':'Eternal_Tome.webp','Frost Helm':'Frost_Flake.webp','Phoenix Feather':'Fire_Heart.webp','Eternal Token':'Eternal_Tome.webp','Vampire Bat':'Invisibility_Vial.webp','Royal Gem':'Royal_Gem.webp','Monolith Arrow':'Monolith_Arrow.webp','Flame Blower':'Flame_Blower.webp','Stun Blaster':'Stun_Blaster.webp','Rage Vial':'Rage_Vial.webp','Invisibility Vial':'Invisibility_Vial.webp','Life Gem':'Life_Gem.webp','Seeking Shield':'Seeking_Shield.webp','Earthquake Boots':'Earthquake_Boots.webp','Electro Fangs':'Electro_Fangs.webp','Haste Vial':'Haste_Vial.webp','Action Figure':'Action_Figure.webp','Dark Crown':'Dark_Crown.webp','Dark Orb':'Dark_Orb.webp','Heroic Torch':'Heroic_Torch.webp','Magic Mirror':'Magic_Mirror.webp','Metal Pants':'Metal_Pants.webp','Meteor Staff':'Meteor_Staff.webp','Noble Iron':'Noble_Iron.webp','Rocket Backpack':'Rocket_Backpack.webp','Rocket Spear':'Rocket_Spear.webp','Snake Bracelet':'Snake_Bracelet.webp','Spiky Ball':'Spiky_Ball.webp','Stick Horse':'Stick_Horse.webp','Vampstache':'Vampstache.webp','Fire Heart':'Fire_Heart.webp','Eternal Tome':'Eternal_Tome.webp','Hog Rider Puppet':'Hog_Rider_Puppet.webp','Giant Gauntlet':'Giant_Gauntlet.webp','Frozen Arrow':'Frozen_Arrow.webp','Giant Arrow':'Giant_Arrow.webp','Healer Puppet':'Healer_Puppet.webp','Fireball':'Fireball_Equipment.webp','Lavaloon Puppet':'Lavaloon_Puppet.webp','Henchmen Puppet':'Henchmen_Puppet.webp','Frost Flake':'Frost_Flake.webp'}};
+const EQUIPMENT_HERO={'Barbarian Puppet':'Barbarian King','Giant Gauntlets':'Barbarian King','Giant Gauntlet':'Barbarian King','Rage Vial':'Barbarian King','Snake Bracelet':'Barbarian King','Spiky Ball':'Barbarian King','Stick Horse':'Barbarian King','Vampstache':'Barbarian King','Archer Puppet':'Archer Queen','Ice Arrows':'Archer Queen','Frozen Arrow':'Archer Queen','Giant Arrow':'Archer Queen','Healer Puppet':'Archer Queen','Vampire Bat':'Archer Queen','Invisibility Vial':'Archer Queen','Action Figure':'Archer Queen','Monolith Arrow':'Archer Queen','Magic Mirror':'Archer Queen','Rage Gem':'Grand Warden','Heal Tome':'Grand Warden','Healing Tome':'Grand Warden','Eternal Token':'Grand Warden','Eternal Tome':'Grand Warden','Fireball Gloves':'Grand Warden','Fireball':'Grand Warden','Life Gem':'Grand Warden','Heroic Torch':'Grand Warden','Lavaloon Puppet':'Grand Warden','Hog Rider Gauntlets':'Royal Champion','Hog Rider Puppet':'Royal Champion','Tornado Boots':'Royal Champion','Earthquake Boots':'Royal Champion','Electro Boots':'Royal Champion','Frost Helm':'Royal Champion','Frost Flake':'Royal Champion','Royal Gem':'Royal Champion','Seeking Shield':'Royal Champion','Haste Vial':'Royal Champion','Rocket Spear':'Royal Champion','Dark Crown':'Minion Prince','Dark Orb':'Minion Prince','Metal Pants':'Minion Prince','Meteor Staff':'Minion Prince','Noble Iron':'Minion Prince','Henchmen Puppet':'Minion Prince','Phoenix Feather':'Dragon Duke','Fire Heart':'Dragon Duke','Electro Fangs':'Dragon Duke','Stun Blaster':'Dragon Duke','Rocket Backpack':'Dragon Duke','Flame Blower':'Dragon Duke'};
 const MAX_LEVELS_CSV={"Barbarian":{1:1,2:2,3:2,4:2,5:3,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:12,17:13,18:14},"Archer":{1:1,2:2,3:2,4:2,5:3,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:12,17:13,18:14},"Giant":{2:1,3:2,4:2,5:2,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:12,17:13,18:14},"Goblin":{2:1,3:2,4:2,5:3,6:3,7:4,8:5,9:6,10:7,11:8,12:8,13:9,14:10,15:11,16:11,17:12,18:13},"Wall Breaker":{3:2,4:2,5:3,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:12,17:13,18:14},"Balloon":{3:2,4:2,5:3,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:12,17:13,18:14},"Wizard":{5:2,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:12,17:13,18:14},"Healer":{6:2,7:3,8:4,9:4,10:5,11:5,12:6,13:7,14:8,15:9,16:9,17:10,18:11},"Dragon":{7:2,8:3,9:4,10:5,11:6,12:7,13:8,14:9,15:10,16:11,17:12,18:13},"P.E.K.K.A":{8:3,9:5,10:6,11:7,12:8,13:9,14:10,15:11,16:12,17:13,18:14},"Baby Dragon":{9:2,10:4,11:5,12:6,13:7,14:8,15:9,16:10,17:11,18:12},"Miner":{10:3,11:5,12:6,13:7,14:8,15:9,16:10,17:11,18:12},"Electro Dragon":{11:2,12:3,13:4,14:5,15:6,16:7,17:8,18:9},"Yeti":{12:2,13:3,14:4,15:5,16:6,17:7,18:8},"Dragon Rider":{13:2,14:3,15:4,16:5,17:6,18:7},"Electro Titan":{14:2,15:3,16:4,17:5,18:6},"Root Rider":{15:2,16:3,17:4,18:5},"Druid":{16:2,17:3,18:4},"Meteor Golem":{14:1,15:1,16:1,17:2,18:2},"Minion":{7:2,8:4,9:5,10:6,11:7,12:8,13:9,14:10,15:11,16:12,17:13,18:14},"Hog Rider":{7:2,8:4,9:5,10:6,11:7,12:9,13:10,14:11,15:12,16:13,17:14,18:15},"Valkyrie":{8:2,9:4,10:5,11:6,12:7,13:8,14:9,15:10,16:11,17:12,18:13},"Golem":{8:2,9:4,10:5,11:7,12:9,13:10,14:11,15:12,16:13,17:14,18:15},"Witch":{9:2,10:3,11:4,12:5,13:5,14:6,15:6,16:7,17:8,18:9},"Lava Hound":{9:2,10:3,11:4,12:5,13:6,14:6,15:6,16:7,17:8,18:9},"Bowler":{10:2,11:3,12:4,13:5,14:6,15:7,16:8,17:9,18:10},"Ice Golem":{11:2,12:3,13:4,14:5,15:6,16:7,17:8,18:9},"Headhunter":{12:2,13:3,14:3,15:3,16:4,17:5,18:6},"Apprentice Warden":{13:2,14:3,15:4,16:4,17:5,18:6},"Ruin Witch":{16:2,17:3,18:4},"Wall Wrecker":{12:3,13:4,14:4,15:5,16:5,17:6,18:7},"Battle Blimp":{12:3,13:4,14:4,15:5,16:5,17:6,18:7},"Stone Slammer":{12:3,13:4,14:4,15:5,16:5,17:6,18:7},"Siege Barracks":{13:4,14:4,15:5,16:5,17:6,18:7},"Log Launcher":{13:4,14:4,15:5,16:5,17:6,18:7},"Flame Flinger":{14:4,15:5,16:5,17:6,18:7},"Battle Drill":{15:4,16:5,17:6,18:7},"Sky Wagon":{17:3,18:4},"Barbarian King":{4:10,5:10,6:10,7:10,8:20,9:30,10:40,11:50,12:65,13:75,14:85,15:90,16:95,17:100,18:110},"Archer Queen":{8:10,9:30,10:40,11:50,12:65,13:75,14:85,15:90,16:95,17:100,18:110},"Grand Warden":{11:20,12:40,13:50,14:60,15:65,16:70,17:75,18:85},"Royal Champion":{13:25,14:30,15:40,16:45,17:50,18:55},"Minion Prince":{9:10,10:20,11:30,12:40,13:50,14:60,15:70,16:80,17:90,18:95},"Dragon Duke":{15:10,16:15,17:20,18:25},"L.A.S.S.I":{14:10,15:10,16:10,17:10,18:10},"Electro Owl":{14:10,15:10,16:10,17:10,18:10},"Mighty Yak":{14:10,15:10,16:10,17:10,18:10},"Unicorn":{14:10,15:10,16:10,17:10,18:10},"Frosty":{15:10,16:10,17:10,18:10},"Diggy":{15:10,16:10,17:10,18:10},"Poison Lizard":{15:10,16:10,17:10,18:10},"Phoenix":{15:10,16:10,17:10,18:10},"Spirit Fox":{16:10,17:10,18:10},"Angry Jelly":{16:10,17:10,18:10},"Sneezy":{17:10,18:10},"Greedy Raven":{18:10},"Cannon":{1:1,2:3,3:5,4:7,5:8,6:9,7:10,8:11,9:11,10:13,11:15,12:17,13:19,14:20,15:21},"Archer Tower":{2:2,3:4,4:6,5:7,6:8,7:9,8:10,9:11,10:13,11:15,12:17,13:19,14:20,15:21},"Mortar":{3:1,4:2,5:3,6:4,7:5,8:6,9:7,10:8,11:9,12:11,13:13,14:14,15:15,16:16,17:17,18:18},"Air Defense":{4:1,5:2,6:3,7:5,8:6,9:7,10:8,11:9,12:10,13:11,14:12,15:13,16:14,17:15,18:16},"Wizard Tower":{5:2,6:3,7:4,8:6,9:7,10:8,11:9,12:11,13:13,14:14,15:15,16:16,17:17,18:18},"Air Sweeper":{6:2,7:4,8:5,9:6,10:6,11:7,12:7,13:7,14:7,15:7,16:8,17:8,18:9},"Hidden Tesla":{7:3,8:6,9:7,10:8,11:9,12:10,13:12,14:13,15:14,16:15,17:16,18:17},"Bomb Tower":{8:2,9:3,10:4,11:5,12:7,13:8,14:9,15:10,16:11,17:12,18:13},"X-Bow":{9:3,10:4,11:5,12:6,13:7,14:8,15:9,16:10,17:11,18:12},"Inferno Tower":{10:3,11:5,12:6,13:7,14:8,15:9,16:10,17:11,18:12},"Eagle Artillery":{11:2,12:3,13:4,14:5,15:6,16:7,17:8,18:9},"Scattershot":{13:2,14:3,15:4,16:5,17:6,18:7},"Spell Tower":{15:3,16:3,17:4,18:5},"Monolith":{15:2,16:3,17:4,18:5},"Ricochet Cannon":{16:2,17:3,18:4},"Multi-Archer Tower":{16:2,17:3,18:4},"Firespitter":{17:2,18:3},"Revenge Tower":{18:2},"Bomb":{3:2,4:2,5:3,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:11,16:12,17:12,18:13},"Spring Trap":{4:1,5:2,6:3,7:4,8:5,9:5,10:5,11:5,12:5,13:5,14:5,15:5,16:5,17:5,18:5},"Giant Bomb":{6:2,7:3,8:4,9:5,10:5,11:6,12:7,13:8,14:9,15:10,16:11,17:12,18:13},"Air Bomb":{5:2,6:3,7:4,8:5,9:6,10:7,11:8,12:9,13:10,14:11,15:12,16:13,17:14,18:15},"Seeking Air Mine":{7:1,8:2,9:3,10:4,11:5,12:6,13:7,14:8,15:9,16:10,17:11,18:12},"Skeleton Trap":{8:2,9:3,10:4,11:4,12:4,13:4,14:4,15:4,16:4,17:5,18:5},"Tornado Trap":{11:2,12:3,13:3,14:3,15:3,16:3,17:3,18:3},"Giga Bomb":{13:2,14:3,15:4,16:5,17:6,18:7},"Walls":{1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18},"Gold Mine":{1:1,2:2,3:4,4:6,5:8,6:10,7:11,8:12,9:12,10:12,11:13,12:14,13:14,14:15,15:15,16:16,17:16,18:17},"Elixir Collector":{1:1,2:2,3:4,4:6,5:8,6:10,7:11,8:12,9:12,10:12,11:13,12:14,13:14,14:15,15:15,16:16,17:16,18:17},"Dark Elixir Drill":{7:3,8:6,9:6,10:6,11:7,12:8,13:8,14:9,15:9,16:10,17:10,18:11},"Gold Storage":{1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:11,11:12,12:13,13:14,14:15,15:16,16:17,17:18,18:19},"Elixir Storage":{1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:11,11:12,12:13,13:14,14:15,15:16,16:17,17:18,18:19},"Dark Elixir Storage":{7:3,8:4,9:6,10:6,11:7,12:8,13:9,14:10,15:11,16:12,17:13,18:14},"Lightning Spell":{5:4,6:4,7:4,8:5,9:6,10:7,11:7,12:7,13:8,14:9,15:10,16:10,17:11,18:12},"Healing Spell":{6:3,7:4,8:5,9:6,10:7,11:7,12:7,13:8,14:9,15:10,16:10,17:11,18:12},"Rage Spell":{7:4,8:5,9:5,10:6,11:6,12:6,13:6,14:6,15:6,16:6,17:7,18:8},"Jump Spell":{9:2,10:3,11:3,12:3,13:4,14:4,15:5,16:5,17:6,18:6},"Freeze Spell":{10:5,11:7,12:7,13:7,14:7,15:7,16:7,17:8,18:9},"Clone Spell":{11:4,12:5,13:6,14:7,15:8,16:8,17:9,18:10},"Recall Spell":{15:3,16:4,17:5,18:6},"Revive Spell":{16:2,17:3,18:4},"Poison Spell":{8:2,9:3,10:4,11:5,12:6,13:7,14:8,15:9,16:9,17:10,18:11},"Earthquake Spell":{8:2,9:3,10:4,11:5,12:5,13:5,14:5,15:5,16:5,17:6,18:7},"Haste Spell":{9:2,10:4,11:5,12:5,13:5,14:5,15:5,16:5,17:6,18:7},"Skeleton Spell":{10:3,11:4,12:5,13:6,14:7,15:8,16:8,17:9,18:10},"Bat Spell":{11:3,12:5,13:5,14:5,15:6,16:6,17:7,18:8},"Overgrowth Spell":{12:2,13:3,14:4,15:4,16:4,17:5,18:6},"Angry Spell":{16:2,17:3,18:4}};
 function getMaxLevel(name,th){const m=MAX_LEVELS_CSV[name];return m&&m[th]?m[th]:null;}
 const ITEM_ORDER={};for(const cat in ICON_MAP){ITEM_ORDER[cat]=Object.keys(ICON_MAP[cat]);}
@@ -173,7 +178,19 @@ function load(){try{return JSON.parse(localStorage.getItem('coc-dash'))||{}}catc
 function save(){try{localStorage.setItem('coc-dash',JSON.stringify(state))}catch(e){}}
 function acctKey(){return (DATA.accounts[state.acc||0]||{}).tag||'x'}
 function settings(){if(!state.settings)state.settings={goldPass:(DATA.modifiers_default||{}).gold_pass_boost_pct||0,eventCost:0,eventTime:0,builders:6,goblinB:false,goblinR:false};return state.settings;}
-function plan(){state.plans=state.plans||{};const k=acctKey();if(!state.plans[k])state.plans[k]={builders:{},lab:[],pet:[],smith:[]};return state.plans[k];}
+function plan(){
+  state.plans=state.plans||{};const k=acctKey();
+  if(!state.plans[k])state.plans[k]={builders:{},lab:[],pet:[],smith:[]};
+  const p=state.plans[k];
+  const norm=(arr)=>(arr||[]).map(e=>{
+    if(typeof e!=='string')return e;
+    const it=IT().find(i=>i.name===e);
+    return {name:e,level:it?it.level:0,category:it?it.category:null};
+  });
+  if(p.builders)for(const b in p.builders)p.builders[b]=norm(p.builders[b]);
+  p.lab=norm(p.lab);p.pet=norm(p.pet);p.smith=norm(p.smith);
+  return p;
+}
 function esc(s){return String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 function fmtNum(n){return n==null?'—':Number(n).toLocaleString()}
 function fmtTime(sec){sec=Math.round(sec);if(sec<=0)return '—';let d=Math.floor(sec/86400),h=Math.floor(sec%86400/3600),m=Math.floor(sec%3600/60);if(d>=1)return h?d+'d '+h+'h':d+'d';if(h>=1)return m?h+'h '+m+'m':h+'h';return m+'m';}
@@ -318,17 +335,32 @@ function renderOverview(){
    +rankedCard
    +'<div class="card log"><h3>War Log <span class="faint" style="text-transform:none;font-weight:400">— clan wars &amp; CWL</span></h3>'+log+'</div>';
 }
+function trackerTile(i){
+  const pct=i.max?Math.round(100*i.level/i.max):0;const col=rampColor(pct,i.is_max);
+  const addBtn=i.is_max?'':'<button class="tileadd" title="Add to queue" onclick="openQueueModal(\''+i.category+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+</button>';
+  return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':(i.unknown_cost?'<span class="maxbadge" style="background:var(--muted);color:#fff">NO DATA</span>':''))
+    +addBtn
+    +'<div class="ic" style="background:'+CAT_COLOR[i.category]+'22;color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</div>'
+    +'<div class="tname">'+esc(i.name)+'</div><div class="tlv">Lv '+i.level+' / '+i.max+'</div>'
+    +'<div class="tbar"><div class="tfill" style="width:'+pct+'%;background:'+col+'"></div></div></div>';
+}
 function renderTracker(){
   const ITEMS=IT();const cats=[];for(const c of ['heroes','troops','spells','pets','equipment','defenses','walls','traps','resources'])if(ITEMS.some(i=>i.category===c))cats.push(c);
   if(!state.trackCat||!cats.includes(state.trackCat))state.trackCat=cats[0];
   const pills=cats.map(c=>'<button class="pill '+(c===state.trackCat?'active':'')+'" onclick="setTrackCat(\''+c+'\')">'+c+'</button>').join('');
-  const items=ITEMS.filter(i=>i.category===state.trackCat);
-  const grid=items.map(i=>{const pct=i.max?Math.round(100*i.level/i.max):0;const col=rampColor(pct,i.is_max);
-    return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':(i.unknown_cost?'<span class="maxbadge" style="background:var(--muted);color:#fff">NO DATA</span>':''))
-      +'<div class="ic" style="background:'+CAT_COLOR[i.category]+'22;color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</div>'
-      +'<div class="tname">'+esc(i.name)+'</div><div class="tlv">Lv '+i.level+' / '+i.max+'</div>'
-      +'<div class="tbar"><div class="tfill" style="width:'+pct+'%;background:'+col+'"></div></div></div>';}).join('');
-  document.getElementById('page-tracker').innerHTML='<div class="pills">'+pills+'</div><div class="grid">'+(grid||'<div class="faint">Nothing here.</div>')+'</div>';
+  const items=sortByGameOrder(ITEMS.filter(i=>i.category===state.trackCat));
+  let body;
+  if(state.trackCat==='equipment'){
+    const heroOrder=Object.keys(ICON_MAP.heroes);
+    const groups={};for(const i of items){const h=EQUIPMENT_HERO[i.name]||'Other';(groups[h]=groups[h]||[]).push(i);}
+    const order=heroOrder.concat(Object.keys(groups).filter(h=>!heroOrder.includes(h)));
+    body=order.filter(h=>groups[h]&&groups[h].length).map(h=>
+      '<div class="herogroup"><h4 class="herogroup-title">'+esc(h)+'</h4><div class="grid">'+groups[h].map(trackerTile).join('')+'</div></div>'
+    ).join('')||'<div class="faint">Nothing here.</div>';
+  }else{
+    body='<div class="grid">'+(items.map(trackerTile).join('')||'<div class="faint">Nothing here.</div>')+'</div>';
+  }
+  document.getElementById('page-tracker').innerHTML='<div class="pills">'+pills+'</div>'+body;
 }
 function setTrackCat(c){state.trackCat=c;save();renderTracker();}
 function renderPlanner(){
@@ -347,11 +379,10 @@ function renderPlanner(){
     const rows=items.map(i=>{const j=adj(i);const meta=j.unknown?'<span class="faint">no upgrade data yet</span>':(costText(j.cost)+'<br>'+fmtTime(j.seconds));return '<div class="pitem"><span class="pi-name"><span class="pi-ic" style="color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</span>'+esc(i.name)+' <span class="lv">'+i.level+'&rarr;'+i.max+'</span></span><span class="pi-meta">'+meta+'</span><button class="addbtn" onclick="openQueueModal(\''+esc(i.category)+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+ queue</button></div>';}).join('');
     return '<div class="prio card"><h4>'+title+' <span class="faint">top '+n+'</span></h4>'+(rows||'<div class="faint">All maxed here.</div>')+'</div>';};
   const p=plan(),bc=(s.builders||6)+(s.goblinB?1:0);
-  const findItem=(nm)=>IT().find(i=>i.name===nm);
-  const laneTime=(ids)=>ids.reduce((t,nm)=>{const it=findItem(nm);return t+(it?adj(it).seconds:0)},0);
-  const laneBox=(title,key,items,parallel)=>{const t=laneTime(items);const eff=parallel&&parallel>1?t/parallel:t;
-    const rows=items.length?items.map(nm=>{const it=findItem(nm);const timeLabel=it&&it.unknown_cost?'no data':fmtTime(it?adj(it).seconds:0);return '<div class="qitem"><span>'+esc(nm)+' <span class="faint mono">'+timeLabel+'</span></span><span class="x" onclick="removeFromLane(\''+key+'\',\''+esc(nm).replace(/'/g,"\\'")+'\')">✕</span></div>';}).join(''):'<div class="empty">Empty — add from the lists above</div>';
-    return '<div class="lane" data-lane="'+key+'"><h5><span>'+title+'</span><span class="faint mono">'+fmtTime(eff)+'</span></h5><div class="sum">'+items.length+' item(s)'+(eff?' · done '+fmtDate(eff):'')+'</div>'+rows+'</div>';};
+  const laneTime=(entries)=>entries.reduce((t,e)=>t+adj(queueEntryCostTime(e)).seconds,0);
+  const laneBox=(title,key,entries,parallel)=>{const t=laneTime(entries);const eff=parallel&&parallel>1?t/parallel:t;
+    const rows=entries.length?entries.map(e=>{const qt=queueEntryCostTime(e);const timeLabel=qt.unknown_cost?'no data':fmtTime(adj(qt).seconds);const lvLabel=e.category==='walls'?'':' Lv '+e.level+'→'+(e.level+1);return '<div class="qitem"><span>'+esc(e.name)+lvLabel+' <span class="faint mono">'+timeLabel+'</span></span><span class="x" onclick="removeFromLane(\''+key+'\',\''+esc(e.name).replace(/'/g,"\\'")+'\','+e.level+')">✕</span></div>';}).join(''):'<div class="empty">Empty — add from the lists above</div>';
+    return '<div class="lane" data-lane="'+key+'"><h5><span>'+title+'</span><span class="faint mono">'+fmtTime(eff)+'</span></h5><div class="sum">'+entries.length+' item(s)'+(eff?' · done '+fmtDate(eff):'')+'</div>'+rows+'</div>';};
   let builderLanes='';for(let b=1;b<=bc;b++){const ids=(p.builders&&p.builders[b])||[];builderLanes+=laneBox('Builder '+b+(b>(s.builders||6)?' (goblin)':''),'builders:'+b,ids,1);}
   const lanesHtml='<div class="lanes">'+builderLanes
    +laneBox('Laboratory'+(s.goblinR?' (goblin ×2)':''),'lab',p.lab||[],s.goblinR?2:1)
@@ -364,19 +395,84 @@ function renderPlanner(){
    +'<div class="card"><h3>Your plan</h3>'+lanesHtml+'<div class="note">Builder count and goblin helpers are yours to set above — the game never exposes them. Finish dates assume each lane runs start to finish from now.</div></div>';
 }
 function laneForItem(cat){return LANE_OF[cat]||'builders';}
+const OFFENSE_CATS=['heroes','troops','spells','pets','equipment'];
+const SINGLE_LEVEL_DEFENSE_CATS=['defenses','traps','resources'];
+// Cost/time for a specific FUTURE level (source level -> source level+1), not just
+// whatever level an item happens to be sitting at right now -- needed so a queue
+// entry that isn't the item's current level (a 2nd, 3rd... queued upgrade) still
+// prices correctly.
+function costTimeForLevel(cat,name,level){
+  if(OFFENSE_CATS.includes(cat)){
+    const tbl=DATA.offense_tables&&DATA.offense_tables[cat]&&DATA.offense_tables[cat][name];
+    if(!tbl)return null;
+    const row=tbl.find(r=>r[0]===level);
+    if(!row)return null;
+    return {cost:row[1]?{[row[1]]:row[2]}:{},seconds:row[3]};
+  }
+  if(SINGLE_LEVEL_DEFENSE_CATS.includes(cat)){
+    const T=DATA.defense_tables;if(!T)return null;
+    const table=cat==='traps'?T.traps:T.buildings;
+    const e=table&&table[name];if(!e)return null;
+    const row=e.l.find(r=>r[0]===level);if(!row)return null;
+    return {cost:{[e.r]:row[1]},seconds:row[2]};
+  }
+  return null; // walls: not incrementable (see nextQueueLevel), so never looked up by level
+}
+// Cost/time for one queue entry, in the {cost,seconds,unknown_cost} shape adj()/costText() expect.
+function queueEntryCostTime(e){
+  if(e.category==='walls'){const it=IT().find(i=>i.category==='walls'&&i.name===e.name);return it?{seconds:it.seconds,cost:it.cost,unknown_cost:!!it.unknown_cost}:{seconds:0,cost:{},unknown_cost:true};}
+  const ct=e.category?costTimeForLevel(e.category,e.name,e.level):null;
+  return ct?{seconds:ct.seconds,cost:ct.cost,unknown_cost:false}:{seconds:0,cost:{},unknown_cost:true};
+}
+// What level this item's *next* queue add should target: one past whatever's
+// already queued for it anywhere in the plan, or its current live level if
+// nothing's queued yet. Wall buckets encode their level in the name already
+// (e.g. "Wall lvl 15 x30"), so they're a fixed one-off job, not incrementable.
+function nextQueueLevel(cat,name){
+  const it=IT().find(i=>i.category===cat&&i.name===name);
+  if(!it)return null;
+  if(cat==='walls')return it.level;
+  const p=plan();let max=it.level-1;
+  const scan=(arr)=>{(arr||[]).forEach(e=>{if(e.name===name&&e.category===cat&&e.level>max)max=e.level;});};
+  if(p.builders)for(const b in p.builders)scan(p.builders[b]);
+  scan(p.lab);scan(p.pet);scan(p.smith);
+  return max+1;
+}
+// Whether {name,level,cat} is already sitting in some lane. Only matters for walls:
+// every other category's level auto-increments past whatever's queued (see
+// nextQueueLevel), so this can't happen there through the normal + button flow.
+// Walls don't increment (a bucket's level is fixed, baked into its name), so without
+// this check the same wall bucket could be dropped onto two different builders at
+// once and double-count its cost/time.
+function alreadyQueued(cat,name,level){
+  const p=plan();
+  const hit=(arr)=>(arr||[]).some(e=>e.name===name&&e.category===cat&&e.level===level);
+  if(p.builders)for(const b in p.builders)if(hit(p.builders[b]))return true;
+  return hit(p.lab)||hit(p.pet)||hit(p.smith);
+}
 let qPending=null;
 function openQueueModal(cat,name){
-  qPending={cat,name};
+  const it=IT().find(i=>i.category===cat&&i.name===name);
+  const level=nextQueueLevel(cat,name);
   const lane=laneForItem(cat);
-  document.getElementById('qmodal-title').textContent=name;
+  const maxedOut=cat==='walls'?alreadyQueued(cat,name,level):(level!=null&&level>=it.max);
+  if(it&&maxedOut){
+    qPending=null;
+    document.getElementById('qmodal-title').textContent=name;
+    document.getElementById('qmodal-sub').textContent=cat==='walls'?'This wall level is already queued.':'Already queued all the way to max level.';
+    document.getElementById('qmodal-body').innerHTML='';
+    document.getElementById('qmodal').style.display='flex';
+    return;
+  }
+  qPending={cat,name,level};
+  document.getElementById('qmodal-title').textContent=name+(level!=null&&cat!=='walls'?' — Lv '+level+' → '+(level+1):'');
   let body='';
   if(lane==='builders'){
     document.getElementById('qmodal-sub').textContent='Choose which builder queues this upgrade.';
     const s=settings(),bc=(s.builders||6)+(s.goblinB?1:0),p=plan();
-    const findItem=(nm)=>IT().find(i=>i.name===nm);
     for(let b=1;b<=bc;b++){
       const ids=(p.builders&&p.builders[b])||[];
-      const t=ids.reduce((s2,nm)=>{const it=findItem(nm);return s2+(it?adj(it).seconds:0)},0);
+      const t=ids.reduce((s2,e)=>s2+adj(queueEntryCostTime(e)).seconds,0);
       body+='<div class="qpick" onclick="confirmQueue('+b+')"><span>Builder '+b+(b>(s.builders||6)?' (goblin)':'')+'</span><span class="meta">'+(ids.length?ids.length+' queued · '+fmtTime(t):'free')+'</span></div>';
     }
   }else{
@@ -390,22 +486,34 @@ function openQueueModal(cat,name){
 function closeQueueModal(){qPending=null;document.getElementById('qmodal').style.display='none';}
 function confirmQueue(builderIdx){
   if(!qPending)return;
-  const{cat,name}=qPending,lane=laneForItem(cat),p=plan();
-  if(lane==='builders'){p.builders=p.builders||{};for(const b in p.builders)p.builders[b]=(p.builders[b]||[]).filter(n=>n!==name);p.builders[builderIdx]=p.builders[builderIdx]||[];p.builders[builderIdx].push(name);}
-  else{p[lane]=p[lane]||[];if(!p[lane].includes(name))p[lane].push(name);}
+  const{cat,name,level}=qPending,lane=laneForItem(cat),p=plan();
+  const entry={name,level,category:cat};
+  if(lane==='builders'){
+    p.builders=p.builders||{};p.builders[builderIdx]=p.builders[builderIdx]||[];
+    if(!p.builders[builderIdx].some(e=>e.name===name&&e.level===level))p.builders[builderIdx].push(entry);
+  }else{
+    p[lane]=p[lane]||[];
+    if(!p[lane].some(e=>e.name===name&&e.level===level))p[lane].push(entry);
+  }
   save();closeQueueModal();renderPlanner();
   flashLane(lane==='builders'?('builders:'+builderIdx):lane);
 }
 function flashLane(key){setTimeout(()=>{const el=document.querySelector('[data-lane="'+key+'"]');if(!el)return;el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1400);},60);}
-function removeFromLane(key,name){const p=plan();if(key.indexOf('builders:')===0){const b=key.split(':')[1];p.builders[b]=(p.builders[b]||[]).filter(n=>n!==name);}else{p[key]=(p[key]||[]).filter(n=>n!==name);}save();renderPlanner();}
+function removeFromLane(key,name,level){
+  const p=plan();
+  const strip=(arr)=>(arr||[]).filter(e=>!(e.name===name&&e.level===level));
+  if(key.indexOf('builders:')===0){const b=key.split(':')[1];p.builders[b]=strip(p.builders[b]);}else{p[key]=strip(p[key]);}
+  save();renderPlanner();
+}
 function clearPlan(){const k=acctKey();state.plans[k]={builders:{},lab:[],pet:[],smith:[]};save();renderPlanner();}
 function autofill(mode){const k=acctKey();state.plans=state.plans||{};state.plans[k]={builders:{},lab:[],pet:[],smith:[]};const p=state.plans[k];const s=settings();const bc=(s.builders||6)+(s.goblinB?1:0);
   const sortRem=(arr)=>arr.slice().sort((a,b)=>{const au=!!a.unknown_cost,bu=!!b.unknown_cost;if(au!==bu)return au?1:-1;return mode==='fast'?adj(a).seconds-adj(b).seconds:(b.max-b.level)-(a.max-a.level);});
+  const toEntry=(i)=>({name:i.name,level:i.level,category:i.category});
   const build=sortRem(remaining().filter(i=>BUILDER_CATS.includes(i.category))).slice(0,bc*4);
-  p.builders={};const t=Array(bc+1).fill(0);for(const it of build){let best=1;for(let b=2;b<=bc;b++)if(t[b]<t[best])best=b;p.builders[best]=p.builders[best]||[];p.builders[best].push(it.name);t[best]+=adj(it).seconds;}
-  p.lab=sortRem(remaining().filter(i=>['troops','spells'].includes(i.category))).slice(0,6).map(i=>i.name);
-  p.pet=sortRem(remaining().filter(i=>i.category==='pets')).slice(0,4).map(i=>i.name);
-  p.smith=sortRem(remaining().filter(i=>i.category==='equipment')).slice(0,4).map(i=>i.name);
+  p.builders={};const t=Array(bc+1).fill(0);for(const it of build){let best=1;for(let b=2;b<=bc;b++)if(t[b]<t[best])best=b;p.builders[best]=p.builders[best]||[];p.builders[best].push(toEntry(it));t[best]+=adj(it).seconds;}
+  p.lab=sortRem(remaining().filter(i=>['troops','spells'].includes(i.category))).slice(0,6).map(toEntry);
+  p.pet=sortRem(remaining().filter(i=>i.category==='pets')).slice(0,4).map(toEntry);
+  p.smith=sortRem(remaining().filter(i=>i.category==='equipment')).slice(0,4).map(toEntry);
   save();renderPlanner();}
 function setNum(k,v){settings()[k]=Number(v);save();renderPlanner();}function setTog(k){settings()[k]=!settings()[k];save();renderPlanner();}
 function openVillageModal(){var m=document.getElementById('vmodal');var t=document.getElementById('vjson');var cur=pastedVillage();t.value=cur?JSON.stringify(cur,null,2):'';document.getElementById('verr').textContent='';m.style.display='flex';}
