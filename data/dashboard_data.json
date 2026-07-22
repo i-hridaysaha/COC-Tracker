@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-21T08:25:57.066173+00:00",
+  "captured_at": "2026-07-22T01:57:47.323349+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3592,2570 +3592,6 @@
       1000102
     ]
   },
-  "repo": "i-hridaysaha/COC-Tracker",
-  "branch": "master",
-  "accounts": [
-    {
-      "tag": "#8P88Q0GLQ",
-      "name": "the dark LORD",
-      "town_hall": 17,
-      "trophies": 19,
-      "best_trophies": 4909,
-      "war_stars": 560,
-      "attack_wins": 0,
-      "defense_wins": 0,
-      "donations": 2315,
-      "received": 379,
-      "offense_completion_pct": 84.2,
-      "rush": {
-        "score": 11.9,
-        "band": "slightly rushed",
-        "levels_behind_prev_th": 92,
-        "worst_offenders": [
-          {
-            "name": "Barbarian King",
-            "level": 71,
-            "prev_th_max": 95,
-            "behind": 24,
-            "category": "heroes"
-          },
-          {
-            "name": "Archer Queen",
-            "level": 82,
-            "prev_th_max": 95,
-            "behind": 13,
-            "category": "heroes"
-          },
-          {
-            "name": "Grand Warden",
-            "level": 62,
-            "prev_th_max": 70,
-            "behind": 8,
-            "category": "heroes"
-          },
-          {
-            "name": "Barbarian",
-            "level": 8,
-            "prev_th_max": 12,
-            "behind": 4,
-            "category": "troops"
-          },
-          {
-            "name": "Minion Prince",
-            "level": 77,
-            "prev_th_max": 80,
-            "behind": 3,
-            "category": "heroes"
-          }
-        ]
-      },
-      "completion": {
-        "heroes": 83.2,
-        "troops": 88.1,
-        "spells": 77.4,
-        "pets": 56.4,
-        "equipment": 57.6,
-        "defenses": 100.0,
-        "resources": 89.0,
-        "traps": 63.1,
-        "walls": 98.9
-      },
-      "items": [
-        {
-          "category": "heroes",
-          "name": "Barbarian King",
-          "level": 71,
-          "max": 100,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 135000
-          },
-          "seconds": 388800
-        },
-        {
-          "category": "heroes",
-          "name": "Archer Queen",
-          "level": 82,
-          "max": 100,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 200000
-          },
-          "seconds": 518400
-        },
-        {
-          "category": "heroes",
-          "name": "Minion Prince",
-          "level": 77,
-          "max": 90,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 260000
-          },
-          "seconds": 648000
-        },
-        {
-          "category": "heroes",
-          "name": "Grand Warden",
-          "level": 62,
-          "max": 75,
-          "is_max": false,
-          "cost": {
-            "elixir": 16500000
-          },
-          "seconds": 518400
-        },
-        {
-          "category": "heroes",
-          "name": "Royal Champion",
-          "level": 50,
-          "max": 50,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "heroes",
-          "name": "Dragon Duke",
-          "level": 20,
-          "max": 20,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Barbarian",
-          "level": 8,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "elixir": 2500000
-          },
-          "seconds": 129600
-        },
-        {
-          "category": "troops",
-          "name": "Ruin Witch",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Sky Wagon",
-          "level": 1,
-          "max": 3,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "troops",
-          "name": "Archer",
-          "level": 9,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "elixir": 4500000
-          },
-          "seconds": 302400
-        },
-        {
-          "category": "troops",
-          "name": "Goblin",
-          "level": 9,
-          "max": 9,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Giant",
-          "level": 13,
-          "max": 13,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Wall Breaker",
-          "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "elixir": 15500000
-          },
-          "seconds": 864000
-        },
-        {
-          "category": "troops",
-          "name": "Balloon",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Wizard",
-          "level": 10,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "elixir": 10000000
-          },
-          "seconds": 475200
-        },
-        {
-          "category": "troops",
-          "name": "Healer",
-          "level": 10,
-          "max": 10,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Dragon",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "P.E.K.K.A",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Baby Dragon",
-          "level": 9,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 13500000
-          },
-          "seconds": 626400
-        },
-        {
-          "category": "troops",
-          "name": "Miner",
-          "level": 8,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 10500000
-          },
-          "seconds": 561600
-        },
-        {
-          "category": "troops",
-          "name": "Yeti",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Electro Dragon",
-          "level": 8,
-          "max": 8,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Dragon Rider",
-          "level": 5,
-          "max": 5,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Electro Titan",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Root Rider",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Thrower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Meteor Golem",
-          "level": 2,
-          "max": 2,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Minion",
-          "level": 11,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 160000
-          },
-          "seconds": 518400
-        },
-        {
-          "category": "troops",
-          "name": "Hog Rider",
-          "level": 14,
-          "max": 14,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Valkyrie",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Golem",
-          "level": 14,
-          "max": 14,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Witch",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Lava Hound",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Bowler",
-          "level": 9,
-          "max": 9,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Ice Golem",
-          "level": 9,
-          "max": 9,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Headhunter",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Apprentice Warden",
-          "level": 2,
-          "max": 4,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 135000
-          },
-          "seconds": 648000
-        },
-        {
-          "category": "troops",
-          "name": "Druid",
-          "level": 2,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 175000
-          },
-          "seconds": 820800
-        },
-        {
-          "category": "troops",
-          "name": "Furnace",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Wall Wrecker",
-          "level": 4,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 10000000
-          },
-          "seconds": 777600
-        },
-        {
-          "category": "troops",
-          "name": "Battle Blimp",
-          "level": 3,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 6500000
-          },
-          "seconds": 604800
-        },
-        {
-          "category": "troops",
-          "name": "Stone Slammer",
-          "level": 5,
-          "max": 5,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Siege Barracks",
-          "level": 3,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 8000000
-          },
-          "seconds": 604800
-        },
-        {
-          "category": "troops",
-          "name": "Log Launcher",
-          "level": 5,
-          "max": 5,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Flame Flinger",
-          "level": 5,
-          "max": 5,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "troops",
-          "name": "Battle Drill",
-          "level": 1,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 6000000
-          },
-          "seconds": 345600
-        },
-        {
-          "category": "troops",
-          "name": "Troop Launcher",
-          "level": 1,
-          "max": 4,
-          "is_max": false,
-          "cost": {
-            "elixir": 8500000
-          },
-          "seconds": 518400
-        },
-        {
-          "category": "spells",
-          "name": "Lightning Spell",
-          "level": 9,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "elixir": 10000000
-          },
-          "seconds": 518400
-        },
-        {
-          "category": "spells",
-          "name": "Angry Spell",
-          "level": 1,
-          "max": 3,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "spells",
-          "name": "Healing Spell",
-          "level": 8,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 11000000
-          },
-          "seconds": 561600
-        },
-        {
-          "category": "spells",
-          "name": "Rage Spell",
-          "level": 6,
-          "max": 6,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Jump Spell",
-          "level": 4,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 8000000
-          },
-          "seconds": 561600
-        },
-        {
-          "category": "spells",
-          "name": "Freeze Spell",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Clone Spell",
-          "level": 7,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "elixir": 9000000
-          },
-          "seconds": 604800
-        },
-        {
-          "category": "spells",
-          "name": "Invisibility Spell",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Recall Spell",
-          "level": 3,
-          "max": 6,
-          "is_max": false,
-          "cost": {
-            "elixir": 9000000
-          },
-          "seconds": 820800
-        },
-        {
-          "category": "spells",
-          "name": "Revive Spell",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Totem Spell",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Poison Spell",
-          "level": 7,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 100000
-          },
-          "seconds": 561600
-        },
-        {
-          "category": "spells",
-          "name": "Earthquake Spell",
-          "level": 5,
-          "max": 5,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Haste Spell",
-          "level": 3,
-          "max": 6,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 30000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "spells",
-          "name": "Skeleton Spell",
-          "level": 7,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 135000
-          },
-          "seconds": 561600
-        },
-        {
-          "category": "spells",
-          "name": "Bat Spell",
-          "level": 5,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 140000
-          },
-          "seconds": 604800
-        },
-        {
-          "category": "spells",
-          "name": "Overgrowth Spell",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "spells",
-          "name": "Ice Block Spell",
-          "level": 2,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 200000
-          },
-          "seconds": 950400
-        },
-        {
-          "category": "pets",
-          "name": "L.A.S.S.I",
-          "level": 5,
-          "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 60000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "pets",
-          "name": "Mighty Yak",
-          "level": 6,
-          "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 90000
-          },
-          "seconds": 302400
-        },
-        {
-          "category": "pets",
-          "name": "Electro Owl",
-          "level": 6,
-          "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 105000
-          },
-          "seconds": 432000
-        },
-        {
-          "category": "pets",
-          "name": "Unicorn",
-          "level": 7,
-          "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 140000
-          },
-          "seconds": 475200
-        },
-        {
-          "category": "pets",
-          "name": "Phoenix",
-          "level": 6,
-          "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 155000
-          },
-          "seconds": 432000
-        },
-        {
-          "category": "pets",
-          "name": "Poison Lizard",
-          "level": 7,
-          "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 130000
-          },
-          "seconds": 345600
-        },
-        {
-          "category": "pets",
-          "name": "Diggy",
-          "level": 6,
-          "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 150000
-          },
-          "seconds": 432000
-        },
-        {
-          "category": "pets",
-          "name": "Frosty",
-          "level": 11,
-          "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 230000
-          },
-          "seconds": 691200
-        },
-        {
-          "category": "pets",
-          "name": "Spirit Fox",
-          "level": 10,
-          "max": 10,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "pets",
-          "name": "Angry Jelly",
-          "level": 6,
-          "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 200000
-          },
-          "seconds": 691200
-        },
-        {
-          "category": "pets",
-          "name": "Sneezy",
-          "level": 9,
-          "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 360000
-          },
-          "seconds": 691200
-        },
-        {
-          "category": "equipment",
-          "name": "Monolith Arrow",
-          "level": 15,
-          "max": 27,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "equipment",
-          "name": "Barbarian Puppet",
-          "level": 6,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Fire Heart",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Flame Blower",
-          "level": 8,
-          "max": 18,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "equipment",
-          "name": "Electro Fangs",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Stun Blaster",
-          "level": 1,
-          "max": 18,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "equipment",
-          "name": "Rage Vial",
-          "level": 6,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Archer Puppet",
-          "level": 8,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1800,
-            "glowy_ore": 200
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Invisibility Vial",
-          "level": 12,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2200
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Eternal Tome",
-          "level": 12,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2200
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Life Gem",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Seeking Shield",
-          "level": 9,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1900
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Royal Gem",
-          "level": 9,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1900
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Earthquake Boots",
-          "level": 12,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2200
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Hog Rider Puppet",
-          "level": 1,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Giant Gauntlet",
-          "level": 15,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2500
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Vampstache",
-          "level": 15,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2500
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Haste Vial",
-          "level": 1,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Rocket Spear",
-          "level": 23,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3300,
-            "glowy_ore": 600,
-            "starry_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Spiky Ball",
-          "level": 20,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3000,
-            "glowy_ore": 600,
-            "starry_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Frozen Arrow",
-          "level": 16,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2600
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Giant Arrow",
-          "level": 9,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1900
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Healer Puppet",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Fireball",
-          "level": 20,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3000,
-            "glowy_ore": 600,
-            "starry_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Rage Gem",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Snake Bracelet",
-          "level": 23,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3300,
-            "glowy_ore": 600,
-            "starry_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Healing Tome",
-          "level": 7,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1440
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Dark Crown",
-          "level": 1,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Magic Mirror",
-          "level": 20,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3000,
-            "glowy_ore": 600,
-            "starry_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Electro Boots",
-          "level": 26,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3600,
-            "glowy_ore": 600,
-            "starry_ore": 150
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Lavaloon Puppet",
-          "level": 15,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2500
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Henchmen Puppet",
-          "level": 5,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 840,
-            "glowy_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Dark Orb",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Metal Pants",
-          "level": 5,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 840,
-            "glowy_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Noble Iron",
-          "level": 5,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 840,
-            "glowy_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Action Figure",
-          "level": 27,
-          "max": 27,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Meteor Staff",
-          "level": 20,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 3000,
-            "glowy_ore": 600,
-            "starry_ore": 100
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Frost Flake",
-          "level": 1,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "equipment",
-          "name": "Stick Horse",
-          "level": 1,
-          "max": 27,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 120
-          },
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 15,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 15,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 15,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 15,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Sweeper",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Sweeper",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Bomb Tower",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Bomb Tower",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Scattershot",
-          "level": 6,
-          "max": 6,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Scattershot",
-          "level": 6,
-          "max": 6,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Spell Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Spell Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Monolith",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Multi-Gear Tower",
-          "level": 2,
-          "max": 2,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Multi-Archer Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Multi-Archer Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Multi-Archer Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Ricochet Cannon",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Ricochet Cannon",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Ricochet Cannon",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Firespitter",
-          "level": 2,
-          "max": 2,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Firespitter",
-          "level": 2,
-          "max": 2,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 15,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 2000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Collector",
-          "level": 15,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 2000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Elixir Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 14,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 1200000
-          },
-          "seconds": 64800
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 15,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 2000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 15,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 2000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 16,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 8000000
-          },
-          "seconds": 345600
-        },
-        {
-          "category": "resources",
-          "name": "Gold Mine",
-          "level": 16,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "elixir": 8000000
-          },
-          "seconds": 345600
-        },
-        {
-          "category": "resources",
-          "name": "Gold Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Gold Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Gold Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Gold Storage",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "resources",
-          "name": "Dark Elixir Drill",
-          "level": 6,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 2100000
-          },
-          "seconds": 151200
-        },
-        {
-          "category": "resources",
-          "name": "Dark Elixir Drill",
-          "level": 7,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 2400000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "resources",
-          "name": "Dark Elixir Drill",
-          "level": 7,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 2400000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "resources",
-          "name": "Dark Elixir Storage",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 8,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 750000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 8,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 750000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 8,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 750000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 9,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1300000
-          },
-          "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 9,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1300000
-          },
-          "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 9,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1300000
-          },
-          "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 10,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 2500000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "traps",
-          "name": "Bomb",
-          "level": 10,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 2500000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 6,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1700000
-          },
-          "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 6,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 1700000
-          },
-          "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 2,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 220000
-          },
-          "seconds": 10800
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 2,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 220000
-          },
-          "seconds": 10800
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 5,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 1300000
-          },
-          "seconds": 39600
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 6,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 1500000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 6,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 1500000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 7,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 2000000
-          },
-          "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 8,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 3200000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 9,
-          "max": 11,
-          "is_max": false,
-          "cost": {
-            "gold": 5500000
-          },
-          "seconds": 345600
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 9,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 3000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 9,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 3000000
-          },
-          "seconds": 172800
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 10,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 10,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 10,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 10,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Air Bomb",
-          "level": 10,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 5,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 6500000
-          },
-          "seconds": 388800
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 6,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 12000000
-          },
-          "seconds": 475200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 6,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 12000000
-          },
-          "seconds": 475200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "traps",
-          "name": "Skeleton Trap",
-          "level": 3,
-          "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Skeleton Trap",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "traps",
-          "name": "Skeleton Trap",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "traps",
-          "name": "Skeleton Trap",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "traps",
-          "name": "Tornado Trap",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "traps",
-          "name": "Giga Bomb",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "walls",
-          "name": "Wall lvl 17 x62",
-          "level": 17,
-          "max": 18,
-          "is_max": false,
-          "cost": {
-            "gold": 434000000
-          },
-          "seconds": 0,
-          "count": 62
-        },
-        {
-          "category": "walls",
-          "name": "Wall lvl 18 x263",
-          "level": 18,
-          "max": 18,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0,
-          "count": 263
-        }
-      ],
-      "ranked": {
-        "trophies": 19,
-        "best_trophies": 4909,
-        "attack_wins": 0,
-        "defense_wins": 0,
-        "in_legend_league": false,
-        "legend_trophies": null,
-        "current_season": null,
-        "previous_season": null,
-        "best_season": null
-      },
-      "village_present": true,
-      "events": {
-        "gold_pass_season": {
-          "source": "api",
-          "season_start": "2026-07-01 08:00:00+00:00",
-          "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "10d 23h",
-          "active": true
-        },
-        "scheduled": [
-          {
-            "event": "Season reset",
-            "estimate": false,
-            "active": false,
-            "starts_in": "10d 23h"
-          },
-          {
-            "event": "Clan Games",
-            "estimate": true,
-            "active": false,
-            "starts_in": "23h 34m"
-          },
-          {
-            "event": "CWL",
-            "estimate": true,
-            "active": false,
-            "starts_in": "10d 23h"
-          },
-          {
-            "event": "Raid Weekend",
-            "estimate": true,
-            "active": false,
-            "starts_in": "2d 22h"
-          }
-        ],
-        "raid_weekend": {
-          "source": "api",
-          "state": "ended",
-          "start": "2026-07-17 07:00:00+00:00",
-          "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": null,
-          "me": {
-            "capital_resources_looted": 26321,
-            "attacks_used": 6,
-            "attacks_available": 6
-          }
-        },
-        "cwl": null
-      },
-      "wars": [
-        {
-          "date_seen": "2026-07-19",
-          "player_tag": "#8P88Q0GLQ",
-          "player_name": "the dark LORD",
-          "war_type": "random",
-          "war_state": "In War",
-          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
-          "opponent_clan": "AGIMAT ng PINOY",
-          "team_size": "15",
-          "attack_order": "15",
-          "attacker_th": "17",
-          "defender_tag": "#Q9RRV09YQ",
-          "defender_name": "soriano",
-          "defender_th": "16",
-          "stars": "3",
-          "destruction": "100",
-          "is_fresh": "True",
-          "duration_sec": "99"
-        },
-        {
-          "date_seen": "2026-07-19",
-          "player_tag": "#8P88Q0GLQ",
-          "player_name": "the dark LORD",
-          "war_type": "random",
-          "war_state": "In War",
-          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
-          "opponent_clan": "AGIMAT ng PINOY",
-          "team_size": "15",
-          "attack_order": "17",
-          "attacker_th": "17",
-          "defender_tag": "#29RUG2QLC",
-          "defender_name": "raplyn",
-          "defender_th": "17",
-          "stars": "3",
-          "destruction": "100",
-          "is_fresh": "True",
-          "duration_sec": "125"
-        }
-      ]
-    }
-  ],
   "offense_tables": {
     "heroes": {
       "Barbarian King": [
@@ -20169,5 +17605,2569 @@
         ]
       ]
     }
-  }
+  },
+  "repo": "i-hridaysaha/COC-Tracker",
+  "branch": "master",
+  "accounts": [
+    {
+      "tag": "#8P88Q0GLQ",
+      "name": "the dark LORD",
+      "town_hall": 17,
+      "trophies": 46,
+      "best_trophies": 4909,
+      "war_stars": 560,
+      "attack_wins": 0,
+      "defense_wins": 0,
+      "donations": 2368,
+      "received": 379,
+      "offense_completion_pct": 84.4,
+      "rush": {
+        "score": 11.6,
+        "band": "slightly rushed",
+        "levels_behind_prev_th": 90,
+        "worst_offenders": [
+          {
+            "name": "Barbarian King",
+            "level": 71,
+            "prev_th_max": 95,
+            "behind": 24,
+            "category": "heroes"
+          },
+          {
+            "name": "Archer Queen",
+            "level": 82,
+            "prev_th_max": 95,
+            "behind": 13,
+            "category": "heroes"
+          },
+          {
+            "name": "Grand Warden",
+            "level": 62,
+            "prev_th_max": 70,
+            "behind": 8,
+            "category": "heroes"
+          },
+          {
+            "name": "Barbarian",
+            "level": 8,
+            "prev_th_max": 12,
+            "behind": 4,
+            "category": "troops"
+          },
+          {
+            "name": "Minion Prince",
+            "level": 77,
+            "prev_th_max": 80,
+            "behind": 3,
+            "category": "heroes"
+          }
+        ]
+      },
+      "completion": {
+        "heroes": 83.2,
+        "troops": 88.7,
+        "spells": 77.4,
+        "pets": 57.1,
+        "equipment": 57.6,
+        "defenses": 100.0,
+        "resources": 89.0,
+        "traps": 63.1,
+        "walls": 98.9
+      },
+      "items": [
+        {
+          "category": "heroes",
+          "name": "Barbarian King",
+          "level": 71,
+          "max": 100,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 135000
+          },
+          "seconds": 388800
+        },
+        {
+          "category": "heroes",
+          "name": "Archer Queen",
+          "level": 82,
+          "max": 100,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 200000
+          },
+          "seconds": 518400
+        },
+        {
+          "category": "heroes",
+          "name": "Minion Prince",
+          "level": 77,
+          "max": 90,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 260000
+          },
+          "seconds": 648000
+        },
+        {
+          "category": "heroes",
+          "name": "Grand Warden",
+          "level": 62,
+          "max": 75,
+          "is_max": false,
+          "cost": {
+            "elixir": 16500000
+          },
+          "seconds": 518400
+        },
+        {
+          "category": "heroes",
+          "name": "Royal Champion",
+          "level": 50,
+          "max": 50,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "heroes",
+          "name": "Dragon Duke",
+          "level": 20,
+          "max": 20,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Barbarian",
+          "level": 8,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "elixir": 2500000
+          },
+          "seconds": 129600
+        },
+        {
+          "category": "troops",
+          "name": "Ruin Witch",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Sky Wagon",
+          "level": 1,
+          "max": 3,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "troops",
+          "name": "Archer",
+          "level": 9,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "elixir": 4500000
+          },
+          "seconds": 302400
+        },
+        {
+          "category": "troops",
+          "name": "Goblin",
+          "level": 9,
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Giant",
+          "level": 13,
+          "max": 13,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Wall Breaker",
+          "level": 12,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "elixir": 15500000
+          },
+          "seconds": 864000
+        },
+        {
+          "category": "troops",
+          "name": "Balloon",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Wizard",
+          "level": 10,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "elixir": 10000000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "troops",
+          "name": "Healer",
+          "level": 10,
+          "max": 10,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Dragon",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "P.E.K.K.A",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Baby Dragon",
+          "level": 9,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "elixir": 13500000
+          },
+          "seconds": 626400
+        },
+        {
+          "category": "troops",
+          "name": "Miner",
+          "level": 8,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "elixir": 10500000
+          },
+          "seconds": 561600
+        },
+        {
+          "category": "troops",
+          "name": "Yeti",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Electro Dragon",
+          "level": 8,
+          "max": 8,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Dragon Rider",
+          "level": 5,
+          "max": 5,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Electro Titan",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Root Rider",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Thrower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Meteor Golem",
+          "level": 2,
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Minion",
+          "level": 12,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 220000
+          },
+          "seconds": 777600
+        },
+        {
+          "category": "troops",
+          "name": "Hog Rider",
+          "level": 14,
+          "max": 14,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Valkyrie",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Golem",
+          "level": 14,
+          "max": 14,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Witch",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Lava Hound",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Bowler",
+          "level": 9,
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Ice Golem",
+          "level": 9,
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Headhunter",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Apprentice Warden",
+          "level": 2,
+          "max": 4,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 135000
+          },
+          "seconds": 648000
+        },
+        {
+          "category": "troops",
+          "name": "Druid",
+          "level": 3,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 187500
+          },
+          "seconds": 950400
+        },
+        {
+          "category": "troops",
+          "name": "Furnace",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Wall Wrecker",
+          "level": 4,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 10000000
+          },
+          "seconds": 777600
+        },
+        {
+          "category": "troops",
+          "name": "Battle Blimp",
+          "level": 3,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 6500000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "troops",
+          "name": "Stone Slammer",
+          "level": 5,
+          "max": 5,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Siege Barracks",
+          "level": 3,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 8000000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "troops",
+          "name": "Log Launcher",
+          "level": 5,
+          "max": 5,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Flame Flinger",
+          "level": 5,
+          "max": 5,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "troops",
+          "name": "Battle Drill",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 6000000
+          },
+          "seconds": 345600
+        },
+        {
+          "category": "troops",
+          "name": "Troop Launcher",
+          "level": 1,
+          "max": 4,
+          "is_max": false,
+          "cost": {
+            "elixir": 8500000
+          },
+          "seconds": 518400
+        },
+        {
+          "category": "spells",
+          "name": "Lightning Spell",
+          "level": 9,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "elixir": 10000000
+          },
+          "seconds": 518400
+        },
+        {
+          "category": "spells",
+          "name": "Angry Spell",
+          "level": 1,
+          "max": 3,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "spells",
+          "name": "Healing Spell",
+          "level": 8,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "elixir": 11000000
+          },
+          "seconds": 561600
+        },
+        {
+          "category": "spells",
+          "name": "Rage Spell",
+          "level": 6,
+          "max": 6,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Jump Spell",
+          "level": 4,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 8000000
+          },
+          "seconds": 561600
+        },
+        {
+          "category": "spells",
+          "name": "Freeze Spell",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Clone Spell",
+          "level": 7,
+          "max": 8,
+          "is_max": false,
+          "cost": {
+            "elixir": 9000000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "spells",
+          "name": "Invisibility Spell",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Recall Spell",
+          "level": 3,
+          "max": 6,
+          "is_max": false,
+          "cost": {
+            "elixir": 9000000
+          },
+          "seconds": 820800
+        },
+        {
+          "category": "spells",
+          "name": "Revive Spell",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Totem Spell",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Poison Spell",
+          "level": 7,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 100000
+          },
+          "seconds": 561600
+        },
+        {
+          "category": "spells",
+          "name": "Earthquake Spell",
+          "level": 5,
+          "max": 5,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Haste Spell",
+          "level": 3,
+          "max": 6,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 30000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "spells",
+          "name": "Skeleton Spell",
+          "level": 7,
+          "max": 8,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 135000
+          },
+          "seconds": 561600
+        },
+        {
+          "category": "spells",
+          "name": "Bat Spell",
+          "level": 5,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 140000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "spells",
+          "name": "Overgrowth Spell",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "spells",
+          "name": "Ice Block Spell",
+          "level": 2,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 200000
+          },
+          "seconds": 950400
+        },
+        {
+          "category": "pets",
+          "name": "L.A.S.S.I",
+          "level": 5,
+          "max": 15,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 60000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "pets",
+          "name": "Mighty Yak",
+          "level": 6,
+          "max": 15,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 90000
+          },
+          "seconds": 302400
+        },
+        {
+          "category": "pets",
+          "name": "Electro Owl",
+          "level": 6,
+          "max": 15,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 105000
+          },
+          "seconds": 432000
+        },
+        {
+          "category": "pets",
+          "name": "Unicorn",
+          "level": 7,
+          "max": 15,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 140000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "pets",
+          "name": "Phoenix",
+          "level": 6,
+          "max": 10,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 155000
+          },
+          "seconds": 432000
+        },
+        {
+          "category": "pets",
+          "name": "Poison Lizard",
+          "level": 7,
+          "max": 15,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 130000
+          },
+          "seconds": 345600
+        },
+        {
+          "category": "pets",
+          "name": "Diggy",
+          "level": 6,
+          "max": 10,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 150000
+          },
+          "seconds": 432000
+        },
+        {
+          "category": "pets",
+          "name": "Frosty",
+          "level": 12,
+          "max": 15,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 260000
+          },
+          "seconds": 691200
+        },
+        {
+          "category": "pets",
+          "name": "Spirit Fox",
+          "level": 10,
+          "max": 10,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "pets",
+          "name": "Angry Jelly",
+          "level": 6,
+          "max": 10,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 200000
+          },
+          "seconds": 691200
+        },
+        {
+          "category": "pets",
+          "name": "Sneezy",
+          "level": 9,
+          "max": 10,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 360000
+          },
+          "seconds": 691200
+        },
+        {
+          "category": "equipment",
+          "name": "Monolith Arrow",
+          "level": 15,
+          "max": 27,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "equipment",
+          "name": "Barbarian Puppet",
+          "level": 6,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Fire Heart",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Flame Blower",
+          "level": 8,
+          "max": 18,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "equipment",
+          "name": "Electro Fangs",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Stun Blaster",
+          "level": 1,
+          "max": 18,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "equipment",
+          "name": "Rage Vial",
+          "level": 6,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Archer Puppet",
+          "level": 8,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1800,
+            "glowy_ore": 200
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Invisibility Vial",
+          "level": 12,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2200
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Eternal Tome",
+          "level": 12,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2200
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Life Gem",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Seeking Shield",
+          "level": 9,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1900
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Royal Gem",
+          "level": 9,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1900
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Earthquake Boots",
+          "level": 12,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2200
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Hog Rider Puppet",
+          "level": 1,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Giant Gauntlet",
+          "level": 15,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2500
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Vampstache",
+          "level": 15,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2500
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Haste Vial",
+          "level": 1,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Rocket Spear",
+          "level": 23,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3300,
+            "glowy_ore": 600,
+            "starry_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Spiky Ball",
+          "level": 20,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Frozen Arrow",
+          "level": 16,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2600
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Giant Arrow",
+          "level": 9,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1900
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Healer Puppet",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Fireball",
+          "level": 20,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Rage Gem",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Snake Bracelet",
+          "level": 23,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3300,
+            "glowy_ore": 600,
+            "starry_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Healing Tome",
+          "level": 7,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 1440
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Dark Crown",
+          "level": 1,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Magic Mirror",
+          "level": 20,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Electro Boots",
+          "level": 26,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3600,
+            "glowy_ore": 600,
+            "starry_ore": 150
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Lavaloon Puppet",
+          "level": 15,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 2500
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Henchmen Puppet",
+          "level": 5,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 840,
+            "glowy_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Dark Orb",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Metal Pants",
+          "level": 5,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 840,
+            "glowy_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Noble Iron",
+          "level": 5,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 840,
+            "glowy_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Action Figure",
+          "level": 27,
+          "max": 27,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Meteor Staff",
+          "level": 20,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 3000,
+            "glowy_ore": 600,
+            "starry_ore": 100
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Frost Flake",
+          "level": 1,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "equipment",
+          "name": "Stick Horse",
+          "level": 1,
+          "max": 27,
+          "is_max": false,
+          "cost": {
+            "shiny_ore": 120
+          },
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 15,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 15,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 15,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 15,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Sweeper",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Sweeper",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Bomb Tower",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Bomb Tower",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Scattershot",
+          "level": 6,
+          "max": 6,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Scattershot",
+          "level": 6,
+          "max": 6,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Spell Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Spell Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Monolith",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Multi-Gear Tower",
+          "level": 2,
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Multi-Archer Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Multi-Archer Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Multi-Archer Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Ricochet Cannon",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Ricochet Cannon",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Ricochet Cannon",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Firespitter",
+          "level": 2,
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Firespitter",
+          "level": 2,
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 15,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 2000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Collector",
+          "level": 15,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 2000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Elixir Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 14,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 1200000
+          },
+          "seconds": 64800
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 15,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 2000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 15,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 2000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 8000000
+          },
+          "seconds": 345600
+        },
+        {
+          "category": "resources",
+          "name": "Gold Mine",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "elixir": 8000000
+          },
+          "seconds": 345600
+        },
+        {
+          "category": "resources",
+          "name": "Gold Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Gold Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Gold Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Gold Storage",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "resources",
+          "name": "Dark Elixir Drill",
+          "level": 6,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "elixir": 2100000
+          },
+          "seconds": 151200
+        },
+        {
+          "category": "resources",
+          "name": "Dark Elixir Drill",
+          "level": 7,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "elixir": 2400000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "resources",
+          "name": "Dark Elixir Drill",
+          "level": 7,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "elixir": 2400000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "resources",
+          "name": "Dark Elixir Storage",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 8,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 750000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 8,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 750000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 8,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 750000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 9,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 1300000
+          },
+          "seconds": 86400
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 9,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 1300000
+          },
+          "seconds": 86400
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 9,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 1300000
+          },
+          "seconds": 86400
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 10,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 2500000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "traps",
+          "name": "Bomb",
+          "level": 10,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 2500000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 5,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 6,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1700000
+          },
+          "seconds": 86400
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 6,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 1700000
+          },
+          "seconds": 86400
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 2,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 220000
+          },
+          "seconds": 10800
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 2,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 220000
+          },
+          "seconds": 10800
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 5,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 1300000
+          },
+          "seconds": 39600
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 6,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 1500000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 6,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 1500000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 7,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 2000000
+          },
+          "seconds": 86400
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 8,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 3200000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 9,
+          "max": 11,
+          "is_max": false,
+          "cost": {
+            "gold": 5500000
+          },
+          "seconds": 345600
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 9,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 3000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 9,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 3000000
+          },
+          "seconds": 172800
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Air Bomb",
+          "level": 10,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 5,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 6500000
+          },
+          "seconds": 388800
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 6,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 12000000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 6,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 12000000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "traps",
+          "name": "Skeleton Trap",
+          "level": 3,
+          "max": 4,
+          "is_max": false,
+          "cost": {
+            "gold": 1000000
+          },
+          "seconds": 43200
+        },
+        {
+          "category": "traps",
+          "name": "Skeleton Trap",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "traps",
+          "name": "Skeleton Trap",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "traps",
+          "name": "Skeleton Trap",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "traps",
+          "name": "Tornado Trap",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "traps",
+          "name": "Giga Bomb",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "walls",
+          "name": "Wall lvl 17 x62",
+          "level": 17,
+          "max": 18,
+          "is_max": false,
+          "cost": {
+            "gold": 434000000
+          },
+          "seconds": 0,
+          "count": 62
+        },
+        {
+          "category": "walls",
+          "name": "Wall lvl 18 x263",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0,
+          "count": 263
+        }
+      ],
+      "ranked": {
+        "trophies": 46,
+        "best_trophies": 4909,
+        "attack_wins": 0,
+        "defense_wins": 0,
+        "in_legend_league": false,
+        "legend_trophies": null,
+        "current_season": null,
+        "previous_season": null,
+        "best_season": null
+      },
+      "village_present": true,
+      "events": {
+        "gold_pass_season": {
+          "source": "api",
+          "season_start": "2026-07-01 08:00:00+00:00",
+          "season_end": "2026-08-01 08:00:00+00:00",
+          "ends_in": "10d 6h",
+          "active": true
+        },
+        "scheduled": [
+          {
+            "event": "Season reset",
+            "estimate": false,
+            "active": false,
+            "starts_in": "10d 6h"
+          },
+          {
+            "event": "Clan Games",
+            "estimate": true,
+            "active": false,
+            "starts_in": "6h 2m"
+          },
+          {
+            "event": "CWL",
+            "estimate": true,
+            "active": false,
+            "starts_in": "10d 6h"
+          },
+          {
+            "event": "Raid Weekend",
+            "estimate": true,
+            "active": false,
+            "starts_in": "2d 5h"
+          }
+        ],
+        "raid_weekend": {
+          "source": "api",
+          "state": "ended",
+          "start": "2026-07-17 07:00:00+00:00",
+          "end": "2026-07-20 07:00:00+00:00",
+          "ends_in": null,
+          "me": {
+            "capital_resources_looted": 26321,
+            "attacks_used": 6,
+            "attacks_available": 6
+          }
+        },
+        "cwl": null
+      },
+      "wars": [
+        {
+          "date_seen": "2026-07-19",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+          "opponent_clan": "AGIMAT ng PINOY",
+          "team_size": "15",
+          "attack_order": "15",
+          "attacker_th": "17",
+          "defender_tag": "#Q9RRV09YQ",
+          "defender_name": "soriano",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "99"
+        },
+        {
+          "date_seen": "2026-07-19",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#LPLRQJCL_2026-07-1912:02:02",
+          "opponent_clan": "AGIMAT ng PINOY",
+          "team_size": "15",
+          "attack_order": "17",
+          "attacker_th": "17",
+          "defender_tag": "#29RUG2QLC",
+          "defender_name": "raplyn",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "125"
+        }
+      ]
+    }
+  ]
 }

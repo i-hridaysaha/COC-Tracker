@@ -1,0 +1,22 @@
+{
+  "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
+  "war_type": "random",
+  "state": "Preparation",
+  "opponent_clan": "Os 300",
+  "team_size": 20,
+  "attacks_per_member": 2,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 17,
+    "map_position": 11,
+    "stars_earned": 0,
+    "attacks_used": 0
+  },
+  "attacks": [],
+  "defended": {
+    "times_defended": 0,
+    "worst_defense_stars": null,
+    "worst_defense_destruction": null
+  }
+}
