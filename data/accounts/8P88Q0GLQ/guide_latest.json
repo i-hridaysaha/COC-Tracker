@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "1997 days, 3:00:00",
+  "total_build_time_one_builder": "1990 days, 3:00:00",
   "total_cost": {
     "dark_elixir": 29926000,
     "elixir": 846200000,
-    "gold": 1356390000,
+    "gold": 1232890000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "1,356,390,000 gold, 846,200,000 elixir, 29,926,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "1,232,890,000 gold, 846,200,000 elixir, 29,926,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -675,34 +675,6 @@
     {
       "rank": 48,
       "category": "traps",
-      "name": "Seeking Air Mine",
-      "from_level": 4,
-      "to_level": 7,
-      "cost": {
-        "gold": 23500000
-      },
-      "cost_text": "23,500,000 gold",
-      "build_time": "13 days",
-      "build_seconds": 1123200,
-      "reason": "one of your longest builds at 13 days, start early to reach max sooner"
-    },
-    {
-      "rank": 49,
-      "category": "traps",
-      "name": "Seeking Air Mine",
-      "from_level": 4,
-      "to_level": 7,
-      "cost": {
-        "gold": 23500000
-      },
-      "cost_text": "23,500,000 gold",
-      "build_time": "13 days",
-      "build_seconds": 1123200,
-      "reason": "one of your longest builds at 13 days, start early to reach max sooner"
-    },
-    {
-      "rank": 50,
-      "category": "traps",
       "name": "Giant Bomb",
       "from_level": 5,
       "to_level": 11,
@@ -715,35 +687,35 @@
       "reason": "one of your longest builds at 12 days, 23:00:00, start early to reach max sooner"
     },
     {
+      "rank": 49,
+      "category": "traps",
+      "name": "Giant Bomb",
+      "from_level": 6,
+      "to_level": 11,
+      "cost": {
+        "gold": 22200000
+      },
+      "cost_text": "22,200,000 gold",
+      "build_time": "12 days, 12:00:00",
+      "build_seconds": 1080000,
+      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 50,
+      "category": "traps",
+      "name": "Giant Bomb",
+      "from_level": 6,
+      "to_level": 11,
+      "cost": {
+        "gold": 22200000
+      },
+      "cost_text": "22,200,000 gold",
+      "build_time": "12 days, 12:00:00",
+      "build_seconds": 1080000,
+      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
+    },
+    {
       "rank": 51,
-      "category": "traps",
-      "name": "Giant Bomb",
-      "from_level": 6,
-      "to_level": 11,
-      "cost": {
-        "gold": 22200000
-      },
-      "cost_text": "22,200,000 gold",
-      "build_time": "12 days, 12:00:00",
-      "build_seconds": 1080000,
-      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 52,
-      "category": "traps",
-      "name": "Giant Bomb",
-      "from_level": 6,
-      "to_level": 11,
-      "cost": {
-        "gold": 22200000
-      },
-      "cost_text": "22,200,000 gold",
-      "build_time": "12 days, 12:00:00",
-      "build_seconds": 1080000,
-      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 53,
       "category": "traps",
       "name": "Giant Bomb",
       "from_level": 7,
@@ -757,7 +729,7 @@
       "reason": "one of your longest builds at 12 days, start early to reach max sooner"
     },
     {
-      "rank": 54,
+      "rank": 52,
       "category": "troops",
       "name": "Barbarian",
       "from_level": 8,
@@ -771,7 +743,7 @@
       "reason": "one of your longest builds at 11 days, start early to reach max sooner"
     },
     {
-      "rank": 55,
+      "rank": 53,
       "category": "traps",
       "name": "Giant Bomb",
       "from_level": 8,
@@ -785,7 +757,7 @@
       "reason": "one of your longest builds at 11 days, start early to reach max sooner"
     },
     {
-      "rank": 56,
+      "rank": 54,
       "category": "traps",
       "name": "Bomb",
       "from_level": 8,
@@ -799,35 +771,7 @@
       "reason": "one of your longest builds at 11 days, start early to reach max sooner"
     },
     {
-      "rank": 57,
-      "category": "traps",
-      "name": "Bomb",
-      "from_level": 8,
-      "to_level": 13,
-      "cost": {
-        "gold": 17050000
-      },
-      "cost_text": "17,050,000 gold",
-      "build_time": "11 days",
-      "build_seconds": 950400,
-      "reason": "one of your longest builds at 11 days, start early to reach max sooner"
-    },
-    {
-      "rank": 58,
-      "category": "traps",
-      "name": "Bomb",
-      "from_level": 8,
-      "to_level": 13,
-      "cost": {
-        "gold": 17050000
-      },
-      "cost_text": "17,050,000 gold",
-      "build_time": "11 days",
-      "build_seconds": 950400,
-      "reason": "one of your longest builds at 11 days, start early to reach max sooner"
-    },
-    {
-      "rank": 59,
+      "rank": 55,
       "category": "traps",
       "name": "Air Bomb",
       "from_level": 9,
@@ -841,7 +785,7 @@
       "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 60,
+      "rank": 56,
       "category": "traps",
       "name": "Air Bomb",
       "from_level": 9,
@@ -850,6 +794,62 @@
         "gold": 17500000
       },
       "cost_text": "17,500,000 gold",
+      "build_time": "10 days, 12:00:00",
+      "build_seconds": 907200,
+      "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 57,
+      "category": "traps",
+      "name": "Bomb",
+      "from_level": 9,
+      "to_level": 13,
+      "cost": {
+        "gold": 16300000
+      },
+      "cost_text": "16,300,000 gold",
+      "build_time": "10 days, 12:00:00",
+      "build_seconds": 907200,
+      "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 58,
+      "category": "traps",
+      "name": "Bomb",
+      "from_level": 9,
+      "to_level": 13,
+      "cost": {
+        "gold": 16300000
+      },
+      "cost_text": "16,300,000 gold",
+      "build_time": "10 days, 12:00:00",
+      "build_seconds": 907200,
+      "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 59,
+      "category": "traps",
+      "name": "Bomb",
+      "from_level": 9,
+      "to_level": 13,
+      "cost": {
+        "gold": 16300000
+      },
+      "cost_text": "16,300,000 gold",
+      "build_time": "10 days, 12:00:00",
+      "build_seconds": 907200,
+      "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 60,
+      "category": "traps",
+      "name": "Bomb",
+      "from_level": 9,
+      "to_level": 13,
+      "cost": {
+        "gold": 16300000
+      },
+      "cost_text": "16,300,000 gold",
       "build_time": "10 days, 12:00:00",
       "build_seconds": 907200,
       "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
@@ -871,30 +871,30 @@
     {
       "rank": 62,
       "category": "traps",
-      "name": "Bomb",
-      "from_level": 9,
-      "to_level": 13,
+      "name": "Seeking Air Mine",
+      "from_level": 5,
+      "to_level": 7,
       "cost": {
-        "gold": 16300000
+        "gold": 18500000
       },
-      "cost_text": "16,300,000 gold",
-      "build_time": "10 days, 12:00:00",
-      "build_seconds": 907200,
-      "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "18,500,000 gold",
+      "build_time": "10 days",
+      "build_seconds": 864000,
+      "reason": "one of your longest builds at 10 days, start early to reach max sooner"
     },
     {
       "rank": 63,
       "category": "traps",
-      "name": "Bomb",
-      "from_level": 9,
-      "to_level": 13,
+      "name": "Seeking Air Mine",
+      "from_level": 5,
+      "to_level": 7,
       "cost": {
-        "gold": 16300000
+        "gold": 18500000
       },
-      "cost_text": "16,300,000 gold",
-      "build_time": "10 days, 12:00:00",
-      "build_seconds": 907200,
-      "reason": "one of your longest builds at 10 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "18,500,000 gold",
+      "build_time": "10 days",
+      "build_seconds": 864000,
+      "reason": "one of your longest builds at 10 days, start early to reach max sooner"
     },
     {
       "rank": 64,
@@ -1361,13 +1361,13 @@
     {
       "rank": 97,
       "category": "walls",
-      "name": "Wall lvl 17->18 x62",
+      "name": "Wall lvl 17->18 x46",
       "from_level": 17,
       "to_level": 18,
       "cost": {
-        "gold": 434000000
+        "gold": 322000000
       },
-      "cost_text": "434,000,000 gold",
+      "cost_text": "322,000,000 gold",
       "build_time": "no build time",
       "build_seconds": 0,
       "reason": "no build time, a pure resource sink, slot in when a builder is free"

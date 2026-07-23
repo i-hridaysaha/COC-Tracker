@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-22T08:26:40.602329+00:00",
+  "captured_at": "2026-07-23T04:23:36.079739+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17613,13 +17613,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 46,
+      "trophies": 62,
       "best_trophies": 4909,
-      "war_stars": 560,
+      "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2411,
-      "received": 379,
+      "donations": 2552,
+      "received": 437,
       "offense_completion_pct": 84.4,
       "rush": {
         "score": 11.6,
@@ -17671,8 +17671,8 @@
         "equipment": 57.6,
         "defenses": 100.0,
         "resources": 89.0,
-        "traps": 63.1,
-        "walls": 98.9
+        "traps": 64.0,
+        "walls": 99.2
       },
       "items": [
         {
@@ -19543,24 +19543,13 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 4,
+          "level": 6,
           "max": 7,
           "is_max": false,
           "cost": {
-            "gold": 5000000
+            "gold": 12000000
           },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
+          "seconds": 475200
         },
         {
           "category": "traps",
@@ -19576,24 +19565,24 @@
         {
           "category": "traps",
           "name": "Bomb",
-          "level": 8,
+          "level": 9,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 750000
+            "gold": 1300000
           },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
           "name": "Bomb",
-          "level": 8,
+          "level": 9,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 750000
+            "gold": 1300000
           },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
@@ -19961,13 +19950,24 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 6,
+          "level": 5,
           "max": 7,
           "is_max": false,
           "cost": {
-            "gold": 12000000
+            "gold": 6500000
           },
-          "seconds": 475200
+          "seconds": 388800
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 5,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 6500000
+          },
+          "seconds": 388800
         },
         {
           "category": "traps",
@@ -20047,29 +20047,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 17 x62",
+          "name": "Wall lvl 17 x46",
           "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {
-            "gold": 434000000
+            "gold": 322000000
           },
           "seconds": 0,
-          "count": 62
+          "count": 46
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x263",
+          "name": "Wall lvl 18 x279",
           "level": 18,
           "max": 18,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 263
+          "count": 279
         }
       ],
       "ranked": {
-        "trophies": 46,
+        "trophies": 62,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20085,7 +20085,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "9d 23h",
+          "ends_in": "9d 3h",
           "active": true
         },
         "scheduled": [
@@ -20093,25 +20093,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "9d 23h"
+            "starts_in": "9d 3h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "5d 23h"
+            "ends_in": "5d 3h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "9d 23h"
+            "starts_in": "9d 3h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 22h"
+            "starts_in": "1d 2h"
           }
         ],
         "raid_weekend": {
@@ -20129,6 +20129,44 @@
         "cwl": null
       },
       "wars": [
+        {
+          "date_seen": "2026-07-23",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
+          "opponent_clan": "Os 300",
+          "team_size": "20",
+          "attack_order": "20",
+          "attacker_th": "17",
+          "defender_tag": "#GG8GYLJRJ",
+          "defender_name": "Walker",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "False",
+          "duration_sec": "85"
+        },
+        {
+          "date_seen": "2026-07-23",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
+          "opponent_clan": "Os 300",
+          "team_size": "20",
+          "attack_order": "22",
+          "attacker_th": "17",
+          "defender_tag": "#8PJRJYL8C",
+          "defender_name": "Chico f\u00e9 1",
+          "defender_th": "15",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "False",
+          "duration_sec": "101"
+        },
         {
           "date_seen": "2026-07-19",
           "player_tag": "#8P88Q0GLQ",

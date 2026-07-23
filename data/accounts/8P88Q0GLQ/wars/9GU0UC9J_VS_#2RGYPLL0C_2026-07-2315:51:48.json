@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
   "war_type": "random",
-  "state": "Preparation",
+  "state": "In War",
   "opponent_clan": "Os 300",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 17,
     "map_position": 11,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 6,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-07-23",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
+      "opponent_clan": "Os 300",
+      "team_size": 20,
+      "attack_order": 20,
+      "attacker_th": 17,
+      "defender_tag": "#GG8GYLJRJ",
+      "defender_name": "Walker",
+      "defender_th": 17,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": false,
+      "duration_sec": 85
+    },
+    {
+      "date_seen": "2026-07-23",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
+      "opponent_clan": "Os 300",
+      "team_size": 20,
+      "attack_order": 22,
+      "attacker_th": 17,
+      "defender_tag": "#8PJRJYL8C",
+      "defender_name": "Chico f\u00e9 1",
+      "defender_th": 15,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": false,
+      "duration_sec": 101
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
