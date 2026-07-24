@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-23T08:27:19.789440+00:00",
+  "captured_at": "2026-07-24T00:55:50.851593+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17618,26 +17618,26 @@
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2552,
-      "received": 437,
-      "offense_completion_pct": 84.4,
+      "donations": 2742,
+      "received": 495,
+      "offense_completion_pct": 84.8,
       "rush": {
-        "score": 11.6,
+        "score": 11.2,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 90,
+        "levels_behind_prev_th": 87,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 71,
+            "level": 72,
             "prev_th_max": 95,
-            "behind": 24,
+            "behind": 23,
             "category": "heroes"
           },
           {
             "name": "Archer Queen",
-            "level": 82,
+            "level": 83,
             "prev_th_max": 95,
-            "behind": 13,
+            "behind": 12,
             "category": "heroes"
           },
           {
@@ -17655,56 +17655,56 @@
             "category": "troops"
           },
           {
-            "name": "Minion Prince",
-            "level": 77,
-            "prev_th_max": 80,
+            "name": "Archer",
+            "level": 9,
+            "prev_th_max": 12,
             "behind": 3,
-            "category": "heroes"
+            "category": "troops"
           }
         ]
       },
       "completion": {
-        "heroes": 83.2,
+        "heroes": 83.9,
         "troops": 88.7,
         "spells": 77.4,
-        "pets": 57.1,
+        "pets": 57.9,
         "equipment": 57.6,
         "defenses": 100.0,
         "resources": 89.0,
-        "traps": 64.0,
-        "walls": 99.2
+        "traps": 64.2,
+        "walls": 99.5
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 71,
+          "level": 72,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 135000
+            "dark_elixir": 140000
           },
           "seconds": 388800
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 82,
+          "level": 83,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 200000
+            "dark_elixir": 210000
           },
           "seconds": 518400
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 77,
+          "level": 78,
           "max": 90,
           "is_max": false,
           "cost": {
-            "dark_elixir": 260000
+            "dark_elixir": 270000
           },
           "seconds": 648000
         },
@@ -18429,13 +18429,11 @@
         {
           "category": "pets",
           "name": "Sneezy",
-          "level": 9,
+          "level": 10,
           "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 360000
-          },
-          "seconds": 691200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "equipment",
@@ -19553,14 +19551,25 @@
         },
         {
           "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 4,
+          "max": 7,
+          "is_max": false,
+          "cost": {
+            "gold": 5000000
+          },
+          "seconds": 259200
+        },
+        {
+          "category": "traps",
           "name": "Bomb",
-          "level": 8,
+          "level": 9,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 750000
+            "gold": 1300000
           },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
@@ -19928,17 +19937,6 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
           "level": 5,
           "max": 7,
           "is_max": false,
@@ -20047,25 +20045,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 17 x46",
+          "name": "Wall lvl 17 x32",
           "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {
-            "gold": 322000000
+            "gold": 224000000
           },
           "seconds": 0,
-          "count": 46
+          "count": 32
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x279",
+          "name": "Wall lvl 18 x293",
           "level": 18,
           "max": 18,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 279
+          "count": 293
         }
       ],
       "ranked": {
@@ -20085,7 +20083,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "8d 23h",
+          "ends_in": "8d 7h",
           "active": true
         },
         "scheduled": [
@@ -20093,25 +20091,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "8d 23h"
+            "starts_in": "8d 7h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 23h"
+            "ends_in": "4d 7h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "8d 23h"
+            "starts_in": "8d 7h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "22h 32m"
+            "active": true,
+            "ends_in": "3d 6h"
           }
         ],
         "raid_weekend": {
@@ -20130,11 +20128,11 @@
       },
       "wars": [
         {
-          "date_seen": "2026-07-23",
+          "date_seen": "2026-07-24",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "random",
-          "war_state": "In War",
+          "war_state": "War Ended",
           "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
           "opponent_clan": "Os 300",
           "team_size": "20",
@@ -20149,11 +20147,11 @@
           "duration_sec": "85"
         },
         {
-          "date_seen": "2026-07-23",
+          "date_seen": "2026-07-24",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "random",
-          "war_state": "In War",
+          "war_state": "War Ended",
           "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
           "opponent_clan": "Os 300",
           "team_size": "20",

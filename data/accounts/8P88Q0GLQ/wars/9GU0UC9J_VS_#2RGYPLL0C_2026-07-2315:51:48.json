@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
   "war_type": "random",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "Os 300",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -15,11 +15,11 @@
   },
   "attacks": [
     {
-      "date_seen": "2026-07-23",
+      "date_seen": "2026-07-24",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
       "opponent_clan": "Os 300",
       "team_size": 20,
@@ -34,11 +34,11 @@
       "duration_sec": 85
     },
     {
-      "date_seen": "2026-07-23",
+      "date_seen": "2026-07-24",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#2RGYPLL0C_2026-07-2315:51:48",
       "opponent_clan": "Os 300",
       "team_size": 20,

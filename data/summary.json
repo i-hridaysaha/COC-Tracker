@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-23T08:27:19.789440+00:00",
+  "captured_at": "2026-07-24T00:55:50.851593+00:00",
   "modifiers": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -9,10 +9,10 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "offense_completion_pct": 84.4,
-      "rush_risk": 11.6,
+      "offense_completion_pct": 84.8,
+      "rush_risk": 11.2,
       "rush_band": "slightly rushed",
-      "build_days_to_finish": 1345.2,
+      "build_days_to_finish": 1319.2,
       "trophies": 62,
       "war_stars": 566,
       "guide_mode": "time_to_max",
@@ -23,7 +23,7 @@
     "source": "api",
     "season_start": "2026-07-01 08:00:00+00:00",
     "season_end": "2026-08-01 08:00:00+00:00",
-    "ends_in": "8d 23h",
+    "ends_in": "8d 7h",
     "active": true
   },
   "scheduled_events": [
@@ -31,25 +31,25 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "8d 23h"
+      "starts_in": "8d 7h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": true,
-      "ends_in": "4d 23h"
+      "ends_in": "4d 7h"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": false,
-      "starts_in": "8d 23h"
+      "starts_in": "8d 7h"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
-      "active": false,
-      "starts_in": "22h 32m"
+      "active": true,
+      "ends_in": "3d 6h"
     }
   ]
 }
