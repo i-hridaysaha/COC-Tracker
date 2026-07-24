@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-24T01:21:10.979027+00:00",
+  "captured_at": "2026-07-24T08:25:24.563673+00:00",
   "modifiers": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -23,7 +23,7 @@
     "source": "api",
     "season_start": "2026-07-01 08:00:00+00:00",
     "season_end": "2026-08-01 08:00:00+00:00",
-    "ends_in": "8d 6h",
+    "ends_in": "7d 23h",
     "active": true
   },
   "scheduled_events": [
@@ -31,25 +31,25 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "8d 6h"
+      "starts_in": "7d 23h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": true,
-      "ends_in": "4d 6h"
+      "ends_in": "3d 23h"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": false,
-      "starts_in": "8d 6h"
+      "starts_in": "7d 23h"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
       "active": true,
-      "ends_in": "3d 5h"
+      "ends_in": "2d 22h"
     }
   ]
 }

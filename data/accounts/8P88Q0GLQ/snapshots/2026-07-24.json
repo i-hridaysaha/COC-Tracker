@@ -15,7 +15,7 @@
     "war_stars": 566,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 2860,
+    "donations": 3071,
     "received": 495
   },
   "ranked": {
@@ -34,10 +34,10 @@
     "troops": 88.7,
     "spells": 77.4,
     "pets": 57.9,
-    "equipment": 57.6
+    "equipment": 58.7
   },
   "offense_completion_pct": 84.8,
-  "total_levels_remaining": 546,
+  "total_levels_remaining": 537,
   "rush_risk": {
     "score": 11.2,
     "band": "slightly rushed",
@@ -238,10 +238,10 @@
     "equipment": {
       "category": "equipment",
       "items_counted": 39,
-      "current_total": 482,
+      "current_total": 491,
       "max_total": 837,
-      "levels_remaining": 355,
-      "completion_pct": 57.6,
+      "levels_remaining": 346,
+      "completion_pct": 58.7,
       "biggest_gaps": [
         {
           "name": "Dark Crown",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-07-24T01:21:12.207897+00:00",
+  "captured_at": "2026-07-24T08:25:25.040683+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,

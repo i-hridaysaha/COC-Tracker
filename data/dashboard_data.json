@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-24T01:21:10.979027+00:00",
+  "captured_at": "2026-07-24T08:25:24.563673+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17618,7 +17618,7 @@
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2860,
+      "donations": 3071,
       "received": 495,
       "offense_completion_pct": 84.8,
       "rush": {
@@ -17668,7 +17668,7 @@
         "troops": 88.7,
         "spells": 77.4,
         "pets": 57.9,
-        "equipment": 57.6,
+        "equipment": 58.7,
         "defenses": 100.0,
         "resources": 89.0,
         "traps": 64.2,
@@ -18468,7 +18468,7 @@
         {
           "category": "equipment",
           "name": "Flame Blower",
-          "level": 8,
+          "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {},
@@ -20083,7 +20083,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "8d 6h",
+          "ends_in": "7d 23h",
           "active": true
         },
         "scheduled": [
@@ -20091,38 +20091,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "8d 6h"
+            "starts_in": "7d 23h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 6h"
+            "ends_in": "3d 23h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "8d 6h"
+            "starts_in": "7d 23h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 5h"
+            "ends_in": "2d 22h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-07-17 07:00:00+00:00",
-          "end": "2026-07-20 07:00:00+00:00",
-          "ends_in": null,
-          "me": {
-            "capital_resources_looted": 26321,
-            "attacks_used": 6,
-            "attacks_available": 6
-          }
+          "state": "ongoing",
+          "start": "2026-07-24 07:00:00+00:00",
+          "end": "2026-07-27 07:00:00+00:00",
+          "ends_in": "2d 22h"
         },
         "cwl": null
       },
