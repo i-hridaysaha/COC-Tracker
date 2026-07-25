@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-24T08:25:24.563673+00:00",
+  "captured_at": "2026-07-25T08:04:10.123952+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17613,18 +17613,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 62,
+      "trophies": 80,
       "best_trophies": 4909,
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
       "donations": 3071,
-      "received": 495,
-      "offense_completion_pct": 84.8,
+      "received": 553,
+      "offense_completion_pct": 85.1,
       "rush": {
-        "score": 11.2,
+        "score": 11.0,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 87,
+        "levels_behind_prev_th": 85,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17642,9 +17642,9 @@
           },
           {
             "name": "Grand Warden",
-            "level": 62,
+            "level": 63,
             "prev_th_max": 70,
-            "behind": 8,
+            "behind": 7,
             "category": "heroes"
           },
           {
@@ -17664,9 +17664,9 @@
         ]
       },
       "completion": {
-        "heroes": 83.9,
-        "troops": 88.7,
-        "spells": 77.4,
+        "heroes": 84.1,
+        "troops": 89.0,
+        "spells": 78.3,
         "pets": 57.9,
         "equipment": 58.7,
         "defenses": 100.0,
@@ -17711,11 +17711,11 @@
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 62,
+          "level": 63,
           "max": 75,
           "is_max": false,
           "cost": {
-            "elixir": 16500000
+            "elixir": 17000000
           },
           "seconds": 518400
         },
@@ -17942,13 +17942,11 @@
         {
           "category": "troops",
           "name": "Minion",
-          "level": 12,
+          "level": 13,
           "max": 13,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 220000
-          },
-          "seconds": 777600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18310,13 +18308,13 @@
         {
           "category": "spells",
           "name": "Ice Block Spell",
-          "level": 2,
+          "level": 3,
           "max": 5,
           "is_max": false,
           "cost": {
-            "dark_elixir": 200000
+            "dark_elixir": 280000
           },
-          "seconds": 950400
+          "seconds": 1209600
         },
         {
           "category": "pets",
@@ -20067,7 +20065,7 @@
         }
       ],
       "ranked": {
-        "trophies": 62,
+        "trophies": 80,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20083,7 +20081,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "7d 23h",
+          "ends_in": "6d 23h",
           "active": true
         },
         "scheduled": [
@@ -20091,25 +20089,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "7d 23h"
+            "starts_in": "6d 23h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 23h"
+            "ends_in": "2d 23h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "7d 23h"
+            "starts_in": "6d 23h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 22h"
+            "ends_in": "1d 22h"
           }
         ],
         "raid_weekend": {
@@ -20117,7 +20115,7 @@
           "state": "ongoing",
           "start": "2026-07-24 07:00:00+00:00",
           "end": "2026-07-27 07:00:00+00:00",
-          "ends_in": "2d 22h"
+          "ends_in": "1d 22h"
         },
         "cwl": null
       },
