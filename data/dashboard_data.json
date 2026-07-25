@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-25T08:04:10.123952+00:00",
+  "captured_at": "2026-07-25T23:00:25.650218+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17613,24 +17613,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 80,
+      "trophies": 98,
       "best_trophies": 4909,
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3071,
-      "received": 553,
-      "offense_completion_pct": 85.1,
+      "donations": 3185,
+      "received": 611,
+      "offense_completion_pct": 85.3,
       "rush": {
-        "score": 11.0,
+        "score": 10.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 85,
+        "levels_behind_prev_th": 84,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 72,
+            "level": 73,
             "prev_th_max": 95,
-            "behind": 23,
+            "behind": 22,
             "category": "heroes"
           },
           {
@@ -17664,25 +17664,25 @@
         ]
       },
       "completion": {
-        "heroes": 84.1,
+        "heroes": 84.4,
         "troops": 89.0,
         "spells": 78.3,
         "pets": 57.9,
         "equipment": 58.7,
         "defenses": 100.0,
         "resources": 89.0,
-        "traps": 64.2,
-        "walls": 99.5
+        "traps": 64.6,
+        "walls": 99.7
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 72,
+          "level": 73,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 140000
+            "dark_elixir": 145000
           },
           "seconds": 388800
         },
@@ -19539,13 +19539,13 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 6,
+          "level": 5,
           "max": 7,
           "is_max": false,
           "cost": {
-            "gold": 12000000
+            "gold": 6500000
           },
-          "seconds": 475200
+          "seconds": 388800
         },
         {
           "category": "traps",
@@ -19924,17 +19924,6 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 4,
-          "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 5000000
-          },
-          "seconds": 259200
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
           "level": 5,
           "max": 7,
           "is_max": false,
@@ -19975,6 +19964,15 @@
             "gold": 12000000
           },
           "seconds": 475200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "traps",
@@ -20043,29 +20041,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 17 x32",
+          "name": "Wall lvl 17 x20",
           "level": 17,
           "max": 18,
           "is_max": false,
           "cost": {
-            "gold": 224000000
+            "gold": 140000000
           },
           "seconds": 0,
-          "count": 32
+          "count": 20
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x293",
+          "name": "Wall lvl 18 x305",
           "level": 18,
           "max": 18,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 293
+          "count": 305
         }
       ],
       "ranked": {
-        "trophies": 80,
+        "trophies": 98,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20081,7 +20079,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "6d 23h",
+          "ends_in": "6d 8h",
           "active": true
         },
         "scheduled": [
@@ -20089,25 +20087,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "6d 23h"
+            "starts_in": "6d 8h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 23h"
+            "ends_in": "2d 8h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "6d 23h"
+            "starts_in": "6d 8h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 22h"
+            "ends_in": "1d 7h"
           }
         ],
         "raid_weekend": {
@@ -20115,7 +20113,7 @@
           "state": "ongoing",
           "start": "2026-07-24 07:00:00+00:00",
           "end": "2026-07-27 07:00:00+00:00",
-          "ends_in": "1d 22h"
+          "ends_in": "1d 7h"
         },
         "cwl": null
       },
