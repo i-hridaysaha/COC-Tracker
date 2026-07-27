@@ -2,22 +2,22 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 1924 days, 15:00:00 of build time (one builder), 1,033,140,000 gold, 829,700,000 elixir, 28,411,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 1907 days, 3:00:00 of build time (one builder), 1,033,140,000 gold, 812,700,000 elixir, 28,061,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 73 → 100 — 6,670,000 DE, 176 days, 12:00:00
    _one of your longest builds at 176 days, 12:00:00, start early to reach max sooner_
-2. **Archer Queen** (heroes) 83 → 100 — 4,980,000 DE, 124 days, 12:00:00
-   _one of your longest builds at 124 days, 12:00:00, start early to reach max sooner_
+2. **Archer Queen** (heroes) 84 → 100 — 4,770,000 DE, 118 days, 12:00:00
+   _one of your longest builds at 118 days, 12:00:00, start early to reach max sooner_
 3. **Minion Prince** (heroes) 78 → 90 — 3,900,000 DE, 95 days
    _one of your longest builds at 95 days, start early to reach max sooner_
-4. **Grand Warden** (heroes) 63 → 75 — 237,000,000 elixir, 87 days, 12:00:00
-   _one of your longest builds at 87 days, 12:00:00, start early to reach max sooner_
+4. **Grand Warden** (heroes) 64 → 75 — 220,000,000 elixir, 81 days, 12:00:00
+   _one of your longest builds at 81 days, 12:00:00, start early to reach max sooner_
 5. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
-6. **Unicorn** (pets) 7 → 15 — 1,765,000 DE, 57 days
-   _one of your longest builds at 57 days, start early to reach max sooner_
-7. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
+6. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
    _one of your longest builds at 52 days, 12:00:00, start early to reach max sooner_
+7. **Unicorn** (pets) 8 → 15 — 1,625,000 DE, 51 days, 12:00:00
+   _one of your longest builds at 51 days, 12:00:00, start early to reach max sooner_
 8. **Poison Lizard** (pets) 7 → 15 — 1,520,000 DE, 50 days, 12:00:00
    _one of your longest builds at 50 days, 12:00:00, start early to reach max sooner_
 9. **Mighty Yak** (pets) 6 → 15 — 1,170,000 DE, 49 days, 12:00:00

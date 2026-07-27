@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-26T08:25:42.035160+00:00",
+  "captured_at": "2026-07-27T09:49:52.031861+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17613,18 +17613,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 17,
-      "trophies": 98,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3273,
+      "donations": 3377,
       "received": 611,
-      "offense_completion_pct": 85.3,
+      "offense_completion_pct": 85.5,
       "rush": {
-        "score": 10.8,
+        "score": 10.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 84,
+        "levels_behind_prev_th": 82,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17635,16 +17635,16 @@
           },
           {
             "name": "Archer Queen",
-            "level": 83,
+            "level": 84,
             "prev_th_max": 95,
-            "behind": 12,
+            "behind": 11,
             "category": "heroes"
           },
           {
             "name": "Grand Warden",
-            "level": 63,
+            "level": 64,
             "prev_th_max": 70,
-            "behind": 7,
+            "behind": 6,
             "category": "heroes"
           },
           {
@@ -17664,10 +17664,10 @@
         ]
       },
       "completion": {
-        "heroes": 84.4,
+        "heroes": 84.8,
         "troops": 89.0,
         "spells": 78.3,
-        "pets": 57.9,
+        "pets": 58.6,
         "equipment": 58.7,
         "defenses": 100.0,
         "resources": 89.0,
@@ -17689,11 +17689,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 83,
+          "level": 84,
           "max": 100,
           "is_max": false,
           "cost": {
-            "dark_elixir": 210000
+            "dark_elixir": 220000
           },
           "seconds": 518400
         },
@@ -17711,11 +17711,11 @@
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 63,
+          "level": 64,
           "max": 75,
           "is_max": false,
           "cost": {
-            "elixir": 17000000
+            "elixir": 17500000
           },
           "seconds": 518400
         },
@@ -18352,13 +18352,13 @@
         {
           "category": "pets",
           "name": "Unicorn",
-          "level": 7,
+          "level": 8,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 140000
+            "dark_elixir": 155000
           },
-          "seconds": 475200
+          "seconds": 518400
         },
         {
           "category": "pets",
@@ -20063,7 +20063,7 @@
         }
       ],
       "ranked": {
-        "trophies": 98,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20079,7 +20079,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "5d 23h",
+          "ends_in": "4d 22h",
           "active": true
         },
         "scheduled": [
@@ -20087,33 +20087,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "5d 23h"
+            "starts_in": "4d 22h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 23h"
+            "ends_in": "22h 10m"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "5d 23h"
+            "starts_in": "4d 22h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "22h 34m"
+            "active": false,
+            "starts_in": "3d 21h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-07-24 07:00:00+00:00",
           "end": "2026-07-27 07:00:00+00:00",
-          "ends_in": "22h 34m"
+          "ends_in": null
         },
         "cwl": null
       },

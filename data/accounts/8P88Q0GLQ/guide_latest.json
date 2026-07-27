@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "1924 days, 15:00:00",
+  "total_build_time_one_builder": "1907 days, 3:00:00",
   "total_cost": {
-    "dark_elixir": 28411000,
-    "elixir": 829700000,
+    "dark_elixir": 28061000,
+    "elixir": 812700000,
     "gold": 1033140000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "1,033,140,000 gold, 829,700,000 elixir, 28,411,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "1,033,140,000 gold, 812,700,000 elixir, 28,061,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -32,15 +32,15 @@
       "rank": 2,
       "category": "heroes",
       "name": "Archer Queen",
-      "from_level": 83,
+      "from_level": 84,
       "to_level": 100,
       "cost": {
-        "dark_elixir": 4980000
+        "dark_elixir": 4770000
       },
-      "cost_text": "4,980,000 DE",
-      "build_time": "124 days, 12:00:00",
-      "build_seconds": 10756800,
-      "reason": "one of your longest builds at 124 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "4,770,000 DE",
+      "build_time": "118 days, 12:00:00",
+      "build_seconds": 10238400,
+      "reason": "one of your longest builds at 118 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 3,
@@ -60,15 +60,15 @@
       "rank": 4,
       "category": "heroes",
       "name": "Grand Warden",
-      "from_level": 63,
+      "from_level": 64,
       "to_level": 75,
       "cost": {
-        "elixir": 237000000
+        "elixir": 220000000
       },
-      "cost_text": "237,000,000 elixir",
-      "build_time": "87 days, 12:00:00",
-      "build_seconds": 7560000,
-      "reason": "one of your longest builds at 87 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "220,000,000 elixir",
+      "build_time": "81 days, 12:00:00",
+      "build_seconds": 7041600,
+      "reason": "one of your longest builds at 81 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 5,
@@ -87,20 +87,6 @@
     {
       "rank": 6,
       "category": "pets",
-      "name": "Unicorn",
-      "from_level": 7,
-      "to_level": 15,
-      "cost": {
-        "dark_elixir": 1765000
-      },
-      "cost_text": "1,765,000 DE",
-      "build_time": "57 days",
-      "build_seconds": 4924800,
-      "reason": "one of your longest builds at 57 days, start early to reach max sooner"
-    },
-    {
-      "rank": 7,
-      "category": "pets",
       "name": "L.A.S.S.I",
       "from_level": 5,
       "to_level": 15,
@@ -111,6 +97,20 @@
       "build_time": "52 days, 12:00:00",
       "build_seconds": 4536000,
       "reason": "one of your longest builds at 52 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 7,
+      "category": "pets",
+      "name": "Unicorn",
+      "from_level": 8,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1625000
+      },
+      "cost_text": "1,625,000 DE",
+      "build_time": "51 days, 12:00:00",
+      "build_seconds": 4449600,
+      "reason": "one of your longest builds at 51 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 8,
