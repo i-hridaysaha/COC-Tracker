@@ -109,6 +109,50 @@ def _traps() -> dict:
     return out
 
 
+_GUARDIANS_CACHE = None
+
+
+def _guardians() -> dict:
+    """Home-village Guardians (Longshot / Smasher / ...), indexed by name.
+    Unlike buildings, Guardians use the TROOP cost convention: a level's
+    upgrade_cost/upgrade_time is what it takes to leave that level."""
+    global _GUARDIANS_CACHE
+    if _GUARDIANS_CACHE is not None:
+        return _GUARDIANS_CACHE
+    import coc
+    raw = json.loads((Path(coc.__file__).parent / "static" / "static_data.json").read_text())
+    out = {}
+    for g in raw.get("guardians", []):
+        out.setdefault(g["name"], g)
+    _GUARDIANS_CACHE = out
+    return out
+
+
+# Guardians the bundled library doesn't carry yet: id -> (name, max_level).
+# Manual max, NO DATA cost, same "remove once the library ships it" caveat as
+# _MANUAL_BUILDING_TH_MAX below.
+_GUARDIAN_MANUAL = {107000008: ("Logger", 5)}
+_GUARDIAN_MANUAL_MAX = {name: mx for name, mx in _GUARDIAN_MANUAL.values()}
+
+
+def _guardian_next_level(entry: dict, current: int, target: int) -> tuple[dict, int]:
+    """Cost/time for the single next level, troop convention (cost lives on the
+    source level)."""
+    if current >= target:
+        return {}, 0
+    by_level = {lvl["level"]: lvl for lvl in entry.get("levels", [])}
+    data = by_level.get(current)
+    if not data:
+        return {}, 0
+    resource = entry.get("upgrade_resource") or "Elixir"
+    key = upgrades._RESOURCE_KEY.get(resource, resource.lower())
+    cost = {}
+    c = data.get("upgrade_cost")
+    if c:
+        cost[key] = int(c)
+    return cost, int(data.get("upgrade_time", 0) or 0)
+
+
 def _norm(name) -> str:
     return str(name or "").strip().lower()
 
@@ -131,6 +175,16 @@ def _lookup_trap(name):
     if _TRAPS_NORM_CACHE is None:
         _TRAPS_NORM_CACHE = {_norm(k): v for k, v in _traps().items()}
     return _TRAPS_NORM_CACHE.get(_norm(name))
+
+
+_GUARDIANS_NORM_CACHE = None
+
+
+def _lookup_guardian(name):
+    global _GUARDIANS_NORM_CACHE
+    if _GUARDIANS_NORM_CACHE is None:
+        _GUARDIANS_NORM_CACHE = {_norm(k): v for k, v in _guardians().items()}
+    return _GUARDIANS_NORM_CACHE.get(_norm(name))
 
 
 def _max_level_for_th(entry: dict, town_hall: int) -> int:
@@ -211,7 +265,7 @@ def normalize_village(raw: dict) -> dict:
         return raw
     has_id_entries = any(
         isinstance(e, dict) and e.get("data") is not None and e.get("name") is None
-        for key in ("buildings", "defenses", "traps")
+        for key in ("buildings", "defenses", "traps", "guardians")
         for e in (raw.get(key) or [])
     )
     if not has_id_entries:
@@ -219,12 +273,13 @@ def normalize_village(raw: dict) -> dict:
 
     b_by_id = _id_indexed(_buildings())
     t_by_id = _id_indexed(_traps())
+    g_by_id = _id_indexed(_guardians())
     wall_entry = _buildings().get("Wall")
     wall_id = wall_entry.get("_id") if wall_entry else None
     th_entry = _buildings().get("Town Hall")
     th_id = th_entry.get("_id") if th_entry else None
 
-    buildings, resources, traps, army = [], [], [], []
+    buildings, resources, traps, army, guardians = [], [], [], [], []
     wall_groups: dict[int, int] = {}
 
     for b in (raw.get("buildings") or raw.get("defenses") or []):
@@ -256,6 +311,15 @@ def normalize_village(raw: dict) -> dict:
         cnt = max(1, int(t.get("cnt", 1) or 1))
         traps.extend({"name": entry["name"], "level": t.get("lvl", 0)} for _ in range(cnt))
 
+    for gd in (raw.get("guardians") or []):
+        if not isinstance(gd, dict) or gd.get("data") is None or gd.get("name") is not None:
+            continue
+        entry = g_by_id.get(gd["data"])
+        name = entry["name"] if entry else (_GUARDIAN_MANUAL.get(gd["data"], (None,))[0])
+        if not name:
+            continue
+        guardians.append({"name": name, "level": gd.get("lvl", 0)})
+
     # Keep any already-named entries (a file could mix formats) and append
     # the newly-translated ones.
     already_named = lambda key: [e for e in (raw.get(key) or []) if isinstance(e, dict) and e.get("name") is not None]
@@ -264,6 +328,7 @@ def normalize_village(raw: dict) -> dict:
     out["resources"] = already_named("resources") + resources
     out["traps"] = already_named("traps") + traps
     out["army"] = already_named("army") + army
+    out["guardians"] = already_named("guardians") + guardians
     walls = list(raw.get("walls") or [])
     for level, count in wall_groups.items():
         walls.append({"level": level, "count": count})

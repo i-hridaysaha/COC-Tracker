@@ -3634,7 +3634,87 @@
       1000093,
       1000097,
       1000102
-    ]
+    ],
+    "guardians": {
+      "Longshot": {
+        "r": "elixir",
+        "l": [
+          [
+            1,
+            18000000,
+            604800,
+            18
+          ],
+          [
+            2,
+            22000000,
+            777600,
+            18
+          ],
+          [
+            3,
+            26000000,
+            950400,
+            18
+          ],
+          [
+            4,
+            28000000,
+            1123200,
+            18
+          ],
+          [
+            5,
+            0,
+            0,
+            18
+          ]
+        ]
+      },
+      "Smasher": {
+        "r": "elixir",
+        "l": [
+          [
+            1,
+            18000000,
+            604800,
+            18
+          ],
+          [
+            2,
+            22000000,
+            777600,
+            18
+          ],
+          [
+            3,
+            26000000,
+            950400,
+            18
+          ],
+          [
+            4,
+            28000000,
+            1123200,
+            18
+          ],
+          [
+            5,
+            0,
+            0,
+            18
+          ]
+        ]
+      }
+    },
+    "guardian_ids": {
+      "107000000": "Longshot",
+      "107000001": "Smasher",
+      "107000008": "Logger"
+    },
+    "guardian_manual_max": {
+      "Logger": 5
+    }
   },
   "offense_tables": {
     "heroes": {
@@ -17713,7 +17793,7 @@
         "spells": 73.8,
         "pets": 59.3,
         "equipment": 59.1,
-        "defenses": 92.9,
+        "defenses": 90.7,
         "resources": 87.2,
         "army": 96.5,
         "traps": 60.8,
@@ -19798,6 +19878,38 @@
           "is_max": true,
           "cost": {},
           "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Longshot",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 18000000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "defenses",
+          "name": "Smasher",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 18000000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "defenses",
+          "name": "Logger",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "traps",

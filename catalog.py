@@ -94,6 +94,22 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
         unknown = level < target and not cost and seconds == 0
         out.append(_rec("army", b["name"], min(level, target), target, cost, seconds, unknown))
 
+    for g in village.get("guardians", []):
+        name = g.get("name")
+        level = int(g.get("level", 0) or 0)
+        entry = defenses._lookup_guardian(name)
+        if entry:
+            target = defenses._max_level_for_th(entry, th)
+            if not target:
+                continue
+            cost, seconds = defenses._guardian_next_level(entry, level, target) if level < target else ({}, 0)
+            out.append(_rec("defenses", name, min(level, target), target, cost, seconds))
+        else:  # not in the library yet (e.g. Logger): manual max, NO DATA cost
+            mx = defenses._GUARDIAN_MANUAL_MAX.get(name)
+            if not mx:
+                continue
+            out.append(_rec("defenses", name, min(level, mx), mx, {}, 0, level < mx))
+
     for t in village.get("traps", []):
         entry = defenses._lookup_trap(t.get("name"))
         if not entry:
@@ -206,7 +222,21 @@ def defense_tables() -> dict:
     # export.
     known_building_ids = [e["_id"] for e in bt.values() if e.get("_id")]
 
+    # Guardians (Longshot / Smasher / ...) upgrade with the TROOP convention:
+    # a level row's cost is what it takes to LEAVE that level. Shipped separately
+    # so the browser can tell them apart from destination-cost buildings.
+    gt = defenses._guardians()
+    guardians = {n: {"r": (e.get("upgrade_resource") or "Elixir").lower(),
+                     "l": [[l["level"], int(l.get("upgrade_cost", 0) or 0),
+                            int(l.get("upgrade_time", 0) or 0), int(l.get("required_townhall", 99) or 99)]
+                           for l in e.get("levels", [])]}
+                 for n, e in gt.items()}
+    guardian_ids = {e["_id"]: n for n, e in gt.items() if e.get("_id")}
+    guardian_ids.update({gid: nm for gid, (nm, _mx) in defenses._GUARDIAN_MANUAL.items()})
+
     return {"buildings": buildings, "traps": traps, "wall": wall,
             "building_ids": building_ids, "trap_ids": trap_ids,
             "wall_id": wall_id, "town_hall_id": th_id,
-            "known_building_ids": known_building_ids}
+            "known_building_ids": known_building_ids,
+            "guardians": guardians, "guardian_ids": guardian_ids,
+            "guardian_manual_max": defenses._GUARDIAN_MANUAL_MAX}
