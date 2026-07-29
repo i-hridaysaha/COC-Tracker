@@ -3428,6 +3428,10 @@
       ]
     },
     "building_ids": {
+      "1000000": {
+        "n": "Army Camp",
+        "c": "army"
+      },
       "1000002": {
         "n": "Elixir Collector",
         "c": "resources"
@@ -3443,6 +3447,14 @@
       "1000005": {
         "n": "Gold Storage",
         "c": "resources"
+      },
+      "1000006": {
+        "n": "Barracks",
+        "c": "army"
+      },
+      "1000007": {
+        "n": "Laboratory",
+        "c": "army"
       },
       "1000008": {
         "n": "Cannon",
@@ -3464,9 +3476,17 @@
         "n": "Mortar",
         "c": "defenses"
       },
+      "1000014": {
+        "n": "Clan Castle",
+        "c": "army"
+      },
       "1000019": {
         "n": "Hidden Tesla",
         "c": "defenses"
+      },
+      "1000020": {
+        "n": "Spell Factory",
+        "c": "army"
       },
       "1000021": {
         "n": "X-Bow",
@@ -3480,6 +3500,10 @@
         "n": "Dark Elixir Storage",
         "c": "resources"
       },
+      "1000026": {
+        "n": "Dark Barracks",
+        "c": "army"
+      },
       "1000027": {
         "n": "Inferno Tower",
         "c": "defenses"
@@ -3487,6 +3511,10 @@
       "1000028": {
         "n": "Air Sweeper",
         "c": "defenses"
+      },
+      "1000029": {
+        "n": "Dark Spell Factory",
+        "c": "army"
       },
       "1000031": {
         "n": "Eagle Artillery",
@@ -3496,9 +3524,25 @@
         "n": "Bomb Tower",
         "c": "defenses"
       },
+      "1000059": {
+        "n": "Workshop",
+        "c": "army"
+      },
       "1000067": {
         "n": "Scattershot",
         "c": "defenses"
+      },
+      "1000068": {
+        "n": "Pet House",
+        "c": "army"
+      },
+      "1000070": {
+        "n": "Blacksmith",
+        "c": "army"
+      },
+      "1000071": {
+        "n": "Hero Hall",
+        "c": "army"
       },
       "1000072": {
         "n": "Spell Tower",
@@ -17672,7 +17716,8 @@
         "defenses": 92.9,
         "resources": 87.2,
         "traps": 60.8,
-        "walls": 94.7
+        "walls": 94.7,
+        "army": 98.8
       },
       "items": [
         {
@@ -19609,6 +19654,136 @@
             "elixir": 25000000
           },
           "seconds": 1123200
+        },
+        {
+          "category": "army",
+          "name": "Laboratory",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "elixir": 27000000
+          },
+          "seconds": 1382400
+        },
+        {
+          "category": "army",
+          "name": "Army Camp",
+          "level": 13,
+          "max": 13,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Army Camp",
+          "level": 13,
+          "max": 13,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Army Camp",
+          "level": 13,
+          "max": 13,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Army Camp",
+          "level": 13,
+          "max": 13,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Barracks",
+          "level": 19,
+          "max": 19,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Clan Castle",
+          "level": 13,
+          "max": 14,
+          "is_max": false,
+          "cost": {
+            "elixir": 28000000
+          },
+          "seconds": 1209600
+        },
+        {
+          "category": "army",
+          "name": "Spell Factory",
+          "level": 9,
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Dark Barracks",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Dark Spell Factory",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Workshop",
+          "level": 8,
+          "max": 8,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Pet House",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Blacksmith",
+          "level": 9,
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Hero Hall",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "traps",

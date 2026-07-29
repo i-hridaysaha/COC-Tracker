@@ -80,6 +80,17 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
         cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
         out.append(_rec("resources", r["name"], min(level, target), target, cost, seconds))
 
+    for b in village.get("army", []):
+        entry = defenses._lookup_building(b.get("name"))
+        if not entry:
+            continue
+        target = defenses._max_level_for_th(entry, th)
+        level = int(b.get("level", 0) or 0)
+        if not target:
+            continue
+        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
+        out.append(_rec("army", b["name"], min(level, target), target, cost, seconds))
+
     for t in village.get("traps", []):
         entry = defenses._lookup_trap(t.get("name"))
         if not entry:
@@ -176,7 +187,9 @@ def defense_tables() -> dict:
     for n, e in bt.items():
         if n == "Wall":
             continue
-        cat = "resources" if n in defenses.RESOURCE_BUILDING_NAMES else "defenses" if n in defenses.DEFENSE_BUILDING_NAMES else None
+        cat = ("resources" if n in defenses.RESOURCE_BUILDING_NAMES
+               else "defenses" if n in defenses.DEFENSE_BUILDING_NAMES
+               else "army" if n in defenses.ARMY_BUILDING_NAMES else None)
         if cat and e.get("_id"):
             building_ids[e["_id"]] = {"n": n, "c": cat}
     trap_ids = {e["_id"]: n for n, e in tt.items() if e.get("_id")}

@@ -61,6 +61,13 @@ DEFENSE_BUILDING_NAMES = {
     "Multi-Archer Tower", "Multi-Gear Tower", "Monolith", "Spell Tower",
     "Super Wizard Tower", "Revenge Tower",
 }
+# Army & support buildings -- not defenses or resources, but still upgrade with
+# builders, so worth tracking as their own category.
+ARMY_BUILDING_NAMES = {
+    "Army Camp", "Barracks", "Dark Barracks", "Laboratory", "Spell Factory",
+    "Dark Spell Factory", "Workshop", "Blacksmith", "Pet House", "Hero Hall",
+    "Clan Castle",
+}
 
 _BUILDINGS_CACHE = None
 
@@ -203,7 +210,7 @@ def normalize_village(raw: dict) -> dict:
     th_entry = _buildings().get("Town Hall")
     th_id = th_entry.get("_id") if th_entry else None
 
-    buildings, resources, traps = [], [], []
+    buildings, resources, traps, army = [], [], [], []
     wall_groups: dict[int, int] = {}
 
     for b in (raw.get("buildings") or raw.get("defenses") or []):
@@ -220,7 +227,8 @@ def normalize_village(raw: dict) -> dict:
             continue
         name = entry["name"]
         target = (resources if name in RESOURCE_BUILDING_NAMES
-                  else buildings if name in DEFENSE_BUILDING_NAMES else None)
+                  else buildings if name in DEFENSE_BUILDING_NAMES
+                  else army if name in ARMY_BUILDING_NAMES else None)
         if target is None:
             continue
         target.extend({"name": name, "level": lvl} for _ in range(cnt))
@@ -241,6 +249,7 @@ def normalize_village(raw: dict) -> dict:
     out["buildings"] = already_named("buildings") + already_named("defenses") + buildings
     out["resources"] = already_named("resources") + resources
     out["traps"] = already_named("traps") + traps
+    out["army"] = already_named("army") + army
     walls = list(raw.get("walls") or [])
     for level, count in wall_groups.items():
         walls.append({"level": level, "count": count})
