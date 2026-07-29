@@ -173,7 +173,7 @@ def _print(analysis: dict, cost: dict, war_note: str, date_str: str) -> None:
     print(f"  war              : {war_note}")
 
 
-_DEF_CATS = ("defenses", "walls", "traps", "resources", "army")
+_DEF_CATS = ("defenses", "walls", "traps", "resources", "army", "guardians")
 
 
 def _fallback_account(tag, prev_by_tag, mods, dash_accounts, summary) -> bool:
@@ -286,7 +286,7 @@ async def run() -> None:
 
             all_items = catalog.offense_items(player, raw_player) + catalog.defense_items(village, analysis["identity"]["town_hall"])
             merged_completion = dict(analysis.get("completion", {}))
-            merged_completion.update(catalog.completion([i for i in all_items if i["category"] in ("defenses", "walls", "traps", "resources", "army")]))
+            merged_completion.update(catalog.completion([i for i in all_items if i["category"] in ("defenses", "walls", "traps", "resources", "army", "guardians")]))
             try:
                 war_note = await _retry(lambda: _save_wars(client, acc_dir, player, date_str))
             except _TRANSIENT:

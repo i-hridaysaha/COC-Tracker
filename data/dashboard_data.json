@@ -17793,11 +17793,12 @@
         "spells": 73.8,
         "pets": 59.3,
         "equipment": 59.1,
-        "defenses": 90.7,
+        "defenses": 92.9,
         "resources": 87.2,
         "army": 96.5,
         "traps": 60.8,
-        "walls": 94.7
+        "walls": 94.7,
+        "guardians": 20.0
       },
       "items": [
         {
@@ -19880,7 +19881,7 @@
           "seconds": 0
         },
         {
-          "category": "defenses",
+          "category": "guardians",
           "name": "Longshot",
           "level": 1,
           "max": 5,
@@ -19891,7 +19892,7 @@
           "seconds": 604800
         },
         {
-          "category": "defenses",
+          "category": "guardians",
           "name": "Smasher",
           "level": 1,
           "max": 5,
@@ -19902,7 +19903,7 @@
           "seconds": 604800
         },
         {
-          "category": "defenses",
+          "category": "guardians",
           "name": "Logger",
           "level": 1,
           "max": 5,

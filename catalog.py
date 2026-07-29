@@ -103,12 +103,12 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
             if not target:
                 continue
             cost, seconds = defenses._guardian_next_level(entry, level, target) if level < target else ({}, 0)
-            out.append(_rec("defenses", name, min(level, target), target, cost, seconds))
+            out.append(_rec("guardians", name, min(level, target), target, cost, seconds))
         else:  # not in the library yet (e.g. Logger): manual max, NO DATA cost
             mx = defenses._GUARDIAN_MANUAL_MAX.get(name)
             if not mx:
                 continue
-            out.append(_rec("defenses", name, min(level, mx), mx, {}, 0, level < mx))
+            out.append(_rec("guardians", name, min(level, mx), mx, {}, 0, level < mx))
 
     for t in village.get("traps", []):
         entry = defenses._lookup_trap(t.get("name"))
