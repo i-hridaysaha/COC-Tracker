@@ -22,6 +22,7 @@ Output lands under data/accounts/<TAG>/ per account, plus data/summary.json.
 """
 
 import asyncio
+import json
 import os
 import re
 import subprocess
@@ -43,6 +44,23 @@ import wars
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
+
+# Supercell's API throws these on gateway timeouts and maintenance windows --
+# transient hiccups a retry almost always clears. One of them must NOT abort the
+# whole run: in particular it must not block a village.json edit from rendering,
+# since defense data is computed entirely from that file with no API call at all.
+_TRANSIENT = (coc.Maintenance, coc.GatewayError, asyncio.TimeoutError)
+
+
+async def _retry(make_coro, *, attempts: int = 4, base_delay: float = 3.0):
+    """Await make_coro(), retrying transient API errors with linear backoff."""
+    for i in range(attempts):
+        try:
+            return await make_coro()
+        except _TRANSIENT:
+            if i == attempts - 1:
+                raise
+            await asyncio.sleep(base_delay * (i + 1))
 
 
 def _repo_slug() -> str | None:
@@ -155,6 +173,37 @@ def _print(analysis: dict, cost: dict, war_note: str, date_str: str) -> None:
     print(f"  war              : {war_note}")
 
 
+_DEF_CATS = ("defenses", "walls", "traps", "resources")
+
+
+def _fallback_account(tag, prev_by_tag, mods, dash_accounts, summary) -> bool:
+    """API couldn't reach this account this run. Reuse its previous dashboard
+    entry (offense) and recompute defenses from the current village.json so a
+    village edit still lands. Returns False if there's no prior entry to reuse."""
+    entry = prev_by_tag.get(tag) or prev_by_tag.get("#" + tag.lstrip("#"))
+    if not entry:
+        return False
+    acc_dir = DATA_DIR / "accounts" / store.safe_tag(tag)
+    village = defenses.load_village(acc_dir)
+    th = entry.get("town_hall")
+    def_items = catalog.defense_items(village, th)
+    off_items = [i for i in (entry.get("items") or []) if i.get("category") not in _DEF_CATS]
+    completion = dict(entry.get("completion") or {})
+    completion.update(catalog.completion(def_items))
+    new_entry = dict(entry)
+    new_entry.update({"items": off_items + def_items, "completion": completion,
+                      "village_present": bool(village)})
+    dash_accounts.append(new_entry)
+    summary["accounts"].append({
+        "tag": entry.get("tag"), "name": entry.get("name"), "town_hall": th,
+        "offense_completion_pct": entry.get("offense_completion_pct"),
+        "rush_risk": (entry.get("rush") or {}).get("score"),
+        "rush_band": (entry.get("rush") or {}).get("band"),
+        "note": "api_unavailable_reused_snapshot",
+    })
+    return True
+
+
 async def run() -> None:
     email, password, tags = _config()
     mods = upgrades.load_modifiers(ROOT / "config.json")
@@ -162,24 +211,48 @@ async def run() -> None:
     summary = {"captured_at": datetime.now(timezone.utc).isoformat(),
                "modifiers": mods, "accounts": []}
     dash_accounts = []
+    # Last good dashboard snapshot, so an account the API can't reach this run
+    # keeps its previous offense data instead of vanishing (and its defenses
+    # still refresh from village.json). Keyed by tag.
+    prev_by_tag = {}
+    try:
+        for a in (json.loads((DATA_DIR / "dashboard_data.json").read_text()).get("accounts") or []):
+            prev_by_tag[a.get("tag")] = a
+    except Exception:
+        pass
 
     async with coc.Client(load_game_data=coc.LoadGameData(never=True)) as client:
         try:
-            await client.login(email, password)
+            await _retry(lambda: client.login(email, password))
         except coc.InvalidCredentials as e:
             sys.exit(f"Login failed. Check COC_EMAIL / COC_PASSWORD. ({e})")
+        except _TRANSIENT as e:
+            sys.exit(f"API unreachable (login timed out after retries): {e}")
 
-        # Global events, computed once and shared.
-        gp = await events.gold_pass_window(client)
+        # Global events, computed once and shared. A transient failure here is
+        # not fatal -- the run proceeds without this run's event data.
+        try:
+            gp = await _retry(lambda: events.gold_pass_window(client))
+        except _TRANSIENT:
+            gp = None
         scheduled = events.scheduled_calendar(season_end=gp.get("season_end") if gp else None)
         summary["gold_pass_season"] = gp
         summary["scheduled_events"] = scheduled
 
         for tag in tags:
             try:
-                player = await client.get_player(tag)
+                player = await _retry(lambda: client.get_player(tag))
             except coc.NotFound:
                 print(f"\n{tag}: not found, skipping.")
+                continue
+            except _TRANSIENT as e:
+                # API down for this account after retries. Don't drop it and
+                # don't block the run -- reuse last run's offense data and still
+                # refresh defenses from village.json (which needs no API).
+                if _fallback_account(tag, prev_by_tag, mods, dash_accounts, summary):
+                    print(f"\n{tag}: API timed out ({e}); reused last snapshot, refreshed defenses from village.json.")
+                else:
+                    print(f"\n{tag}: API timed out ({e}) and no prior snapshot to fall back on; skipping.")
                 continue
 
             try:
@@ -196,8 +269,11 @@ async def run() -> None:
             clan_tag = getattr(clan, "tag", None) if clan else None
             acc_events = {"gold_pass_season": gp, "scheduled": scheduled}
             if clan_tag:
-                acc_events["raid_weekend"] = await events.raid_progress(client, clan_tag, player.tag)
-                acc_events["cwl"] = await events.cwl_state(client, clan_tag)
+                try:
+                    acc_events["raid_weekend"] = await _retry(lambda: events.raid_progress(client, clan_tag, player.tag))
+                    acc_events["cwl"] = await _retry(lambda: events.cwl_state(client, clan_tag))
+                except _TRANSIENT:
+                    pass  # event data is optional; don't let it abort the run
             store.write_json(acc_dir / "events_latest.json", acc_events)
 
             # dynamic upgrade guide (offense always; defenses if village.json present)
@@ -211,7 +287,10 @@ async def run() -> None:
             all_items = catalog.offense_items(player, raw_player) + catalog.defense_items(village, analysis["identity"]["town_hall"])
             merged_completion = dict(analysis.get("completion", {}))
             merged_completion.update(catalog.completion([i for i in all_items if i["category"] in ("defenses", "walls", "traps", "resources")]))
-            war_note = await _save_wars(client, acc_dir, player, date_str)
+            try:
+                war_note = await _retry(lambda: _save_wars(client, acc_dir, player, date_str))
+            except _TRANSIENT:
+                war_note = "war capture skipped (API timed out)"
             _print(analysis, cost_analysis, war_note, date_str)
 
             war_rows = []
