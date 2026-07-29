@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2994 days, 4:00:00 of build time (one builder), 5,171,095,000 gold, 1,418,700,000 elixir, 37,531,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 2988 days, 4:00:00 of build time (one builder), 5,171,095,000 gold, 1,418,700,000 elixir, 37,376,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 74 → 105 — 8,635,000 DE, 212 days
    _one of your longest builds at 212 days, start early to reach max sooner_
@@ -16,14 +16,14 @@ Total remaining: 2994 days, 4:00:00 of build time (one builder), 5,171,095,000 g
    _one of your longest builds at 62 days, start early to reach max sooner_
 6. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
    _one of your longest builds at 52 days, 12:00:00, start early to reach max sooner_
-7. **Unicorn** (pets) 8 → 15 — 1,625,000 DE, 51 days, 12:00:00
-   _one of your longest builds at 51 days, 12:00:00, start early to reach max sooner_
-8. **Poison Lizard** (pets) 7 → 15 — 1,520,000 DE, 50 days, 12:00:00
+7. **Poison Lizard** (pets) 7 → 15 — 1,520,000 DE, 50 days, 12:00:00
    _one of your longest builds at 50 days, 12:00:00, start early to reach max sooner_
-9. **Mighty Yak** (pets) 6 → 15 — 1,170,000 DE, 49 days, 12:00:00
+8. **Mighty Yak** (pets) 6 → 15 — 1,170,000 DE, 49 days, 12:00:00
    _one of your longest builds at 49 days, 12:00:00, start early to reach max sooner_
-10. **Poison Spell** (spells) 7 → 12 — 990,000 DE, 45 days, 16:00:00
+9. **Poison Spell** (spells) 7 → 12 — 990,000 DE, 45 days, 16:00:00
    _one of your longest builds at 45 days, 16:00:00, start early to reach max sooner_
+10. **Unicorn** (pets) 9 → 15 — 1,470,000 DE, 45 days, 12:00:00
+   _one of your longest builds at 45 days, 12:00:00, start early to reach max sooner_
 11. **Royal Champion** (heroes) 50 → 55 — 2,110,000 DE, 40 days
    _one of your longest builds at 40 days, start early to reach max sooner_
 12. **Healing Spell** (spells) 8 → 12 — 73,000,000 elixir, 39 days

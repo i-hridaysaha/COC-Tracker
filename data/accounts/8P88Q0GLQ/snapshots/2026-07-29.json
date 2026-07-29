@@ -15,7 +15,7 @@
     "war_stars": 566,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 3968,
+    "donations": 4027,
     "received": 611
   },
   "ranked": {
@@ -33,11 +33,11 @@
     "heroes": 80.2,
     "troops": 85.3,
     "spells": 73.8,
-    "pets": 58.6,
-    "equipment": 58.7
+    "pets": 59.3,
+    "equipment": 59.1
   },
   "offense_completion_pct": 81.2,
-  "total_levels_remaining": 577,
+  "total_levels_remaining": 583,
   "rush_risk": {
     "score": 14.1,
     "band": "slightly rushed",
@@ -204,10 +204,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 11,
-      "current_total": 82,
+      "current_total": 83,
       "max_total": 140,
-      "levels_remaining": 58,
-      "completion_pct": 58.6,
+      "levels_remaining": 57,
+      "completion_pct": 59.3,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -235,19 +235,19 @@
         },
         {
           "name": "Unicorn",
-          "level": 8,
+          "level": 9,
           "max": 15,
-          "remaining": 7
+          "remaining": 6
         }
       ]
     },
     "equipment": {
       "category": "equipment",
-      "items_counted": 39,
-      "current_total": 491,
-      "max_total": 837,
-      "levels_remaining": 346,
-      "completion_pct": 58.7,
+      "items_counted": 40,
+      "current_total": 511,
+      "max_total": 864,
+      "levels_remaining": 353,
+      "completion_pct": 59.1,
       "biggest_gaps": [
         {
           "name": "Dark Crown",
@@ -282,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-07-29T08:38:26.614251+00:00",
+  "captured_at": "2026-07-29T09:18:27.061720+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -290,25 +290,25 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 37531000,
+        "dark_elixir": 37376000,
         "elixir": 1179800000,
         "shiny_ore": 741860,
         "glowy_ore": 54300,
         "starry_ore": 4870
       },
-      "build_seconds": 148888800,
-      "build_time_one_builder": "1723d 6h"
+      "build_seconds": 148370400,
+      "build_time_one_builder": "1717d 6h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 37531000,
+        "dark_elixir": 37376000,
         "elixir": 1179800000,
         "shiny_ore": 741860,
         "glowy_ore": 54300,
         "starry_ore": 4870
       },
-      "build_seconds": 148888800,
-      "build_time_one_builder": "1723d 6h"
+      "build_seconds": 148370400,
+      "build_time_one_builder": "1717d 6h"
     },
     "by_category": {
       "heroes": {
@@ -337,10 +337,10 @@
       },
       "pets": {
         "cost": {
-          "dark_elixir": 9935000
+          "dark_elixir": 9780000
         },
-        "build_seconds": 31795200,
-        "build_time": "368d"
+        "build_seconds": 31276800,
+        "build_time": "362d"
       },
       "equipment": {
         "cost": {
