@@ -17715,7 +17715,7 @@
         "equipment": 59.1,
         "defenses": 92.9,
         "resources": 87.2,
-        "army": 98.8,
+        "army": 96.5,
         "traps": 60.8,
         "walls": 94.7
       },
@@ -19689,37 +19689,41 @@
           "category": "army",
           "name": "Army Camp",
           "level": 13,
-          "max": 13,
-          "is_max": true,
+          "max": 14,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "army",
           "name": "Army Camp",
           "level": 13,
-          "max": 13,
-          "is_max": true,
+          "max": 14,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "army",
           "name": "Army Camp",
           "level": 13,
-          "max": 13,
-          "is_max": true,
+          "max": 14,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "army",
           "name": "Army Camp",
           "level": 13,
-          "max": 13,
-          "is_max": true,
+          "max": 14,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "army",

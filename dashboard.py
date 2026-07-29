@@ -59,9 +59,9 @@ h1{font-size:16px;font-weight:600;margin:0;letter-spacing:.2px}
 .card+.card{margin-top:14px}
 h3{margin:0 0 12px;font-size:12px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.7px}
 .muted{color:var(--muted)}.faint{color:var(--faint)}
-.ovtop{display:grid;grid-template-columns:180px 1fr;gap:20px;align-items:center}
-.thicon{width:54px;height:54px;object-fit:contain;display:block;margin:0 auto 8px}
-.ring{position:relative;width:160px;height:160px;margin:0 auto}
+.ovtop{display:grid;grid-template-columns:208px 1fr;gap:24px;align-items:center}
+.thicon{width:46px;height:46px;object-fit:contain;display:block;margin:0 auto -2px;filter:drop-shadow(0 2px 5px rgba(0,0,0,.55))}
+.ring{position:relative;width:188px;height:188px;margin:0 auto}
 .ringpct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .ringpct b{font-size:34px;font-weight:700;font-family:ui-monospace,monospace}
 .ringpct span{font-size:12px;color:var(--muted)}
@@ -155,6 +155,37 @@ input[type=number]{background:var(--raised);border:1px solid var(--border);color
 .lane.flash{border-color:var(--gold);box-shadow:0 0 0 3px #d9a52033}
 .rk .rline{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--soft);font-size:13px}
 .rk .rline:last-child{border-bottom:0}
+
+/* --- modern polish --- */
+.wrap{text-transform:uppercase}
+button,.navbtn,.pill,.acct,.af,.hlabel,.tname{text-transform:uppercase}
+textarea,input,#vjson{text-transform:none}
+body{background:radial-gradient(1100px 560px at 50% -12%,#131b26 0%,var(--canvas) 62%)}
+.playername{font-size:28px;font-weight:800;letter-spacing:1.5px;margin:2px 2px 16px;line-height:1.1;
+  background:linear-gradient(92deg,var(--gold),#f4d47a 55%,var(--amber));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.card{background:linear-gradient(180deg,#191f29,#12171f);border:1px solid #262d38;
+  box-shadow:0 1px 0 rgba(255,255,255,.03) inset,0 10px 28px -16px rgba(0,0,0,.7)}
+.nav{background:linear-gradient(180deg,#151a22,#11151c)}
+.navbtn{transition:background .15s,color .15s}
+.navbtn.active{background:linear-gradient(180deg,#232b36,#1a2028)}
+.navbtn:hover:not(.active){color:var(--text)}
+.ringwrap{display:flex;justify-content:center}
+.ringpct b{font-size:40px;letter-spacing:-1px}
+.ringpct span{font-size:13px;letter-spacing:.5px}
+.ovstats .line{padding:11px 2px}
+.ovstats .v{font-size:15px}
+.stat{background:linear-gradient(180deg,#1c232e,#151b23);transition:transform .12s,border-color .12s}
+.stat:hover{transform:translateY(-2px);border-color:#3a4453}
+.stat b{font-size:23px}
+.health .hrow{margin-bottom:11px}
+.htrack{height:11px;background:#1a2029}
+.hfill{filter:saturate(1.1)}
+.hpct{font-size:13px;color:var(--text)}
+.pill{transition:background .12s,color .12s,border-color .12s}
+.pill:hover:not(.active){border-color:#3a4453;color:var(--text)}
+.tile{transition:transform .12s,border-color .12s,box-shadow .12s}
+.tile:hover{transform:translateY(-3px);border-color:#3a4453;box-shadow:0 12px 26px -16px rgba(0,0,0,.8)}
+.badge{backdrop-filter:blur(2px)}
 """
 
 APP_JS = r"""
@@ -163,6 +194,8 @@ const DEFENSE=['defenses','walls','traps'];
 const BUILDER_CATS=['defenses','walls','traps','resources','heroes'];
 const LANE_OF={defenses:'builders',walls:'builders',traps:'builders',resources:'builders',heroes:'builders',army:'builders',troops:'lab',spells:'lab',pets:'pet',equipment:'smith'};
 const LANE_LABEL={lab:'Laboratory',pet:'Pet House',smith:'Blacksmith'};
+// Buildings whose newest level the bundled library lacks; mirrors defenses._MANUAL_BUILDING_TH_MAX.
+const MANUAL_BLD_MAX={'Army Camp':{18:14}};
 
 /* Real game icons from COC ICON PACK, organized by category. */
 const ICON_MAP={troops:{'Barbarian':'Avatar_Barbarian.webp','Archer':'Avatar_Archer.webp','Giant':'Avatar_Giant.webp','Goblin':'Avatar_Goblin.webp','Wall Breaker':'Avatar_Wall_Breaker.webp','Balloon':'Avatar_Balloon.webp','Wizard':'Avatar_Wizard.webp','Healer':'Avatar_Healer.webp','Dragon':'Avatar_Dragon.webp','P.E.K.K.A':'Avatar_P.E.K.K.A.webp','Baby Dragon':'Avatar_Baby_Dragon.webp','Miner':'Avatar_Miner.webp','Electro Dragon':'Avatar_Electro_Dragon.webp','Yeti':'Avatar_Yeti.webp','Dragon Rider':'Avatar_Dragon_Rider.webp','Electro Titan':'Avatar_Electro_Titan.webp','Root Rider':'Avatar_Root_Rider.webp','Druid':'Avatar_Druid.webp','Thrower':'Avatar_Thrower.webp','Minion':'Avatar_Minion.webp','Hog Rider':'Avatar_Hog_Rider.webp','Valkyrie':'Avatar_Valkyrie.webp','Golem':'Avatar_Golem.webp','Witch':'Avatar_Witch.webp','Lava Hound':'Avatar_Lava_Hound.webp','Bowler':'Avatar_Bowler.webp','Ice Golem':'Avatar_Ice_Golem.webp','Headhunter':'Avatar_Headhunter.webp','Apprentice Warden':'Avatar_Apprentice_Warden.webp','Furnace':'Avatar_Furnace.webp','Ruin Witch':'Avatar_Ruin_Witch.webp','Wall Wrecker':'Avatar_Wall_Wrecker.webp','Battle Blimp':'Avatar_Battle_Blimp.webp','Stone Slammer':'Avatar_Stone_Slammer.webp','Siege Barracks':'Avatar_Siege_Barracks.webp','Log Launcher':'Avatar_Log_Launcher.webp','Flame Flinger':'Avatar_Flame_Flinger.webp','Battle Drill':'Avatar_Battle_Drill.webp','Troop Launcher':'Avatar_Troop_Launcher.webp','Sky Wagon':'Avatar_Sky_Wagon.webp','Meteor Golem':'Avatar_Meteor_Golem.webp'},heroes:{'Barbarian King':'Avatar_Hero_Barbarian_King.webp','Archer Queen':'Avatar_Hero_Archer_Queen.webp','Grand Warden':'Avatar_Hero_Grand_Warden.webp','Royal Champion':'Avatar_Hero_Royal_Champion.webp','Minion Prince':'Avatar_Hero_Minion_Prince.webp','Dragon Duke':'Avatar_Hero_Dragon_Duke.webp'},pets:{'L.A.S.S.I':'Avatar_L.A.S.S.I.webp','Electro Owl':'Avatar_Electro_Owl.webp','Mighty Yak':'Avatar_Mighty_Yak.webp','Unicorn':'Avatar_Unicorn.webp','Frosty':'Avatar_Frosty.webp','Diggy':'Avatar_Diggy.webp','Poison Lizard':'Avatar_Poison_Lizard.webp','Phoenix':'Avatar_Phoenix.webp','Spirit Fox':'Avatar_Spirit_Fox.webp','Angry Jelly':'Avatar_Angry_Jelly.webp','Sneezy':'Avatar_Sneezy.webp','Greedy Raven':'Avatar_Greedy_Raven.webp'},defenses:{'Cannon':'Cannon21B.webp','Archer Tower':'Archer_Tower21.webp','Mortar':'Mortar18B.webp','Air Defense':'Air_Defense16.webp','Wizard Tower':'Wizard_Tower17.webp','Air Sweeper':'Air_Sweeper7.webp','Hidden Tesla':'Hidden_Tesla17.webp','Bomb Tower':'Bomb_Tower13.webp','X-Bow':'X-Bow13_Ground.webp','Inferno Tower':'Inferno_Tower12_Single.webp','Eagle Artillery':'Eagle_Artillery7.webp','Scattershot':'Scattershot7.webp','Super Wizard Tower':'Super_Wizard_Tower2.webp','Spell Tower':'Spell_Tower4_Rage.webp','Monolith':'Monolith5.webp','Ricochet Cannon':'Ricochet_Cannon4.webp','Multi-Archer Tower':'Multi-Archer_Tower4.webp','Firespitter':'Firespitter3.webp','Revenge Tower':'Revenge_Tower2_Stage3.webp','Multi-Gear Tower':'Multi-Gear_Tower3_LongRange.webp'},traps:{'Bomb':'Bomb13.webp','Spring Trap':'Spring_Trap13.webp','Giant Bomb':'Giant_Bomb11.webp','Air Bomb':'Air_Bomb13.webp','Seeking Air Mine':'Seeking_Air_Mine7.webp','Skeleton Trap':'SkeletonTrap5.webp','Tornado Trap':'Tornado_Trap2.webp','Giga Bomb':'Giga_Bomb4.webp'},walls:{'Walls':'Wall19.webp','Wall lvl 1':'Wall19.webp','Wall lvl 2':'Wall19.webp','Wall lvl 3':'Wall19.webp','Wall lvl 4':'Wall19.webp','Wall lvl 5':'Wall19.webp','Wall lvl 6':'Wall19.webp','Wall lvl 7':'Wall19.webp','Wall lvl 8':'Wall19.webp','Wall lvl 9':'Wall19.webp','Wall lvl 10':'Wall19.webp','Wall lvl 11':'Wall19.webp','Wall lvl 12':'Wall19.webp','Wall lvl 13':'Wall19.webp','Wall lvl 14':'Wall19.webp','Wall lvl 15':'Wall19.webp','Wall lvl 16':'Wall19.webp','Wall lvl 17':'Wall17.webp','Wall lvl 18':'Wall18.webp','Wall lvl 19':'Wall19.webp'},resources:{'Gold Mine':'Gold_Mine17.webp','Elixir Collector':'Elixir_Collector17.webp','Dark Elixir Drill':'Dark_Elixir_Drill11.webp','Gold Storage':'Gold_Storage19.webp','Elixir Storage':'Elixir_Storage19.webp','Dark Elixir Storage':'Dark_Elixir_Storage13.webp'},spells:{'Lightning Spell':'Lightning_Spell_info.webp','Healing Spell':'Healing_Spell_info.webp','Rage Spell':'Rage_Spell_info.webp','Jump Spell':'Jump_Spell_info.webp','Freeze Spell':'Freeze_Spell_info.webp','Clone Spell':'Clone_Spell_info.webp','Recall Spell':'Recall_Spell_info.webp','Revive Spell':'Revive_Spell_info.webp','Poison Spell':'Poison_Spell_info.webp','Earthquake Spell':'Earthquake_Spell_info.webp','Haste Spell':'Haste_Spell_info.webp','Skeleton Spell':'Skeleton_Spell_info.webp','Bat Spell':'Bat_Spell_info.webp','Overgrowth Spell':'Overgrowth_Spell_info.webp','Angry Spell':'Angry_Spell_info.webp','Invisibility Spell':'Invisibility_Spell_info.webp','Totem Spell':'Totem_Spell_info.webp','Ice Block Spell':'Ice_Block_Spell_info.webp'},equipment:{'Barbarian Puppet':'Barbarian_Puppet.webp','Archer Puppet':'Archer_Puppet.webp','Giant Gauntlets':'Giant_Gauntlet.webp','Rage Gem':'Rage_Gem.webp','Heal Tome':'Healing_Tome.webp','Hog Rider Gauntlets':'Hog_Rider_Puppet.webp','Tornado Boots':'Earthquake_Boots.webp','Fireball Gloves':'Fireball_Equipment.webp','Electro Boots':'Electro_Boots.webp','Ice Arrows':'Frozen_Arrow.webp','Healing Tome':'Eternal_Tome.webp','Frost Helm':'Frost_Flake.webp','Phoenix Feather':'Fire_Heart.webp','Eternal Token':'Eternal_Tome.webp','Vampire Bat':'Invisibility_Vial.webp','Royal Gem':'Royal_Gem.webp','Monolith Arrow':'Monolith_Arrow.webp','Flame Blower':'Flame_Blower.webp','Stun Blaster':'Stun_Blaster.webp','Rage Vial':'Rage_Vial.webp','Invisibility Vial':'Invisibility_Vial.webp','Life Gem':'Life_Gem.webp','Seeking Shield':'Seeking_Shield.webp','Earthquake Boots':'Earthquake_Boots.webp','Electro Fangs':'Electro_Fangs.webp','Haste Vial':'Haste_Vial.webp','Action Figure':'Action_Figure.webp','Dark Crown':'Dark_Crown.webp','Dark Orb':'Dark_Orb.webp','Heroic Torch':'Heroic_Torch.webp','Magic Mirror':'Magic_Mirror.webp','Metal Pants':'Metal_Pants.webp','Meteor Staff':'Meteor_Staff.webp','Noble Iron':'Noble_Iron.webp','Rocket Backpack':'Rocket_Backpack.webp','Rocket Spear':'Rocket_Spear.webp','Snake Bracelet':'Snake_Bracelet.webp','Spiky Ball':'Spiky_Ball.webp','Stick Horse':'Stick_Horse.webp','Vampstache':'Vampstache.webp','Fire Heart':'Fire_Heart.webp','Eternal Tome':'Eternal_Tome.webp','Hog Rider Puppet':'Hog_Rider_Puppet.webp','Giant Gauntlet':'Giant_Gauntlet.webp','Frozen Arrow':'Frozen_Arrow.webp','Giant Arrow':'Giant_Arrow.webp','Healer Puppet':'Healer_Puppet.webp','Fireball':'Fireball_Equipment.webp','Lavaloon Puppet':'Lavaloon_Puppet.webp','Henchmen Puppet':'Henchmen_Puppet.webp','Frost Flake':'Frost_Flake.webp'},army:{'Army Camp':'Army_Camp14.webp','Barracks':'Barracks19.webp','Dark Barracks':'Dark_Barracks12.webp','Laboratory':'Laboratory16.webp','Spell Factory':'Spell_Factory9.webp','Dark Spell Factory':'Dark_Spell_Factory6.webp','Workshop':'Workshop9.webp','Blacksmith':'Blacksmith9.webp','Pet House':'Pet_House12.webp','Hero Hall':'Hero_Hall12.webp','Clan Castle':'Clan_Castle14.webp'}};
@@ -217,10 +250,13 @@ function defenseItemsFromVillage(v){
   const pushItem=(cat,name,lvl,lookup)=>{
     const e=lookup[norm(name)];
     if(!e){misses.push(name+' -- name not recognized');return false;}
-    const target=maxTh(e);
+    let target=maxTh(e);
+    const ov=(MANUAL_BLD_MAX[name]||{})[th];if(ov&&ov>target)target=ov;
     if(!target){misses.push(name+' -- not unlocked at Town Hall '+th+' in the bundled data (check your "town_hall" field, or this is very new content the library doesn\'t know yet)');return false;}
     const level=Math.min(+lvl||0,target);const[c,s,r]=remain(e,level,target);
-    out.push({category:cat,name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s});
+    const item={category:cat,name,level,max:target,is_max:level>=target,cost:c?{[r]:c}:{},seconds:s};
+    if(level<target&&!c&&!s)item.unknown_cost=true;
+    out.push(item);
     return true;
   };
   const wallGroups={}; // level -> count, merged from an explicit v.walls array and any id-based wall entries
@@ -300,7 +336,7 @@ function githubVillage(){
 }
 function remaining(){return IT().filter(i=>!i.is_max)}
 function overallPct(){let c=0,m=0;for(const i of IT()){const w=i.count||1;c+=i.level*w;m+=i.max*w;}return m?Math.round(100*c/m):0;}
-function ring(pct,color){const r=68,circ=2*Math.PI*r,off=circ*(1-pct/100);return '<svg width="160" height="160" viewBox="0 0 160 160"><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="#21262d" stroke-width="12"/><circle cx="80" cy="80" r="'+r+'" fill="none" stroke="'+color+'" stroke-width="12" stroke-linecap="round" stroke-dasharray="'+circ+'" stroke-dashoffset="'+off+'" transform="rotate(-90 80 80)"/></svg>';}
+function ring(pct){const r=82,circ=2*Math.PI*r,off=circ*(1-Math.max(0,Math.min(100,pct))/100);const c1=rampColor(pct),c2=rampColor(Math.min(100,pct+14));return '<svg width="188" height="188" viewBox="0 0 188 188"><defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="'+c1+'"/><stop offset="1" stop-color="'+c2+'"/></linearGradient></defs><circle cx="94" cy="94" r="'+r+'" fill="none" stroke="#20262e" stroke-width="13"/><circle cx="94" cy="94" r="'+r+'" fill="none" stroke="url(#rg)" stroke-width="13" stroke-linecap="round" stroke-dasharray="'+circ+'" stroke-dashoffset="'+off+'" transform="rotate(-90 94 94)" style="filter:drop-shadow(0 0 7px '+c1+'66);transition:stroke-dashoffset .6s ease"/></svg>';}
 function renderOverview(){
   const a=acc(),comp=COMP(),pct=overallPct();const rem=remaining().length;
   let dc=0,dm=0;for(const i of IT()){if(!DEFENSE.includes(i.category))continue;const w=i.count||1;dc+=i.level*w;dm+=i.max*w;}
@@ -313,27 +349,20 @@ function renderOverview(){
   const importBtn='<div style="margin-top:12px">'+ghBtn+' <button class="af" onclick="openVillageModal()">'+(pastedVillage()?'↻ Update paste (this device only)':'＋ Paste here instead (this device only)')+'</button>'+(pastedVillage()?' <button class="af clear" onclick="clearVillage()">Remove pasted village</button>':'')+'</div>';
   const wars=(a.wars||[]).slice().sort((x,y)=>(y.date_seen||'').localeCompare(x.date_seen||'')).slice(0,8);
   const log=wars.length?wars.map(w=>{const st=parseInt(w.stars||0);const stars='★'.repeat(st)+'☆'.repeat(3-st);return '<div class="lrow"><span class="stars">'+stars+'</span><span class="mono">'+Math.round(w.destruction||0)+'%</span><span class="muted">vs TH'+esc(w.defender_th)+'</span><span class="leaguetag">'+esc(w.war_type)+'</span></div>';}).join(''):'<div class="faint">No war attacks recorded yet. They log automatically when you\'re in a clan war.</div>';
-  const rk=a.ranked||{};
-  const rkSeason=(label,s)=>s?('<div class="rline"><span class="k muted">'+label+'</span><span class="v mono">'+fmtNum(s.trophies)+' &nbsp;<span class="faint">rank '+(s.rank==null?'—':fmtNum(s.rank))+'</span></span></div>'):'';
-  const rankedCard=rk.in_legend_league
-   ?('<div class="card rk"><h3>Ranked</h3>'
-     +'<div class="rline"><span class="k muted">Current trophies</span><span class="v mono">'+fmtNum(rk.trophies)+'</span></div>'
-     +rkSeason('This season',rk.current_season)+rkSeason('Previous season',rk.previous_season)+rkSeason('Best season',rk.best_season)
-     +'<div class="note">Supercell\'s public API only exposes season-level Ranked/Legend totals (trophies + rank), never a per-attack log — so that\'s what\'s shown here, not a fabricated hit-by-hit feed.</div></div>')
-   :('<div class="card rk"><h3>Ranked</h3><div class="faint">Not in the Ranked (Legend) league yet — current trophies: '+fmtNum(rk.trophies)+', best: '+fmtNum(rk.best_trophies)+'.</div>'
-     +'<div class="note">Supercell\'s public API has no per-attack Ranked battle log; only season aggregates once you reach Ranked/Legend.</div></div>');
+  const rush=a.rush||{};
+  const rushVal=rush.score==null?'—':(rush.score+'% <span class="faint" style="font-weight:400">'+esc(rush.band||'')+'</span>');
   document.getElementById('page-overview').innerHTML=
-   '<div class="card"><h3>TH Completion</h3><div class="ovtop"><div style="text-align:center">'+thIcon(a.town_hall)+'<div class="ring">'+ring(pct,'#d9a520')+'<div class="ringpct"><b>'+pct+'%</b><span>of TH'+esc(a.town_hall)+'</span></div></div></div>'
+   '<div class="playername">'+esc(a.name||a.tag)+'</div>'
+   +'<div class="card"><h3>TH Completion</h3><div class="ovtop"><div class="ringwrap"><div class="ring">'+ring(pct)+'<div class="ringpct">'+thIcon(a.town_hall)+'<b>'+pct+'%</b><span>of TH'+esc(a.town_hall)+'</span></div></div></div>'
    +'<div class="ovstats"><div class="line"><span class="k">Remaining upgrades</span><span class="v">'+rem+'</span></div>'
    +'<div class="line"><span class="k">Offense Score</span><span class="v">'+a.offense_completion_pct+'%</span></div>'
-   +'<div class="line"><span class="k">Defense score</span><span class="v">'+(defScore==null?'—':defScore+'%')+'</span></div>'
-   +'<div class="line"><span class="k">Rush</span><span class="v">'+((a.rush||{}).band||'—')+'</span></div>'
+   +'<div class="line"><span class="k">Defense Score</span><span class="v">'+(defScore==null?'—':defScore+'%')+'</span></div>'
+   +'<div class="line"><span class="k">Rush Score</span><span class="v">'+rushVal+'</span></div>'
    +'<div style="margin-top:14px">'+badge+'</div>'+importBtn+'</div></div></div>'
    +'<div class="card health"><h3>Village Health</h3>'+(health||'<div class="faint">No data.</div>')+'</div>'
    +'<div class="card"><h3>Key stats</h3><div class="cards6" style="grid-template-columns:repeat(2,1fr)">'
    +'<div class="stat"><b>'+esc(a.trophies==null?'—':a.trophies)+'</b><span>trophies</span></div>'
    +'<div class="stat"><b>'+esc(a.war_stars==null?'—':a.war_stars)+'</b><span>war stars</span></div></div></div>'
-   +rankedCard
    +'<div class="card log"><h3>War Log <span class="faint" style="text-transform:none;font-weight:400">— clan wars &amp; CWL</span></h3>'+log+'</div>';
 }
 function trackerTile(i){

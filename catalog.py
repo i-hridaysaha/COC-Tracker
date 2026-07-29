@@ -84,12 +84,15 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
         entry = defenses._lookup_building(b.get("name"))
         if not entry:
             continue
-        target = defenses._max_level_for_th(entry, th)
+        target = defenses._th_max(b["name"], entry, th)
         level = int(b.get("level", 0) or 0)
         if not target:
             continue
         cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
-        out.append(_rec("army", b["name"], min(level, target), target, cost, seconds))
+        # a manual max override can push target past the last level the library
+        # knows, leaving the final step with no cost/time -- flag NO DATA, not free.
+        unknown = level < target and not cost and seconds == 0
+        out.append(_rec("army", b["name"], min(level, target), target, cost, seconds, unknown))
 
     for t in village.get("traps", []):
         entry = defenses._lookup_trap(t.get("name"))

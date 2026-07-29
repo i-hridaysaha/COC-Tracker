@@ -139,6 +139,20 @@ def _max_level_for_th(entry: dict, town_hall: int) -> int:
     return max(levels) if levels else 0
 
 
+# Manual max-level overrides for buildings whose newest level the bundled
+# coc.py library hasn't shipped yet (it lags real Supercell releases), keyed
+# {name: {town_hall: max}}. Remove an entry once the library carries that
+# level for that Town Hall -- otherwise this stale value wins forever. The
+# missing level has no cost data, so it renders as "NO DATA", not free.
+_MANUAL_BUILDING_TH_MAX = {"Army Camp": {18: 14}}
+
+
+def _th_max(name, entry: dict, town_hall: int) -> int:
+    lib = _max_level_for_th(entry, town_hall)
+    override = _MANUAL_BUILDING_TH_MAX.get(name, {}).get(town_hall)
+    return max(lib, override) if override else lib
+
+
 def _building_remaining(entry: dict, current: int, target: int) -> tuple[dict, int]:
     """Sum build_cost / build_time for levels (current, target], destination
     convention."""
