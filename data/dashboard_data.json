@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-30T08:24:03.199111+00:00",
+  "captured_at": "2026-07-30T11:54:23.717082+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17742,7 +17742,7 @@
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4694,
+      "donations": 4721,
       "received": 667,
       "offense_completion_pct": 81.6,
       "rush": {
@@ -17795,7 +17795,7 @@
         "equipment": 59.3,
         "defenses": 92.9,
         "resources": 87.2,
-        "army": 96.5,
+        "army": 97.1,
         "guardians": 20.0,
         "traps": 60.8,
         "walls": 94.7
@@ -19033,6 +19033,15 @@
         },
         {
           "category": "defenses",
+          "name": "Monolith",
+          "level": 4,
+          "max": 4,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
           "name": "Super Wizard Tower",
           "level": 0,
           "max": 2,
@@ -19342,15 +19351,6 @@
           "name": "Spell Tower",
           "level": 3,
           "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Monolith",
-          "level": 4,
-          "max": 4,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19758,15 +19758,6 @@
         },
         {
           "category": "army",
-          "name": "Pet House",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "army",
           "name": "Army Camp",
           "level": 13,
           "max": 14,
@@ -19774,6 +19765,15 @@
           "cost": {},
           "seconds": 0,
           "unknown_cost": true
+        },
+        {
+          "category": "army",
+          "name": "Pet House",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "army",
@@ -19817,13 +19817,11 @@
         {
           "category": "army",
           "name": "Clan Castle",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
-          "cost": {
-            "elixir": 28000000
-          },
-          "seconds": 1209600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "army",
@@ -20461,7 +20459,7 @@
           "source": "api",
           "season_start": "2026-07-01 08:00:00+00:00",
           "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "1d 23h",
+          "ends_in": "1d 20h",
           "active": true
         },
         "scheduled": [
@@ -20469,25 +20467,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "1d 23h"
+            "starts_in": "1d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "22d 23h"
+            "starts_in": "22d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 23h"
+            "starts_in": "1d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "22h 35m"
+            "starts_in": "19h 5m"
           }
         ],
         "raid_weekend": {
