@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-01T08:18:17.890299+00:00",
+  "captured_at": "2026-08-01T20:22:07.017546+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,12 +17737,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 568,
+      "trophies": 590,
       "best_trophies": 4909,
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 5069,
+      "donations": 5278,
       "received": 669,
       "offense_completion_pct": 81.7,
       "rush": {
@@ -20443,7 +20443,7 @@
         }
       ],
       "ranked": {
-        "trophies": 568,
+        "trophies": 590,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20459,7 +20459,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "30d 23h",
+          "ends_in": "30d 11h",
           "active": true
         },
         "scheduled": [
@@ -20467,25 +20467,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "30d 23h"
+            "starts_in": "30d 11h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "20d 23h"
+            "starts_in": "20d 11h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "8d 23h"
+            "ends_in": "8d 11h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 22h"
+            "ends_in": "1d 10h"
           }
         ],
         "raid_weekend": {
@@ -20493,9 +20493,14 @@
           "state": "ongoing",
           "start": "2026-07-31 07:00:00+00:00",
           "end": "2026-08-03 07:00:00+00:00",
-          "ends_in": "1d 22h"
+          "ends_in": "1d 10h"
         },
-        "cwl": null
+        "cwl": {
+          "source": "api",
+          "state": "preparation",
+          "season": "2026-08-01",
+          "number_of_rounds": 7
+        }
       },
       "wars": [
         {
