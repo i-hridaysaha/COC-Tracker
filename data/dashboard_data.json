@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-07-31T08:47:32.013571+00:00",
+  "captured_at": "2026-08-01T08:18:17.890299+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 552,
+      "trophies": 568,
       "best_trophies": 4909,
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4885,
+      "donations": 5069,
       "received": 669,
-      "offense_completion_pct": 81.6,
+      "offense_completion_pct": 81.7,
       "rush": {
         "score": 13.7,
         "band": "slightly rushed",
@@ -17789,9 +17789,9 @@
       },
       "completion": {
         "heroes": 80.9,
-        "troops": 85.6,
+        "troops": 85.9,
         "spells": 73.8,
-        "pets": 59.3,
+        "pets": 60.0,
         "equipment": 59.3,
         "defenses": 92.9,
         "resources": 87.2,
@@ -17890,7 +17890,7 @@
         {
           "category": "troops",
           "name": "Sky Wagon",
-          "level": 1,
+          "level": 2,
           "max": 4,
           "is_max": false,
           "cost": {},
@@ -18502,13 +18502,13 @@
         {
           "category": "pets",
           "name": "Unicorn",
-          "level": 9,
+          "level": 10,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 170000
+            "dark_elixir": 200000
           },
-          "seconds": 561600
+          "seconds": 604800
         },
         {
           "category": "pets",
@@ -20443,7 +20443,7 @@
         }
       ],
       "ranked": {
-        "trophies": 552,
+        "trophies": 568,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20457,9 +20457,9 @@
       "events": {
         "gold_pass_season": {
           "source": "api",
-          "season_start": "2026-07-01 08:00:00+00:00",
-          "season_end": "2026-08-01 08:00:00+00:00",
-          "ends_in": "23h 12m",
+          "season_start": "2026-08-01 08:00:00+00:00",
+          "season_end": "2026-09-01 08:00:00+00:00",
+          "ends_in": "30d 23h",
           "active": true
         },
         "scheduled": [
@@ -20467,25 +20467,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "23h 12m"
+            "starts_in": "30d 23h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "21d 23h"
+            "starts_in": "20d 23h"
           },
           {
             "event": "CWL",
             "estimate": true,
-            "active": false,
-            "starts_in": "23h 12m"
+            "active": true,
+            "ends_in": "8d 23h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 22h"
+            "ends_in": "1d 22h"
           }
         ],
         "raid_weekend": {
@@ -20493,7 +20493,7 @@
           "state": "ongoing",
           "start": "2026-07-31 07:00:00+00:00",
           "end": "2026-08-03 07:00:00+00:00",
-          "ends_in": "2d 22h"
+          "ends_in": "1d 22h"
         },
         "cwl": null
       },

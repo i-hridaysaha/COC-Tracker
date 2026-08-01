@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2967 days, 16:00:00",
+  "total_build_time_one_builder": "2961 days, 4:00:00",
   "total_cost": {
-    "dark_elixir": 37226000,
+    "dark_elixir": 37056000,
     "elixir": 1385700000,
     "gold": 5171095000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "5,171,095,000 gold, 1,385,700,000 elixir, 37,226,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "5,171,095,000 gold, 1,385,700,000 elixir, 37,056,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -142,20 +142,6 @@
     },
     {
       "rank": 10,
-      "category": "pets",
-      "name": "Unicorn",
-      "from_level": 9,
-      "to_level": 15,
-      "cost": {
-        "dark_elixir": 1470000
-      },
-      "cost_text": "1,470,000 DE",
-      "build_time": "45 days, 12:00:00",
-      "build_seconds": 3931200,
-      "reason": "one of your longest builds at 45 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 11,
       "category": "heroes",
       "name": "Royal Champion",
       "from_level": 50,
@@ -169,7 +155,7 @@
       "reason": "one of your longest builds at 40 days, start early to reach max sooner"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "category": "spells",
       "name": "Healing Spell",
       "from_level": 8,
@@ -178,6 +164,20 @@
         "elixir": 73000000
       },
       "cost_text": "73,000,000 elixir",
+      "build_time": "39 days",
+      "build_seconds": 3369600,
+      "reason": "one of your longest builds at 39 days, start early to reach max sooner"
+    },
+    {
+      "rank": 12,
+      "category": "pets",
+      "name": "Unicorn",
+      "from_level": 10,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 1300000
+      },
+      "cost_text": "1,300,000 DE",
       "build_time": "39 days",
       "build_seconds": 3369600,
       "reason": "one of your longest builds at 39 days, start early to reach max sooner"

@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2967 days, 16:00:00 of build time (one builder), 5,171,095,000 gold, 1,385,700,000 elixir, 37,226,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 2961 days, 4:00:00 of build time (one builder), 5,171,095,000 gold, 1,385,700,000 elixir, 37,056,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 75 → 105 — 8,485,000 DE, 207 days, 12:00:00
    _one of your longest builds at 207 days, 12:00:00, start early to reach max sooner_
@@ -22,11 +22,11 @@ Total remaining: 2967 days, 16:00:00 of build time (one builder), 5,171,095,000 
    _one of your longest builds at 49 days, 12:00:00, start early to reach max sooner_
 9. **Poison Spell** (spells) 7 → 12 — 990,000 DE, 45 days, 16:00:00
    _one of your longest builds at 45 days, 16:00:00, start early to reach max sooner_
-10. **Unicorn** (pets) 9 → 15 — 1,470,000 DE, 45 days, 12:00:00
-   _one of your longest builds at 45 days, 12:00:00, start early to reach max sooner_
-11. **Royal Champion** (heroes) 50 → 55 — 2,110,000 DE, 40 days
+10. **Royal Champion** (heroes) 50 → 55 — 2,110,000 DE, 40 days
    _one of your longest builds at 40 days, start early to reach max sooner_
-12. **Healing Spell** (spells) 8 → 12 — 73,000,000 elixir, 39 days
+11. **Healing Spell** (spells) 8 → 12 — 73,000,000 elixir, 39 days
+   _one of your longest builds at 39 days, start early to reach max sooner_
+12. **Unicorn** (pets) 10 → 15 — 1,300,000 DE, 39 days
    _one of your longest builds at 39 days, start early to reach max sooner_
 13. **Miner** (troops) 8 → 12 — 67,500,000 elixir, 37 days, 20:00:00
    _one of your longest builds at 37 days, 20:00:00, start early to reach max sooner_
