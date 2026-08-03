@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-03T09:41:20.504928+00:00",
+  "captured_at": "2026-08-03T14:55:25.339494+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17742,13 +17742,13 @@
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 5547,
+      "donations": 5677,
       "received": 669,
-      "offense_completion_pct": 81.8,
+      "offense_completion_pct": 81.2,
       "rush": {
-        "score": 13.6,
+        "score": 13.5,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 114,
+        "levels_behind_prev_th": 113,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17789,16 +17789,16 @@
       },
       "completion": {
         "heroes": 80.9,
-        "troops": 85.9,
-        "spells": 74.6,
+        "troops": 83.7,
+        "spells": 75.4,
         "pets": 60.0,
         "equipment": 59.3,
-        "defenses": 92.9,
+        "defenses": 93.6,
         "resources": 87.2,
-        "army": 97.1,
+        "army": 97.7,
         "guardians": 20.0,
         "traps": 60.8,
-        "walls": 94.7
+        "walls": 94.9
       },
       "items": [
         {
@@ -17892,6 +17892,16 @@
           "name": "Sky Wagon",
           "level": 2,
           "max": 4,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "troops",
+          "name": "Greedy Raven",
+          "level": 1,
+          "max": 10,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -18425,13 +18435,11 @@
         {
           "category": "spells",
           "name": "Skeleton Spell",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 135000
-          },
-          "seconds": 561600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "spells",
@@ -19040,321 +19048,6 @@
         },
         {
           "category": "defenses",
-          "name": "Super Wizard Tower",
-          "level": 0,
-          "max": 2,
-          "is_max": false,
-          "cost": {
-            "gold": 29000000
-          },
-          "seconds": 1123200
-        },
-        {
-          "category": "defenses",
-          "name": "Super Wizard Tower",
-          "level": 0,
-          "max": 2,
-          "is_max": false,
-          "cost": {
-            "gold": 29000000
-          },
-          "seconds": 1123200
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 1,
-          "max": 17,
-          "is_max": false,
-          "cost": {
-            "gold": 150000
-          },
-          "seconds": 5400
-        },
-        {
-          "category": "defenses",
-          "name": "Wizard Tower",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Sweeper",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Air Sweeper",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Bomb Tower",
-          "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 25000000
-          },
-          "seconds": 1123200
-        },
-        {
-          "category": "defenses",
-          "name": "Bomb Tower",
-          "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 25000000
-          },
-          "seconds": 1123200
-        },
-        {
-          "category": "defenses",
-          "name": "Scattershot",
-          "level": 6,
-          "max": 6,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Scattershot",
-          "level": 6,
-          "max": 6,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Spell Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Spell Tower",
-          "level": 3,
-          "max": 3,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
           "name": "Multi-Gear Tower",
           "level": 2,
           "max": 3,
@@ -19363,6 +19056,299 @@
             "gold": 28000000
           },
           "seconds": 1209600
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 2,
+          "max": 17,
+          "is_max": false,
+          "cost": {
+            "gold": 250000
+          },
+          "seconds": 14400
+        },
+        {
+          "category": "defenses",
+          "name": "Wizard Tower",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Sweeper",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Air Sweeper",
+          "level": 7,
+          "max": 7,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Bomb Tower",
+          "level": 12,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 25000000
+          },
+          "seconds": 1123200
+        },
+        {
+          "category": "defenses",
+          "name": "Bomb Tower",
+          "level": 12,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 25000000
+          },
+          "seconds": 1123200
+        },
+        {
+          "category": "defenses",
+          "name": "Scattershot",
+          "level": 6,
+          "max": 6,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Scattershot",
+          "level": 6,
+          "max": 6,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Spell Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Spell Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -19456,6 +19442,28 @@
           "is_max": true,
           "cost": {},
           "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Super Wizard Tower",
+          "level": 1,
+          "max": 2,
+          "is_max": false,
+          "cost": {
+            "gold": 30000000
+          },
+          "seconds": 1209600
+        },
+        {
+          "category": "defenses",
+          "name": "Super Wizard Tower",
+          "level": 1,
+          "max": 2,
+          "is_max": false,
+          "cost": {
+            "gold": 30000000
+          },
+          "seconds": 1209600
         },
         {
           "category": "resources",
@@ -19745,17 +19753,6 @@
         },
         {
           "category": "army",
-          "name": "Laboratory",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "elixir": 27000000
-          },
-          "seconds": 1382400
-        },
-        {
-          "category": "army",
           "name": "Army Camp",
           "level": 13,
           "max": 14,
@@ -19763,15 +19760,6 @@
           "cost": {},
           "seconds": 0,
           "unknown_cost": true
-        },
-        {
-          "category": "army",
-          "name": "Pet House",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
         },
         {
           "category": "army",
@@ -19808,6 +19796,15 @@
           "name": "Barracks",
           "level": 19,
           "max": 19,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Laboratory",
+          "level": 16,
+          "max": 16,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19853,6 +19850,15 @@
           "name": "Workshop",
           "level": 8,
           "max": 8,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
+          "name": "Pet House",
+          "level": 11,
+          "max": 11,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -20429,15 +20435,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x325",
+          "name": "Wall lvl 18 x318",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 3250000000
+            "gold": 3180000000
           },
           "seconds": 0,
-          "count": 325
+          "count": 318
+        },
+        {
+          "category": "walls",
+          "name": "Wall lvl 19 x7",
+          "level": 19,
+          "max": 19,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0,
+          "count": 7
         }
       ],
       "ranked": {
@@ -20457,7 +20473,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "28d 22h",
+          "ends_in": "28d 17h",
           "active": true
         },
         "scheduled": [
@@ -20465,25 +20481,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "28d 22h"
+            "starts_in": "28d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 22h"
+            "starts_in": "18d 17h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "6d 22h"
+            "ends_in": "6d 17h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 21h"
+            "starts_in": "3d 16h"
           }
         ],
         "raid_weekend": {
