@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-02T08:22:11.755994+00:00",
+  "captured_at": "2026-08-03T09:41:20.504928+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,18 +17737,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 590,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 566,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 5278,
+      "donations": 5547,
       "received": 669,
-      "offense_completion_pct": 81.7,
+      "offense_completion_pct": 81.8,
       "rush": {
-        "score": 13.7,
+        "score": 13.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 115,
+        "levels_behind_prev_th": 114,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17790,7 +17790,7 @@
       "completion": {
         "heroes": 80.9,
         "troops": 85.9,
-        "spells": 73.8,
+        "spells": 74.6,
         "pets": 60.0,
         "equipment": 59.3,
         "defenses": 92.9,
@@ -18325,13 +18325,11 @@
         {
           "category": "spells",
           "name": "Jump Spell",
-          "level": 4,
+          "level": 5,
           "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 8000000
-          },
-          "seconds": 561600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "spells",
@@ -20443,7 +20441,7 @@
         }
       ],
       "ranked": {
-        "trophies": 590,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20459,7 +20457,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "29d 23h",
+          "ends_in": "28d 22h",
           "active": true
         },
         "scheduled": [
@@ -20467,37 +20465,37 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "29d 23h"
+            "starts_in": "28d 22h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "19d 23h"
+            "starts_in": "18d 22h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "7d 23h"
+            "ends_in": "6d 22h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "22h 37m"
+            "active": false,
+            "starts_in": "3d 21h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-07-31 07:00:00+00:00",
           "end": "2026-08-03 07:00:00+00:00",
-          "ends_in": "22h 37m"
+          "ends_in": null
         },
         "cwl": {
           "source": "api",
-          "state": "preparation",
+          "state": "inWar",
           "season": "2026-08-01",
           "number_of_rounds": 7
         }
