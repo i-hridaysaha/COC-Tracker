@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-03T14:55:25.339494+00:00",
+  "captured_at": "2026-08-04T08:33:49.811624+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,13 +17737,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 22,
       "best_trophies": 4909,
-      "war_stars": 566,
+      "war_stars": 572,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 5677,
-      "received": 669,
+      "donations": 6071,
+      "received": 725,
       "offense_completion_pct": 81.2,
       "rush": {
         "score": 13.5,
@@ -17791,7 +17791,7 @@
         "heroes": 80.9,
         "troops": 83.7,
         "spells": 75.4,
-        "pets": 60.0,
+        "pets": 60.7,
         "equipment": 59.3,
         "defenses": 93.6,
         "resources": 87.2,
@@ -18508,13 +18508,13 @@
         {
           "category": "pets",
           "name": "Unicorn",
-          "level": 10,
+          "level": 11,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 200000
+            "dark_elixir": 230000
           },
-          "seconds": 604800
+          "seconds": 691200
         },
         {
           "category": "pets",
@@ -20457,7 +20457,7 @@
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 22,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20473,7 +20473,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "28d 17h",
+          "ends_in": "27d 23h",
           "active": true
         },
         "scheduled": [
@@ -20481,25 +20481,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "28d 17h"
+            "starts_in": "27d 23h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 17h"
+            "starts_in": "17d 23h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "6d 17h"
+            "ends_in": "5d 23h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 16h"
+            "starts_in": "2d 22h"
           }
         ],
         "raid_weekend": {
@@ -20517,6 +20517,25 @@
         }
       },
       "wars": [
+        {
+          "date_seen": "2026-08-04",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8GJGLP982",
+          "opponent_clan": "DDSDAVAO$",
+          "team_size": "15",
+          "attack_order": "3",
+          "attacker_th": "18",
+          "defender_tag": "#YQ28CJ9Q0",
+          "defender_name": "goldymay",
+          "defender_th": "15",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "93"
+        },
         {
           "date_seen": "2026-07-24",
           "player_tag": "#8P88Q0GLQ",

@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2922 days, 2:30:00",
+  "total_build_time_one_builder": "2915 days, 2:30:00",
   "total_cost": {
-    "dark_elixir": 36921000,
+    "dark_elixir": 36721000,
     "elixir": 1377700000,
     "gold": 5042945000,
     "shiny_ore": 741860,
     "glowy_ore": 54300,
     "starry_ore": 4870
   },
-  "total_cost_text": "5,042,945,000 gold, 1,377,700,000 elixir, 36,921,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "5,042,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -170,20 +170,6 @@
     },
     {
       "rank": 12,
-      "category": "pets",
-      "name": "Unicorn",
-      "from_level": 10,
-      "to_level": 15,
-      "cost": {
-        "dark_elixir": 1300000
-      },
-      "cost_text": "1,300,000 DE",
-      "build_time": "39 days",
-      "build_seconds": 3369600,
-      "reason": "one of your longest builds at 39 days, start early to reach max sooner"
-    },
-    {
-      "rank": 13,
       "category": "troops",
       "name": "Miner",
       "from_level": 8,
@@ -197,7 +183,7 @@
       "reason": "one of your longest builds at 37 days, 20:00:00, start early to reach max sooner"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "category": "spells",
       "name": "Lightning Spell",
       "from_level": 9,
@@ -211,7 +197,7 @@
       "reason": "one of your longest builds at 37 days, start early to reach max sooner"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "category": "spells",
       "name": "Recall Spell",
       "from_level": 3,
@@ -223,6 +209,20 @@
       "build_time": "33 days, 12:00:00",
       "build_seconds": 2894400,
       "reason": "one of your longest builds at 33 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 15,
+      "category": "traps",
+      "name": "Spring Trap",
+      "from_level": 5,
+      "to_level": 13,
+      "cost": {
+        "gold": 46700000
+      },
+      "cost_text": "46,700,000 gold",
+      "build_time": "32 days, 12:00:00",
+      "build_seconds": 2808000,
+      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 16,
@@ -312,15 +312,15 @@
       "rank": 22,
       "category": "traps",
       "name": "Spring Trap",
-      "from_level": 5,
+      "from_level": 6,
       "to_level": 13,
       "cost": {
-        "gold": 46700000
+        "gold": 45700000
       },
-      "cost_text": "46,700,000 gold",
-      "build_time": "32 days, 12:00:00",
-      "build_seconds": 2808000,
-      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "45,700,000 gold",
+      "build_time": "32 days",
+      "build_seconds": 2764800,
+      "reason": "one of your longest builds at 32 days, start early to reach max sooner"
     },
     {
       "rank": 23,
@@ -338,14 +338,14 @@
     },
     {
       "rank": 24,
-      "category": "traps",
-      "name": "Spring Trap",
-      "from_level": 6,
-      "to_level": 13,
+      "category": "pets",
+      "name": "Unicorn",
+      "from_level": 11,
+      "to_level": 15,
       "cost": {
-        "gold": 45700000
+        "dark_elixir": 1100000
       },
-      "cost_text": "45,700,000 gold",
+      "cost_text": "1,100,000 DE",
       "build_time": "32 days",
       "build_seconds": 2764800,
       "reason": "one of your longest builds at 32 days, start early to reach max sooner"
