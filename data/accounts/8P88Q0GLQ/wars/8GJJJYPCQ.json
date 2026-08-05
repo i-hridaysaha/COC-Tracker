@@ -1,0 +1,42 @@
+{
+  "war_id": "#8GJJJYPCQ",
+  "war_type": "cwl",
+  "state": "In War",
+  "opponent_clan": "KURDiSTAN iS 1",
+  "team_size": 15,
+  "attacks_per_member": 1,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 15,
+    "stars_earned": 3,
+    "attacks_used": 1
+  },
+  "attacks": [
+    {
+      "date_seen": "2026-08-05",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "cwl",
+      "war_state": "In War",
+      "war_id": "#8GJJJYPCQ",
+      "opponent_clan": "KURDiSTAN iS 1",
+      "team_size": 15,
+      "attack_order": 6,
+      "attacker_th": 18,
+      "defender_tag": "#R0V0RU20J",
+      "defender_name": "Ks\u0f36\u2022\u2508\u2508\u26e7\u2508\u265bRESHA",
+      "defender_th": 17,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 53
+    }
+  ],
+  "defended": {
+    "times_defended": 0,
+    "worst_defense_stars": null,
+    "worst_defense_destruction": null
+  }
+}
