@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-07T07:12:53.735969+00:00",
+  "captured_at": "2026-08-07T14:31:58.047775+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17739,11 +17739,11 @@
       "town_hall": 18,
       "trophies": 147,
       "best_trophies": 4909,
-      "war_stars": 578,
+      "war_stars": 581,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 6655,
-      "received": 780,
+      "donations": 6985,
+      "received": 788,
       "offense_completion_pct": 81.2,
       "rush": {
         "score": 13.5,
@@ -17795,7 +17795,7 @@
         "equipment": 59.3,
         "defenses": 93.6,
         "resources": 87.2,
-        "army": 97.7,
+        "army": 98.3,
         "guardians": 20.0,
         "traps": 60.8,
         "walls": 94.9
@@ -19039,15 +19039,6 @@
         },
         {
           "category": "defenses",
-          "name": "Monolith",
-          "level": 4,
-          "max": 4,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
           "name": "Multi-Gear Tower",
           "level": 2,
           "max": 3,
@@ -19346,6 +19337,15 @@
           "name": "Spell Tower",
           "level": 3,
           "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Monolith",
+          "level": 4,
+          "max": 4,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19784,12 +19784,11 @@
         {
           "category": "army",
           "name": "Army Camp",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "army",
@@ -20435,25 +20434,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x318",
+          "name": "Wall lvl 18 x312",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 3180000000
+            "gold": 3120000000
           },
           "seconds": 0,
-          "count": 318
+          "count": 312
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x7",
+          "name": "Wall lvl 19 x13",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 7
+          "count": 13
         }
       ],
       "ranked": {
@@ -20473,7 +20472,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "25d 0h",
+          "ends_in": "24d 17h",
           "active": true
         },
         "scheduled": [
@@ -20481,33 +20480,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "25d 0h"
+            "starts_in": "24d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "15d 0h"
+            "starts_in": "14d 17h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 0h"
+            "ends_in": "2d 17h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 23h"
+            "ends_in": "2d 16h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-07-31 07:00:00+00:00",
-          "end": "2026-08-03 07:00:00+00:00",
-          "ends_in": null
+          "state": "ongoing",
+          "start": "2026-08-07 07:00:00+00:00",
+          "end": "2026-08-10 07:00:00+00:00",
+          "ends_in": "2d 16h"
         },
         "cwl": {
           "source": "api",
@@ -20517,6 +20516,25 @@
         }
       },
       "wars": [
+        {
+          "date_seen": "2026-08-07",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8GC2PUGRC",
+          "opponent_clan": "VIKING'S",
+          "team_size": "15",
+          "attack_order": "25",
+          "attacker_th": "18",
+          "defender_tag": "#YC8RGRVQJ",
+          "defender_name": "KUNDAN007",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "117"
+        },
         {
           "date_seen": "2026-08-04",
           "player_tag": "#8P88Q0GLQ",

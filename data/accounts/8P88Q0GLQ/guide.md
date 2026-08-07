@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2915 days, 2:30:00 of build time (one builder), 5,042,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 2915 days, 2:30:00 of build time (one builder), 4,982,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 75 → 105 — 8,485,000 DE, 207 days, 12:00:00
    _one of your longest builds at 207 days, 12:00:00, start early to reach max sooner_
@@ -266,7 +266,7 @@ Total remaining: 2915 days, 2:30:00 of build time (one builder), 5,042,945,000 g
    _one of your longest builds at 4 days, start early to reach max sooner_
 131. **Gold Mine** (resources) 16 → 17 — 8,000,000 elixir, 4 days
    _one of your longest builds at 4 days, start early to reach max sooner_
-132. **Wall lvl 18->19 x318** (walls) 18 → 19 — 3,180,000,000 gold, no build time
+132. **Wall lvl 18->19 x312** (walls) 18 → 19 — 3,120,000,000 gold, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 133. **Dark Crown** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
