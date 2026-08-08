@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-07T14:31:58.047775+00:00",
+  "captured_at": "2026-08-08T06:50:12.737965+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,12 +17737,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 147,
+      "trophies": 680,
       "best_trophies": 4909,
-      "war_stars": 581,
+      "war_stars": 583,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 6985,
+      "donations": 7420,
       "received": 788,
       "offense_completion_pct": 81.2,
       "rush": {
@@ -17792,7 +17792,7 @@
         "troops": 83.7,
         "spells": 75.4,
         "pets": 60.7,
-        "equipment": 59.3,
+        "equipment": 60.5,
         "defenses": 93.6,
         "resources": 87.2,
         "army": 98.3,
@@ -18736,11 +18736,12 @@
         {
           "category": "equipment",
           "name": "Earthquake Boots",
-          "level": 12,
+          "level": 14,
           "max": 18,
           "is_max": false,
           "cost": {
-            "shiny_ore": 2200
+            "shiny_ore": 2400,
+            "glowy_ore": 600
           },
           "seconds": 0
         },
@@ -18828,12 +18829,10 @@
         {
           "category": "equipment",
           "name": "Giant Arrow",
-          "level": 9,
+          "level": 18,
           "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1900
-          },
+          "is_max": true,
+          "cost": {},
           "seconds": 0
         },
         {
@@ -20456,7 +20455,7 @@
         }
       ],
       "ranked": {
-        "trophies": 147,
+        "trophies": 680,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20472,7 +20471,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "24d 17h",
+          "ends_in": "24d 1h",
           "active": true
         },
         "scheduled": [
@@ -20480,25 +20479,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "24d 17h"
+            "starts_in": "24d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 17h"
+            "starts_in": "14d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 17h"
+            "ends_in": "2d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 16h"
+            "ends_in": "2d 0h"
           }
         ],
         "raid_weekend": {
@@ -20506,7 +20505,7 @@
           "state": "ongoing",
           "start": "2026-08-07 07:00:00+00:00",
           "end": "2026-08-10 07:00:00+00:00",
-          "ends_in": "2d 16h"
+          "ends_in": "2d 0h"
         },
         "cwl": {
           "source": "api",
@@ -20534,6 +20533,25 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "117"
+        },
+        {
+          "date_seen": "2026-08-08",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8GC9R8UJV",
+          "opponent_clan": "TrAyy\u0131ld\u0131zTeam",
+          "team_size": "15",
+          "attack_order": "3",
+          "attacker_th": "18",
+          "defender_tag": "#8C9RUVV0Y",
+          "defender_name": "\u2206fearless\u2206",
+          "defender_th": "18",
+          "stars": "2",
+          "destruction": "84",
+          "is_fresh": "True",
+          "duration_sec": "122"
         },
         {
           "date_seen": "2026-08-04",

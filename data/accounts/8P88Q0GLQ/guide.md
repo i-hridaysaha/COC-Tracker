@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2915 days, 2:30:00 of build time (one builder), 4,982,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry.
+Total remaining: 2915 days, 2:30:00 of build time (one builder), 4,982,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 75 → 105 — 8,485,000 DE, 207 days, 12:00:00
    _one of your longest builds at 207 days, 12:00:00, start early to reach max sooner_
@@ -310,19 +310,17 @@ Total remaining: 2915 days, 2:30:00 of build time (one builder), 4,982,945,000 g
    _no build time, a pure resource sink, slot in when a builder is free_
 153. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-154. **Giant Arrow** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+154. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-155. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+155. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-156. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+156. **Rocket Spear** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-157. **Earthquake Boots** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+157. **Snake Bracelet** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-158. **Rocket Spear** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+158. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-159. **Snake Bracelet** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+159. **Vampstache** (equipment) 15 → 18 — 7,800 shiny, 600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-160. **Vampstache** (equipment) 15 → 18 — 7,800 shiny, 600 glowy, no build time
-   _no build time, a pure resource sink, slot in when a builder is free_
-161. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+160. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_

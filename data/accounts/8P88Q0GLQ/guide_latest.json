@@ -8,11 +8,11 @@
     "dark_elixir": 36721000,
     "elixir": 1377700000,
     "gold": 4982945000,
-    "shiny_ore": 741860,
-    "glowy_ore": 54300,
+    "shiny_ore": 716660,
+    "glowy_ore": 52700,
     "starry_ore": 4870
   },
-  "total_cost_text": "4,982,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 741,860 shiny, 54,300 glowy, 4,870 starry",
+  "total_cost_text": "4,982,945,000 gold, 1,377,700,000 elixir, 36,721,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
@@ -2190,21 +2190,6 @@
     {
       "rank": 154,
       "category": "equipment",
-      "name": "Giant Arrow",
-      "from_level": 9,
-      "to_level": 18,
-      "cost": {
-        "shiny_ore": 20700,
-        "glowy_ore": 1600
-      },
-      "cost_text": "20,700 shiny, 1,600 glowy",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 155,
-      "category": "equipment",
       "name": "Invisibility Vial",
       "from_level": 12,
       "to_level": 18,
@@ -2218,7 +2203,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 156,
+      "rank": 155,
       "category": "equipment",
       "name": "Eternal Tome",
       "from_level": 12,
@@ -2233,22 +2218,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 157,
-      "category": "equipment",
-      "name": "Earthquake Boots",
-      "from_level": 12,
-      "to_level": 18,
-      "cost": {
-        "shiny_ore": 14700,
-        "glowy_ore": 1200
-      },
-      "cost_text": "14,700 shiny, 1,200 glowy",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 158,
+      "rank": 156,
       "category": "equipment",
       "name": "Rocket Spear",
       "from_level": 23,
@@ -2264,7 +2234,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 159,
+      "rank": 157,
       "category": "equipment",
       "name": "Snake Bracelet",
       "from_level": 23,
@@ -2280,7 +2250,22 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 160,
+      "rank": 158,
+      "category": "equipment",
+      "name": "Earthquake Boots",
+      "from_level": 14,
+      "to_level": 18,
+      "cost": {
+        "shiny_ore": 10200,
+        "glowy_ore": 1200
+      },
+      "cost_text": "10,200 shiny, 1,200 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 159,
       "category": "equipment",
       "name": "Vampstache",
       "from_level": 15,
@@ -2295,7 +2280,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 161,
+      "rank": 160,
       "category": "equipment",
       "name": "Electro Boots",
       "from_level": 26,
