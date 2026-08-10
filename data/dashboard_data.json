@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-09T06:53:46.250626+00:00",
+  "captured_at": "2026-08-10T07:37:54.435187+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,13 +17737,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 710,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 586,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 7536,
-      "received": 788,
+      "donations": 0,
+      "received": 0,
       "offense_completion_pct": 81.3,
       "rush": {
         "score": 13.3,
@@ -20455,7 +20455,7 @@
         }
       ],
       "ranked": {
-        "trophies": 710,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20471,7 +20471,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "23d 1h",
+          "ends_in": "22d 0h",
           "active": true
         },
         "scheduled": [
@@ -20479,37 +20479,37 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "23d 1h"
+            "starts_in": "22d 0h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 1h"
+            "starts_in": "12d 0h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 1h"
+            "ends_in": "22m"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "1d 0h"
+            "active": false,
+            "starts_in": "3d 23h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-08-07 07:00:00+00:00",
           "end": "2026-08-10 07:00:00+00:00",
-          "ends_in": "1d 0h"
+          "ends_in": null
         },
         "cwl": {
           "source": "api",
-          "state": "inWar",
+          "state": "ended",
           "season": "2026-08-01",
           "number_of_rounds": 7
         }
@@ -20554,11 +20554,11 @@
           "duration_sec": "122"
         },
         {
-          "date_seen": "2026-08-09",
+          "date_seen": "2026-08-10",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "cwl",
-          "war_state": "In War",
+          "war_state": "War Ended",
           "war_id": "#8GCYV9QUV",
           "opponent_clan": "SL SOLDIERS",
           "team_size": "15",

@@ -1,7 +1,7 @@
 {
   "war_id": "#8GCYV9QUV",
   "war_type": "cwl",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "SL SOLDIERS",
   "team_size": 15,
   "attacks_per_member": 1,
@@ -15,11 +15,11 @@
   },
   "attacks": [
     {
-      "date_seen": "2026-08-09",
+      "date_seen": "2026-08-10",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "cwl",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#8GCYV9QUV",
       "opponent_clan": "SL SOLDIERS",
       "team_size": 15,
