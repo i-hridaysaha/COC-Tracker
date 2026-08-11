@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2908 days, 2:30:00 of build time (one builder), 4,982,945,000 gold, 1,377,700,000 elixir, 36,491,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry.
+Total remaining: 2900 days, 2:30:00 of build time (one builder), 4,982,945,000 gold, 1,377,700,000 elixir, 36,261,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry.
 
 1. **Barbarian King** (heroes) 75 → 105 — 8,485,000 DE, 207 days, 12:00:00
    _one of your longest builds at 207 days, 12:00:00, start early to reach max sooner_
@@ -50,23 +50,23 @@ Total remaining: 2908 days, 2:30:00 of build time (one builder), 4,982,945,000 g
    _one of your longest builds at 32 days, start early to reach max sooner_
 23. **Spring Trap** (traps) 6 → 13 — 45,700,000 gold, 32 days
    _one of your longest builds at 32 days, start early to reach max sooner_
-24. **Unicorn** (pets) 11 → 15 — 1,100,000 DE, 32 days
+24. **Angry Jelly** (pets) 6 → 10 — 860,000 DE, 32 days
    _one of your longest builds at 32 days, start early to reach max sooner_
-25. **Angry Jelly** (pets) 6 → 10 — 860,000 DE, 32 days
-   _one of your longest builds at 32 days, start early to reach max sooner_
-26. **Wizard** (troops) 11 → 14 — 54,500,000 elixir, 31 days, 12:00:00
+25. **Wizard** (troops) 11 → 14 — 54,500,000 elixir, 31 days, 12:00:00
    _one of your longest builds at 31 days, 12:00:00, start early to reach max sooner_
-27. **Wizard Tower** (defenses) 2 → 17 — 47,360,000 gold, 30 days, 12:00:00
+26. **Wizard Tower** (defenses) 2 → 17 — 47,360,000 gold, 30 days, 12:00:00
    _one of your longest builds at 30 days, 12:00:00, start early to reach max sooner_
-28. **Ice Block Spell** (spells) 3 → 5 — 600,000 DE, 30 days
+27. **Ice Block Spell** (spells) 3 → 5 — 600,000 DE, 30 days
    _one of your longest builds at 30 days, start early to reach max sooner_
-29. **Bat Spell** (spells) 5 → 8 — 660,000 DE, 28 days, 12:00:00
+28. **Bat Spell** (spells) 5 → 8 — 660,000 DE, 28 days, 12:00:00
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
-30. **Haste Spell** (spells) 3 → 7 — 588,500 DE, 28 days, 12:00:00
+29. **Haste Spell** (spells) 3 → 7 — 588,500 DE, 28 days, 12:00:00
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
-31. **Battle Drill** (troops) 1 → 5 — 41,500,000 elixir, 26 days
+30. **Battle Drill** (troops) 1 → 5 — 41,500,000 elixir, 26 days
    _one of your longest builds at 26 days, start early to reach max sooner_
-32. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
+31. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
+   _one of your longest builds at 24 days, start early to reach max sooner_
+32. **Unicorn** (pets) 12 → 15 — 870,000 DE, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
 33. **Frosty** (pets) 12 → 15 — 870,000 DE, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
