@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
   "war_type": "random",
-  "state": "Preparation",
+  "state": "In War",
   "opponent_clan": "ccvwar",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -10,10 +10,49 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 6,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 6,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-08-12",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
+      "opponent_clan": "ccvwar",
+      "team_size": 20,
+      "attack_order": 6,
+      "attacker_th": 18,
+      "defender_tag": "#2G0R9JCG8",
+      "defender_name": "Sr.Kaplan",
+      "defender_th": 16,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 89
+    },
+    {
+      "date_seen": "2026-08-12",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
+      "opponent_clan": "ccvwar",
+      "team_size": 20,
+      "attack_order": 7,
+      "attacker_th": 18,
+      "defender_tag": "#28CGCR2L2",
+      "defender_name": "GIAHUY",
+      "defender_th": 16,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 98
+    }
+  ],
   "defended": {
     "times_defended": 0,
     "worst_defense_stars": null,

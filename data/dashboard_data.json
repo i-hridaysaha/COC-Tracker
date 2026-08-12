@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-11T07:04:22.687893+00:00",
+  "captured_at": "2026-08-12T07:22:23.500470+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,24 +17737,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 11,
+      "trophies": 74,
       "best_trophies": 4909,
-      "war_stars": 586,
+      "war_stars": 592,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 108,
-      "received": 0,
-      "offense_completion_pct": 81.3,
+      "donations": 553,
+      "received": 59,
+      "offense_completion_pct": 81.5,
       "rush": {
-        "score": 13.3,
+        "score": 13.1,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 112,
+        "levels_behind_prev_th": 110,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 75,
+            "level": 76,
             "prev_th_max": 100,
-            "behind": 25,
+            "behind": 24,
             "category": "heroes"
           },
           {
@@ -17766,9 +17766,9 @@
           },
           {
             "name": "Minion Prince",
-            "level": 79,
+            "level": 80,
             "prev_th_max": 90,
-            "behind": 11,
+            "behind": 10,
             "category": "heroes"
           },
           {
@@ -17788,7 +17788,7 @@
         ]
       },
       "completion": {
-        "heroes": 81.1,
+        "heroes": 81.5,
         "troops": 83.7,
         "spells": 75.4,
         "pets": 61.4,
@@ -17804,11 +17804,11 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 75,
+          "level": 76,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 155000
+            "dark_elixir": 160000
           },
           "seconds": 432000
         },
@@ -17826,13 +17826,13 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 79,
+          "level": 80,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 280000
+            "dark_elixir": 290000
           },
-          "seconds": 648000
+          "seconds": 691200
         },
         {
           "category": "heroes",
@@ -20455,7 +20455,7 @@
         }
       ],
       "ranked": {
-        "trophies": 11,
+        "trophies": 74,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20471,7 +20471,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "21d 0h",
+          "ends_in": "20d 0h",
           "active": true
         },
         "scheduled": [
@@ -20479,25 +20479,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "21d 0h"
+            "starts_in": "20d 0h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "11d 0h"
+            "starts_in": "10d 0h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "21d 0h"
+            "starts_in": "20d 0h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 23h"
+            "starts_in": "1d 23h"
           }
         ],
         "raid_weekend": {
@@ -20642,6 +20642,44 @@
           "destruction": "100",
           "is_fresh": "False",
           "duration_sec": "101"
+        },
+        {
+          "date_seen": "2026-08-12",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
+          "opponent_clan": "ccvwar",
+          "team_size": "20",
+          "attack_order": "6",
+          "attacker_th": "18",
+          "defender_tag": "#2G0R9JCG8",
+          "defender_name": "Sr.Kaplan",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "89"
+        },
+        {
+          "date_seen": "2026-08-12",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
+          "opponent_clan": "ccvwar",
+          "team_size": "20",
+          "attack_order": "7",
+          "attacker_th": "18",
+          "defender_tag": "#28CGCR2L2",
+          "defender_name": "GIAHUY",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "98"
         },
         {
           "date_seen": "2026-07-19",

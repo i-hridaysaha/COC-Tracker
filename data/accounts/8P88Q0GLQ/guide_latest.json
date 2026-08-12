@@ -3,30 +3,30 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2900 days, 2:30:00",
+  "total_build_time_one_builder": "2887 days, 14:30:00",
   "total_cost": {
-    "dark_elixir": 36261000,
+    "dark_elixir": 35826000,
     "elixir": 1377700000,
     "gold": 4982945000,
     "shiny_ore": 716660,
     "glowy_ore": 52700,
     "starry_ore": 4870
   },
-  "total_cost_text": "4,982,945,000 gold, 1,377,700,000 elixir, 36,261,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry",
+  "total_cost_text": "4,982,945,000 gold, 1,377,700,000 elixir, 35,826,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry",
   "items": [
     {
       "rank": 1,
       "category": "heroes",
       "name": "Barbarian King",
-      "from_level": 75,
+      "from_level": 76,
       "to_level": 105,
       "cost": {
-        "dark_elixir": 8485000
+        "dark_elixir": 8330000
       },
-      "cost_text": "8,485,000 DE",
-      "build_time": "207 days, 12:00:00",
-      "build_seconds": 17928000,
-      "reason": "one of your longest builds at 207 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "8,330,000 DE",
+      "build_time": "202 days, 12:00:00",
+      "build_seconds": 17496000,
+      "reason": "one of your longest builds at 202 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 2,
@@ -46,15 +46,15 @@
       "rank": 3,
       "category": "heroes",
       "name": "Minion Prince",
-      "from_level": 79,
+      "from_level": 80,
       "to_level": 95,
       "cost": {
-        "dark_elixir": 5740000
+        "dark_elixir": 5460000
       },
-      "cost_text": "5,740,000 DE",
-      "build_time": "127 days, 12:00:00",
-      "build_seconds": 11016000,
-      "reason": "one of your longest builds at 127 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "5,460,000 DE",
+      "build_time": "120 days",
+      "build_seconds": 10368000,
+      "reason": "one of your longest builds at 120 days, start early to reach max sooner"
     },
     {
       "rank": 4,
