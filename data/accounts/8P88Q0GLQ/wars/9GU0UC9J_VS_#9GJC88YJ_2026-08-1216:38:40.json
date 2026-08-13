@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
   "war_type": "random",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "ccvwar",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -15,11 +15,11 @@
   },
   "attacks": [
     {
-      "date_seen": "2026-08-12",
+      "date_seen": "2026-08-13",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
       "opponent_clan": "ccvwar",
       "team_size": 20,
@@ -34,11 +34,11 @@
       "duration_sec": 89
     },
     {
-      "date_seen": "2026-08-12",
+      "date_seen": "2026-08-13",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
       "opponent_clan": "ccvwar",
       "team_size": 20,
@@ -54,8 +54,8 @@
     }
   ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 2,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-12T07:22:23.500470+00:00",
+  "captured_at": "2026-08-13T07:24:04.890507+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 74,
+      "trophies": 122,
       "best_trophies": 4909,
       "war_stars": 592,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 553,
+      "donations": 1046,
       "received": 59,
-      "offense_completion_pct": 81.5,
+      "offense_completion_pct": 81.7,
       "rush": {
         "score": 13.1,
         "band": "slightly rushed",
@@ -17789,10 +17789,10 @@
       },
       "completion": {
         "heroes": 81.5,
-        "troops": 83.7,
+        "troops": 84.3,
         "spells": 75.4,
         "pets": 61.4,
-        "equipment": 60.5,
+        "equipment": 60.2,
         "defenses": 93.6,
         "resources": 87.2,
         "army": 98.3,
@@ -18034,13 +18034,11 @@
         {
           "category": "troops",
           "name": "Electro Dragon",
-          "level": 8,
+          "level": 9,
           "max": 9,
-          "is_max": false,
-          "cost": {
-            "elixir": 30000000
-          },
-          "seconds": 1382400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18074,13 +18072,11 @@
         {
           "category": "troops",
           "name": "Thrower",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "elixir": 27000000
-          },
-          "seconds": 1296000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18603,6 +18599,16 @@
           "category": "equipment",
           "name": "Rocket Backpack",
           "level": 20,
+          "max": 27,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "equipment",
+          "name": "Revenge Deck",
+          "level": 13,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -20455,7 +20461,7 @@
         }
       ],
       "ranked": {
-        "trophies": 74,
+        "trophies": 122,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20471,7 +20477,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "20d 0h",
+          "ends_in": "19d 0h",
           "active": true
         },
         "scheduled": [
@@ -20479,25 +20485,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "20d 0h"
+            "starts_in": "19d 0h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "10d 0h"
+            "starts_in": "9d 0h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "20d 0h"
+            "starts_in": "19d 0h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 23h"
+            "starts_in": "23h 35m"
           }
         ],
         "raid_weekend": {
@@ -20644,11 +20650,11 @@
           "duration_sec": "101"
         },
         {
-          "date_seen": "2026-08-12",
+          "date_seen": "2026-08-13",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "random",
-          "war_state": "In War",
+          "war_state": "War Ended",
           "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
           "opponent_clan": "ccvwar",
           "team_size": "20",
@@ -20663,11 +20669,11 @@
           "duration_sec": "89"
         },
         {
-          "date_seen": "2026-08-12",
+          "date_seen": "2026-08-13",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "random",
-          "war_state": "In War",
+          "war_state": "War Ended",
           "war_id": "#9GU0UC9J_vs_#9GJC88YJ_2026-08-1216:38:40",
           "opponent_clan": "ccvwar",
           "team_size": "20",
