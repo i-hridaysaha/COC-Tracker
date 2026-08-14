@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-13T07:24:04.890507+00:00",
+  "captured_at": "2026-08-14T07:22:06.013213+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,12 +17737,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 122,
+      "trophies": 148,
       "best_trophies": 4909,
       "war_stars": 592,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1046,
+      "donations": 1242,
       "received": 59,
       "offense_completion_pct": 81.7,
       "rush": {
@@ -17792,7 +17792,7 @@
         "troops": 84.3,
         "spells": 75.4,
         "pets": 61.4,
-        "equipment": 60.2,
+        "equipment": 60.5,
         "defenses": 93.6,
         "resources": 87.2,
         "army": 98.3,
@@ -18608,7 +18608,7 @@
         {
           "category": "equipment",
           "name": "Revenge Deck",
-          "level": 13,
+          "level": 16,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -20461,7 +20461,7 @@
         }
       ],
       "ranked": {
-        "trophies": 122,
+        "trophies": 148,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20477,7 +20477,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "19d 0h",
+          "ends_in": "18d 0h",
           "active": true
         },
         "scheduled": [
@@ -20485,25 +20485,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "19d 0h"
+            "starts_in": "18d 0h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "9d 0h"
+            "starts_in": "8d 0h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "19d 0h"
+            "starts_in": "18d 0h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "23h 35m"
+            "active": true,
+            "ends_in": "2d 23h"
           }
         ],
         "raid_weekend": {
