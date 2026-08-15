@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-14T07:22:06.013213+00:00",
+  "captured_at": "2026-08-15T06:35:01.664316+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 148,
+      "trophies": 179,
       "best_trophies": 4909,
       "war_stars": 592,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1242,
+      "donations": 1358,
       "received": 59,
-      "offense_completion_pct": 81.7,
+      "offense_completion_pct": 81.8,
       "rush": {
         "score": 13.1,
         "band": "slightly rushed",
@@ -17788,11 +17788,11 @@
         ]
       },
       "completion": {
-        "heroes": 81.5,
+        "heroes": 81.7,
         "troops": 84.3,
         "spells": 75.4,
         "pets": 61.4,
-        "equipment": 60.5,
+        "equipment": 60.6,
         "defenses": 93.6,
         "resources": 87.2,
         "army": 98.3,
@@ -17859,7 +17859,7 @@
         {
           "category": "heroes",
           "name": "Dragon Duke",
-          "level": 22,
+          "level": 23,
           "max": 25,
           "is_max": false,
           "cost": {},
@@ -18608,7 +18608,7 @@
         {
           "category": "equipment",
           "name": "Revenge Deck",
-          "level": 16,
+          "level": 17,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -20461,7 +20461,7 @@
         }
       ],
       "ranked": {
-        "trophies": 148,
+        "trophies": 179,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20477,7 +20477,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "18d 0h",
+          "ends_in": "17d 1h",
           "active": true
         },
         "scheduled": [
@@ -20485,33 +20485,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "18d 0h"
+            "starts_in": "17d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "8d 0h"
+            "starts_in": "7d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 0h"
+            "starts_in": "17d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 23h"
+            "ends_in": "2d 0h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-08-07 07:00:00+00:00",
-          "end": "2026-08-10 07:00:00+00:00",
-          "ends_in": null
+          "state": "ongoing",
+          "start": "2026-08-14 07:00:00+00:00",
+          "end": "2026-08-17 07:00:00+00:00",
+          "ends_in": "2d 0h"
         },
         "cwl": null
       },
