@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2QP0YL2Y_2026-08-1605:35:14",
   "war_type": "random",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "breadandbutter",
   "team_size": 25,
   "attacks_per_member": 2,
@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 11,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 4,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-08-16",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "War Ended",
+      "war_id": "#9GU0UC9J_vs_#2QP0YL2Y_2026-08-1605:35:14",
+      "opponent_clan": "breadandbutter",
+      "team_size": 25,
+      "attack_order": 40,
+      "attacker_th": 18,
+      "defender_tag": "#L2Q8PPCG",
+      "defender_name": "Lorde'sAsianBF",
+      "defender_th": 18,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": false,
+      "duration_sec": 135
+    },
+    {
+      "date_seen": "2026-08-16",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "War Ended",
+      "war_id": "#9GU0UC9J_vs_#2QP0YL2Y_2026-08-1605:35:14",
+      "opponent_clan": "breadandbutter",
+      "team_size": 25,
+      "attack_order": 41,
+      "attacker_th": 18,
+      "defender_tag": "#YQJRGL2V",
+      "defender_name": "gotjava2",
+      "defender_th": 18,
+      "stars": 1,
+      "destruction": 76,
+      "is_fresh": true,
+      "duration_sec": 105
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 6,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
