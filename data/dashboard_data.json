@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-16T06:37:02.879093+00:00",
+  "captured_at": "2026-08-16T23:00:13.446011+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,18 +17737,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 200,
+      "trophies": 784,
       "best_trophies": 4909,
       "war_stars": 593,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1420,
+      "donations": 1635,
       "received": 59,
-      "offense_completion_pct": 81.8,
+      "offense_completion_pct": 81.9,
       "rush": {
-        "score": 13.1,
+        "score": 13.0,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 110,
+        "levels_behind_prev_th": 109,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17759,9 +17759,9 @@
           },
           {
             "name": "Archer Queen",
-            "level": 86,
+            "level": 87,
             "prev_th_max": 100,
-            "behind": 14,
+            "behind": 13,
             "category": "heroes"
           },
           {
@@ -17788,17 +17788,17 @@
         ]
       },
       "completion": {
-        "heroes": 81.7,
+        "heroes": 81.9,
         "troops": 84.3,
         "spells": 75.4,
-        "pets": 61.4,
-        "equipment": 60.6,
-        "defenses": 93.6,
+        "pets": 62.1,
+        "equipment": 60.9,
+        "defenses": 94.4,
         "resources": 87.2,
-        "army": 98.3,
+        "army": 100.0,
         "guardians": 20.0,
         "traps": 60.8,
-        "walls": 94.9
+        "walls": 95.3
       },
       "items": [
         {
@@ -17815,11 +17815,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 86,
+          "level": 87,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 240000
+            "dark_elixir": 250000
           },
           "seconds": 604800
         },
@@ -18504,11 +18504,11 @@
         {
           "category": "pets",
           "name": "Unicorn",
-          "level": 12,
+          "level": 13,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 260000
+            "dark_elixir": 290000
           },
           "seconds": 691200
         },
@@ -18608,7 +18608,7 @@
         {
           "category": "equipment",
           "name": "Revenge Deck",
-          "level": 17,
+          "level": 20,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -19044,12 +19044,41 @@
         },
         {
           "category": "defenses",
-          "name": "Multi-Gear Tower",
-          "level": 2,
-          "max": 3,
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Super Wizard Tower",
+          "level": 1,
+          "max": 2,
           "is_max": false,
           "cost": {
-            "gold": 28000000
+            "gold": 30000000
+          },
+          "seconds": 1209600
+        },
+        {
+          "category": "defenses",
+          "name": "Super Wizard Tower",
+          "level": 1,
+          "max": 2,
+          "is_max": false,
+          "cost": {
+            "gold": 30000000
           },
           "seconds": 1209600
         },
@@ -19074,13 +19103,13 @@
         {
           "category": "defenses",
           "name": "Wizard Tower",
-          "level": 2,
+          "level": 5,
           "max": 17,
           "is_max": false,
           "cost": {
-            "gold": 250000
+            "gold": 660000
           },
-          "seconds": 14400
+          "seconds": 43200
         },
         {
           "category": "defenses",
@@ -19239,24 +19268,6 @@
           "name": "X-Bow",
           "level": 12,
           "max": 12,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19357,6 +19368,15 @@
         },
         {
           "category": "defenses",
+          "name": "Multi-Gear Tower",
+          "level": 3,
+          "max": 3,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
           "name": "Multi-Archer Tower",
           "level": 3,
           "max": 4,
@@ -19447,28 +19467,6 @@
           "is_max": true,
           "cost": {},
           "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Super Wizard Tower",
-          "level": 1,
-          "max": 2,
-          "is_max": false,
-          "cost": {
-            "gold": 30000000
-          },
-          "seconds": 1209600
-        },
-        {
-          "category": "defenses",
-          "name": "Super Wizard Tower",
-          "level": 1,
-          "max": 2,
-          "is_max": false,
-          "cost": {
-            "gold": 30000000
-          },
-          "seconds": 1209600
         },
         {
           "category": "resources",
@@ -19759,32 +19757,29 @@
         {
           "category": "army",
           "name": "Army Camp",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "army",
           "name": "Army Camp",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "army",
           "name": "Army Camp",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "army",
@@ -20439,29 +20434,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x312",
+          "name": "Wall lvl 18 x290",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 3120000000
+            "gold": 2900000000
           },
           "seconds": 0,
-          "count": 312
+          "count": 290
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x13",
+          "name": "Wall lvl 19 x35",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 13
+          "count": 35
         }
       ],
       "ranked": {
-        "trophies": 200,
+        "trophies": 784,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20477,7 +20472,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "16d 1h",
+          "ends_in": "15d 8h",
           "active": true
         },
         "scheduled": [
@@ -20485,25 +20480,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "16d 1h"
+            "starts_in": "15d 8h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "6d 1h"
+            "starts_in": "5d 8h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "16d 1h"
+            "starts_in": "15d 8h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 0h"
+            "ends_in": "7h 59m"
           }
         ],
         "raid_weekend": {
@@ -20511,7 +20506,7 @@
           "state": "ongoing",
           "start": "2026-08-14 07:00:00+00:00",
           "end": "2026-08-17 07:00:00+00:00",
-          "ends_in": "1d 0h"
+          "ends_in": "7h 59m"
         },
         "cwl": null
       },
