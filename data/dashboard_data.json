@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-17T06:51:45.628096+00:00",
+  "captured_at": "2026-08-18T06:39:59.680159+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,12 +17737,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 16,
       "best_trophies": 4909,
       "war_stars": 593,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1683,
+      "donations": 1793,
       "received": 59,
       "offense_completion_pct": 81.9,
       "rush": {
@@ -17792,7 +17792,7 @@
         "troops": 84.3,
         "spells": 75.4,
         "pets": 62.1,
-        "equipment": 60.9,
+        "equipment": 61.1,
         "defenses": 94.4,
         "resources": 87.2,
         "army": 100.0,
@@ -18798,13 +18798,11 @@
         {
           "category": "equipment",
           "name": "Rocket Spear",
-          "level": 23,
+          "level": 24,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3300,
-            "glowy_ore": 600,
-            "starry_ore": 120
+            "shiny_ore": 3400
           },
           "seconds": 0
         },
@@ -20456,7 +20454,7 @@
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 16,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20472,7 +20470,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "15d 1h",
+          "ends_in": "14d 1h",
           "active": true
         },
         "scheduled": [
@@ -20480,33 +20478,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "15d 1h"
+            "starts_in": "14d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "5d 1h"
+            "starts_in": "4d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "15d 1h"
+            "starts_in": "14d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "8m"
+            "active": false,
+            "starts_in": "3d 0h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-08-14 07:00:00+00:00",
           "end": "2026-08-17 07:00:00+00:00",
-          "ends_in": "8m"
+          "ends_in": null
         },
         "cwl": null
       },

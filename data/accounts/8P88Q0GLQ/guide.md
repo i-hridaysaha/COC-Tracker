@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2826 days, 16:30:00 of build time (one builder), 4,733,745,000 gold, 1,320,700,000 elixir, 35,326,000 DE, 716,660 shiny, 52,700 glowy, 4,870 starry.
+Total remaining: 2826 days, 16:30:00 of build time (one builder), 4,733,745,000 gold, 1,320,700,000 elixir, 35,326,000 DE, 713,360 shiny, 52,100 glowy, 4,750 starry.
 
 1. **Barbarian King** (heroes) 76 → 105 — 8,330,000 DE, 202 days, 12:00:00
    _one of your longest builds at 202 days, 12:00:00, start early to reach max sooner_
@@ -308,11 +308,11 @@ Total remaining: 2826 days, 16:30:00 of build time (one builder), 4,733,745,000 
    _no build time, a pure resource sink, slot in when a builder is free_
 152. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-153. **Rocket Spear** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+153. **Snake Bracelet** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-154. **Snake Bracelet** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+154. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-155. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
+155. **Rocket Spear** (equipment) 24 → 27 — 10,500 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 156. **Vampstache** (equipment) 15 → 18 — 7,800 shiny, 600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
