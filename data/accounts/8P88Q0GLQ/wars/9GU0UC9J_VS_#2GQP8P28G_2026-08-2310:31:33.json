@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2GQP8P28G_2026-08-2310:31:33",
   "war_type": "random",
-  "state": "Preparation",
+  "state": "In War",
   "opponent_clan": "KURTLAR SOFRASI",
   "team_size": 15,
   "attacks_per_member": 2,
@@ -15,8 +15,8 @@
   },
   "attacks": [],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }

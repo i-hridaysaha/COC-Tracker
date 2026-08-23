@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-22T06:36:32.020876+00:00",
+  "captured_at": "2026-08-23T06:38:07.207813+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,24 +17737,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 83,
+      "trophies": 110,
       "best_trophies": 4909,
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2162,
+      "donations": 2477,
       "received": 266,
-      "offense_completion_pct": 82.2,
+      "offense_completion_pct": 82.4,
       "rush": {
-        "score": 12.8,
+        "score": 12.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 107,
+        "levels_behind_prev_th": 106,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 77,
+            "level": 78,
             "prev_th_max": 100,
-            "behind": 23,
+            "behind": 22,
             "category": "heroes"
           },
           {
@@ -17788,7 +17788,7 @@
         ]
       },
       "completion": {
-        "heroes": 82.4,
+        "heroes": 82.8,
         "troops": 84.3,
         "spells": 75.4,
         "pets": 62.1,
@@ -17804,11 +17804,11 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 77,
+          "level": 78,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 165000
+            "dark_elixir": 170000
           },
           "seconds": 432000
         },
@@ -17859,7 +17859,7 @@
         {
           "category": "heroes",
           "name": "Dragon Duke",
-          "level": 23,
+          "level": 24,
           "max": 25,
           "is_max": false,
           "cost": {},
@@ -20454,7 +20454,7 @@
         }
       ],
       "ranked": {
-        "trophies": 83,
+        "trophies": 110,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20470,7 +20470,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "10d 1h",
+          "ends_in": "9d 1h",
           "active": true
         },
         "scheduled": [
@@ -20478,25 +20478,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "10d 1h"
+            "starts_in": "9d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
-            "active": false,
-            "starts_in": "1h 23m"
+            "active": true,
+            "ends_in": "5d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "10d 1h"
+            "starts_in": "9d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 0h"
+            "ends_in": "1d 0h"
           }
         ],
         "raid_weekend": {
@@ -20504,7 +20504,7 @@
           "state": "ongoing",
           "start": "2026-08-21 07:00:00+00:00",
           "end": "2026-08-24 07:00:00+00:00",
-          "ends_in": "2d 0h"
+          "ends_in": "1d 0h"
         },
         "cwl": null
       },
