@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-23T06:38:07.207813+00:00",
+  "captured_at": "2026-08-24T06:54:42.509363+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,12 +17737,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 110,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2477,
+      "donations": 2535,
       "received": 266,
       "offense_completion_pct": 82.4,
       "rush": {
@@ -17791,7 +17791,7 @@
         "heroes": 82.8,
         "troops": 84.3,
         "spells": 75.4,
-        "pets": 62.1,
+        "pets": 62.9,
         "equipment": 61.1,
         "defenses": 94.4,
         "resources": 87.2,
@@ -18504,11 +18504,11 @@
         {
           "category": "pets",
           "name": "Unicorn",
-          "level": 13,
+          "level": 14,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 290000
+            "dark_elixir": 320000
           },
           "seconds": 691200
         },
@@ -20454,7 +20454,7 @@
         }
       ],
       "ranked": {
-        "trophies": 110,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20470,7 +20470,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "9d 1h",
+          "ends_in": "8d 1h",
           "active": true
         },
         "scheduled": [
@@ -20478,25 +20478,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "9d 1h"
+            "starts_in": "8d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "5d 1h"
+            "ends_in": "4d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "9d 1h"
+            "starts_in": "8d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 0h"
+            "ends_in": "5m"
           }
         ],
         "raid_weekend": {
@@ -20504,7 +20504,7 @@
           "state": "ongoing",
           "start": "2026-08-21 07:00:00+00:00",
           "end": "2026-08-24 07:00:00+00:00",
-          "ends_in": "1d 0h"
+          "ends_in": "5m"
         },
         "cwl": null
       },
