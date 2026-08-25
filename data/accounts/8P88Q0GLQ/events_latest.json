@@ -3,7 +3,7 @@
     "source": "api",
     "season_start": "2026-08-01 08:00:00+00:00",
     "season_end": "2026-09-01 08:00:00+00:00",
-    "ends_in": "8d 1h",
+    "ends_in": "7d 1h",
     "active": true
   },
   "scheduled": [
@@ -11,33 +11,33 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "8d 1h"
+      "starts_in": "7d 1h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": true,
-      "ends_in": "4d 1h"
+      "ends_in": "3d 1h"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": false,
-      "starts_in": "8d 1h"
+      "starts_in": "7d 1h"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
-      "active": true,
-      "ends_in": "5m"
+      "active": false,
+      "starts_in": "3d 0h"
     }
   ],
   "raid_weekend": {
     "source": "api",
-    "state": "ongoing",
+    "state": "ended",
     "start": "2026-08-21 07:00:00+00:00",
     "end": "2026-08-24 07:00:00+00:00",
-    "ends_in": "5m"
+    "ends_in": null
   },
   "cwl": null
 }

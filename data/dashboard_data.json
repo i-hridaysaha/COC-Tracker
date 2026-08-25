@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-24T06:54:42.509363+00:00",
+  "captured_at": "2026-08-25T06:43:12.184331+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17742,13 +17742,13 @@
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2535,
+      "donations": 2606,
       "received": 266,
-      "offense_completion_pct": 82.4,
+      "offense_completion_pct": 81.4,
       "rush": {
-        "score": 12.6,
+        "score": 13.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 106,
+        "levels_behind_prev_th": 116,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17779,17 +17779,17 @@
             "category": "heroes"
           },
           {
-            "name": "Barbarian",
-            "level": 8,
-            "prev_th_max": 12,
-            "behind": 4,
+            "name": "Super Miner",
+            "level": 1,
+            "prev_th_max": 11,
+            "behind": 10,
             "category": "troops"
           }
         ]
       },
       "completion": {
         "heroes": 82.8,
-        "troops": 84.3,
+        "troops": 81.7,
         "spells": 75.4,
         "pets": 62.9,
         "equipment": 61.1,
@@ -17876,6 +17876,15 @@
             "elixir": 2500000
           },
           "seconds": 129600
+        },
+        {
+          "category": "troops",
+          "name": "Super Miner",
+          "level": 1,
+          "max": 12,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -20470,7 +20479,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "8d 1h",
+          "ends_in": "7d 1h",
           "active": true
         },
         "scheduled": [
@@ -20478,33 +20487,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "8d 1h"
+            "starts_in": "7d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 1h"
+            "ends_in": "3d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "8d 1h"
+            "starts_in": "7d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "5m"
+            "active": false,
+            "starts_in": "3d 0h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-08-21 07:00:00+00:00",
           "end": "2026-08-24 07:00:00+00:00",
-          "ends_in": "5m"
+          "ends_in": null
         },
         "cwl": null
       },
