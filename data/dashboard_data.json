@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-25T06:43:12.184331+00:00",
+  "captured_at": "2026-08-26T06:45:13.875401+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17742,13 +17742,13 @@
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2606,
+      "donations": 2719,
       "received": 266,
-      "offense_completion_pct": 81.4,
+      "offense_completion_pct": 81.5,
       "rush": {
-        "score": 13.6,
+        "score": 13.5,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 116,
+        "levels_behind_prev_th": 115,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17759,9 +17759,9 @@
           },
           {
             "name": "Archer Queen",
-            "level": 88,
+            "level": 89,
             "prev_th_max": 100,
-            "behind": 12,
+            "behind": 11,
             "category": "heroes"
           },
           {
@@ -17788,7 +17788,7 @@
         ]
       },
       "completion": {
-        "heroes": 82.8,
+        "heroes": 83.0,
         "troops": 81.7,
         "spells": 75.4,
         "pets": 62.9,
@@ -17815,11 +17815,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 88,
+          "level": 89,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 260000
+            "dark_elixir": 270000
           },
           "seconds": 604800
         },
@@ -20479,7 +20479,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "7d 1h",
+          "ends_in": "6d 1h",
           "active": true
         },
         "scheduled": [
@@ -20487,25 +20487,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "7d 1h"
+            "starts_in": "6d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 1h"
+            "ends_in": "2d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "7d 1h"
+            "starts_in": "6d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 0h"
+            "starts_in": "2d 0h"
           }
         ],
         "raid_weekend": {
