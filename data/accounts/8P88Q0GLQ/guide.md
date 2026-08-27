@@ -2,10 +2,10 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2794 days, 16:30:00 of build time (one builder), 4,733,745,000 gold, 1,320,700,000 elixir, 34,201,000 DE, 713,360 shiny, 52,100 glowy, 4,750 starry.
+Total remaining: 2789 days, 16:30:00 of build time (one builder), 4,733,745,000 gold, 1,320,700,000 elixir, 34,031,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry.
 
-1. **Barbarian King** (heroes) 78 → 105 — 8,005,000 DE, 192 days, 12:00:00
-   _one of your longest builds at 192 days, 12:00:00, start early to reach max sooner_
+1. **Barbarian King** (heroes) 79 → 105 — 7,835,000 DE, 187 days, 12:00:00
+   _one of your longest builds at 187 days, 12:00:00, start early to reach max sooner_
 2. **Archer Queen** (heroes) 89 → 105 — 5,680,000 DE, 124 days, 12:00:00
    _one of your longest builds at 124 days, 12:00:00, start early to reach max sooner_
 3. **Minion Prince** (heroes) 80 → 95 — 5,460,000 DE, 120 days
@@ -312,9 +312,9 @@ Total remaining: 2794 days, 16:30:00 of build time (one builder), 4,733,745,000 
    _no build time, a pure resource sink, slot in when a builder is free_
 154. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-155. **Rocket Spear** (equipment) 24 → 27 — 10,500 shiny, 600 glowy, 150 starry, no build time
+155. **Vampstache** (equipment) 15 → 18 — 7,800 shiny, 600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-156. **Vampstache** (equipment) 15 → 18 — 7,800 shiny, 600 glowy, no build time
+156. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 157. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_

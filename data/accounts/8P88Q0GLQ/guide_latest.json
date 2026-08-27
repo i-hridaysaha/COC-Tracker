@@ -3,30 +3,30 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2794 days, 16:30:00",
+  "total_build_time_one_builder": "2789 days, 16:30:00",
   "total_cost": {
-    "dark_elixir": 34201000,
+    "dark_elixir": 34031000,
     "elixir": 1320700000,
     "gold": 4733745000,
-    "shiny_ore": 713360,
+    "shiny_ore": 706460,
     "glowy_ore": 52100,
     "starry_ore": 4750
   },
-  "total_cost_text": "4,733,745,000 gold, 1,320,700,000 elixir, 34,201,000 DE, 713,360 shiny, 52,100 glowy, 4,750 starry",
+  "total_cost_text": "4,733,745,000 gold, 1,320,700,000 elixir, 34,031,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry",
   "items": [
     {
       "rank": 1,
       "category": "heroes",
       "name": "Barbarian King",
-      "from_level": 78,
+      "from_level": 79,
       "to_level": 105,
       "cost": {
-        "dark_elixir": 8005000
+        "dark_elixir": 7835000
       },
-      "cost_text": "8,005,000 DE",
-      "build_time": "192 days, 12:00:00",
-      "build_seconds": 16632000,
-      "reason": "one of your longest builds at 192 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "7,835,000 DE",
+      "build_time": "187 days, 12:00:00",
+      "build_seconds": 16200000,
+      "reason": "one of your longest builds at 187 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 2,
@@ -2209,22 +2209,6 @@
     {
       "rank": 155,
       "category": "equipment",
-      "name": "Rocket Spear",
-      "from_level": 24,
-      "to_level": 27,
-      "cost": {
-        "shiny_ore": 10500,
-        "glowy_ore": 600,
-        "starry_ore": 150
-      },
-      "cost_text": "10,500 shiny, 600 glowy, 150 starry",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 156,
-      "category": "equipment",
       "name": "Vampstache",
       "from_level": 15,
       "to_level": 18,
@@ -2233,6 +2217,22 @@
         "glowy_ore": 600
       },
       "cost_text": "7,800 shiny, 600 glowy",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 156,
+      "category": "equipment",
+      "name": "Rocket Spear",
+      "from_level": 26,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 3600,
+        "glowy_ore": 600,
+        "starry_ore": 150
+      },
+      "cost_text": "3,600 shiny, 600 glowy, 150 starry",
       "build_time": "no build time",
       "build_seconds": 0,
       "reason": "no build time, a pure resource sink, slot in when a builder is free"

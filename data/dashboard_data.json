@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-26T06:45:13.875401+00:00",
+  "captured_at": "2026-08-27T17:20:21.980003+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,24 +17737,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 71,
       "best_trophies": 4909,
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
       "donations": 2719,
       "received": 266,
-      "offense_completion_pct": 81.5,
+      "offense_completion_pct": 82.6,
       "rush": {
-        "score": 13.5,
+        "score": 12.4,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 115,
+        "levels_behind_prev_th": 104,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 78,
+            "level": 79,
             "prev_th_max": 100,
-            "behind": 22,
+            "behind": 21,
             "category": "heroes"
           },
           {
@@ -17779,20 +17779,20 @@
             "category": "heroes"
           },
           {
-            "name": "Super Miner",
-            "level": 1,
-            "prev_th_max": 11,
-            "behind": 10,
+            "name": "Barbarian",
+            "level": 8,
+            "prev_th_max": 12,
+            "behind": 4,
             "category": "troops"
           }
         ]
       },
       "completion": {
-        "heroes": 83.0,
-        "troops": 81.7,
+        "heroes": 83.2,
+        "troops": 84.3,
         "spells": 75.4,
         "pets": 62.9,
-        "equipment": 61.1,
+        "equipment": 61.3,
         "defenses": 94.4,
         "resources": 87.2,
         "army": 100.0,
@@ -17804,11 +17804,11 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 78,
+          "level": 79,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 170000
+            "dark_elixir": 175000
           },
           "seconds": 432000
         },
@@ -17876,15 +17876,6 @@
             "elixir": 2500000
           },
           "seconds": 129600
-        },
-        {
-          "category": "troops",
-          "name": "Super Miner",
-          "level": 1,
-          "max": 12,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0
         },
         {
           "category": "troops",
@@ -18807,11 +18798,13 @@
         {
           "category": "equipment",
           "name": "Rocket Spear",
-          "level": 24,
+          "level": 26,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3400
+            "shiny_ore": 3600,
+            "glowy_ore": 600,
+            "starry_ore": 150
           },
           "seconds": 0
         },
@@ -20463,7 +20456,7 @@
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 71,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20479,7 +20472,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "6d 1h",
+          "ends_in": "4d 14h",
           "active": true
         },
         "scheduled": [
@@ -20487,25 +20480,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "6d 1h"
+            "starts_in": "4d 14h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 1h"
+            "ends_in": "14h 39m"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "6d 1h"
+            "starts_in": "4d 14h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 0h"
+            "starts_in": "13h 39m"
           }
         ],
         "raid_weekend": {
