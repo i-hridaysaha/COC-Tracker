@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-29T12:19:13.071750+00:00",
+  "captured_at": "2026-08-30T11:17:39.063964+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 129,
+      "trophies": 148,
       "best_trophies": 4909,
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2779,
+      "donations": 2867,
       "received": 266,
-      "offense_completion_pct": 82.6,
+      "offense_completion_pct": 82.7,
       "rush": {
         "score": 12.4,
         "band": "slightly rushed",
@@ -17790,8 +17790,8 @@
       "completion": {
         "heroes": 83.2,
         "troops": 84.3,
-        "spells": 75.4,
-        "pets": 62.9,
+        "spells": 76.2,
+        "pets": 63.6,
         "equipment": 61.3,
         "defenses": 94.4,
         "resources": 87.2,
@@ -18389,13 +18389,11 @@
         {
           "category": "spells",
           "name": "Totem Spell",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "elixir": 23000000
-          },
-          "seconds": 1382400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "spells",
@@ -18504,13 +18502,11 @@
         {
           "category": "pets",
           "name": "Unicorn",
-          "level": 14,
+          "level": 15,
           "max": 15,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 320000
-          },
-          "seconds": 691200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "pets",
@@ -20456,7 +20452,7 @@
         }
       ],
       "ranked": {
-        "trophies": 129,
+        "trophies": 148,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20472,7 +20468,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "2d 19h",
+          "ends_in": "1d 20h",
           "active": true
         },
         "scheduled": [
@@ -20480,25 +20476,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "2d 19h"
+            "starts_in": "1d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "23d 19h"
+            "starts_in": "22d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 19h"
+            "starts_in": "1d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 18h"
+            "ends_in": "19h 42m"
           }
         ],
         "raid_weekend": {
@@ -20506,7 +20502,7 @@
           "state": "ongoing",
           "start": "2026-08-28 07:00:00+00:00",
           "end": "2026-08-31 07:00:00+00:00",
-          "ends_in": "1d 18h"
+          "ends_in": "19h 42m"
         },
         "cwl": null
       },
