@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-08-30T11:17:39.063964+00:00",
+  "captured_at": "2026-08-31T12:45:06.059921+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,31 +17737,31 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 148,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 599,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2867,
+      "donations": 3177,
       "received": 266,
-      "offense_completion_pct": 82.7,
+      "offense_completion_pct": 83.0,
       "rush": {
-        "score": 12.4,
+        "score": 12.2,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 104,
+        "levels_behind_prev_th": 102,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 79,
+            "level": 80,
             "prev_th_max": 100,
-            "behind": 21,
+            "behind": 20,
             "category": "heroes"
           },
           {
             "name": "Archer Queen",
-            "level": 89,
+            "level": 90,
             "prev_th_max": 100,
-            "behind": 11,
+            "behind": 10,
             "category": "heroes"
           },
           {
@@ -17788,8 +17788,8 @@
         ]
       },
       "completion": {
-        "heroes": 83.2,
-        "troops": 84.3,
+        "heroes": 83.7,
+        "troops": 84.5,
         "spells": 76.2,
         "pets": 63.6,
         "equipment": 61.3,
@@ -17804,24 +17804,24 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 79,
+          "level": 80,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 175000
+            "dark_elixir": 180000
           },
-          "seconds": 432000
+          "seconds": 518400
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 89,
+          "level": 90,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 270000
+            "dark_elixir": 280000
           },
-          "seconds": 604800
+          "seconds": 648000
         },
         {
           "category": "heroes",
@@ -17972,13 +17972,11 @@
         {
           "category": "troops",
           "name": "Healer",
-          "level": 10,
+          "level": 11,
           "max": 11,
-          "is_max": false,
-          "cost": {
-            "elixir": 28500000
-          },
-          "seconds": 1296000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -20452,7 +20450,7 @@
         }
       ],
       "ranked": {
-        "trophies": 148,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20468,7 +20466,7 @@
           "source": "api",
           "season_start": "2026-08-01 08:00:00+00:00",
           "season_end": "2026-09-01 08:00:00+00:00",
-          "ends_in": "1d 20h",
+          "ends_in": "19h 14m",
           "active": true
         },
         "scheduled": [
@@ -20476,33 +20474,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "1d 20h"
+            "starts_in": "19h 14m"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "22d 20h"
+            "starts_in": "21d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 20h"
+            "starts_in": "19h 14m"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "19h 42m"
+            "active": false,
+            "starts_in": "3d 18h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-08-28 07:00:00+00:00",
           "end": "2026-08-31 07:00:00+00:00",
-          "ends_in": "19h 42m"
+          "ends_in": null
         },
         "cwl": null
       },
