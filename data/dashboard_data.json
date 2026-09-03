@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-02T10:40:17.249701+00:00",
+  "captured_at": "2026-09-03T10:42:06.566644+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17739,10 +17739,10 @@
       "town_hall": 18,
       "trophies": 68,
       "best_trophies": 4909,
-      "war_stars": 599,
+      "war_stars": 602,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3501,
+      "donations": 3632,
       "received": 323,
       "offense_completion_pct": 83.0,
       "rush": {
@@ -20466,7 +20466,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "28d 21h",
+          "ends_in": "27d 21h",
           "active": true
         },
         "scheduled": [
@@ -20474,25 +20474,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "28d 21h"
+            "starts_in": "27d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "19d 21h"
+            "starts_in": "18d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "7d 21h"
+            "ends_in": "6d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 20h"
+            "starts_in": "20h 17m"
           }
         ],
         "raid_weekend": {
@@ -20504,7 +20504,7 @@
         },
         "cwl": {
           "source": "api",
-          "state": "preparation",
+          "state": "inWar",
           "season": "2026-09-02",
           "number_of_rounds": 7
         }
@@ -20604,6 +20604,25 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "53"
+        },
+        {
+          "date_seen": "2026-09-03",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8RU80UYCQ",
+          "opponent_clan": "P\u0173pp\u00fd\u00c7h\u0105mp",
+          "team_size": "15",
+          "attack_order": "8",
+          "attacker_th": "18",
+          "defender_tag": "#LRJJ2Y28C",
+          "defender_name": "Andresglez",
+          "defender_th": "16",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "101"
         },
         {
           "date_seen": "2026-08-19",

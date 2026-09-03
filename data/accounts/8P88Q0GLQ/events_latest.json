@@ -3,7 +3,7 @@
     "source": "api",
     "season_start": "2026-09-01 08:00:00+00:00",
     "season_end": "2026-10-01 08:00:00+00:00",
-    "ends_in": "28d 21h",
+    "ends_in": "27d 21h",
     "active": true
   },
   "scheduled": [
@@ -11,25 +11,25 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "28d 21h"
+      "starts_in": "27d 21h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": false,
-      "starts_in": "19d 21h"
+      "starts_in": "18d 21h"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": true,
-      "ends_in": "7d 21h"
+      "ends_in": "6d 21h"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
       "active": false,
-      "starts_in": "1d 20h"
+      "starts_in": "20h 17m"
     }
   ],
   "raid_weekend": {
@@ -41,7 +41,7 @@
   },
   "cwl": {
     "source": "api",
-    "state": "preparation",
+    "state": "inWar",
     "season": "2026-09-02",
     "number_of_rounds": 7
   }
