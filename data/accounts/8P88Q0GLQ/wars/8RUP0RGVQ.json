@@ -1,0 +1,22 @@
+{
+  "war_id": "#8RUP0RGVQ",
+  "war_type": "cwl",
+  "state": "In War",
+  "opponent_clan": "OverlyAmbitious",
+  "team_size": 15,
+  "attacks_per_member": 1,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 16,
+    "stars_earned": 0,
+    "attacks_used": 0
+  },
+  "attacks": [],
+  "defended": {
+    "times_defended": 0,
+    "worst_defense_stars": null,
+    "worst_defense_destruction": null
+  }
+}
