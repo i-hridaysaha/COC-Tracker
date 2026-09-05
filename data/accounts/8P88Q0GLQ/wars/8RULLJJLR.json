@@ -1,0 +1,22 @@
+{
+  "war_id": "#8RULLJJLR",
+  "war_type": "cwl",
+  "state": "In War",
+  "opponent_clan": "\u270c\u2764 \u0627\u062d\u0644\u0649 \u0634\u0628\u0627\u0628\u2764\u270c",
+  "team_size": 15,
+  "attacks_per_member": 1,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 16,
+    "stars_earned": 0,
+    "attacks_used": 0
+  },
+  "attacks": [],
+  "defended": {
+    "times_defended": 0,
+    "worst_defense_stars": null,
+    "worst_defense_destruction": null
+  }
+}
