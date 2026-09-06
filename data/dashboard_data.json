@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-05T09:58:50.661906+00:00",
+  "captured_at": "2026-09-06T10:17:32.859081+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,31 +17737,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 140,
+      "trophies": 185,
       "best_trophies": 4909,
-      "war_stars": 605,
+      "war_stars": 608,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3728,
-      "received": 380,
-      "offense_completion_pct": 83.1,
+      "donations": 3778,
+      "received": 467,
+      "offense_completion_pct": 83.2,
       "rush": {
-        "score": 12.0,
+        "score": 11.9,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 101,
+        "levels_behind_prev_th": 100,
         "worst_offenders": [
           {
             "name": "Barbarian King",
             "level": 81,
             "prev_th_max": 100,
             "behind": 19,
-            "category": "heroes"
-          },
-          {
-            "name": "Archer Queen",
-            "level": 90,
-            "prev_th_max": 100,
-            "behind": 10,
             "category": "heroes"
           },
           {
@@ -17779,6 +17772,13 @@
             "category": "heroes"
           },
           {
+            "name": "Archer Queen",
+            "level": 91,
+            "prev_th_max": 100,
+            "behind": 9,
+            "category": "heroes"
+          },
+          {
             "name": "Barbarian",
             "level": 8,
             "prev_th_max": 12,
@@ -17788,7 +17788,7 @@
         ]
       },
       "completion": {
-        "heroes": 83.9,
+        "heroes": 84.1,
         "troops": 84.5,
         "spells": 76.2,
         "pets": 64.3,
@@ -17815,11 +17815,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 90,
+          "level": 91,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 280000
+            "dark_elixir": 290000
           },
           "seconds": 648000
         },
@@ -20450,7 +20450,7 @@
         }
       ],
       "ranked": {
-        "trophies": 140,
+        "trophies": 185,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20466,7 +20466,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "25d 22h",
+          "ends_in": "24d 21h",
           "active": true
         },
         "scheduled": [
@@ -20474,25 +20474,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "25d 22h"
+            "starts_in": "24d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "16d 22h"
+            "starts_in": "15d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 22h"
+            "ends_in": "3d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 21h"
+            "ends_in": "20h 42m"
           }
         ],
         "raid_weekend": {
@@ -20500,7 +20500,7 @@
           "state": "ongoing",
           "start": "2026-09-04 07:00:00+00:00",
           "end": "2026-09-07 07:00:00+00:00",
-          "ends_in": "1d 21h"
+          "ends_in": "20h 42m"
         },
         "cwl": {
           "source": "api",

@@ -2,16 +2,16 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2724 days, 16:30:00 of build time (one builder), 4,733,745,000 gold, 1,269,200,000 elixir, 32,886,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry.
+Total remaining: 2717 days, 4:30:00 of build time (one builder), 4,733,745,000 gold, 1,269,200,000 elixir, 32,606,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry.
 
 1. **Barbarian King** (heroes) 81 → 105 — 7,480,000 DE, 176 days, 12:00:00
    _one of your longest builds at 176 days, 12:00:00, start early to reach max sooner_
 2. **Minion Prince** (heroes) 80 → 95 — 5,460,000 DE, 120 days
    _one of your longest builds at 120 days, start early to reach max sooner_
-3. **Archer Queen** (heroes) 90 → 105 — 5,410,000 DE, 117 days, 12:00:00
-   _one of your longest builds at 117 days, 12:00:00, start early to reach max sooner_
-4. **Grand Warden** (heroes) 65 → 80 — 337,500,000 elixir, 115 days, 12:00:00
+3. **Grand Warden** (heroes) 65 → 80 — 337,500,000 elixir, 115 days, 12:00:00
    _one of your longest builds at 115 days, 12:00:00, start early to reach max sooner_
+4. **Archer Queen** (heroes) 91 → 105 — 5,130,000 DE, 110 days
+   _one of your longest builds at 110 days, start early to reach max sooner_
 5. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
 6. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00

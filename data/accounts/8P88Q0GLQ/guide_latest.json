@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2724 days, 16:30:00",
+  "total_build_time_one_builder": "2717 days, 4:30:00",
   "total_cost": {
-    "dark_elixir": 32886000,
+    "dark_elixir": 32606000,
     "elixir": 1269200000,
     "gold": 4733745000,
     "shiny_ore": 706460,
     "glowy_ore": 52100,
     "starry_ore": 4750
   },
-  "total_cost_text": "4,733,745,000 gold, 1,269,200,000 elixir, 32,886,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry",
+  "total_cost_text": "4,733,745,000 gold, 1,269,200,000 elixir, 32,606,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry",
   "items": [
     {
       "rank": 1,
@@ -45,20 +45,6 @@
     {
       "rank": 3,
       "category": "heroes",
-      "name": "Archer Queen",
-      "from_level": 90,
-      "to_level": 105,
-      "cost": {
-        "dark_elixir": 5410000
-      },
-      "cost_text": "5,410,000 DE",
-      "build_time": "117 days, 12:00:00",
-      "build_seconds": 10152000,
-      "reason": "one of your longest builds at 117 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 4,
-      "category": "heroes",
       "name": "Grand Warden",
       "from_level": 65,
       "to_level": 80,
@@ -69,6 +55,20 @@
       "build_time": "115 days, 12:00:00",
       "build_seconds": 9979200,
       "reason": "one of your longest builds at 115 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 4,
+      "category": "heroes",
+      "name": "Archer Queen",
+      "from_level": 91,
+      "to_level": 105,
+      "cost": {
+        "dark_elixir": 5130000
+      },
+      "cost_text": "5,130,000 DE",
+      "build_time": "110 days",
+      "build_seconds": 9504000,
+      "reason": "one of your longest builds at 110 days, start early to reach max sooner"
     },
     {
       "rank": 5,
