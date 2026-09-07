@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-06T10:17:32.859081+00:00",
+  "captured_at": "2026-09-07T11:37:44.342298+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 185,
+      "trophies": 0,
       "best_trophies": 4909,
-      "war_stars": 608,
+      "war_stars": 611,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3778,
-      "received": 467,
-      "offense_completion_pct": 83.2,
+      "donations": 0,
+      "received": 0,
+      "offense_completion_pct": 83.3,
       "rush": {
         "score": 11.9,
         "band": "slightly rushed",
@@ -17789,7 +17789,7 @@
       },
       "completion": {
         "heroes": 84.1,
-        "troops": 84.5,
+        "troops": 84.8,
         "spells": 76.2,
         "pets": 64.3,
         "equipment": 61.3,
@@ -17880,12 +17880,11 @@
         {
           "category": "troops",
           "name": "Ruin Witch",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -20450,7 +20449,7 @@
         }
       ],
       "ranked": {
-        "trophies": 185,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20466,7 +20465,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "24d 21h",
+          "ends_in": "23d 20h",
           "active": true
         },
         "scheduled": [
@@ -20474,33 +20473,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "24d 21h"
+            "starts_in": "23d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "15d 21h"
+            "starts_in": "14d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 21h"
+            "ends_in": "2d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "20h 42m"
+            "active": false,
+            "starts_in": "3d 19h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-09-04 07:00:00+00:00",
           "end": "2026-09-07 07:00:00+00:00",
-          "ends_in": "20h 42m"
+          "ends_in": null
         },
         "cwl": {
           "source": "api",
