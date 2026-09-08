@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-07T11:37:44.342298+00:00",
+  "captured_at": "2026-09-08T10:37:07.075472+00:00",
   "modifiers": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -13,8 +13,8 @@
       "rush_risk": 11.9,
       "rush_band": "slightly rushed",
       "build_days_to_finish": 1487.2,
-      "trophies": 0,
-      "war_stars": 611,
+      "trophies": 42,
+      "war_stars": 614,
       "guide_mode": "time_to_max",
       "next_up": "Barbarian King"
     }
@@ -23,7 +23,7 @@
     "source": "api",
     "season_start": "2026-09-01 08:00:00+00:00",
     "season_end": "2026-10-01 08:00:00+00:00",
-    "ends_in": "23d 20h",
+    "ends_in": "22d 21h",
     "active": true
   },
   "scheduled_events": [
@@ -31,25 +31,25 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "23d 20h"
+      "starts_in": "22d 21h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": false,
-      "starts_in": "14d 20h"
+      "starts_in": "13d 21h"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": true,
-      "ends_in": "2d 20h"
+      "ends_in": "1d 21h"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
       "active": false,
-      "starts_in": "3d 19h"
+      "starts_in": "2d 20h"
     }
   ]
 }
