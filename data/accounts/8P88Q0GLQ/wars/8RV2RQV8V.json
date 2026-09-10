@@ -1,7 +1,7 @@
 {
   "war_id": "#8RV2RQV8V",
   "war_type": "cwl",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "Rojava",
   "team_size": 15,
   "attacks_per_member": 1,
@@ -10,10 +10,30 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 16,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 1,
+    "attacks_used": 1
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-09-10",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "cwl",
+      "war_state": "War Ended",
+      "war_id": "#8RV2RQV8V",
+      "opponent_clan": "Rojava",
+      "team_size": 15,
+      "attack_order": 19,
+      "attacker_th": 18,
+      "defender_tag": "#9JLU20P20",
+      "defender_name": "Akid Sino",
+      "defender_th": 18,
+      "stars": 1,
+      "destruction": 96,
+      "is_fresh": true,
+      "duration_sec": 180
+    }
+  ],
   "defended": {
     "times_defended": 1,
     "worst_defense_stars": 1,

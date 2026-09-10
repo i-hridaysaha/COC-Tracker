@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-09T10:47:25.211869+00:00",
+  "captured_at": "2026-09-10T10:39:24.943827+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,13 +17737,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 94,
+      "trophies": 129,
       "best_trophies": 4909,
-      "war_stars": 617,
+      "war_stars": 618,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 100,
-      "received": 57,
+      "donations": 171,
+      "received": 114,
       "offense_completion_pct": 83.4,
       "rush": {
         "score": 11.8,
@@ -20449,7 +20449,7 @@
         }
       ],
       "ranked": {
-        "trophies": 94,
+        "trophies": 129,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20465,7 +20465,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "21d 21h",
+          "ends_in": "20d 21h",
           "active": true
         },
         "scheduled": [
@@ -20473,25 +20473,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "21d 21h"
+            "starts_in": "20d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "12d 21h"
+            "starts_in": "11d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "21h 12m"
+            "ends_in": "now"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 20h"
+            "starts_in": "20h 20m"
           }
         ],
         "raid_weekend": {
@@ -20503,7 +20503,7 @@
         },
         "cwl": {
           "source": "api",
-          "state": "inWar",
+          "state": "ended",
           "season": "2026-09-02",
           "number_of_rounds": 7
         }
@@ -20622,6 +20622,25 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "101"
+        },
+        {
+          "date_seen": "2026-09-10",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "War Ended",
+          "war_id": "#8RV2RQV8V",
+          "opponent_clan": "Rojava",
+          "team_size": "15",
+          "attack_order": "19",
+          "attacker_th": "18",
+          "defender_tag": "#9JLU20P20",
+          "defender_name": "Akid Sino",
+          "defender_th": "18",
+          "stars": "1",
+          "destruction": "96",
+          "is_fresh": "True",
+          "duration_sec": "180"
         },
         {
           "date_seen": "2026-08-19",
