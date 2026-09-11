@@ -8,11 +8,11 @@
     "dark_elixir": 32416000,
     "elixir": 1269200000,
     "gold": 4733745000,
-    "shiny_ore": 706460,
-    "glowy_ore": 52100,
-    "starry_ore": 4750
+    "shiny_ore": 697160,
+    "glowy_ore": 51500,
+    "starry_ore": 4650
   },
-  "total_cost_text": "4,733,745,000 gold, 1,269,200,000 elixir, 32,416,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry",
+  "total_cost_text": "4,733,745,000 gold, 1,269,200,000 elixir, 32,416,000 DE, 697,160 shiny, 51,500 glowy, 4,650 starry",
   "items": [
     {
       "rank": 1,
@@ -2029,7 +2029,7 @@
     {
       "rank": 143,
       "category": "equipment",
-      "name": "Magic Mirror",
+      "name": "Meteor Staff",
       "from_level": 20,
       "to_level": 27,
       "cost": {
@@ -2045,22 +2045,6 @@
     {
       "rank": 144,
       "category": "equipment",
-      "name": "Meteor Staff",
-      "from_level": 20,
-      "to_level": 27,
-      "cost": {
-        "shiny_ore": 23100,
-        "glowy_ore": 1800,
-        "starry_ore": 370
-      },
-      "cost_text": "23,100 shiny, 1,800 glowy, 370 starry",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 145,
-      "category": "equipment",
       "name": "Archer Puppet",
       "from_level": 8,
       "to_level": 18,
@@ -2074,7 +2058,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 146,
+      "rank": 145,
       "category": "equipment",
       "name": "Seeking Shield",
       "from_level": 9,
@@ -2089,7 +2073,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 147,
+      "rank": 146,
       "category": "equipment",
       "name": "Royal Gem",
       "from_level": 9,
@@ -2104,7 +2088,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 148,
+      "rank": 147,
       "category": "equipment",
       "name": "Invisibility Vial",
       "from_level": 12,
@@ -2119,7 +2103,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 149,
+      "rank": 148,
       "category": "equipment",
       "name": "Eternal Tome",
       "from_level": 12,
@@ -2134,9 +2118,25 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 150,
+      "rank": 149,
       "category": "equipment",
       "name": "Snake Bracelet",
+      "from_level": 23,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 13800,
+        "glowy_ore": 1200,
+        "starry_ore": 270
+      },
+      "cost_text": "13,800 shiny, 1,200 glowy, 270 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 150,
+      "category": "equipment",
+      "name": "Magic Mirror",
       "from_level": 23,
       "to_level": 27,
       "cost": {

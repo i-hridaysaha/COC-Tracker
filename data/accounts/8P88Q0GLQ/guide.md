@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2711 days, 4:30:00 of build time (one builder), 4,733,745,000 gold, 1,269,200,000 elixir, 32,416,000 DE, 706,460 shiny, 52,100 glowy, 4,750 starry.
+Total remaining: 2711 days, 4:30:00 of build time (one builder), 4,733,745,000 gold, 1,269,200,000 elixir, 32,416,000 DE, 697,160 shiny, 51,500 glowy, 4,650 starry.
 
 1. **Barbarian King** (heroes) 82 → 105 — 7,290,000 DE, 170 days, 12:00:00
    _one of your longest builds at 170 days, 12:00:00, start early to reach max sooner_
@@ -288,21 +288,21 @@ Total remaining: 2711 days, 4:30:00 of build time (one builder), 4,733,745,000 g
    _no build time, a pure resource sink, slot in when a builder is free_
 142. **Fireball** (equipment) 20 → 27 — 23,100 shiny, 1,800 glowy, 370 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-143. **Magic Mirror** (equipment) 20 → 27 — 23,100 shiny, 1,800 glowy, 370 starry, no build time
+143. **Meteor Staff** (equipment) 20 → 27 — 23,100 shiny, 1,800 glowy, 370 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-144. **Meteor Staff** (equipment) 20 → 27 — 23,100 shiny, 1,800 glowy, 370 starry, no build time
+144. **Archer Puppet** (equipment) 8 → 18 — 22,500 shiny, 1,800 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-145. **Archer Puppet** (equipment) 8 → 18 — 22,500 shiny, 1,800 glowy, no build time
+145. **Seeking Shield** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-146. **Seeking Shield** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+146. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-147. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+147. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-148. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+148. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-149. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+149. **Snake Bracelet** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-150. **Snake Bracelet** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+150. **Magic Mirror** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 151. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
