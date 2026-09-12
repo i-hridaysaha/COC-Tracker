@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-11T10:38:44.576223+00:00",
+  "captured_at": "2026-09-12T10:07:47.599755+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 137,
+      "trophies": 163,
       "best_trophies": 4909,
       "war_stars": 618,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 186,
+      "donations": 531,
       "received": 114,
-      "offense_completion_pct": 83.4,
+      "offense_completion_pct": 83.5,
       "rush": {
         "score": 11.8,
         "band": "slightly rushed",
@@ -17788,11 +17788,11 @@
         ]
       },
       "completion": {
-        "heroes": 84.3,
+        "heroes": 84.5,
         "troops": 84.8,
         "spells": 76.2,
-        "pets": 64.3,
-        "equipment": 61.6,
+        "pets": 65.0,
+        "equipment": 62.0,
         "defenses": 94.4,
         "resources": 87.2,
         "army": 100.0,
@@ -17859,12 +17859,11 @@
         {
           "category": "heroes",
           "name": "Dragon Duke",
-          "level": 24,
+          "level": 25,
           "max": 25,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18561,11 +18560,11 @@
         {
           "category": "pets",
           "name": "Angry Jelly",
-          "level": 7,
+          "level": 8,
           "max": 10,
           "is_max": false,
           "cost": {
-            "dark_elixir": 210000
+            "dark_elixir": 220000
           },
           "seconds": 691200
         },
@@ -18903,13 +18902,13 @@
         {
           "category": "equipment",
           "name": "Magic Mirror",
-          "level": 23,
+          "level": 26,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3300,
+            "shiny_ore": 3600,
             "glowy_ore": 600,
-            "starry_ore": 120
+            "starry_ore": 150
           },
           "seconds": 0
         },
@@ -20449,7 +20448,7 @@
         }
       ],
       "ranked": {
-        "trophies": 137,
+        "trophies": 163,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20465,7 +20464,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "19d 21h",
+          "ends_in": "18d 21h",
           "active": true
         },
         "scheduled": [
@@ -20473,25 +20472,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "19d 21h"
+            "starts_in": "18d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "10d 21h"
+            "starts_in": "9d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "19d 21h"
+            "starts_in": "18d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 20h"
+            "ends_in": "1d 20h"
           }
         ],
         "raid_weekend": {
@@ -20499,7 +20498,12 @@
           "state": "ongoing",
           "start": "2026-09-11 07:00:00+00:00",
           "end": "2026-09-14 07:00:00+00:00",
-          "ends_in": "2d 20h"
+          "ends_in": "1d 20h",
+          "me": {
+            "capital_resources_looted": 9735,
+            "attacks_used": 2,
+            "attacks_available": 5
+          }
         },
         "cwl": {
           "source": "api",
@@ -20624,7 +20628,7 @@
           "duration_sec": "101"
         },
         {
-          "date_seen": "2026-09-11",
+          "date_seen": "2026-09-12",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "cwl",
