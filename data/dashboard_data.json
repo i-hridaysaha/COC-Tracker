@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-12T10:07:47.599755+00:00",
+  "captured_at": "2026-09-13T11:07:28.912850+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,18 +17737,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 163,
+      "trophies": 419,
       "best_trophies": 4909,
       "war_stars": 618,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 531,
-      "received": 114,
-      "offense_completion_pct": 83.5,
+      "donations": 907,
+      "received": 524,
+      "offense_completion_pct": 83.8,
       "rush": {
-        "score": 11.8,
+        "score": 11.7,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 99,
+        "levels_behind_prev_th": 98,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17773,9 +17773,9 @@
           },
           {
             "name": "Archer Queen",
-            "level": 91,
+            "level": 92,
             "prev_th_max": 100,
-            "behind": 9,
+            "behind": 8,
             "category": "heroes"
           },
           {
@@ -17788,7 +17788,7 @@
         ]
       },
       "completion": {
-        "heroes": 84.5,
+        "heroes": 84.9,
         "troops": 84.8,
         "spells": 76.2,
         "pets": 65.0,
@@ -17815,11 +17815,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 91,
+          "level": 92,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 290000
+            "dark_elixir": 300000
           },
           "seconds": 648000
         },
@@ -17848,11 +17848,11 @@
         {
           "category": "heroes",
           "name": "Royal Champion",
-          "level": 50,
+          "level": 51,
           "max": 55,
           "is_max": false,
           "cost": {
-            "dark_elixir": 400000
+            "dark_elixir": 410000
           },
           "seconds": 691200
         },
@@ -20448,7 +20448,7 @@
         }
       ],
       "ranked": {
-        "trophies": 163,
+        "trophies": 419,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20464,7 +20464,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "18d 21h",
+          "ends_in": "17d 20h",
           "active": true
         },
         "scheduled": [
@@ -20472,25 +20472,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "18d 21h"
+            "starts_in": "17d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "9d 21h"
+            "starts_in": "8d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 21h"
+            "starts_in": "17d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 20h"
+            "ends_in": "19h 52m"
           }
         ],
         "raid_weekend": {
@@ -20498,19 +20498,14 @@
           "state": "ongoing",
           "start": "2026-09-11 07:00:00+00:00",
           "end": "2026-09-14 07:00:00+00:00",
-          "ends_in": "1d 20h",
+          "ends_in": "19h 52m",
           "me": {
-            "capital_resources_looted": 9735,
-            "attacks_used": 2,
-            "attacks_available": 5
+            "capital_resources_looted": 27331,
+            "attacks_used": 6,
+            "attacks_available": 6
           }
         },
-        "cwl": {
-          "source": "api",
-          "state": "ended",
-          "season": "2026-09-02",
-          "number_of_rounds": 7
-        }
+        "cwl": null
       },
       "wars": [
         {
