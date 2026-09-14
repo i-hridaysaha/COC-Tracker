@@ -3,30 +3,30 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2687 days, 16:30:00",
+  "total_build_time_one_builder": "2681 days, 16:30:00",
   "total_cost": {
-    "dark_elixir": 31516000,
+    "dark_elixir": 31316000,
     "elixir": 1269200000,
     "gold": 4733745000,
     "shiny_ore": 686960,
     "glowy_ore": 50900,
     "starry_ore": 4530
   },
-  "total_cost_text": "4,733,745,000 gold, 1,269,200,000 elixir, 31,516,000 DE, 686,960 shiny, 50,900 glowy, 4,530 starry",
+  "total_cost_text": "4,733,745,000 gold, 1,269,200,000 elixir, 31,316,000 DE, 686,960 shiny, 50,900 glowy, 4,530 starry",
   "items": [
     {
       "rank": 1,
       "category": "heroes",
       "name": "Barbarian King",
-      "from_level": 82,
+      "from_level": 83,
       "to_level": 105,
       "cost": {
-        "dark_elixir": 7290000
+        "dark_elixir": 7090000
       },
-      "cost_text": "7,290,000 DE",
-      "build_time": "170 days, 12:00:00",
-      "build_seconds": 14731200,
-      "reason": "one of your longest builds at 170 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "7,090,000 DE",
+      "build_time": "164 days, 12:00:00",
+      "build_seconds": 14212800,
+      "reason": "one of your longest builds at 164 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 2,
