@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-16T10:52:29.868220+00:00",
+  "captured_at": "2026-09-17T10:59:33.864490+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,14 +17737,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 9,
+      "trophies": 29,
       "best_trophies": 4909,
       "war_stars": 621,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1165,
+      "donations": 1412,
       "received": 1142,
-      "offense_completion_pct": 83.9,
+      "offense_completion_pct": 84.0,
       "rush": {
         "score": 11.6,
         "band": "slightly rushed",
@@ -17789,7 +17789,7 @@
       },
       "completion": {
         "heroes": 85.2,
-        "troops": 84.8,
+        "troops": 85.1,
         "spells": 76.2,
         "pets": 65.0,
         "equipment": 62.3,
@@ -18039,13 +18039,11 @@
         {
           "category": "troops",
           "name": "Dragon Rider",
-          "level": 5,
+          "level": 6,
           "max": 6,
-          "is_max": false,
-          "cost": {
-            "elixir": 29500000
-          },
-          "seconds": 1339200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -20448,7 +20446,7 @@
         }
       ],
       "ranked": {
-        "trophies": 9,
+        "trophies": 29,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20464,7 +20462,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "14d 21h",
+          "ends_in": "13d 21h",
           "active": true
         },
         "scheduled": [
@@ -20472,25 +20470,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "14d 21h"
+            "starts_in": "13d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "5d 21h"
+            "starts_in": "4d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 21h"
+            "starts_in": "13d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 20h"
+            "starts_in": "20h 0m"
           }
         ],
         "raid_weekend": {
