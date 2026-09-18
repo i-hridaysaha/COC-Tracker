@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-17T10:59:33.864490+00:00",
+  "captured_at": "2026-09-18T10:14:35.170732+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17739,22 +17739,22 @@
       "town_hall": 18,
       "trophies": 29,
       "best_trophies": 4909,
-      "war_stars": 621,
+      "war_stars": 624,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1412,
-      "received": 1142,
-      "offense_completion_pct": 84.0,
+      "donations": 1670,
+      "received": 1273,
+      "offense_completion_pct": 84.4,
       "rush": {
-        "score": 11.6,
+        "score": 11.1,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 97,
+        "levels_behind_prev_th": 93,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 83,
+            "level": 84,
             "prev_th_max": 100,
-            "behind": 17,
+            "behind": 16,
             "category": "heroes"
           },
           {
@@ -17773,53 +17773,53 @@
           },
           {
             "name": "Archer Queen",
-            "level": 92,
+            "level": 93,
             "prev_th_max": 100,
-            "behind": 8,
+            "behind": 7,
             "category": "heroes"
           },
           {
-            "name": "Barbarian",
-            "level": 8,
-            "prev_th_max": 12,
+            "name": "Archer",
+            "level": 9,
+            "prev_th_max": 13,
             "behind": 4,
             "category": "troops"
           }
         ]
       },
       "completion": {
-        "heroes": 85.2,
-        "troops": 85.1,
+        "heroes": 85.6,
+        "troops": 85.7,
         "spells": 76.2,
-        "pets": 65.0,
-        "equipment": 62.3,
-        "defenses": 94.4,
-        "resources": 87.2,
+        "pets": 65.7,
+        "equipment": 63.5,
+        "defenses": 97.2,
+        "resources": 87.4,
         "army": 100.0,
         "guardians": 20.0,
-        "traps": 60.8,
-        "walls": 95.3
+        "traps": 61.2,
+        "walls": 95.8
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 83,
+          "level": 84,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 210000
+            "dark_elixir": 220000
           },
           "seconds": 518400
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 92,
+          "level": 93,
           "max": 105,
           "is_max": false,
           "cost": {
-            "dark_elixir": 300000
+            "dark_elixir": 310000
           },
           "seconds": 648000
         },
@@ -17868,13 +17868,13 @@
         {
           "category": "troops",
           "name": "Barbarian",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "elixir": 2500000
+            "elixir": 6000000
           },
-          "seconds": 129600
+          "seconds": 259200
         },
         {
           "category": "troops",
@@ -18558,11 +18558,11 @@
         {
           "category": "pets",
           "name": "Angry Jelly",
-          "level": 8,
+          "level": 9,
           "max": 10,
           "is_max": false,
           "cost": {
-            "dark_elixir": 220000
+            "dark_elixir": 230000
           },
           "seconds": 691200
         },
@@ -18878,12 +18878,10 @@
         {
           "category": "equipment",
           "name": "Healing Tome",
-          "level": 7,
+          "level": 18,
           "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 1440
-          },
+          "is_max": true,
+          "cost": {},
           "seconds": 0
         },
         {
@@ -19025,6 +19023,17 @@
         },
         {
           "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
           "name": "Mortar",
           "level": 17,
           "max": 17,
@@ -19034,43 +19043,34 @@
         },
         {
           "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
+          "name": "Air Defense",
+          "level": 15,
+          "max": 16,
+          "is_max": false,
+          "cost": {
+            "gold": 26000000
+          },
+          "seconds": 1144800
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 12,
+          "max": 12,
           "is_max": true,
           "cost": {},
           "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Super Wizard Tower",
-          "level": 1,
-          "max": 2,
-          "is_max": false,
-          "cost": {
-            "gold": 30000000
-          },
-          "seconds": 1209600
-        },
-        {
-          "category": "defenses",
-          "name": "Super Wizard Tower",
-          "level": 1,
-          "max": 2,
-          "is_max": false,
-          "cost": {
-            "gold": 30000000
-          },
-          "seconds": 1209600
         },
         {
           "category": "defenses",
@@ -19093,13 +19093,13 @@
         {
           "category": "defenses",
           "name": "Wizard Tower",
-          "level": 5,
+          "level": 9,
           "max": 17,
           "is_max": false,
           "cost": {
-            "gold": 660000
+            "gold": 2000000
           },
-          "seconds": 43200
+          "seconds": 108000
         },
         {
           "category": "defenses",
@@ -19113,46 +19113,11 @@
         {
           "category": "defenses",
           "name": "Air Defense",
-          "level": 15,
+          "level": 16,
           "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -19255,9 +19220,18 @@
         },
         {
           "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 12,
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Inferno Tower",
+          "level": 11,
+          "max": 11,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19368,68 +19342,56 @@
         {
           "category": "defenses",
           "name": "Multi-Archer Tower",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 27000000
-          },
-          "seconds": 1209600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Multi-Archer Tower",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 27000000
-          },
-          "seconds": 1209600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Multi-Archer Tower",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 27000000
-          },
-          "seconds": 1209600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Ricochet Cannon",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 26500000
-          },
-          "seconds": 1166400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Ricochet Cannon",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 26500000
-          },
-          "seconds": 1166400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Ricochet Cannon",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
-          "cost": {
-            "gold": 26500000
-          },
-          "seconds": 1166400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -19452,6 +19414,24 @@
         {
           "category": "defenses",
           "name": "Firespitter",
+          "level": 2,
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Super Wizard Tower",
+          "level": 2,
+          "max": 2,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Super Wizard Tower",
           "level": 2,
           "max": 2,
           "is_max": true,
@@ -19736,13 +19716,11 @@
         {
           "category": "resources",
           "name": "Dark Elixir Storage",
-          "level": 12,
+          "level": 13,
           "max": 13,
-          "is_max": false,
-          "cost": {
-            "elixir": 25000000
-          },
-          "seconds": 1123200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "army",
@@ -20059,13 +20037,13 @@
         {
           "category": "traps",
           "name": "Spring Trap",
-          "level": 5,
+          "level": 6,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 1000000
+            "gold": 1700000
           },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
@@ -20334,13 +20312,11 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 6,
+          "level": 7,
           "max": 7,
-          "is_max": false,
-          "cost": {
-            "gold": 12000000
-          },
-          "seconds": 475200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "traps",
@@ -20424,25 +20400,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x290",
+          "name": "Wall lvl 18 x262",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 2900000000
+            "gold": 2620000000
           },
           "seconds": 0,
-          "count": 290
+          "count": 262
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x35",
+          "name": "Wall lvl 19 x63",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 35
+          "count": 63
         }
       ],
       "ranked": {
@@ -20462,7 +20438,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "13d 21h",
+          "ends_in": "12d 21h",
           "active": true
         },
         "scheduled": [
@@ -20470,38 +20446,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "13d 21h"
+            "starts_in": "12d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 21h"
+            "starts_in": "3d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 21h"
+            "starts_in": "12d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "20h 0m"
+            "active": true,
+            "ends_in": "2d 20h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-09-11 07:00:00+00:00",
-          "end": "2026-09-14 07:00:00+00:00",
-          "ends_in": null,
-          "me": {
-            "capital_resources_looted": 27331,
-            "attacks_used": 6,
-            "attacks_available": 6
-          }
+          "state": "ongoing",
+          "start": "2026-09-18 07:00:00+00:00",
+          "end": "2026-09-21 07:00:00+00:00",
+          "ends_in": "2d 20h"
         },
         "cwl": null
       },
