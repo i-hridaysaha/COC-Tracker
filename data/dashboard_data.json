@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-19T10:20:43.204717+00:00",
+  "captured_at": "2026-09-20T10:39:46.650673+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17737,13 +17737,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 51,
+      "trophies": 125,
       "best_trophies": 4909,
       "war_stars": 624,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1729,
-      "received": 1273,
+      "donations": 1978,
+      "received": 1540,
       "offense_completion_pct": 84.4,
       "rush": {
         "score": 11.1,
@@ -20422,7 +20422,7 @@
         }
       ],
       "ranked": {
-        "trophies": 51,
+        "trophies": 125,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20438,7 +20438,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "11d 21h",
+          "ends_in": "10d 21h",
           "active": true
         },
         "scheduled": [
@@ -20446,25 +20446,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "11d 21h"
+            "starts_in": "10d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 21h"
+            "starts_in": "1d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "11d 21h"
+            "starts_in": "10d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 20h"
+            "ends_in": "20h 20m"
           }
         ],
         "raid_weekend": {
@@ -20472,7 +20472,12 @@
           "state": "ongoing",
           "start": "2026-09-18 07:00:00+00:00",
           "end": "2026-09-21 07:00:00+00:00",
-          "ends_in": "1d 20h"
+          "ends_in": "20h 20m",
+          "me": {
+            "capital_resources_looted": 31790,
+            "attacks_used": 6,
+            "attacks_available": 6
+          }
         },
         "cwl": null
       },
