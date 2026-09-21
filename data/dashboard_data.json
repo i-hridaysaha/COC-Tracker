@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-21T12:09:49.117198+00:00",
+  "captured_at": "2026-09-21T12:13:18.906394+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,7 +17795,7 @@
       "war_stars": 624,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2393,
+      "donations": 2423,
       "received": 1833,
       "offense_completion_pct": 82.0,
       "rush": {
@@ -17846,10 +17846,10 @@
         "spells": 72.7,
         "pets": 60.0,
         "equipment": 64.0,
-        "defenses": 94.9,
+        "defenses": 95.3,
         "resources": 87.4,
         "army": 100.0,
-        "traps": 59.1,
+        "traps": 59.3,
         "guardians": 20.0,
         "walls": 95.8
       },
@@ -19118,14 +19118,13 @@
         },
         {
           "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
+          "name": "X-Bow",
+          "level": 12,
+          "max": 13,
           "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
@@ -19186,6 +19185,15 @@
         },
         {
           "category": "defenses",
+          "name": "Air Defense",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
           "name": "Mortar",
           "level": 17,
           "max": 18,
@@ -19276,22 +19284,11 @@
         {
           "category": "defenses",
           "name": "X-Bow",
-          "level": 12,
+          "level": 13,
           "max": 13,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -20157,13 +20154,13 @@
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 6,
+          "level": 7,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 1500000
+            "gold": 2000000
           },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
@@ -20479,25 +20476,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x262",
+          "name": "Wall lvl 18 x258",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 2620000000
+            "gold": 2580000000
           },
           "seconds": 0,
-          "count": 262
+          "count": 258
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x63",
+          "name": "Wall lvl 19 x67",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 63
+          "count": 67
         }
       ],
       "ranked": {
@@ -20531,7 +20528,7 @@
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "19h 50m"
+            "starts_in": "19h 46m"
           },
           {
             "event": "CWL",
