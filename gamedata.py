@@ -53,6 +53,23 @@ def entry(category: str, name: str):
     return tables().get(category, {}).get(name)
 
 
+_TOP_TH_CACHE = None
+
+
+def top_th() -> int:
+    """Highest Town Hall the bundled tables know about at all. A player at
+    (or above) this TH is at the top of the library's knowledge: any newer
+    level the live game has added is by definition reachable at their TH, so
+    the API's global max_level is the honest cap there and the library's
+    per-TH cap is the stale one."""
+    global _TOP_TH_CACHE
+    if _TOP_TH_CACHE is None:
+        _TOP_TH_CACHE = max((l.get("required_townhall") or 0
+                             for c in tables().values() for e in c.values()
+                             for l in e.get("levels", [])), default=0)
+    return _TOP_TH_CACHE
+
+
 # Manual per-TH max levels for units the bundled coc.py library has no data
 # for at all yet (brand-new content, not just a missing level) -- sourced
 # from in-game observation, since static_data.json simply has no entry to
@@ -87,8 +104,18 @@ def item_target_level(category: str, item, town_hall: int) -> int:
     API's own max_level when the item isn't in the bundled table yet (new
     content), so this never crashes or goes blank on levels the library
     doesn't know about -- it just reports the honest global max until the
-    library catches up."""
+    library catches up.
+
+    One more case: at the highest TH the library knows (top_th) there is no
+    higher Town Hall for a global max to belong to, so the API's max_level
+    IS this TH's cap -- and it's live, so it already includes levels a
+    mid-TH content drop added after the library (or the manual table) was
+    last updated. The API wins outright there. Below the top TH the table
+    still wins, because a bigger global max may just be the next TH's
+    levels."""
     api_max = int(getattr(item, "max_level", 0) or 0)
+    if api_max and town_hall >= top_th():
+        return api_max
     name = getattr(item, "name", None)
     manual = _MANUAL_TH_MAX.get((category, name), {}).get(town_hall)
     if manual:

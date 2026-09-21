@@ -193,12 +193,35 @@ def _max_level_for_th(entry: dict, town_hall: int) -> int:
     return max(levels) if levels else 0
 
 
-# Manual max-level overrides for buildings whose newest level the bundled
-# coc.py library hasn't shipped yet (it lags real Supercell releases), keyed
-# {name: {town_hall: max}}. Remove an entry once the library carries that
-# level for that Town Hall -- otherwise this stale value wins forever. The
-# missing level has no cost data, so it renders as "NO DATA", not free.
-_MANUAL_BUILDING_TH_MAX = {"Army Camp": {18: 14}}
+# Manual max-level overrides for buildings and traps whose newest level the
+# bundled coc.py library hasn't shipped yet (it lags real Supercell
+# releases), keyed {name: {town_hall: max}}. Remove an entry once the library
+# carries that level for that Town Hall -- otherwise this stale value wins
+# forever. The missing level has no cost data, so it renders as "NO DATA",
+# not free. Current entries: the June 2026 TH18 content drop (coc.py 4.0.0
+# stops at the February 2026 TH18 launch levels).
+_MANUAL_BUILDING_TH_MAX = {
+    # army / support
+    "Army Camp": {18: 14},
+    "Dark Barracks": {18: 13},
+    "Dark Spell Factory": {18: 8},
+    "Workshop": {18: 9},
+    "Blacksmith": {18: 10},
+    "Pet House": {18: 12},
+    # defenses
+    "Mortar": {18: 18},
+    "Hidden Tesla": {18: 17},
+    "X-Bow": {18: 13},
+    "Inferno Tower": {18: 12},
+    "Scattershot": {18: 7},
+    "Spell Tower": {18: 4},
+    "Monolith": {18: 5},
+    "Firespitter": {18: 3},
+    # traps
+    "Giant Bomb": {18: 12},
+    "Seeking Air Mine": {18: 8},
+    "Giga Bomb": {18: 4},
+}
 
 
 def _th_max(name, entry: dict, town_hall: int) -> int:
@@ -362,7 +385,7 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
         entry = _lookup_building(name)
         if not entry:
             continue
-        target = _max_level_for_th(entry, town_hall)
+        target = _th_max(entry["name"], entry, town_hall)
         level = int(b.get("level", 0) or 0)
         if not target or level >= target:
             continue
@@ -383,7 +406,7 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
         entry = _lookup_building(name)
         if not entry:
             continue
-        target = _max_level_for_th(entry, town_hall)
+        target = _th_max(entry["name"], entry, town_hall)
         level = int(r.get("level", 0) or 0)
         if not target or level >= target:
             continue
@@ -404,7 +427,7 @@ def remaining_records(village: dict, town_hall_fallback: int, mods: dict) -> lis
         entry = _lookup_trap(name)
         if not entry:
             continue
-        target = _max_level_for_th(entry, town_hall)
+        target = _th_max(entry["name"], entry, town_hall)
         level = int(t.get("level", 0) or 0)
         if not target or level >= target:
             continue

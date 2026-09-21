@@ -44,10 +44,11 @@ def offense_items(player, raw: dict | None = None) -> list[dict]:
                 cost, seconds = upgrades._item_next_level(entry, level, int(target))
             else:
                 cost, seconds = {}, 0
-            # entry missing entirely (not just maxed out) means the bundled game-data
-            # library has no upgrade table for this unit yet -- usually a very new
-            # release -- so cost/seconds are unknown, not actually free/instant.
-            unknown = not entry and not_maxed
+            # no cost/time for a level we still have to do means the bundled
+            # game-data library doesn't know it (a brand-new unit, or a level a
+            # newer update added past the library's table) -- unknown, not
+            # actually free/instant.
+            unknown = not_maxed and not cost and seconds == 0
             out.append(_rec(cat, getattr(it, "name", "?"), level, target, cost, seconds, unknown))
     return out
 
@@ -58,41 +59,24 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
     th = int(village.get("town_hall") or town_hall_fallback or 0)
     out = []
 
-    for b in village.get("buildings") or village.get("defenses") or []:
-        entry = defenses._lookup_building(b.get("name"))
-        if not entry:
-            continue
-        target = defenses._max_level_for_th(entry, th)
-        level = int(b.get("level", 0) or 0)
-        if not target:
-            continue
-        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
-        out.append(_rec("defenses", b["name"], min(level, target), target, cost, seconds))
-
-    for r in village.get("resources", []):
-        entry = defenses._lookup_building(r.get("name"))
-        if not entry:
-            continue
-        target = defenses._max_level_for_th(entry, th)
-        level = int(r.get("level", 0) or 0)
-        if not target:
-            continue
-        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
-        out.append(_rec("resources", r["name"], min(level, target), target, cost, seconds))
-
-    for b in village.get("army", []):
-        entry = defenses._lookup_building(b.get("name"))
-        if not entry:
-            continue
-        target = defenses._th_max(b["name"], entry, th)
-        level = int(b.get("level", 0) or 0)
-        if not target:
-            continue
-        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
-        # a manual max override can push target past the last level the library
-        # knows, leaving the final step with no cost/time -- flag NO DATA, not free.
-        unknown = level < target and not cost and seconds == 0
-        out.append(_rec("army", b["name"], min(level, target), target, cost, seconds, unknown))
+    # a manual max override can push target past the last level the library
+    # knows, leaving the final step with no cost/time -- flag NO DATA, not free.
+    groups = (("defenses", village.get("buildings") or village.get("defenses") or [], defenses._lookup_building),
+              ("resources", village.get("resources", []), defenses._lookup_building),
+              ("army", village.get("army", []), defenses._lookup_building),
+              ("traps", village.get("traps", []), defenses._lookup_trap))
+    for cat, rows, lookup in groups:
+        for b in rows:
+            entry = lookup(b.get("name"))
+            if not entry:
+                continue
+            target = defenses._th_max(entry["name"], entry, th)
+            level = int(b.get("level", 0) or 0)
+            if not target:
+                continue
+            cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
+            unknown = level < target and not cost and seconds == 0
+            out.append(_rec(cat, b["name"], min(level, target), target, cost, seconds, unknown))
 
     for g in village.get("guardians", []):
         name = g.get("name")
@@ -109,17 +93,6 @@ def defense_items(village: dict, town_hall_fallback: int) -> list[dict]:
             if not mx:
                 continue
             out.append(_rec("guardians", name, min(level, mx), mx, {}, 0, level < mx))
-
-    for t in village.get("traps", []):
-        entry = defenses._lookup_trap(t.get("name"))
-        if not entry:
-            continue
-        target = defenses._max_level_for_th(entry, th)
-        level = int(t.get("level", 0) or 0)
-        if not target:
-            continue
-        cost, seconds = defenses._building_next_level(entry, level, target) if level < target else ({}, 0)
-        out.append(_rec("traps", t["name"], min(level, target), target, cost, seconds))
 
     wall = defenses._buildings().get("Wall")
     if wall and village.get("walls"):
@@ -239,4 +212,5 @@ def defense_tables() -> dict:
             "wall_id": wall_id, "town_hall_id": th_id,
             "known_building_ids": known_building_ids,
             "guardians": guardians, "guardian_ids": guardian_ids,
-            "guardian_manual_max": defenses._GUARDIAN_MANUAL_MAX}
+            "guardian_manual_max": defenses._GUARDIAN_MANUAL_MAX,
+            "building_manual_max": defenses._MANUAL_BUILDING_TH_MAX}
