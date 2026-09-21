@@ -31,12 +31,12 @@
   },
   "completion": {
     "heroes": 83.1,
-    "troops": 81.9,
+    "troops": 83.9,
     "spells": 72.7,
-    "pets": 63.4,
+    "pets": 60.0,
     "equipment": 64.0
   },
-  "offense_completion_pct": 81.2,
+  "offense_completion_pct": 82.0,
   "total_levels_remaining": 557,
   "rush_risk": {
     "score": 11.1,
@@ -123,18 +123,12 @@
     },
     "troops": {
       "category": "troops",
-      "items_counted": 42,
-      "current_total": 298,
-      "max_total": 364,
-      "levels_remaining": 66,
-      "completion_pct": 81.9,
+      "items_counted": 41,
+      "current_total": 297,
+      "max_total": 354,
+      "levels_remaining": 57,
+      "completion_pct": 83.9,
       "biggest_gaps": [
-        {
-          "name": "Greedy Raven",
-          "level": 1,
-          "max": 10,
-          "remaining": 9
-        },
         {
           "name": "Archer",
           "level": 9,
@@ -157,6 +151,12 @@
           "name": "Barbarian",
           "level": 10,
           "max": 13,
+          "remaining": 3
+        },
+        {
+          "name": "Wizard",
+          "level": 11,
+          "max": 14,
           "remaining": 3
         }
       ]
@@ -203,11 +203,11 @@
     },
     "pets": {
       "category": "pets",
-      "items_counted": 11,
-      "current_total": 92,
-      "max_total": 145,
-      "levels_remaining": 53,
-      "completion_pct": 63.4,
+      "items_counted": 12,
+      "current_total": 93,
+      "max_total": 155,
+      "levels_remaining": 62,
+      "completion_pct": 60.0,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -234,10 +234,10 @@
           "remaining": 9
         },
         {
-          "name": "Poison Lizard",
-          "level": 7,
-          "max": 15,
-          "remaining": 8
+          "name": "Greedy Raven",
+          "level": 1,
+          "max": 10,
+          "remaining": 9
         }
       ]
     },
@@ -282,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-09-21T12:03:32.542909+00:00",
+  "captured_at": "2026-09-21T12:09:49.472937+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,

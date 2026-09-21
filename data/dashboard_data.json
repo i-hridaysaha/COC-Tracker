@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-21T12:03:31.195777+00:00",
+  "captured_at": "2026-09-21T12:09:49.117198+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17797,7 +17797,7 @@
       "defense_wins": 0,
       "donations": 2393,
       "received": 1833,
-      "offense_completion_pct": 81.2,
+      "offense_completion_pct": 82.0,
       "rush": {
         "score": 11.1,
         "band": "slightly rushed",
@@ -17842,9 +17842,9 @@
       },
       "completion": {
         "heroes": 83.1,
-        "troops": 81.9,
+        "troops": 83.9,
         "spells": 72.7,
-        "pets": 63.4,
+        "pets": 60.0,
         "equipment": 64.0,
         "defenses": 94.9,
         "resources": 87.4,
@@ -17943,16 +17943,6 @@
           "name": "Sky Wagon",
           "level": 2,
           "max": 4,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "troops",
-          "name": "Greedy Raven",
-          "level": 1,
-          "max": 10,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -18639,6 +18629,16 @@
           "is_max": true,
           "cost": {},
           "seconds": 0
+        },
+        {
+          "category": "pets",
+          "name": "Greedy Raven",
+          "level": 1,
+          "max": 10,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "equipment",
@@ -20531,7 +20531,7 @@
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "19h 56m"
+            "starts_in": "19h 50m"
           },
           {
             "event": "CWL",

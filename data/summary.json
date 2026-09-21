@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-21T12:03:31.195777+00:00",
+  "captured_at": "2026-09-21T12:09:49.117198+00:00",
   "modifiers": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -9,7 +9,7 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "offense_completion_pct": 81.2,
+      "offense_completion_pct": 82.0,
       "rush_risk": 11.1,
       "rush_band": "slightly rushed",
       "build_days_to_finish": 1403.2,
@@ -37,7 +37,7 @@
       "event": "Clan Games",
       "estimate": true,
       "active": false,
-      "starts_in": "19h 56m"
+      "starts_in": "19h 50m"
     },
     {
       "event": "CWL",
