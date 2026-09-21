@@ -3,7 +3,7 @@
     "source": "api",
     "season_start": "2026-09-01 08:00:00+00:00",
     "season_end": "2026-10-01 08:00:00+00:00",
-    "ends_in": "10d 21h",
+    "ends_in": "9d 19h",
     "active": true
   },
   "scheduled": [
@@ -11,33 +11,33 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "10d 21h"
+      "starts_in": "9d 19h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": false,
-      "starts_in": "1d 21h"
+      "starts_in": "19h 59m"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": false,
-      "starts_in": "10d 21h"
+      "starts_in": "9d 19h"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
-      "active": true,
-      "ends_in": "20h 20m"
+      "active": false,
+      "starts_in": "3d 18h"
     }
   ],
   "raid_weekend": {
     "source": "api",
-    "state": "ongoing",
+    "state": "ended",
     "start": "2026-09-18 07:00:00+00:00",
     "end": "2026-09-21 07:00:00+00:00",
-    "ends_in": "20h 20m",
+    "ends_in": null,
     "me": {
       "capital_resources_looted": 31790,
       "attacks_used": 6,

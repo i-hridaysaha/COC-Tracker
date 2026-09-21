@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-20T10:39:46.650673+00:00",
+  "captured_at": "2026-09-21T12:00:54.751787+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -3714,6 +3714,59 @@
     },
     "guardian_manual_max": {
       "Logger": 5
+    },
+    "building_manual_max": {
+      "Army Camp": {
+        "18": 14
+      },
+      "Dark Barracks": {
+        "18": 13
+      },
+      "Dark Spell Factory": {
+        "18": 8
+      },
+      "Workshop": {
+        "18": 9
+      },
+      "Blacksmith": {
+        "18": 10
+      },
+      "Pet House": {
+        "18": 12
+      },
+      "Mortar": {
+        "18": 18
+      },
+      "Hidden Tesla": {
+        "18": 17
+      },
+      "X-Bow": {
+        "18": 13
+      },
+      "Inferno Tower": {
+        "18": 12
+      },
+      "Scattershot": {
+        "18": 7
+      },
+      "Spell Tower": {
+        "18": 4
+      },
+      "Monolith": {
+        "18": 5
+      },
+      "Firespitter": {
+        "18": 3
+      },
+      "Giant Bomb": {
+        "18": 12
+      },
+      "Seeking Air Mine": {
+        "18": 8
+      },
+      "Giga Bomb": {
+        "18": 4
+      }
     }
   },
   "offense_tables": {
@@ -17737,14 +17790,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 125,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 624,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1978,
-      "received": 1540,
-      "offense_completion_pct": 84.4,
+      "donations": 2393,
+      "received": 1833,
+      "offense_completion_pct": 81.2,
       "rush": {
         "score": 11.1,
         "band": "slightly rushed",
@@ -17788,16 +17841,16 @@
         ]
       },
       "completion": {
-        "heroes": 85.6,
-        "troops": 85.7,
-        "spells": 76.2,
-        "pets": 65.7,
-        "equipment": 63.5,
-        "defenses": 97.2,
+        "heroes": 83.1,
+        "troops": 81.9,
+        "spells": 72.7,
+        "pets": 63.4,
+        "equipment": 64.0,
+        "defenses": 94.9,
         "resources": 87.4,
         "army": 100.0,
+        "traps": 59.1,
         "guardians": 20.0,
-        "traps": 61.2,
         "walls": 95.8
       },
       "items": [
@@ -17805,7 +17858,7 @@
           "category": "heroes",
           "name": "Barbarian King",
           "level": 84,
-          "max": 105,
+          "max": 110,
           "is_max": false,
           "cost": {
             "dark_elixir": 220000
@@ -17816,7 +17869,7 @@
           "category": "heroes",
           "name": "Archer Queen",
           "level": 93,
-          "max": 105,
+          "max": 110,
           "is_max": false,
           "cost": {
             "dark_elixir": 310000
@@ -17838,7 +17891,7 @@
           "category": "heroes",
           "name": "Grand Warden",
           "level": 65,
-          "max": 80,
+          "max": 85,
           "is_max": false,
           "cost": {
             "elixir": 18000000
@@ -17848,11 +17901,11 @@
         {
           "category": "heroes",
           "name": "Royal Champion",
-          "level": 51,
+          "level": 52,
           "max": 55,
           "is_max": false,
           "cost": {
-            "dark_elixir": 410000
+            "dark_elixir": 420000
           },
           "seconds": 691200
         },
@@ -17869,7 +17922,7 @@
           "category": "troops",
           "name": "Barbarian",
           "level": 10,
-          "max": 12,
+          "max": 13,
           "is_max": false,
           "cost": {
             "elixir": 6000000
@@ -17909,7 +17962,7 @@
           "category": "troops",
           "name": "Archer",
           "level": 9,
-          "max": 13,
+          "max": 14,
           "is_max": false,
           "cost": {
             "elixir": 4500000
@@ -17920,10 +17973,11 @@
           "category": "troops",
           "name": "Goblin",
           "level": 9,
-          "max": 9,
-          "is_max": true,
+          "max": 10,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -17950,8 +18004,8 @@
         {
           "category": "troops",
           "name": "Balloon",
-          "level": 12,
-          "max": 12,
+          "level": 13,
+          "max": 13,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -17979,8 +18033,8 @@
         {
           "category": "troops",
           "name": "Dragon",
-          "level": 12,
-          "max": 12,
+          "level": 13,
+          "max": 13,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -18000,7 +18054,7 @@
           "category": "troops",
           "name": "Baby Dragon",
           "level": 9,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "elixir": 13500000
@@ -18022,10 +18076,11 @@
           "category": "troops",
           "name": "Yeti",
           "level": 7,
-          "max": 7,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -18049,16 +18104,17 @@
           "category": "troops",
           "name": "Electro Titan",
           "level": 4,
-          "max": 4,
-          "is_max": true,
+          "max": 5,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
           "name": "Root Rider",
-          "level": 3,
-          "max": 3,
+          "level": 4,
+          "max": 4,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -18098,16 +18154,17 @@
           "category": "troops",
           "name": "Hog Rider",
           "level": 14,
-          "max": 14,
-          "is_max": true,
+          "max": 15,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
           "name": "Valkyrie",
-          "level": 11,
-          "max": 11,
+          "level": 12,
+          "max": 12,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -18116,28 +18173,31 @@
           "category": "troops",
           "name": "Golem",
           "level": 14,
-          "max": 14,
-          "is_max": true,
+          "max": 15,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
           "name": "Witch",
           "level": 7,
-          "max": 7,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
           "name": "Lava Hound",
           "level": 7,
-          "max": 7,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -18163,10 +18223,11 @@
           "category": "troops",
           "name": "Headhunter",
           "level": 3,
-          "max": 3,
-          "is_max": true,
+          "max": 4,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -18183,7 +18244,7 @@
           "category": "troops",
           "name": "Druid",
           "level": 3,
-          "max": 5,
+          "max": 6,
           "is_max": false,
           "cost": {
             "dark_elixir": 187500
@@ -18214,7 +18275,7 @@
           "category": "troops",
           "name": "Battle Blimp",
           "level": 3,
-          "max": 5,
+          "max": 6,
           "is_max": false,
           "cost": {
             "elixir": 6500000
@@ -18225,16 +18286,17 @@
           "category": "troops",
           "name": "Stone Slammer",
           "level": 5,
-          "max": 5,
-          "is_max": true,
+          "max": 6,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
           "name": "Siege Barracks",
           "level": 3,
-          "max": 5,
+          "max": 6,
           "is_max": false,
           "cost": {
             "elixir": 8000000
@@ -18245,10 +18307,11 @@
           "category": "troops",
           "name": "Log Launcher",
           "level": 5,
-          "max": 5,
-          "is_max": true,
+          "max": 6,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -18263,7 +18326,7 @@
           "category": "troops",
           "name": "Battle Drill",
           "level": 1,
-          "max": 5,
+          "max": 6,
           "is_max": false,
           "cost": {
             "elixir": 6000000
@@ -18317,10 +18380,11 @@
           "category": "spells",
           "name": "Rage Spell",
           "level": 6,
-          "max": 6,
-          "is_max": true,
+          "max": 7,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "spells",
@@ -18334,8 +18398,8 @@
         {
           "category": "spells",
           "name": "Freeze Spell",
-          "level": 7,
-          "max": 7,
+          "level": 8,
+          "max": 8,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -18344,7 +18408,7 @@
           "category": "spells",
           "name": "Clone Spell",
           "level": 7,
-          "max": 8,
+          "max": 9,
           "is_max": false,
           "cost": {
             "elixir": 9000000
@@ -18364,7 +18428,7 @@
           "category": "spells",
           "name": "Recall Spell",
           "level": 3,
-          "max": 6,
+          "max": 7,
           "is_max": false,
           "cost": {
             "elixir": 9000000
@@ -18374,8 +18438,8 @@
         {
           "category": "spells",
           "name": "Revive Spell",
-          "level": 4,
-          "max": 4,
+          "level": 5,
+          "max": 5,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -18404,10 +18468,11 @@
           "category": "spells",
           "name": "Earthquake Spell",
           "level": 5,
-          "max": 5,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "spells",
@@ -18443,8 +18508,8 @@
         {
           "category": "spells",
           "name": "Overgrowth Spell",
-          "level": 4,
-          "max": 4,
+          "level": 5,
+          "max": 5,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -18453,7 +18518,7 @@
           "category": "spells",
           "name": "Ice Block Spell",
           "level": 3,
-          "max": 5,
+          "max": 6,
           "is_max": false,
           "cost": {
             "dark_elixir": 280000
@@ -18528,7 +18593,7 @@
           "category": "pets",
           "name": "Diggy",
           "level": 6,
-          "max": 10,
+          "max": 15,
           "is_max": false,
           "cost": {
             "dark_elixir": 150000
@@ -18843,13 +18908,11 @@
         {
           "category": "equipment",
           "name": "Fireball",
-          "level": 20,
+          "level": 21,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3000,
-            "glowy_ore": 600,
-            "starry_ore": 100
+            "shiny_ore": 3100
           },
           "seconds": 0
         },
@@ -18865,13 +18928,13 @@
         {
           "category": "equipment",
           "name": "Snake Bracelet",
-          "level": 23,
+          "level": 26,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3300,
+            "shiny_ore": 3600,
             "glowy_ore": 600,
-            "starry_ore": 120
+            "starry_ore": 150
           },
           "seconds": 0
         },
@@ -19036,10 +19099,11 @@
           "category": "defenses",
           "name": "Mortar",
           "level": 17,
-          "max": 17,
-          "is_max": true,
+          "max": 18,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
@@ -19067,10 +19131,11 @@
           "category": "defenses",
           "name": "X-Bow",
           "level": 12,
-          "max": 12,
-          "is_max": true,
+          "max": 13,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
@@ -19123,14 +19188,75 @@
           "category": "defenses",
           "name": "Mortar",
           "level": 17,
-          "max": 17,
-          "is_max": true,
+          "max": 18,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
           "name": "Mortar",
+          "level": 17,
+          "max": 18,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 17,
+          "max": 18,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
           "level": 17,
           "max": 17,
           "is_max": true,
@@ -19139,79 +19265,37 @@
         },
         {
           "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 17,
-          "is_max": true,
+          "name": "X-Bow",
+          "level": 12,
+          "max": 13,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 16,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
           "name": "X-Bow",
           "level": 12,
-          "max": 12,
-          "is_max": true,
+          "max": 13,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
           "name": "X-Bow",
           "level": 12,
-          "max": 12,
-          "is_max": true,
+          "max": 13,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "defenses",
-          "name": "X-Bow",
+          "name": "Inferno Tower",
           "level": 12,
           "max": 12,
           "is_max": true,
@@ -19221,8 +19305,8 @@
         {
           "category": "defenses",
           "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
+          "level": 12,
+          "max": 12,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19230,17 +19314,8 @@
         {
           "category": "defenses",
           "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Inferno Tower",
-          "level": 11,
-          "max": 11,
+          "level": 12,
+          "max": 12,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19288,8 +19363,8 @@
         {
           "category": "defenses",
           "name": "Scattershot",
-          "level": 6,
-          "max": 6,
+          "level": 7,
+          "max": 7,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19297,8 +19372,8 @@
         {
           "category": "defenses",
           "name": "Scattershot",
-          "level": 6,
-          "max": 6,
+          "level": 7,
+          "max": 7,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19306,8 +19381,8 @@
         {
           "category": "defenses",
           "name": "Spell Tower",
-          "level": 3,
-          "max": 3,
+          "level": 4,
+          "max": 4,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19315,8 +19390,8 @@
         {
           "category": "defenses",
           "name": "Spell Tower",
-          "level": 3,
-          "max": 3,
+          "level": 4,
+          "max": 4,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19324,8 +19399,8 @@
         {
           "category": "defenses",
           "name": "Monolith",
-          "level": 4,
-          "max": 4,
+          "level": 5,
+          "max": 5,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19405,8 +19480,8 @@
         {
           "category": "defenses",
           "name": "Firespitter",
-          "level": 2,
-          "max": 2,
+          "level": 3,
+          "max": 3,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19414,8 +19489,8 @@
         {
           "category": "defenses",
           "name": "Firespitter",
-          "level": 2,
-          "max": 2,
+          "level": 3,
+          "max": 3,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19797,8 +19872,8 @@
         {
           "category": "army",
           "name": "Dark Barracks",
-          "level": 12,
-          "max": 12,
+          "level": 13,
+          "max": 13,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19806,15 +19881,6 @@
         {
           "category": "army",
           "name": "Dark Spell Factory",
-          "level": 7,
-          "max": 7,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "army",
-          "name": "Workshop",
           "level": 8,
           "max": 8,
           "is_max": true,
@@ -19823,9 +19889,18 @@
         },
         {
           "category": "army",
+          "name": "Workshop",
+          "level": 9,
+          "max": 9,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "army",
           "name": "Pet House",
-          "level": 11,
-          "max": 11,
+          "level": 12,
+          "max": 12,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19833,8 +19908,8 @@
         {
           "category": "army",
           "name": "Blacksmith",
-          "level": 9,
-          "max": 9,
+          "level": 10,
+          "max": 10,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19849,38 +19924,6 @@
           "seconds": 0
         },
         {
-          "category": "guardians",
-          "name": "Longshot",
-          "level": 1,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 18000000
-          },
-          "seconds": 604800
-        },
-        {
-          "category": "guardians",
-          "name": "Smasher",
-          "level": 1,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 18000000
-          },
-          "seconds": 604800
-        },
-        {
-          "category": "guardians",
-          "name": "Logger",
-          "level": 1,
-          "max": 5,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
           "category": "traps",
           "name": "Bomb",
           "level": 9,
@@ -20071,7 +20114,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 2,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 220000
@@ -20082,7 +20125,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 2,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 220000
@@ -20093,7 +20136,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 5,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 1300000
@@ -20104,7 +20147,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 6,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 1500000
@@ -20115,7 +20158,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 6,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 1500000
@@ -20126,7 +20169,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 7,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 2000000
@@ -20137,7 +20180,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 8,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 3200000
@@ -20148,7 +20191,7 @@
           "category": "traps",
           "name": "Giant Bomb",
           "level": 9,
-          "max": 11,
+          "max": 12,
           "is_max": false,
           "cost": {
             "gold": 5500000
@@ -20247,7 +20290,7 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 5,
-          "max": 7,
+          "max": 8,
           "is_max": false,
           "cost": {
             "gold": 6500000
@@ -20258,7 +20301,7 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 5,
-          "max": 7,
+          "max": 8,
           "is_max": false,
           "cost": {
             "gold": 6500000
@@ -20269,7 +20312,7 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 5,
-          "max": 7,
+          "max": 8,
           "is_max": false,
           "cost": {
             "gold": 6500000
@@ -20280,7 +20323,7 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 5,
-          "max": 7,
+          "max": 8,
           "is_max": false,
           "cost": {
             "gold": 6500000
@@ -20291,7 +20334,7 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 5,
-          "max": 7,
+          "max": 8,
           "is_max": false,
           "cost": {
             "gold": 6500000
@@ -20302,7 +20345,7 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 6,
-          "max": 7,
+          "max": 8,
           "is_max": false,
           "cost": {
             "gold": 12000000
@@ -20313,28 +20356,31 @@
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 7,
-          "max": 7,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 7,
-          "max": 7,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "traps",
           "name": "Seeking Air Mine",
           "level": 7,
-          "max": 7,
-          "is_max": true,
+          "max": 8,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "traps",
@@ -20393,10 +20439,43 @@
           "category": "traps",
           "name": "Giga Bomb",
           "level": 3,
-          "max": 3,
-          "is_max": true,
+          "max": 4,
+          "is_max": false,
           "cost": {},
-          "seconds": 0
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "guardians",
+          "name": "Longshot",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 18000000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "guardians",
+          "name": "Smasher",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 18000000
+          },
+          "seconds": 604800
+        },
+        {
+          "category": "guardians",
+          "name": "Logger",
+          "level": 1,
+          "max": 5,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "walls",
@@ -20422,7 +20501,7 @@
         }
       ],
       "ranked": {
-        "trophies": 125,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20438,7 +20517,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "10d 21h",
+          "ends_in": "9d 19h",
           "active": true
         },
         "scheduled": [
@@ -20446,33 +20525,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "10d 21h"
+            "starts_in": "9d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 21h"
+            "starts_in": "19h 59m"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "10d 21h"
+            "starts_in": "9d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "20h 20m"
+            "active": false,
+            "starts_in": "3d 18h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-09-18 07:00:00+00:00",
           "end": "2026-09-21 07:00:00+00:00",
-          "ends_in": "20h 20m",
+          "ends_in": null,
           "me": {
             "capital_resources_looted": 31790,
             "attacks_used": 6,
