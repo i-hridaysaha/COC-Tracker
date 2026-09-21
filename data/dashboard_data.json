@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-21T12:13:18.906394+00:00",
+  "captured_at": "2026-09-21T12:23:25.174821+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -20528,7 +20528,7 @@
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "19h 46m"
+            "starts_in": "19h 36m"
           },
           {
             "event": "CWL",
