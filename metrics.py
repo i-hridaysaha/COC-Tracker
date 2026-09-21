@@ -44,6 +44,12 @@ def _merge_missing_heroes(heroes: list, raw: dict | None) -> list:
         return heroes
 
 
+# Pets the API lists under "troops" (as it does for every pet) that coc.py's
+# hardcoded PETS_ORDER doesn't know yet, so they'd land in home_troops
+# instead of pets. Same lag as _merge_missing_heroes, same fix: by name.
+_PETS_NOT_IN_LIBRARY = {"Greedy Raven"}
+
+
 # Which player attributes map to which category. We keep regular home troops
 # and siege machines, and deliberately skip super troops (they are temporary
 # boosts, not permanent progress).
@@ -55,6 +61,8 @@ def _collect(player: Any, raw: dict | None = None) -> dict[str, list]:
     equipment = list(getattr(player, "equipment", []) or [])
 
     home_troops = [t for t in getattr(player, "home_troops", []) if not getattr(t, "is_super_troop", False)]
+    pets += [t for t in home_troops if getattr(t, "name", None) in _PETS_NOT_IN_LIBRARY]
+    home_troops = [t for t in home_troops if getattr(t, "name", None) not in _PETS_NOT_IN_LIBRARY]
     sieges = list(getattr(player, "siege_machines", []) or [])
     troops = home_troops + sieges
 

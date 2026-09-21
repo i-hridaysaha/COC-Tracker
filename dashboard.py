@@ -424,7 +424,7 @@ function renderOverview(){
 function trackerTile(i){
   const pct=i.max?Math.round(100*i.level/i.max):0;const col=rampColor(pct,i.is_max);
   const addBtn=i.is_max?'':'<button class="tileadd" title="Add to queue" onclick="openQueueModal(\''+i.category+'\',\''+esc(i.name).replace(/'/g,"\\'")+'\')">+</button>';
-  return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':(i.unknown_cost?'<span class="maxbadge" style="background:var(--muted);color:#fff">NO DATA</span>':''))
+  return '<div class="tile '+(i.is_max?'max':'')+'">'+(i.is_max?'<span class="maxbadge">MAX</span>':'')
     +addBtn
     +'<div class="ic" style="background:'+CAT_COLOR[i.category]+'22;color:'+CAT_COLOR[i.category]+'">'+iconSVG(i.category,i.name)+'</div>'
     +'<div class="tname">'+esc(i.name)+'</div><div class="tlv">Lv '+i.level+' / '+i.max+'</div>'
