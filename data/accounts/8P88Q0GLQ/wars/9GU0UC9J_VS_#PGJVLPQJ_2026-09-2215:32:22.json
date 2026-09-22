@@ -1,0 +1,61 @@
+{
+  "war_id": "#9GU0UC9J_vs_#PGJVLPQJ_2026-09-2215:32:22",
+  "war_type": "random",
+  "state": "In War",
+  "opponent_clan": "\u062c\u064a\u0634 \u0627\u0644\u0639\u0631\u0628",
+  "team_size": 15,
+  "attacks_per_member": 2,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 6,
+    "stars_earned": 3,
+    "attacks_used": 2
+  },
+  "attacks": [
+    {
+      "date_seen": "2026-09-22",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#PGJVLPQJ_2026-09-2215:32:22",
+      "opponent_clan": "\u062c\u064a\u0634 \u0627\u0644\u0639\u0631\u0628",
+      "team_size": 15,
+      "attack_order": 16,
+      "attacker_th": 18,
+      "defender_tag": "#GP9VRU9G0",
+      "defender_name": "AbudiBUANGIT",
+      "defender_th": 18,
+      "stars": 1,
+      "destruction": 94,
+      "is_fresh": true,
+      "duration_sec": 158
+    },
+    {
+      "date_seen": "2026-09-22",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#PGJVLPQJ_2026-09-2215:32:22",
+      "opponent_clan": "\u062c\u064a\u0634 \u0627\u0644\u0639\u0631\u0628",
+      "team_size": 15,
+      "attack_order": 18,
+      "attacker_th": 18,
+      "defender_tag": "#GV0QVRPQ",
+      "defender_name": "Seif",
+      "defender_th": 18,
+      "stars": 2,
+      "destruction": 93,
+      "is_fresh": true,
+      "duration_sec": 148
+    }
+  ],
+  "defended": {
+    "times_defended": 0,
+    "worst_defense_stars": null,
+    "worst_defense_destruction": null
+  }
+}

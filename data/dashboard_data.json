@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-21T12:23:25.174821+00:00",
+  "captured_at": "2026-09-22T10:59:26.322243+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,31 +17790,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 30,
       "best_trophies": 4909,
-      "war_stars": 624,
+      "war_stars": 627,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2423,
-      "received": 1833,
-      "offense_completion_pct": 82.0,
+      "donations": 2659,
+      "received": 2124,
+      "offense_completion_pct": 82.2,
       "rush": {
-        "score": 11.1,
+        "score": 10.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 93,
+        "levels_behind_prev_th": 91,
         "worst_offenders": [
           {
             "name": "Barbarian King",
             "level": 84,
             "prev_th_max": 100,
             "behind": 16,
-            "category": "heroes"
-          },
-          {
-            "name": "Minion Prince",
-            "level": 80,
-            "prev_th_max": 90,
-            "behind": 10,
             "category": "heroes"
           },
           {
@@ -17825,10 +17818,17 @@
             "category": "heroes"
           },
           {
+            "name": "Minion Prince",
+            "level": 81,
+            "prev_th_max": 90,
+            "behind": 9,
+            "category": "heroes"
+          },
+          {
             "name": "Archer Queen",
-            "level": 93,
+            "level": 94,
             "prev_th_max": 100,
-            "behind": 7,
+            "behind": 6,
             "category": "heroes"
           },
           {
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 83.1,
+        "heroes": 83.5,
         "troops": 83.9,
         "spells": 72.7,
-        "pets": 60.0,
+        "pets": 60.6,
         "equipment": 64.0,
         "defenses": 95.3,
         "resources": 87.4,
@@ -17868,22 +17868,22 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 93,
+          "level": 94,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 310000
+            "dark_elixir": 320000
           },
           "seconds": 648000
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 80,
+          "level": 81,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 290000
+            "dark_elixir": 300000
           },
           "seconds": 691200
         },
@@ -18613,13 +18613,11 @@
         {
           "category": "pets",
           "name": "Angry Jelly",
-          "level": 9,
+          "level": 10,
           "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 230000
-          },
-          "seconds": 691200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "pets",
@@ -20498,7 +20496,7 @@
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 30,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20514,7 +20512,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "9d 19h",
+          "ends_in": "8d 21h",
           "active": true
         },
         "scheduled": [
@@ -20522,25 +20520,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "9d 19h"
+            "starts_in": "8d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
-            "active": false,
-            "starts_in": "19h 36m"
+            "active": true,
+            "ends_in": "5d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "9d 19h"
+            "starts_in": "8d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 18h"
+            "starts_in": "2d 20h"
           }
         ],
         "raid_weekend": {
@@ -20937,6 +20935,44 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "124"
+        },
+        {
+          "date_seen": "2026-09-22",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#PGJVLPQJ_2026-09-2215:32:22",
+          "opponent_clan": "\u062c\u064a\u0634 \u0627\u0644\u0639\u0631\u0628",
+          "team_size": "15",
+          "attack_order": "16",
+          "attacker_th": "18",
+          "defender_tag": "#GP9VRU9G0",
+          "defender_name": "AbudiBUANGIT",
+          "defender_th": "18",
+          "stars": "1",
+          "destruction": "94",
+          "is_fresh": "True",
+          "duration_sec": "158"
+        },
+        {
+          "date_seen": "2026-09-22",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#PGJVLPQJ_2026-09-2215:32:22",
+          "opponent_clan": "\u062c\u064a\u0634 \u0627\u0644\u0639\u0631\u0628",
+          "team_size": "15",
+          "attack_order": "18",
+          "attacker_th": "18",
+          "defender_tag": "#GV0QVRPQ",
+          "defender_name": "Seif",
+          "defender_th": "18",
+          "stars": "2",
+          "destruction": "93",
+          "is_fresh": "True",
+          "duration_sec": "148"
         }
       ]
     }
