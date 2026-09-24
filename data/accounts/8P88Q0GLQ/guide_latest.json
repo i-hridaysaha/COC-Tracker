@@ -8,11 +8,11 @@
     "dark_elixir": 29346000,
     "elixir": 1207900000,
     "gold": 4056685000,
-    "shiny_ore": 640520,
+    "shiny_ore": 634220,
     "glowy_ore": 47300,
     "starry_ore": 4210
   },
-  "total_cost_text": "4,056,685,000 gold, 1,207,900,000 elixir, 29,346,000 DE, 640,520 shiny, 47,300 glowy, 4,210 starry",
+  "total_cost_text": "4,056,685,000 gold, 1,207,900,000 elixir, 29,346,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry",
   "items": [
     {
       "rank": 1,
@@ -1833,15 +1833,14 @@
     {
       "rank": 129,
       "category": "equipment",
-      "name": "Fireball",
-      "from_level": 21,
-      "to_level": 27,
+      "name": "Invisibility Vial",
+      "from_level": 12,
+      "to_level": 18,
       "cost": {
-        "shiny_ore": 20100,
-        "glowy_ore": 1200,
-        "starry_ore": 270
+        "shiny_ore": 14700,
+        "glowy_ore": 1200
       },
-      "cost_text": "20,100 shiny, 1,200 glowy, 270 starry",
+      "cost_text": "14,700 shiny, 1,200 glowy",
       "build_time": "no build time",
       "build_seconds": 0,
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
@@ -1849,7 +1848,7 @@
     {
       "rank": 130,
       "category": "equipment",
-      "name": "Invisibility Vial",
+      "name": "Eternal Tome",
       "from_level": 12,
       "to_level": 18,
       "cost": {
@@ -1864,14 +1863,15 @@
     {
       "rank": 131,
       "category": "equipment",
-      "name": "Eternal Tome",
-      "from_level": 12,
-      "to_level": 18,
+      "name": "Fireball",
+      "from_level": 23,
+      "to_level": 27,
       "cost": {
-        "shiny_ore": 14700,
-        "glowy_ore": 1200
+        "shiny_ore": 13800,
+        "glowy_ore": 1200,
+        "starry_ore": 270
       },
-      "cost_text": "14,700 shiny, 1,200 glowy",
+      "cost_text": "13,800 shiny, 1,200 glowy, 270 starry",
       "build_time": "no build time",
       "build_seconds": 0,
       "reason": "no build time, a pure resource sink, slot in when a builder is free"

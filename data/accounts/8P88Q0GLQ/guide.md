@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2436 days, 20:30:00 of build time (one builder), 4,056,685,000 gold, 1,207,900,000 elixir, 29,346,000 DE, 640,520 shiny, 47,300 glowy, 4,210 starry.
+Total remaining: 2436 days, 20:30:00 of build time (one builder), 4,056,685,000 gold, 1,207,900,000 elixir, 29,346,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry.
 
 1. **Barbarian King** (heroes) 84 → 110 — 6,880,000 DE, 158 days, 12:00:00
    _one of your longest builds at 158 days, 12:00:00, start early to reach max sooner_
@@ -260,11 +260,11 @@ Total remaining: 2436 days, 20:30:00 of build time (one builder), 4,056,685,000 
    _no build time, a pure resource sink, slot in when a builder is free_
 128. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-129. **Fireball** (equipment) 21 → 27 — 20,100 shiny, 1,200 glowy, 270 starry, no build time
+129. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-130. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+130. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-131. **Eternal Tome** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+131. **Fireball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 132. **Meteor Staff** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
