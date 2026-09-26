@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-25T11:11:58.748732+00:00",
+  "captured_at": "2026-09-26T10:50:35.633154+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,13 +17790,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 110,
+      "trophies": 744,
       "best_trophies": 4909,
-      "war_stars": 630,
+      "war_stars": 633,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3258,
-      "received": 2332,
+      "donations": 3531,
+      "received": 2510,
       "offense_completion_pct": 82.3,
       "rush": {
         "score": 10.7,
@@ -20496,7 +20496,7 @@
         }
       ],
       "ranked": {
-        "trophies": 110,
+        "trophies": 744,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20512,7 +20512,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "5d 20h",
+          "ends_in": "4d 21h",
           "active": true
         },
         "scheduled": [
@@ -20520,25 +20520,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "5d 20h"
+            "starts_in": "4d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 20h"
+            "ends_in": "1d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "5d 20h"
+            "starts_in": "4d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 19h"
+            "ends_in": "1d 20h"
           }
         ],
         "raid_weekend": {
@@ -20546,7 +20546,7 @@
           "state": "ongoing",
           "start": "2026-09-25 07:00:00+00:00",
           "end": "2026-09-28 07:00:00+00:00",
-          "ends_in": "2d 19h"
+          "ends_in": "1d 20h"
         },
         "cwl": null
       },
@@ -20683,6 +20683,25 @@
           "destruction": "96",
           "is_fresh": "True",
           "duration_sec": "180"
+        },
+        {
+          "date_seen": "2026-09-26",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
+          "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
+          "team_size": "20",
+          "attack_order": "44",
+          "attacker_th": "18",
+          "defender_tag": "#80J0PY0VL",
+          "defender_name": "kurdistan",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "False",
+          "duration_sec": "117"
         },
         {
           "date_seen": "2026-08-19",

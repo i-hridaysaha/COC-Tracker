@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
   "war_type": "random",
-  "state": "Preparation",
+  "state": "In War",
   "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -10,13 +10,33 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 5,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 3,
+    "attacks_used": 1
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-09-26",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
+      "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
+      "team_size": 20,
+      "attack_order": 44,
+      "attacker_th": 18,
+      "defender_tag": "#80J0PY0VL",
+      "defender_name": "kurdistan",
+      "defender_th": 17,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": false,
+      "duration_sec": 117
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
