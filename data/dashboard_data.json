@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-26T10:50:35.633154+00:00",
+  "captured_at": "2026-09-27T11:26:25.765163+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 744,
+      "trophies": 753,
       "best_trophies": 4909,
       "war_stars": 633,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3531,
-      "received": 2510,
-      "offense_completion_pct": 82.3,
+      "donations": 3750,
+      "received": 2598,
+      "offense_completion_pct": 82.5,
       "rush": {
-        "score": 10.7,
+        "score": 10.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 90,
+        "levels_behind_prev_th": 89,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17819,9 +17819,9 @@
           },
           {
             "name": "Minion Prince",
-            "level": 81,
+            "level": 82,
             "prev_th_max": 90,
-            "behind": 9,
+            "behind": 8,
             "category": "heroes"
           },
           {
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 83.8,
-        "troops": 83.9,
+        "heroes": 84.0,
+        "troops": 84.2,
         "spells": 72.7,
-        "pets": 60.6,
+        "pets": 61.3,
         "equipment": 64.2,
         "defenses": 95.5,
         "resources": 87.4,
@@ -17879,11 +17879,11 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 81,
+          "level": 82,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 300000
+            "dark_elixir": 310000
           },
           "seconds": 691200
         },
@@ -18121,13 +18121,11 @@
         {
           "category": "troops",
           "name": "Meteor Golem",
-          "level": 2,
+          "level": 3,
           "max": 3,
-          "is_max": false,
-          "cost": {
-            "elixir": 30000000
-          },
-          "seconds": 1382400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18631,7 +18629,7 @@
         {
           "category": "pets",
           "name": "Greedy Raven",
-          "level": 1,
+          "level": 2,
           "max": 10,
           "is_max": false,
           "cost": {},
@@ -20496,7 +20494,7 @@
         }
       ],
       "ranked": {
-        "trophies": 744,
+        "trophies": 753,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20512,7 +20510,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "4d 21h",
+          "ends_in": "3d 20h",
           "active": true
         },
         "scheduled": [
@@ -20520,25 +20518,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "4d 21h"
+            "starts_in": "3d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 21h"
+            "ends_in": "20h 33m"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 21h"
+            "starts_in": "3d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 20h"
+            "ends_in": "19h 33m"
           }
         ],
         "raid_weekend": {
@@ -20546,7 +20544,7 @@
           "state": "ongoing",
           "start": "2026-09-25 07:00:00+00:00",
           "end": "2026-09-28 07:00:00+00:00",
-          "ends_in": "1d 20h"
+          "ends_in": "19h 33m"
         },
         "cwl": null
       },
@@ -20685,11 +20683,11 @@
           "duration_sec": "180"
         },
         {
-          "date_seen": "2026-09-26",
+          "date_seen": "2026-09-27",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "random",
-          "war_state": "In War",
+          "war_state": "War Ended",
           "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
           "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
           "team_size": "20",
@@ -20702,6 +20700,25 @@
           "destruction": "100",
           "is_fresh": "False",
           "duration_sec": "117"
+        },
+        {
+          "date_seen": "2026-09-27",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "War Ended",
+          "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
+          "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
+          "team_size": "20",
+          "attack_order": "49",
+          "attacker_th": "18",
+          "defender_tag": "#QCJGC29Q0",
+          "defender_name": "\ufbbc\u0647\u0627\u0646\u06cc\u2665\ufe0f",
+          "defender_th": "18",
+          "stars": "2",
+          "destruction": "83",
+          "is_fresh": "False",
+          "duration_sec": "180"
         },
         {
           "date_seen": "2026-08-19",

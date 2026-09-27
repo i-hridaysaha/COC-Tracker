@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
   "war_type": "random",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -10,16 +10,16 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 5,
-    "stars_earned": 3,
-    "attacks_used": 1
+    "stars_earned": 5,
+    "attacks_used": 2
   },
   "attacks": [
     {
-      "date_seen": "2026-09-26",
+      "date_seen": "2026-09-27",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
       "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
       "team_size": 20,
@@ -32,6 +32,25 @@
       "destruction": 100,
       "is_fresh": false,
       "duration_sec": 117
+    },
+    {
+      "date_seen": "2026-09-27",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "War Ended",
+      "war_id": "#9GU0UC9J_vs_#2JY2C8V09_2026-09-2616:16:54",
+      "opponent_clan": "\uff2b\uff35\uff32\uff24 \uff34\uff2f\uff30 \uff11",
+      "team_size": 20,
+      "attack_order": 49,
+      "attacker_th": 18,
+      "defender_tag": "#QCJGC29Q0",
+      "defender_name": "\ufbbc\u0647\u0627\u0646\u06cc\u2665\ufe0f",
+      "defender_th": 18,
+      "stars": 2,
+      "destruction": 83,
+      "is_fresh": false,
+      "duration_sec": 180
     }
   ],
   "defended": {
