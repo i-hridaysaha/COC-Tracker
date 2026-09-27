@@ -15,7 +15,7 @@
     "war_stars": 633,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 3750,
+    "donations": 3855,
     "received": 2598
   },
   "ranked": {
@@ -282,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-09-27T11:26:26.252957+00:00",
+  "captured_at": "2026-09-27T18:44:06.622186+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,

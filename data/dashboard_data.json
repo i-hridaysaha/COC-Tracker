@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-27T11:26:25.765163+00:00",
+  "captured_at": "2026-09-27T18:44:05.921647+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,7 +17795,7 @@
       "war_stars": 633,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3750,
+      "donations": 3855,
       "received": 2598,
       "offense_completion_pct": 82.5,
       "rush": {
@@ -17846,12 +17846,12 @@
         "spells": 72.7,
         "pets": 61.3,
         "equipment": 64.2,
-        "defenses": 95.5,
+        "defenses": 95.9,
         "resources": 87.4,
         "army": 100.0,
         "traps": 59.3,
         "guardians": 20.0,
-        "walls": 95.9
+        "walls": 97.2
       },
       "items": [
         {
@@ -19094,27 +19094,6 @@
         },
         {
           "category": "defenses",
-          "name": "Air Defense",
-          "level": 15,
-          "max": 16,
-          "is_max": false,
-          "cost": {
-            "gold": 26000000
-          },
-          "seconds": 1144800
-        },
-        {
-          "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
           "name": "X-Bow",
           "level": 12,
           "max": 13,
@@ -19200,6 +19179,15 @@
         },
         {
           "category": "defenses",
+          "name": "Air Defense",
+          "level": 16,
+          "max": 16,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
           "name": "Mortar",
           "level": 17,
           "max": 18,
@@ -19273,6 +19261,15 @@
           "name": "Hidden Tesla",
           "level": 17,
           "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 13,
+          "max": 13,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -20472,25 +20469,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x254",
+          "name": "Wall lvl 18 x170",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 2540000000
+            "gold": 1700000000
           },
           "seconds": 0,
-          "count": 254
+          "count": 170
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x71",
+          "name": "Wall lvl 19 x155",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 71
+          "count": 155
         }
       ],
       "ranked": {
@@ -20510,7 +20507,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "3d 20h",
+          "ends_in": "3d 13h",
           "active": true
         },
         "scheduled": [
@@ -20518,25 +20515,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "3d 20h"
+            "starts_in": "3d 13h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "20h 33m"
+            "ends_in": "13h 15m"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 20h"
+            "starts_in": "3d 13h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "19h 33m"
+            "ends_in": "12h 15m"
           }
         ],
         "raid_weekend": {
@@ -20544,7 +20541,7 @@
           "state": "ongoing",
           "start": "2026-09-25 07:00:00+00:00",
           "end": "2026-09-28 07:00:00+00:00",
-          "ends_in": "19h 33m"
+          "ends_in": "12h 15m"
         },
         "cwl": null
       },
