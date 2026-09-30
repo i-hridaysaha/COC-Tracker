@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-30T11:57:08.748619+00:00",
+  "captured_at": "2026-09-30T22:59:25.359727+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,9 +17795,9 @@
       "war_stars": 633,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4487,
+      "donations": 4546,
       "received": 2598,
-      "offense_completion_pct": 82.6,
+      "offense_completion_pct": 82.8,
       "rush": {
         "score": 10.5,
         "band": "slightly rushed",
@@ -17841,17 +17841,17 @@
         ]
       },
       "completion": {
-        "heroes": 84.0,
+        "heroes": 84.4,
         "troops": 84.5,
         "spells": 72.7,
         "pets": 61.3,
         "equipment": 64.2,
-        "defenses": 95.9,
+        "defenses": 96.1,
         "resources": 87.4,
         "army": 100.0,
-        "traps": 59.3,
+        "traps": 59.5,
         "guardians": 20.0,
-        "walls": 97.2
+        "walls": 97.5
       },
       "items": [
         {
@@ -17901,11 +17901,11 @@
         {
           "category": "heroes",
           "name": "Royal Champion",
-          "level": 52,
+          "level": 54,
           "max": 55,
           "is_max": false,
           "cost": {
-            "dark_elixir": 420000
+            "dark_elixir": 450000
           },
           "seconds": 691200
         },
@@ -19104,16 +19104,6 @@
         },
         {
           "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 13,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
           "name": "Archer Tower",
           "level": 21,
           "max": 21,
@@ -19261,6 +19251,15 @@
           "name": "Hidden Tesla",
           "level": 17,
           "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 13,
+          "max": 13,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -20114,13 +20113,13 @@
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 2,
+          "level": 3,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 220000
+            "gold": 750000
           },
-          "seconds": 10800
+          "seconds": 28800
         },
         {
           "category": "traps",
@@ -20469,25 +20468,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x170",
+          "name": "Wall lvl 18 x155",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 1700000000
+            "gold": 1550000000
           },
           "seconds": 0,
-          "count": 170
+          "count": 155
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x155",
+          "name": "Wall lvl 19 x170",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 155
+          "count": 170
         }
       ],
       "ranked": {
@@ -20507,7 +20506,7 @@
           "source": "api",
           "season_start": "2026-09-01 08:00:00+00:00",
           "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "20h 2m",
+          "ends_in": "9h 0m",
           "active": true
         },
         "scheduled": [
@@ -20515,25 +20514,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "20h 2m"
+            "starts_in": "9h 0m"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "21d 20h"
+            "starts_in": "21d 9h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "20h 2m"
+            "starts_in": "9h 0m"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 19h"
+            "starts_in": "1d 8h"
           }
         ],
         "raid_weekend": {
