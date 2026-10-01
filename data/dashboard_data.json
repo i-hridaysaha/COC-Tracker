@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-09-30T22:59:25.359727+00:00",
+  "captured_at": "2026-10-01T12:28:37.933988+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,13 +17790,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 26,
+      "trophies": 71,
       "best_trophies": 4909,
       "war_stars": 633,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4546,
-      "received": 2598,
+      "donations": 4714,
+      "received": 2687,
       "offense_completion_pct": 82.8,
       "rush": {
         "score": 10.5,
@@ -20490,7 +20490,7 @@
         }
       ],
       "ranked": {
-        "trophies": 26,
+        "trophies": 71,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20504,9 +20504,9 @@
       "events": {
         "gold_pass_season": {
           "source": "api",
-          "season_start": "2026-09-01 08:00:00+00:00",
-          "season_end": "2026-10-01 08:00:00+00:00",
-          "ends_in": "9h 0m",
+          "season_start": "2026-10-01 08:00:00+00:00",
+          "season_end": "2026-11-01 08:00:00+00:00",
+          "ends_in": "30d 19h",
           "active": true
         },
         "scheduled": [
@@ -20514,25 +20514,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "9h 0m"
+            "starts_in": "30d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "21d 9h"
+            "starts_in": "20d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
-            "active": false,
-            "starts_in": "9h 0m"
+            "active": true,
+            "ends_in": "8d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 8h"
+            "starts_in": "18h 31m"
           }
         ],
         "raid_weekend": {
