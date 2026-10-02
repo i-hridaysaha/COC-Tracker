@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-01T12:28:37.933988+00:00",
+  "captured_at": "2026-10-02T11:55:02.498335+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,24 +17790,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 71,
+      "trophies": 81,
       "best_trophies": 4909,
       "war_stars": 633,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4714,
+      "donations": 4775,
       "received": 2687,
-      "offense_completion_pct": 82.8,
+      "offense_completion_pct": 82.9,
       "rush": {
-        "score": 10.5,
+        "score": 10.4,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 88,
+        "levels_behind_prev_th": 87,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 85,
+            "level": 86,
             "prev_th_max": 100,
-            "behind": 15,
+            "behind": 14,
             "category": "heroes"
           },
           {
@@ -17841,7 +17841,7 @@
         ]
       },
       "completion": {
-        "heroes": 84.4,
+        "heroes": 84.6,
         "troops": 84.5,
         "spells": 72.7,
         "pets": 61.3,
@@ -17857,11 +17857,11 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 85,
+          "level": 86,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 230000
+            "dark_elixir": 240000
           },
           "seconds": 604800
         },
@@ -20490,7 +20490,7 @@
         }
       ],
       "ranked": {
-        "trophies": 71,
+        "trophies": 81,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20506,7 +20506,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "30d 19h",
+          "ends_in": "29d 20h",
           "active": true
         },
         "scheduled": [
@@ -20514,40 +20514,40 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "30d 19h"
+            "starts_in": "29d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "20d 19h"
+            "starts_in": "19d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "8d 19h"
+            "ends_in": "7d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "18h 31m"
+            "active": true,
+            "ends_in": "2d 19h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-09-25 07:00:00+00:00",
-          "end": "2026-09-28 07:00:00+00:00",
-          "ends_in": null,
-          "me": {
-            "capital_resources_looted": 26846,
-            "attacks_used": 6,
-            "attacks_available": 6
-          }
+          "state": "ongoing",
+          "start": "2026-10-02 07:00:00+00:00",
+          "end": "2026-10-05 07:00:00+00:00",
+          "ends_in": "2d 19h"
         },
-        "cwl": null
+        "cwl": {
+          "source": "api",
+          "state": "preparation",
+          "season": "2026-10-01",
+          "number_of_rounds": 7
+        }
       },
       "wars": [
         {
