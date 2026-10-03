@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2361 days, 11:30:00",
+  "total_build_time_one_builder": "2347 days, 11:30:00",
   "total_cost": {
-    "dark_elixir": 27746000,
+    "dark_elixir": 27466000,
     "elixir": 1167900000,
     "gold": 3040465000,
     "shiny_ore": 634220,
     "glowy_ore": 47300,
     "starry_ore": 4210
   },
-  "total_cost_text": "3,040,465,000 gold, 1,167,900,000 elixir, 27,746,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry",
+  "total_cost_text": "3,040,465,000 gold, 1,167,900,000 elixir, 27,466,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry",
   "items": [
     {
       "rank": 1,
@@ -339,20 +339,6 @@
     {
       "rank": 24,
       "category": "spells",
-      "name": "Ice Block Spell",
-      "from_level": 3,
-      "to_level": 6,
-      "cost": {
-        "dark_elixir": 600000
-      },
-      "cost_text": "600,000 DE",
-      "build_time": "30 days",
-      "build_seconds": 2592000,
-      "reason": "one of your longest builds at 30 days, start early to reach max sooner"
-    },
-    {
-      "rank": 25,
-      "category": "spells",
       "name": "Bat Spell",
       "from_level": 5,
       "to_level": 8,
@@ -365,7 +351,7 @@
       "reason": "one of your longest builds at 28 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 26,
+      "rank": 25,
       "category": "spells",
       "name": "Haste Spell",
       "from_level": 3,
@@ -379,7 +365,7 @@
       "reason": "one of your longest builds at 28 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "category": "defenses",
       "name": "Wizard Tower",
       "from_level": 9,
@@ -393,7 +379,7 @@
       "reason": "one of your longest builds at 26 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "category": "troops",
       "name": "Battle Drill",
       "from_level": 1,
@@ -407,7 +393,7 @@
       "reason": "one of your longest builds at 26 days, start early to reach max sooner"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "category": "troops",
       "name": "Troop Launcher",
       "from_level": 1,
@@ -421,7 +407,7 @@
       "reason": "one of your longest builds at 24 days, start early to reach max sooner"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "category": "pets",
       "name": "Frosty",
       "from_level": 12,
@@ -435,7 +421,7 @@
       "reason": "one of your longest builds at 24 days, start early to reach max sooner"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "category": "pets",
       "name": "Phoenix",
       "from_level": 6,
@@ -449,7 +435,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 32,
+      "rank": 31,
       "category": "pets",
       "name": "Diggy",
       "from_level": 6,
@@ -463,7 +449,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "category": "troops",
       "name": "Druid",
       "from_level": 3,
@@ -477,7 +463,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 34,
+      "rank": 33,
       "category": "traps",
       "name": "Air Bomb",
       "from_level": 1,
@@ -491,7 +477,7 @@
       "reason": "one of your longest builds at 22 days, 23:30:00, start early to reach max sooner"
     },
     {
-      "rank": 35,
+      "rank": 34,
       "category": "troops",
       "name": "Archer",
       "from_level": 9,
@@ -505,7 +491,7 @@
       "reason": "one of your longest builds at 21 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 36,
+      "rank": 35,
       "category": "troops",
       "name": "Siege Barracks",
       "from_level": 3,
@@ -517,6 +503,20 @@
       "build_time": "19 days",
       "build_seconds": 1641600,
       "reason": "one of your longest builds at 19 days, start early to reach max sooner"
+    },
+    {
+      "rank": 36,
+      "category": "traps",
+      "name": "Bomb",
+      "from_level": 9,
+      "to_level": 14,
+      "cost": {
+        "gold": 30300000
+      },
+      "cost_text": "30,300,000 gold",
+      "build_time": "18 days, 12:00:00",
+      "build_seconds": 1598400,
+      "reason": "one of your longest builds at 18 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 37,
@@ -591,16 +591,16 @@
     {
       "rank": 42,
       "category": "traps",
-      "name": "Bomb",
-      "from_level": 9,
-      "to_level": 14,
+      "name": "Air Bomb",
+      "from_level": 10,
+      "to_level": 13,
       "cost": {
-        "gold": 30300000
+        "gold": 29500000
       },
-      "cost_text": "30,300,000 gold",
-      "build_time": "18 days, 12:00:00",
-      "build_seconds": 1598400,
-      "reason": "one of your longest builds at 18 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "29,500,000 gold",
+      "build_time": "17 days, 12:00:00",
+      "build_seconds": 1512000,
+      "reason": "one of your longest builds at 17 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 43,
@@ -689,13 +689,13 @@
     {
       "rank": 49,
       "category": "traps",
-      "name": "Air Bomb",
+      "name": "Bomb",
       "from_level": 10,
-      "to_level": 13,
+      "to_level": 14,
       "cost": {
-        "gold": 29500000
+        "gold": 29000000
       },
-      "cost_text": "29,500,000 gold",
+      "cost_text": "29,000,000 gold",
       "build_time": "17 days, 12:00:00",
       "build_seconds": 1512000,
       "reason": "one of your longest builds at 17 days, 12:00:00, start early to reach max sooner"
@@ -716,20 +716,6 @@
     },
     {
       "rank": 51,
-      "category": "traps",
-      "name": "Bomb",
-      "from_level": 10,
-      "to_level": 14,
-      "cost": {
-        "gold": 29000000
-      },
-      "cost_text": "29,000,000 gold",
-      "build_time": "17 days, 12:00:00",
-      "build_seconds": 1512000,
-      "reason": "one of your longest builds at 17 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 52,
       "category": "troops",
       "name": "Baby Dragon",
       "from_level": 9,
@@ -743,7 +729,7 @@
       "reason": "one of your longest builds at 17 days, 6:00:00, start early to reach max sooner"
     },
     {
-      "rank": 53,
+      "rank": 52,
       "category": "troops",
       "name": "Battle Blimp",
       "from_level": 3,
@@ -752,6 +738,20 @@
         "elixir": 16500000
       },
       "cost_text": "16,500,000 elixir",
+      "build_time": "16 days",
+      "build_seconds": 1382400,
+      "reason": "one of your longest builds at 16 days, start early to reach max sooner"
+    },
+    {
+      "rank": 53,
+      "category": "spells",
+      "name": "Ice Block Spell",
+      "from_level": 4,
+      "to_level": 6,
+      "cost": {
+        "dark_elixir": 320000
+      },
+      "cost_text": "320,000 DE",
       "build_time": "16 days",
       "build_seconds": 1382400,
       "reason": "one of your longest builds at 16 days, start early to reach max sooner"

@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2361 days, 11:30:00 of build time (one builder), 3,040,465,000 gold, 1,167,900,000 elixir, 27,746,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry.
+Total remaining: 2347 days, 11:30:00 of build time (one builder), 3,040,465,000 gold, 1,167,900,000 elixir, 27,466,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry.
 
 1. **Barbarian King** (heroes) 86 → 110 — 6,430,000 DE, 145 days, 12:00:00
    _one of your longest builds at 145 days, 12:00:00, start early to reach max sooner_
@@ -50,32 +50,32 @@ Total remaining: 2361 days, 11:30:00 of build time (one builder), 3,040,465,000 
    _one of your longest builds at 32 days, start early to reach max sooner_
 23. **Wizard** (troops) 11 → 14 — 54,500,000 elixir, 31 days, 12:00:00
    _one of your longest builds at 31 days, 12:00:00, start early to reach max sooner_
-24. **Ice Block Spell** (spells) 3 → 6 — 600,000 DE, 30 days
-   _one of your longest builds at 30 days, start early to reach max sooner_
-25. **Bat Spell** (spells) 5 → 8 — 660,000 DE, 28 days, 12:00:00
+24. **Bat Spell** (spells) 5 → 8 — 660,000 DE, 28 days, 12:00:00
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
-26. **Haste Spell** (spells) 3 → 7 — 588,500 DE, 28 days, 12:00:00
+25. **Haste Spell** (spells) 3 → 7 — 588,500 DE, 28 days, 12:00:00
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
-27. **Wizard Tower** (defenses) 9 → 17 — 42,100,000 gold, 26 days, 12:00:00
+26. **Wizard Tower** (defenses) 9 → 17 — 42,100,000 gold, 26 days, 12:00:00
    _one of your longest builds at 26 days, 12:00:00, start early to reach max sooner_
-28. **Battle Drill** (troops) 1 → 6 — 41,500,000 elixir, 26 days
+27. **Battle Drill** (troops) 1 → 6 — 41,500,000 elixir, 26 days
    _one of your longest builds at 26 days, start early to reach max sooner_
-29. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
+28. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
-30. **Frosty** (pets) 12 → 15 — 870,000 DE, 24 days
+29. **Frosty** (pets) 12 → 15 — 870,000 DE, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
-31. **Phoenix** (pets) 6 → 10 — 695,000 DE, 23 days
+30. **Phoenix** (pets) 6 → 10 — 695,000 DE, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-32. **Diggy** (pets) 6 → 15 — 660,000 DE, 23 days
+31. **Diggy** (pets) 6 → 15 — 660,000 DE, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-33. **Druid** (troops) 3 → 6 — 487,500 DE, 23 days
+32. **Druid** (troops) 3 → 6 — 487,500 DE, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
-34. **Air Bomb** (traps) 1 → 13 — 38,445,000 gold, 22 days, 23:30:00
+33. **Air Bomb** (traps) 1 → 13 — 38,445,000 gold, 22 days, 23:30:00
    _one of your longest builds at 22 days, 23:30:00, start early to reach max sooner_
-35. **Archer** (troops) 9 → 14 — 34,000,000 elixir, 21 days, 12:00:00
+34. **Archer** (troops) 9 → 14 — 34,000,000 elixir, 21 days, 12:00:00
    _one of your longest builds at 21 days, 12:00:00, start early to reach max sooner_
-36. **Siege Barracks** (troops) 3 → 6 — 26,000,000 elixir, 19 days
+35. **Siege Barracks** (troops) 3 → 6 — 26,000,000 elixir, 19 days
    _one of your longest builds at 19 days, start early to reach max sooner_
+36. **Bomb** (traps) 9 → 14 — 30,300,000 gold, 18 days, 12:00:00
+   _one of your longest builds at 18 days, 12:00:00, start early to reach max sooner_
 37. **Bomb** (traps) 9 → 14 — 30,300,000 gold, 18 days, 12:00:00
    _one of your longest builds at 18 days, 12:00:00, start early to reach max sooner_
 38. **Bomb** (traps) 9 → 14 — 30,300,000 gold, 18 days, 12:00:00
@@ -86,8 +86,8 @@ Total remaining: 2361 days, 11:30:00 of build time (one builder), 3,040,465,000 
    _one of your longest builds at 18 days, 12:00:00, start early to reach max sooner_
 41. **Bomb** (traps) 9 → 14 — 30,300,000 gold, 18 days, 12:00:00
    _one of your longest builds at 18 days, 12:00:00, start early to reach max sooner_
-42. **Bomb** (traps) 9 → 14 — 30,300,000 gold, 18 days, 12:00:00
-   _one of your longest builds at 18 days, 12:00:00, start early to reach max sooner_
+42. **Air Bomb** (traps) 10 → 13 — 29,500,000 gold, 17 days, 12:00:00
+   _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
 43. **Air Bomb** (traps) 10 → 13 — 29,500,000 gold, 17 days, 12:00:00
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
 44. **Air Bomb** (traps) 10 → 13 — 29,500,000 gold, 17 days, 12:00:00
@@ -100,15 +100,15 @@ Total remaining: 2361 days, 11:30:00 of build time (one builder), 3,040,465,000 
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
 48. **Air Bomb** (traps) 10 → 13 — 29,500,000 gold, 17 days, 12:00:00
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
-49. **Air Bomb** (traps) 10 → 13 — 29,500,000 gold, 17 days, 12:00:00
+49. **Bomb** (traps) 10 → 14 — 29,000,000 gold, 17 days, 12:00:00
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
 50. **Bomb** (traps) 10 → 14 — 29,000,000 gold, 17 days, 12:00:00
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
-51. **Bomb** (traps) 10 → 14 — 29,000,000 gold, 17 days, 12:00:00
-   _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
-52. **Baby Dragon** (troops) 9 → 12 — 30,000,000 elixir, 17 days, 6:00:00
+51. **Baby Dragon** (troops) 9 → 12 — 30,000,000 elixir, 17 days, 6:00:00
    _one of your longest builds at 17 days, 6:00:00, start early to reach max sooner_
-53. **Battle Blimp** (troops) 3 → 6 — 16,500,000 elixir, 16 days
+52. **Battle Blimp** (troops) 3 → 6 — 16,500,000 elixir, 16 days
+   _one of your longest builds at 16 days, start early to reach max sooner_
+53. **Ice Block Spell** (spells) 4 → 6 — 320,000 DE, 16 days
    _one of your longest builds at 16 days, start early to reach max sooner_
 54. **Apprentice Warden** (troops) 2 → 4 — 295,000 DE, 15 days, 12:00:00
    _one of your longest builds at 15 days, 12:00:00, start early to reach max sooner_
