@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-03T11:08:03.736605+00:00",
+  "captured_at": "2026-10-04T11:48:36.123932+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,13 +17790,13 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 81,
+      "trophies": 108,
       "best_trophies": 4909,
       "war_stars": 636,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4951,
-      "received": 2745,
+      "donations": 5006,
+      "received": 2804,
       "offense_completion_pct": 83.0,
       "rush": {
         "score": 10.3,
@@ -17845,7 +17845,7 @@
         "troops": 84.5,
         "spells": 73.5,
         "pets": 61.9,
-        "equipment": 64.2,
+        "equipment": 64.9,
         "defenses": 96.1,
         "resources": 87.4,
         "army": 100.0,
@@ -18751,12 +18751,10 @@
         {
           "category": "equipment",
           "name": "Eternal Tome",
-          "level": 12,
+          "level": 18,
           "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2200
-          },
+          "is_max": true,
+          "cost": {},
           "seconds": 0
         },
         {
@@ -20490,7 +20488,7 @@
         }
       ],
       "ranked": {
-        "trophies": 81,
+        "trophies": 108,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20506,7 +20504,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "28d 20h",
+          "ends_in": "27d 20h",
           "active": true
         },
         "scheduled": [
@@ -20514,25 +20512,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "28d 20h"
+            "starts_in": "27d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 20h"
+            "starts_in": "17d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "6d 20h"
+            "ends_in": "5d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 19h"
+            "ends_in": "19h 11m"
           }
         ],
         "raid_weekend": {
@@ -20540,7 +20538,7 @@
           "state": "ongoing",
           "start": "2026-10-02 07:00:00+00:00",
           "end": "2026-10-05 07:00:00+00:00",
-          "ends_in": "1d 19h"
+          "ends_in": "19h 11m"
         },
         "cwl": {
           "source": "api",

@@ -8,11 +8,11 @@
     "dark_elixir": 27466000,
     "elixir": 1167900000,
     "gold": 3040465000,
-    "shiny_ore": 634220,
-    "glowy_ore": 47300,
+    "shiny_ore": 619520,
+    "glowy_ore": 46100,
     "starry_ore": 4210
   },
-  "total_cost_text": "3,040,465,000 gold, 1,167,900,000 elixir, 27,466,000 DE, 634,220 shiny, 47,300 glowy, 4,210 starry",
+  "total_cost_text": "3,040,465,000 gold, 1,167,900,000 elixir, 27,466,000 DE, 619,520 shiny, 46,100 glowy, 4,210 starry",
   "items": [
     {
       "rank": 1,
@@ -1820,21 +1820,6 @@
     {
       "rank": 128,
       "category": "equipment",
-      "name": "Eternal Tome",
-      "from_level": 12,
-      "to_level": 18,
-      "cost": {
-        "shiny_ore": 14700,
-        "glowy_ore": 1200
-      },
-      "cost_text": "14,700 shiny, 1,200 glowy",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 129,
-      "category": "equipment",
       "name": "Fireball",
       "from_level": 23,
       "to_level": 27,
@@ -1849,7 +1834,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 130,
+      "rank": 129,
       "category": "equipment",
       "name": "Meteor Staff",
       "from_level": 23,
@@ -1865,7 +1850,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 131,
+      "rank": 130,
       "category": "equipment",
       "name": "Earthquake Boots",
       "from_level": 14,
@@ -1880,7 +1865,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 132,
+      "rank": 131,
       "category": "equipment",
       "name": "Vampstache",
       "from_level": 15,
@@ -1895,7 +1880,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 133,
+      "rank": 132,
       "category": "equipment",
       "name": "Rocket Spear",
       "from_level": 26,
@@ -1911,7 +1896,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 134,
+      "rank": 133,
       "category": "equipment",
       "name": "Snake Bracelet",
       "from_level": 26,
@@ -1927,7 +1912,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 135,
+      "rank": 134,
       "category": "equipment",
       "name": "Magic Mirror",
       "from_level": 26,
@@ -1943,7 +1928,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 136,
+      "rank": 135,
       "category": "equipment",
       "name": "Electro Boots",
       "from_level": 26,
