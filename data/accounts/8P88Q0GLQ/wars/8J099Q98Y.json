@@ -1,0 +1,42 @@
+{
+  "war_id": "#8J099Q98Y",
+  "war_type": "cwl",
+  "state": "In War",
+  "opponent_clan": "\u51cc\u9704",
+  "team_size": 30,
+  "attacks_per_member": 1,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 14,
+    "stars_earned": 3,
+    "attacks_used": 1
+  },
+  "attacks": [
+    {
+      "date_seen": "2026-10-05",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "cwl",
+      "war_state": "In War",
+      "war_id": "#8J099Q98Y",
+      "opponent_clan": "\u51cc\u9704",
+      "team_size": 30,
+      "attack_order": 46,
+      "attacker_th": 18,
+      "defender_tag": "#PRJ0008JL",
+      "defender_name": "\u9999\u8549\u4f60\u4e2a\u82ad\u5587",
+      "defender_th": 17,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 86
+    }
+  ],
+  "defended": {
+    "times_defended": 1,
+    "worst_defense_stars": 2,
+    "worst_defense_destruction": 87
+  }
+}
