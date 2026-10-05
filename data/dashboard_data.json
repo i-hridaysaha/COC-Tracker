@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-05T13:39:33.449910+00:00",
+  "captured_at": "2026-10-05T22:57:35.023689+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,9 +17795,9 @@
       "war_stars": 642,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 113,
-      "received": 0,
-      "offense_completion_pct": 83.0,
+      "donations": 247,
+      "received": 171,
+      "offense_completion_pct": 83.1,
       "rush": {
         "score": 10.3,
         "band": "slightly rushed",
@@ -17841,17 +17841,17 @@
         ]
       },
       "completion": {
-        "heroes": 84.6,
+        "heroes": 84.8,
         "troops": 84.5,
         "spells": 73.5,
         "pets": 61.9,
-        "equipment": 64.9,
-        "defenses": 96.1,
+        "equipment": 65.2,
+        "defenses": 96.3,
         "resources": 87.4,
         "army": 100.0,
-        "traps": 59.5,
+        "traps": 60.0,
         "guardians": 20.0,
-        "walls": 97.5
+        "walls": 97.8
       },
       "items": [
         {
@@ -17901,13 +17901,11 @@
         {
           "category": "heroes",
           "name": "Royal Champion",
-          "level": 54,
+          "level": 55,
           "max": 55,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 450000
-          },
-          "seconds": 691200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "heroes",
@@ -18659,7 +18657,7 @@
         {
           "category": "equipment",
           "name": "Revenge Deck",
-          "level": 20,
+          "level": 23,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -19092,9 +19090,19 @@
         },
         {
           "category": "defenses",
-          "name": "X-Bow",
-          "level": 12,
-          "max": 13,
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -19227,28 +19235,17 @@
         {
           "category": "defenses",
           "name": "Hidden Tesla",
-          "level": 16,
-          "max": 17,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 17,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
           "level": 17,
           "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "X-Bow",
+          "level": 13,
+          "max": 13,
           "is_max": true,
           "cost": {},
           "seconds": 0
@@ -19912,6 +19909,17 @@
         },
         {
           "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 5,
+          "max": 8,
+          "is_max": false,
+          "cost": {
+            "gold": 6500000
+          },
+          "seconds": 388800
+        },
+        {
+          "category": "traps",
           "name": "Bomb",
           "level": 9,
           "max": 14,
@@ -20096,17 +20104,6 @@
             "gold": 1700000
           },
           "seconds": 86400
-        },
-        {
-          "category": "traps",
-          "name": "Giant Bomb",
-          "level": 2,
-          "max": 12,
-          "is_max": false,
-          "cost": {
-            "gold": 220000
-          },
-          "seconds": 10800
         },
         {
           "category": "traps",
@@ -20118,6 +20115,17 @@
             "gold": 750000
           },
           "seconds": 28800
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 4,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 900000
+          },
+          "seconds": 36000
         },
         {
           "category": "traps",
@@ -20309,24 +20317,13 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 5,
+          "level": 6,
           "max": 8,
           "is_max": false,
           "cost": {
-            "gold": 6500000
+            "gold": 12000000
           },
-          "seconds": 388800
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 5,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "gold": 6500000
-          },
-          "seconds": 388800
+          "seconds": 475200
         },
         {
           "category": "traps",
@@ -20466,25 +20463,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x155",
+          "name": "Wall lvl 18 x134",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 1550000000
+            "gold": 1340000000
           },
           "seconds": 0,
-          "count": 155
+          "count": 134
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x170",
+          "name": "Wall lvl 19 x191",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 170
+          "count": 191
         }
       ],
       "ranked": {
@@ -20504,7 +20501,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "26d 18h",
+          "ends_in": "26d 9h",
           "active": true
         },
         "scheduled": [
@@ -20512,25 +20509,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "26d 18h"
+            "starts_in": "26d 9h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "16d 18h"
+            "starts_in": "16d 9h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 18h"
+            "ends_in": "4d 9h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 17h"
+            "starts_in": "3d 8h"
           }
         ],
         "raid_weekend": {

@@ -15,8 +15,8 @@
     "war_stars": 642,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 113,
-    "received": 0
+    "donations": 247,
+    "received": 171
   },
   "ranked": {
     "trophies": 0,
@@ -30,14 +30,14 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 84.6,
+    "heroes": 84.8,
     "troops": 84.5,
     "spells": 73.5,
     "pets": 61.9,
-    "equipment": 64.9
+    "equipment": 65.2
   },
-  "offense_completion_pct": 83.0,
-  "total_levels_remaining": 536,
+  "offense_completion_pct": 83.1,
+  "total_levels_remaining": 532,
   "rush_risk": {
     "score": 10.3,
     "band": "slightly rushed",
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 406,
+      "current_total": 407,
       "max_total": 480,
-      "levels_remaining": 74,
-      "completion_pct": 84.6,
+      "levels_remaining": 73,
+      "completion_pct": 84.8,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -112,12 +112,6 @@
           "level": 82,
           "max": 95,
           "remaining": 13
-        },
-        {
-          "name": "Royal Champion",
-          "level": 54,
-          "max": 55,
-          "remaining": 1
         }
       ]
     },
@@ -244,10 +238,10 @@
     "equipment": {
       "category": "equipment",
       "items_counted": 41,
-      "current_total": 578,
+      "current_total": 581,
       "max_total": 891,
-      "levels_remaining": 313,
-      "completion_pct": 64.9,
+      "levels_remaining": 310,
+      "completion_pct": 65.2,
       "biggest_gaps": [
         {
           "name": "Dark Crown",
@@ -282,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-05T13:39:34.690443+00:00",
+  "captured_at": "2026-10-05T22:57:35.561461+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -290,34 +284,34 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 27466000,
+        "dark_elixir": 27016000,
         "elixir": 954000000,
         "shiny_ore": 619520,
         "glowy_ore": 46100,
         "starry_ore": 4210
       },
-      "build_seconds": 112644000,
-      "build_time_one_builder": "1303d 18h"
+      "build_seconds": 111952800,
+      "build_time_one_builder": "1295d 18h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 27466000,
+        "dark_elixir": 27016000,
         "elixir": 954000000,
         "shiny_ore": 619520,
         "glowy_ore": 46100,
         "starry_ore": 4210
       },
-      "build_seconds": 112644000,
-      "build_time_one_builder": "1303d 18h"
+      "build_seconds": 111952800,
+      "build_time_one_builder": "1295d 18h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 15980000,
+          "dark_elixir": 15530000,
           "elixir": 337500000
         },
-        "build_seconds": 39787200,
-        "build_time": "460d 12h"
+        "build_seconds": 39096000,
+        "build_time": "452d 12h"
       },
       "troops": {
         "cost": {
