@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-05T22:57:35.023689+00:00",
+  "captured_at": "2026-10-06T12:46:53.703272+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17792,11 +17792,11 @@
       "town_hall": 18,
       "trophies": 0,
       "best_trophies": 4909,
-      "war_stars": 642,
+      "war_stars": 645,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 247,
-      "received": 171,
+      "donations": 367,
+      "received": 269,
       "offense_completion_pct": 83.1,
       "rush": {
         "score": 10.3,
@@ -20501,7 +20501,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "26d 9h",
+          "ends_in": "25d 19h",
           "active": true
         },
         "scheduled": [
@@ -20509,25 +20509,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "26d 9h"
+            "starts_in": "25d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "16d 9h"
+            "starts_in": "15d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 9h"
+            "ends_in": "3d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 8h"
+            "starts_in": "2d 18h"
           }
         ],
         "raid_weekend": {
@@ -20658,6 +20658,25 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "86"
+        },
+        {
+          "date_seen": "2026-10-06",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8J0YG2GJ2",
+          "opponent_clan": "malaya CLAN",
+          "team_size": "30",
+          "attack_order": "50",
+          "attacker_th": "18",
+          "defender_tag": "#2G82YCJ28",
+          "defender_name": "@pantrop",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "102"
         },
         {
           "date_seen": "2026-09-03",

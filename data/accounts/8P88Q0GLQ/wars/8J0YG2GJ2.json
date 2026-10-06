@@ -10,10 +10,30 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 14,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 3,
+    "attacks_used": 1
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-10-06",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "cwl",
+      "war_state": "In War",
+      "war_id": "#8J0YG2GJ2",
+      "opponent_clan": "malaya CLAN",
+      "team_size": 30,
+      "attack_order": 50,
+      "attacker_th": 18,
+      "defender_tag": "#2G82YCJ28",
+      "defender_name": "@pantrop",
+      "defender_th": 17,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 102
+    }
+  ],
   "defended": {
     "times_defended": 1,
     "worst_defense_stars": 3,
