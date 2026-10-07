@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 0,
+    "trophies": 11,
     "best_trophies": 4909,
     "war_stars": 647,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 498,
+    "donations": 712,
     "received": 287
   },
   "ranked": {
-    "trophies": 0,
+    "trophies": 11,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -31,13 +31,13 @@
   },
   "completion": {
     "heroes": 85.0,
-    "troops": 84.5,
+    "troops": 84.7,
     "spells": 73.5,
     "pets": 61.9,
     "equipment": 65.5
   },
-  "offense_completion_pct": 83.2,
-  "total_levels_remaining": 528,
+  "offense_completion_pct": 83.3,
+  "total_levels_remaining": 527,
   "rush_risk": {
     "score": 10.1,
     "band": "slightly rushed",
@@ -118,10 +118,10 @@
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 299,
+      "current_total": 300,
       "max_total": 354,
-      "levels_remaining": 55,
-      "completion_pct": 84.5,
+      "levels_remaining": 54,
+      "completion_pct": 84.7,
       "biggest_gaps": [
         {
           "name": "Archer",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-07T12:41:03.667530+00:00",
+  "captured_at": "2026-10-07T22:33:30.703888+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,25 +284,25 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 26776000,
+        "dark_elixir": 26416000,
         "elixir": 954000000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 111348000,
-      "build_time_one_builder": "1288d 18h"
+      "build_seconds": 110052000,
+      "build_time_one_builder": "1273d 18h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 26776000,
+        "dark_elixir": 26416000,
         "elixir": 954000000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 111348000,
-      "build_time_one_builder": "1288d 18h"
+      "build_seconds": 110052000,
+      "build_time_one_builder": "1273d 18h"
     },
     "by_category": {
       "heroes": {
@@ -316,10 +316,10 @@
       "troops": {
         "cost": {
           "elixir": 424500000,
-          "dark_elixir": 1477500
+          "dark_elixir": 1117500
         },
-        "build_seconds": 27957600,
-        "build_time": "323d 14h"
+        "build_seconds": 26661600,
+        "build_time": "308d 14h"
       },
       "spells": {
         "cost": {

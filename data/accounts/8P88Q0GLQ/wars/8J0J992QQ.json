@@ -1,0 +1,22 @@
+{
+  "war_id": "#8J0J992QQ",
+  "war_type": "cwl",
+  "state": "In War",
+  "opponent_clan": "Guerreros Z 3",
+  "team_size": 30,
+  "attacks_per_member": 1,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 14,
+    "stars_earned": 0,
+    "attacks_used": 0
+  },
+  "attacks": [],
+  "defended": {
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
+  }
+}

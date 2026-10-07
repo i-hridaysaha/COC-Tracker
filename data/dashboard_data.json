@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-07T12:41:03.203975+00:00",
+  "captured_at": "2026-10-07T22:33:29.625629+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,14 +17790,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 11,
       "best_trophies": 4909,
       "war_stars": 647,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 498,
+      "donations": 712,
       "received": 287,
-      "offense_completion_pct": 83.2,
+      "offense_completion_pct": 83.3,
       "rush": {
         "score": 10.1,
         "band": "slightly rushed",
@@ -17842,16 +17842,16 @@
       },
       "completion": {
         "heroes": 85.0,
-        "troops": 84.5,
+        "troops": 84.7,
         "spells": 73.5,
         "pets": 61.9,
         "equipment": 65.5,
         "defenses": 96.3,
         "resources": 87.4,
         "army": 100.0,
-        "traps": 60.0,
+        "traps": 60.2,
         "guardians": 20.0,
-        "walls": 97.8
+        "walls": 98.5
       },
       "items": [
         {
@@ -18188,13 +18188,11 @@
         {
           "category": "troops",
           "name": "Bowler",
-          "level": 9,
+          "level": 10,
           "max": 10,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 360000
-          },
-          "seconds": 1296000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -19110,6 +19108,16 @@
         },
         {
           "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 16,
+          "max": 17,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "defenses",
           "name": "Archer Tower",
           "level": 21,
           "max": 21,
@@ -19207,16 +19215,6 @@
           "name": "Mortar",
           "level": 17,
           "max": 18,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 17,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -19909,17 +19907,6 @@
         },
         {
           "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 5,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "gold": 6500000
-          },
-          "seconds": 388800
-        },
-        {
-          "category": "traps",
           "name": "Bomb",
           "level": 9,
           "max": 14,
@@ -20339,6 +20326,17 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
+          "level": 6,
+          "max": 8,
+          "is_max": false,
+          "cost": {
+            "gold": 12000000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
           "level": 7,
           "max": 8,
           "is_max": false,
@@ -20463,29 +20461,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x134",
+          "name": "Wall lvl 18 x90",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 1340000000
+            "gold": 900000000
           },
           "seconds": 0,
-          "count": 134
+          "count": 90
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x191",
+          "name": "Wall lvl 19 x235",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 191
+          "count": 235
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 11,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20501,7 +20499,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "24d 19h",
+          "ends_in": "24d 9h",
           "active": true
         },
         "scheduled": [
@@ -20509,25 +20507,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "24d 19h"
+            "starts_in": "24d 9h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 19h"
+            "starts_in": "14d 9h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 19h"
+            "ends_in": "2d 9h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 18h"
+            "starts_in": "1d 8h"
           }
         ],
         "raid_weekend": {
