@@ -1,0 +1,42 @@
+{
+  "war_id": "#8J0QULP0Y",
+  "war_type": "cwl",
+  "state": "In War",
+  "opponent_clan": "TAMIL TEAM",
+  "team_size": 30,
+  "attacks_per_member": 1,
+  "player": {
+    "tag": "#8P88Q0GLQ",
+    "name": "the dark LORD",
+    "town_hall": 18,
+    "map_position": 14,
+    "stars_earned": 2,
+    "attacks_used": 1
+  },
+  "attacks": [
+    {
+      "date_seen": "2026-10-07",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "cwl",
+      "war_state": "In War",
+      "war_id": "#8J0QULP0Y",
+      "opponent_clan": "TAMIL TEAM",
+      "team_size": 30,
+      "attack_order": 49,
+      "attacker_th": 18,
+      "defender_tag": "#YJ28J9G9V",
+      "defender_name": "M\u0338O\u0338N\u0338S\u0338T\u0338E\u0338R\u0338",
+      "defender_th": 18,
+      "stars": 2,
+      "destruction": 91,
+      "is_fresh": true,
+      "duration_sec": 175
+    }
+  ],
+  "defended": {
+    "times_defended": 1,
+    "worst_defense_stars": 2,
+    "worst_defense_destruction": 77
+  }
+}

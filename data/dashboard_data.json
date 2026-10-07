@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-06T12:46:53.703272+00:00",
+  "captured_at": "2026-10-07T12:41:03.203975+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17792,22 +17792,22 @@
       "town_hall": 18,
       "trophies": 0,
       "best_trophies": 4909,
-      "war_stars": 645,
+      "war_stars": 647,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 367,
-      "received": 269,
-      "offense_completion_pct": 83.1,
+      "donations": 498,
+      "received": 287,
+      "offense_completion_pct": 83.2,
       "rush": {
-        "score": 10.3,
+        "score": 10.1,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 86,
+        "levels_behind_prev_th": 85,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 86,
+            "level": 87,
             "prev_th_max": 100,
-            "behind": 14,
+            "behind": 13,
             "category": "heroes"
           },
           {
@@ -17841,11 +17841,11 @@
         ]
       },
       "completion": {
-        "heroes": 84.8,
+        "heroes": 85.0,
         "troops": 84.5,
         "spells": 73.5,
         "pets": 61.9,
-        "equipment": 65.2,
+        "equipment": 65.5,
         "defenses": 96.3,
         "resources": 87.4,
         "army": 100.0,
@@ -17857,11 +17857,11 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 86,
+          "level": 87,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 240000
+            "dark_elixir": 250000
           },
           "seconds": 604800
         },
@@ -18858,13 +18858,13 @@
         {
           "category": "equipment",
           "name": "Spiky Ball",
-          "level": 20,
+          "level": 23,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3000,
+            "shiny_ore": 3300,
             "glowy_ore": 600,
-            "starry_ore": 100
+            "starry_ore": 120
           },
           "seconds": 0
         },
@@ -20501,7 +20501,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "25d 19h",
+          "ends_in": "24d 19h",
           "active": true
         },
         "scheduled": [
@@ -20509,25 +20509,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "25d 19h"
+            "starts_in": "24d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "15d 19h"
+            "starts_in": "14d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 19h"
+            "ends_in": "2d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 18h"
+            "starts_in": "1d 18h"
           }
         ],
         "raid_weekend": {
@@ -20658,6 +20658,25 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "86"
+        },
+        {
+          "date_seen": "2026-10-07",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8J0QULP0Y",
+          "opponent_clan": "TAMIL TEAM",
+          "team_size": "30",
+          "attack_order": "49",
+          "attacker_th": "18",
+          "defender_tag": "#YJ28J9G9V",
+          "defender_name": "M\u0338O\u0338N\u0338S\u0338T\u0338E\u0338R\u0338",
+          "defender_th": "18",
+          "stars": "2",
+          "destruction": "91",
+          "is_fresh": "True",
+          "duration_sec": "175"
         },
         {
           "date_seen": "2026-10-06",

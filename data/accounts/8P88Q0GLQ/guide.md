@@ -2,10 +2,10 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2334 days, 12:30:00 of build time (one builder), 2,822,995,000 gold, 1,167,900,000 elixir, 27,016,000 DE, 619,520 shiny, 46,100 glowy, 4,210 starry.
+Total remaining: 2327 days, 12:30:00 of build time (one builder), 2,822,995,000 gold, 1,167,900,000 elixir, 26,776,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry.
 
-1. **Barbarian King** (heroes) 86 → 110 — 6,430,000 DE, 145 days, 12:00:00
-   _one of your longest builds at 145 days, 12:00:00, start early to reach max sooner_
+1. **Barbarian King** (heroes) 87 → 110 — 6,190,000 DE, 138 days, 12:00:00
+   _one of your longest builds at 138 days, 12:00:00, start early to reach max sooner_
 2. **Grand Warden** (heroes) 65 → 85 — 337,500,000 elixir, 115 days, 12:00:00
    _one of your longest builds at 115 days, 12:00:00, start early to reach max sooner_
 3. **Minion Prince** (heroes) 82 → 95 — 4,870,000 DE, 104 days
@@ -246,15 +246,15 @@ Total remaining: 2334 days, 12:30:00 of build time (one builder), 2,822,995,000 
    _no build time, a pure resource sink, slot in when a builder is free_
 121. **Rage Vial** (equipment) 6 → 18 — 25,060 shiny, 1,800 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-122. **Spiky Ball** (equipment) 20 → 27 — 23,100 shiny, 1,800 glowy, 370 starry, no build time
+122. **Archer Puppet** (equipment) 8 → 18 — 22,500 shiny, 1,800 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-123. **Archer Puppet** (equipment) 8 → 18 — 22,500 shiny, 1,800 glowy, no build time
+123. **Seeking Shield** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-124. **Seeking Shield** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+124. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-125. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+125. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-126. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+126. **Spiky Ball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 127. **Fireball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
