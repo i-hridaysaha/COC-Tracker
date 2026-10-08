@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-07T22:33:29.625629+00:00",
+  "captured_at": "2026-10-08T12:50:45.549385+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,7 +17795,7 @@
       "war_stars": 647,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 712,
+      "donations": 809,
       "received": 287,
       "offense_completion_pct": 83.3,
       "rush": {
@@ -20499,7 +20499,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "24d 9h",
+          "ends_in": "23d 19h",
           "active": true
         },
         "scheduled": [
@@ -20507,25 +20507,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "24d 9h"
+            "starts_in": "23d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "14d 9h"
+            "starts_in": "13d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 9h"
+            "ends_in": "1d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 8h"
+            "starts_in": "18h 9m"
           }
         ],
         "raid_weekend": {
