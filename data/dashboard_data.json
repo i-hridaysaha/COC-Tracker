@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-08T12:50:45.549385+00:00",
+  "captured_at": "2026-10-09T12:36:22.410110+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,14 +17790,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 11,
+      "trophies": 23,
       "best_trophies": 4909,
-      "war_stars": 647,
+      "war_stars": 653,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 809,
-      "received": 287,
-      "offense_completion_pct": 83.3,
+      "donations": 999,
+      "received": 480,
+      "offense_completion_pct": 83.4,
       "rush": {
         "score": 10.1,
         "band": "slightly rushed",
@@ -17842,9 +17842,9 @@
       },
       "completion": {
         "heroes": 85.0,
-        "troops": 84.7,
+        "troops": 85.0,
         "spells": 73.5,
-        "pets": 61.9,
+        "pets": 62.6,
         "equipment": 65.5,
         "defenses": 96.3,
         "resources": 87.4,
@@ -17939,7 +17939,7 @@
         {
           "category": "troops",
           "name": "Sky Wagon",
-          "level": 2,
+          "level": 3,
           "max": 4,
           "is_max": false,
           "cost": {},
@@ -18625,7 +18625,7 @@
         {
           "category": "pets",
           "name": "Greedy Raven",
-          "level": 3,
+          "level": 4,
           "max": 10,
           "is_max": false,
           "cost": {},
@@ -20483,7 +20483,7 @@
         }
       ],
       "ranked": {
-        "trophies": 11,
+        "trophies": 23,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20499,7 +20499,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "23d 19h",
+          "ends_in": "22d 19h",
           "active": true
         },
         "scheduled": [
@@ -20507,33 +20507,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "23d 19h"
+            "starts_in": "22d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 19h"
+            "starts_in": "12d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 19h"
+            "ends_in": "19h 23m"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "18h 9m"
+            "active": true,
+            "ends_in": "2d 18h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-10-02 07:00:00+00:00",
-          "end": "2026-10-05 07:00:00+00:00",
-          "ends_in": null
+          "state": "ongoing",
+          "start": "2026-10-09 07:00:00+00:00",
+          "end": "2026-10-12 07:00:00+00:00",
+          "ends_in": "2d 18h"
         },
         "cwl": {
           "source": "api",
@@ -20675,6 +20675,25 @@
           "destruction": "91",
           "is_fresh": "True",
           "duration_sec": "175"
+        },
+        {
+          "date_seen": "2026-10-09",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "In War",
+          "war_id": "#8J0UQRCG2",
+          "opponent_clan": ".\u0b90\u2661\u7f8e\u5f71\u2661\u30af\u30ea\u30cb\u30c3\u30af\u0b90.\u2665\ufe0f",
+          "team_size": "30",
+          "attack_order": "46",
+          "attacker_th": "18",
+          "defender_tag": "#20GP2J2UC",
+          "defender_name": "\u305f\u3064\u304d",
+          "defender_th": "18",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "170"
         },
         {
           "date_seen": "2026-10-06",
