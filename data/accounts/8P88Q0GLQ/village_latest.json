@@ -4,7 +4,7 @@
     "tag": "#8P88Q0GLQ",
     "town_hall": 18,
     "town_hall_weapon": null,
-    "exp_level": 215,
+    "exp_level": 216,
     "clan_name": "Fearless Axe",
     "clan_tag": "#9GU0UC9J",
     "role": "Co-Leader"
@@ -15,7 +15,7 @@
     "war_stars": 653,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 1056,
+    "donations": 1170,
     "received": 539
   },
   "ranked": {
@@ -30,18 +30,18 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 85.0,
+    "heroes": 85.2,
     "troops": 85.3,
     "spells": 73.5,
     "pets": 62.6,
     "equipment": 65.5
   },
-  "offense_completion_pct": 83.5,
-  "total_levels_remaining": 524,
+  "offense_completion_pct": 83.6,
+  "total_levels_remaining": 523,
   "rush_risk": {
-    "score": 10.1,
+    "score": 10.0,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 85,
+    "levels_behind_prev_th": 84,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -59,9 +59,9 @@
       },
       {
         "name": "Minion Prince",
-        "level": 82,
+        "level": 83,
         "prev_th_max": 90,
-        "behind": 8,
+        "behind": 7,
         "category": "heroes"
       },
       {
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 408,
+      "current_total": 409,
       "max_total": 480,
-      "levels_remaining": 72,
-      "completion_pct": 85.0,
+      "levels_remaining": 71,
+      "completion_pct": 85.2,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -109,9 +109,9 @@
         },
         {
           "name": "Minion Prince",
-          "level": 82,
+          "level": 83,
           "max": 95,
-          "remaining": 13
+          "remaining": 12
         }
       ]
     },
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-10T11:56:29.435657+00:00",
+  "captured_at": "2026-10-11T12:08:13.830993+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,34 +284,34 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 26416000,
+        "dark_elixir": 26106000,
         "elixir": 954000000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 110052000,
-      "build_time_one_builder": "1273d 18h"
+      "build_seconds": 109360800,
+      "build_time_one_builder": "1265d 18h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 26416000,
+        "dark_elixir": 26106000,
         "elixir": 954000000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 110052000,
-      "build_time_one_builder": "1273d 18h"
+      "build_seconds": 109360800,
+      "build_time_one_builder": "1265d 18h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 15290000,
+          "dark_elixir": 14980000,
           "elixir": 337500000
         },
-        "build_seconds": 38491200,
-        "build_time": "445d 12h"
+        "build_seconds": 37800000,
+        "build_time": "437d 12h"
       },
       "troops": {
         "cost": {
