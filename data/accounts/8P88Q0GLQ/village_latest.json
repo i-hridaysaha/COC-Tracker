@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 0,
+    "trophies": 21,
     "best_trophies": 4909,
-    "war_stars": 653,
+    "war_stars": 656,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 1170,
-    "received": 539
+    "donations": 1229,
+    "received": 654
   },
   "ranked": {
-    "trophies": 0,
+    "trophies": 21,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,18 +30,18 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 85.2,
+    "heroes": 85.4,
     "troops": 85.3,
     "spells": 73.5,
     "pets": 62.6,
     "equipment": 65.5
   },
-  "offense_completion_pct": 83.6,
-  "total_levels_remaining": 523,
+  "offense_completion_pct": 83.7,
+  "total_levels_remaining": 522,
   "rush_risk": {
-    "score": 10.0,
+    "score": 9.9,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 84,
+    "levels_behind_prev_th": 83,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -66,9 +66,9 @@
       },
       {
         "name": "Archer Queen",
-        "level": 94,
+        "level": 95,
         "prev_th_max": 100,
-        "behind": 6,
+        "behind": 5,
         "category": "heroes"
       },
       {
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 409,
+      "current_total": 410,
       "max_total": 480,
-      "levels_remaining": 71,
-      "completion_pct": 85.2,
+      "levels_remaining": 70,
+      "completion_pct": 85.4,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -103,9 +103,9 @@
         },
         {
           "name": "Archer Queen",
-          "level": 94,
+          "level": 95,
           "max": 110,
-          "remaining": 16
+          "remaining": 15
         },
         {
           "name": "Minion Prince",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-12T14:28:40.333585+00:00",
+  "captured_at": "2026-10-13T13:36:17.785411+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,34 +284,34 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 26106000,
+        "dark_elixir": 25786000,
         "elixir": 954000000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 109360800,
-      "build_time_one_builder": "1265d 18h"
+      "build_seconds": 108712800,
+      "build_time_one_builder": "1258d 6h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 26106000,
+        "dark_elixir": 25786000,
         "elixir": 954000000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 109360800,
-      "build_time_one_builder": "1265d 18h"
+      "build_seconds": 108712800,
+      "build_time_one_builder": "1258d 6h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 14980000,
+          "dark_elixir": 14660000,
           "elixir": 337500000
         },
-        "build_seconds": 37800000,
-        "build_time": "437d 12h"
+        "build_seconds": 37152000,
+        "build_time": "430d"
       },
       "troops": {
         "cost": {

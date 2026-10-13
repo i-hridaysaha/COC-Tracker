@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2300 days, 0:30:00",
+  "total_build_time_one_builder": "2292 days, 12:30:00",
   "total_cost": {
-    "dark_elixir": 26106000,
+    "dark_elixir": 25786000,
     "elixir": 1167900000,
     "gold": 2376495000,
     "shiny_ore": 610220,
     "glowy_ore": 45500,
     "starry_ore": 4110
   },
-  "total_cost_text": "2,376,495,000 gold, 1,167,900,000 elixir, 26,106,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
+  "total_cost_text": "2,376,495,000 gold, 1,167,900,000 elixir, 25,786,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
   "items": [
     {
       "rank": 1,
@@ -60,15 +60,15 @@
       "rank": 4,
       "category": "heroes",
       "name": "Archer Queen",
-      "from_level": 94,
+      "from_level": 95,
       "to_level": 110,
       "cost": {
-        "dark_elixir": 4230000
+        "dark_elixir": 3910000
       },
-      "cost_text": "4,230,000 DE",
-      "build_time": "87 days, 12:00:00",
-      "build_seconds": 7560000,
-      "reason": "one of your longest builds at 87 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "3,910,000 DE",
+      "build_time": "80 days",
+      "build_seconds": 6912000,
+      "reason": "one of your longest builds at 80 days, start early to reach max sooner"
     },
     {
       "rank": 5,
