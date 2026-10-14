@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-13T13:36:17.316311+00:00",
+  "captured_at": "2026-10-14T11:13:52.567286+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 21,
+      "trophies": 58,
       "best_trophies": 4909,
       "war_stars": 656,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1229,
+      "donations": 1713,
       "received": 654,
-      "offense_completion_pct": 83.7,
+      "offense_completion_pct": 83.9,
       "rush": {
-        "score": 9.9,
+        "score": 9.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 83,
+        "levels_behind_prev_th": 82,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17819,9 +17819,9 @@
           },
           {
             "name": "Minion Prince",
-            "level": 83,
+            "level": 84,
             "prev_th_max": 90,
-            "behind": 7,
+            "behind": 6,
             "category": "heroes"
           },
           {
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 85.4,
+        "heroes": 85.6,
         "troops": 85.3,
         "spells": 73.5,
-        "pets": 62.6,
+        "pets": 63.2,
         "equipment": 65.5,
         "defenses": 96.3,
         "resources": 87.4,
@@ -17879,11 +17879,11 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 83,
+          "level": 84,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 320000
+            "dark_elixir": 330000
           },
           "seconds": 691200
         },
@@ -18624,7 +18624,7 @@
         {
           "category": "pets",
           "name": "Greedy Raven",
-          "level": 4,
+          "level": 5,
           "max": 10,
           "is_max": false,
           "cost": {},
@@ -20482,7 +20482,7 @@
         }
       ],
       "ranked": {
-        "trophies": 21,
+        "trophies": 58,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20498,7 +20498,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "18d 18h",
+          "ends_in": "17d 20h",
           "active": true
         },
         "scheduled": [
@@ -20506,25 +20506,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "18d 18h"
+            "starts_in": "17d 20h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "8d 18h"
+            "starts_in": "7d 20h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 18h"
+            "starts_in": "17d 20h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 17h"
+            "starts_in": "1d 19h"
           }
         ],
         "raid_weekend": {

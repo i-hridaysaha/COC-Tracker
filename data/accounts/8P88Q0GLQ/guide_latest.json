@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2292 days, 12:30:00",
+  "total_build_time_one_builder": "2284 days, 12:30:00",
   "total_cost": {
-    "dark_elixir": 25786000,
+    "dark_elixir": 25466000,
     "elixir": 1167900000,
     "gold": 2376495000,
     "shiny_ore": 610220,
     "glowy_ore": 45500,
     "starry_ore": 4110
   },
-  "total_cost_text": "2,376,495,000 gold, 1,167,900,000 elixir, 25,786,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
+  "total_cost_text": "2,376,495,000 gold, 1,167,900,000 elixir, 25,466,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
   "items": [
     {
       "rank": 1,
@@ -46,15 +46,15 @@
       "rank": 3,
       "category": "heroes",
       "name": "Minion Prince",
-      "from_level": 83,
+      "from_level": 84,
       "to_level": 95,
       "cost": {
-        "dark_elixir": 4560000
+        "dark_elixir": 4240000
       },
-      "cost_text": "4,560,000 DE",
-      "build_time": "96 days",
-      "build_seconds": 8294400,
-      "reason": "one of your longest builds at 96 days, start early to reach max sooner"
+      "cost_text": "4,240,000 DE",
+      "build_time": "88 days",
+      "build_seconds": 7603200,
+      "reason": "one of your longest builds at 88 days, start early to reach max sooner"
     },
     {
       "rank": 4,
