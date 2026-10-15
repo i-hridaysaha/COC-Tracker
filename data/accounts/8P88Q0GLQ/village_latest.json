@@ -15,7 +15,7 @@
     "war_stars": 659,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 1865,
+    "donations": 1927,
     "received": 772
   },
   "ranked": {
@@ -31,17 +31,17 @@
   },
   "completion": {
     "heroes": 85.6,
-    "troops": 85.3,
-    "spells": 74.2,
+    "troops": 86.2,
+    "spells": 75.8,
     "pets": 63.2,
     "equipment": 65.5
   },
-  "offense_completion_pct": 84.0,
-  "total_levels_remaining": 519,
+  "offense_completion_pct": 84.5,
+  "total_levels_remaining": 514,
   "rush_risk": {
-    "score": 9.7,
+    "score": 9.4,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 81,
+    "levels_behind_prev_th": 79,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -118,10 +118,10 @@
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 302,
+      "current_total": 305,
       "max_total": 354,
-      "levels_remaining": 52,
-      "completion_pct": 85.3,
+      "levels_remaining": 49,
+      "completion_pct": 86.2,
       "biggest_gaps": [
         {
           "name": "Archer",
@@ -158,17 +158,11 @@
     "spells": {
       "category": "spells",
       "items_counted": 18,
-      "current_total": 98,
+      "current_total": 100,
       "max_total": 132,
-      "levels_remaining": 34,
-      "completion_pct": 74.2,
+      "levels_remaining": 32,
+      "completion_pct": 75.8,
       "biggest_gaps": [
-        {
-          "name": "Poison Spell",
-          "level": 7,
-          "max": 12,
-          "remaining": 5
-        },
         {
           "name": "Lightning Spell",
           "level": 9,
@@ -185,6 +179,12 @@
           "name": "Recall Spell",
           "level": 3,
           "max": 7,
+          "remaining": 4
+        },
+        {
+          "name": "Poison Spell",
+          "level": 8,
+          "max": 12,
           "remaining": 4
         },
         {
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-15T10:53:11.946680+00:00",
+  "captured_at": "2026-10-15T20:56:52.613457+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,25 +284,25 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 25146000,
-        "elixir": 954000000,
+        "dark_elixir": 25046000,
+        "elixir": 940500000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 106639200,
-      "build_time_one_builder": "1234d 6h"
+      "build_seconds": 105451200,
+      "build_time_one_builder": "1220d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 25146000,
-        "elixir": 954000000,
+        "dark_elixir": 25046000,
+        "elixir": 940500000,
         "shiny_ore": 610220,
         "glowy_ore": 45500,
         "starry_ore": 4110
       },
-      "build_seconds": 106639200,
-      "build_time_one_builder": "1234d 6h"
+      "build_seconds": 105451200,
+      "build_time_one_builder": "1220d 12h"
     },
     "by_category": {
       "heroes": {
@@ -315,19 +315,19 @@
       },
       "troops": {
         "cost": {
-          "elixir": 424500000,
+          "elixir": 411000000,
           "dark_elixir": 1117500
         },
-        "build_seconds": 26661600,
-        "build_time": "308d 14h"
+        "build_seconds": 26035200,
+        "build_time": "301d 8h"
       },
       "spells": {
         "cost": {
           "elixir": 192000000,
-          "dark_elixir": 2238500
+          "dark_elixir": 2138500
         },
-        "build_seconds": 18936000,
-        "build_time": "219d 4h"
+        "build_seconds": 18374400,
+        "build_time": "212d 16h"
       },
       "pets": {
         "cost": {

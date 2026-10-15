@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2268 days, 12:30:00",
+  "total_build_time_one_builder": "2254 days, 18:30:00",
   "total_cost": {
-    "dark_elixir": 25146000,
-    "elixir": 1167900000,
-    "gold": 2376495000,
+    "dark_elixir": 25046000,
+    "elixir": 1154400000,
+    "gold": 1976495000,
     "shiny_ore": 610220,
     "glowy_ore": 45500,
     "starry_ore": 4110
   },
-  "total_cost_text": "2,376,495,000 gold, 1,167,900,000 elixir, 25,146,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
+  "total_cost_text": "1,976,495,000 gold, 1,154,400,000 elixir, 25,046,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
   "items": [
     {
       "rank": 1,
@@ -130,15 +130,15 @@
       "rank": 9,
       "category": "spells",
       "name": "Poison Spell",
-      "from_level": 7,
+      "from_level": 8,
       "to_level": 12,
       "cost": {
-        "dark_elixir": 990000
+        "dark_elixir": 890000
       },
-      "cost_text": "990,000 DE",
-      "build_time": "45 days, 16:00:00",
-      "build_seconds": 3945600,
-      "reason": "one of your longest builds at 45 days, 16:00:00, start early to reach max sooner"
+      "cost_text": "890,000 DE",
+      "build_time": "39 days, 4:00:00",
+      "build_seconds": 3384000,
+      "reason": "one of your longest builds at 39 days, 4:00:00, start early to reach max sooner"
     },
     {
       "rank": 10,
@@ -717,20 +717,6 @@
     {
       "rank": 51,
       "category": "troops",
-      "name": "Baby Dragon",
-      "from_level": 9,
-      "to_level": 12,
-      "cost": {
-        "elixir": 30000000
-      },
-      "cost_text": "30,000,000 elixir",
-      "build_time": "17 days, 6:00:00",
-      "build_seconds": 1490400,
-      "reason": "one of your longest builds at 17 days, 6:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 52,
-      "category": "troops",
       "name": "Battle Blimp",
       "from_level": 3,
       "to_level": 6,
@@ -743,7 +729,7 @@
       "reason": "one of your longest builds at 16 days, start early to reach max sooner"
     },
     {
-      "rank": 53,
+      "rank": 52,
       "category": "troops",
       "name": "Apprentice Warden",
       "from_level": 2,
@@ -757,7 +743,7 @@
       "reason": "one of your longest builds at 15 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 54,
+      "rank": 53,
       "category": "resources",
       "name": "Dark Elixir Drill",
       "from_level": 6,
@@ -771,7 +757,7 @@
       "reason": "one of your longest builds at 15 days, 6:00:00, start early to reach max sooner"
     },
     {
-      "rank": 55,
+      "rank": 54,
       "category": "troops",
       "name": "P.E.K.K.A",
       "from_level": 12,
@@ -785,7 +771,7 @@
       "reason": "one of your longest builds at 14 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 56,
+      "rank": 55,
       "category": "troops",
       "name": "Wall Breaker",
       "from_level": 13,
@@ -799,7 +785,7 @@
       "reason": "one of your longest builds at 14 days, start early to reach max sooner"
     },
     {
-      "rank": 57,
+      "rank": 56,
       "category": "troops",
       "name": "Minion",
       "from_level": 13,
@@ -813,7 +799,7 @@
       "reason": "one of your longest builds at 14 days, start early to reach max sooner"
     },
     {
-      "rank": 58,
+      "rank": 57,
       "category": "traps",
       "name": "Giant Bomb",
       "from_level": 3,
@@ -827,7 +813,7 @@
       "reason": "one of your longest builds at 13 days, 17:00:00, start early to reach max sooner"
     },
     {
-      "rank": 59,
+      "rank": 58,
       "category": "troops",
       "name": "Wall Wrecker",
       "from_level": 5,
@@ -841,7 +827,7 @@
       "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 60,
+      "rank": 59,
       "category": "troops",
       "name": "Giant",
       "from_level": 13,
@@ -850,6 +836,20 @@
         "elixir": 25000000
       },
       "cost_text": "25,000,000 elixir",
+      "build_time": "13 days, 12:00:00",
+      "build_seconds": 1166400,
+      "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 60,
+      "category": "resources",
+      "name": "Dark Elixir Drill",
+      "from_level": 7,
+      "to_level": 11,
+      "cost": {
+        "elixir": 23400000
+      },
+      "cost_text": "23,400,000 elixir",
       "build_time": "13 days, 12:00:00",
       "build_seconds": 1166400,
       "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
@@ -870,20 +870,6 @@
     },
     {
       "rank": 62,
-      "category": "resources",
-      "name": "Dark Elixir Drill",
-      "from_level": 7,
-      "to_level": 11,
-      "cost": {
-        "elixir": 23400000
-      },
-      "cost_text": "23,400,000 elixir",
-      "build_time": "13 days, 12:00:00",
-      "build_seconds": 1166400,
-      "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 63,
       "category": "traps",
       "name": "Giant Bomb",
       "from_level": 4,
@@ -895,6 +881,20 @@
       "build_time": "13 days, 9:00:00",
       "build_seconds": 1155600,
       "reason": "one of your longest builds at 13 days, 9:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 63,
+      "category": "defenses",
+      "name": "Bomb Tower",
+      "from_level": 12,
+      "to_level": 13,
+      "cost": {
+        "gold": 25000000
+      },
+      "cost_text": "25,000,000 gold",
+      "build_time": "13 days",
+      "build_seconds": 1123200,
+      "reason": "one of your longest builds at 13 days, start early to reach max sooner"
     },
     {
       "rank": 64,
@@ -912,20 +912,6 @@
     },
     {
       "rank": 65,
-      "category": "defenses",
-      "name": "Bomb Tower",
-      "from_level": 12,
-      "to_level": 13,
-      "cost": {
-        "gold": 25000000
-      },
-      "cost_text": "25,000,000 gold",
-      "build_time": "13 days",
-      "build_seconds": 1123200,
-      "reason": "one of your longest builds at 13 days, start early to reach max sooner"
-    },
-    {
-      "rank": 66,
       "category": "traps",
       "name": "Giant Bomb",
       "from_level": 5,
@@ -939,7 +925,7 @@
       "reason": "one of your longest builds at 12 days, 23:00:00, start early to reach max sooner"
     },
     {
-      "rank": 67,
+      "rank": 66,
       "category": "traps",
       "name": "Giant Bomb",
       "from_level": 6,
@@ -948,6 +934,20 @@
         "gold": 22200000
       },
       "cost_text": "22,200,000 gold",
+      "build_time": "12 days, 12:00:00",
+      "build_seconds": 1080000,
+      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 67,
+      "category": "resources",
+      "name": "Elixir Storage",
+      "from_level": 18,
+      "to_level": 19,
+      "cost": {
+        "gold": 18000000
+      },
+      "cost_text": "18,000,000 gold",
       "build_time": "12 days, 12:00:00",
       "build_seconds": 1080000,
       "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
@@ -997,13 +997,13 @@
     {
       "rank": 71,
       "category": "resources",
-      "name": "Elixir Storage",
+      "name": "Gold Storage",
       "from_level": 18,
       "to_level": 19,
       "cost": {
-        "gold": 18000000
+        "elixir": 18000000
       },
-      "cost_text": "18,000,000 gold",
+      "cost_text": "18,000,000 elixir",
       "build_time": "12 days, 12:00:00",
       "build_seconds": 1080000,
       "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
@@ -1052,17 +1052,17 @@
     },
     {
       "rank": 75,
-      "category": "resources",
-      "name": "Gold Storage",
-      "from_level": 18,
-      "to_level": 19,
+      "category": "traps",
+      "name": "Giant Bomb",
+      "from_level": 7,
+      "to_level": 12,
       "cost": {
-        "elixir": 18000000
+        "gold": 20700000
       },
-      "cost_text": "18,000,000 elixir",
-      "build_time": "12 days, 12:00:00",
-      "build_seconds": 1080000,
-      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "20,700,000 gold",
+      "build_time": "12 days",
+      "build_seconds": 1036800,
+      "reason": "one of your longest builds at 12 days, start early to reach max sooner"
     },
     {
       "rank": 76,
@@ -1082,20 +1082,6 @@
       "rank": 77,
       "category": "traps",
       "name": "Giant Bomb",
-      "from_level": 7,
-      "to_level": 12,
-      "cost": {
-        "gold": 20700000
-      },
-      "cost_text": "20,700,000 gold",
-      "build_time": "12 days",
-      "build_seconds": 1036800,
-      "reason": "one of your longest builds at 12 days, start early to reach max sooner"
-    },
-    {
-      "rank": 78,
-      "category": "traps",
-      "name": "Giant Bomb",
       "from_level": 8,
       "to_level": 12,
       "cost": {
@@ -1105,6 +1091,20 @@
       "build_time": "11 days",
       "build_seconds": 950400,
       "reason": "one of your longest builds at 11 days, start early to reach max sooner"
+    },
+    {
+      "rank": 78,
+      "category": "traps",
+      "name": "Seeking Air Mine",
+      "from_level": 5,
+      "to_level": 8,
+      "cost": {
+        "gold": 18500000
+      },
+      "cost_text": "18,500,000 gold",
+      "build_time": "10 days",
+      "build_seconds": 864000,
+      "reason": "one of your longest builds at 10 days, start early to reach max sooner"
     },
     {
       "rank": 79,
@@ -1136,14 +1136,14 @@
     },
     {
       "rank": 81,
-      "category": "traps",
-      "name": "Seeking Air Mine",
-      "from_level": 5,
-      "to_level": 8,
+      "category": "troops",
+      "name": "Baby Dragon",
+      "from_level": 10,
+      "to_level": 12,
       "cost": {
-        "gold": 18500000
+        "elixir": 16500000
       },
-      "cost_text": "18,500,000 gold",
+      "cost_text": "16,500,000 elixir",
       "build_time": "10 days",
       "build_seconds": 864000,
       "reason": "one of your longest builds at 10 days, start early to reach max sooner"
@@ -1487,13 +1487,13 @@
     {
       "rank": 106,
       "category": "walls",
-      "name": "Wall lvl 18->19 x90",
+      "name": "Wall lvl 18->19 x50",
       "from_level": 18,
       "to_level": 19,
       "cost": {
-        "gold": 900000000
+        "gold": 500000000
       },
-      "cost_text": "900,000,000 gold",
+      "cost_text": "500,000,000 gold",
       "build_time": "no build time",
       "build_seconds": 0,
       "reason": "no build time, a pure resource sink, slot in when a builder is free"

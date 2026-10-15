@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-15T10:53:11.282417+00:00",
+  "captured_at": "2026-10-15T20:56:51.581639+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,13 +17795,13 @@
       "war_stars": 659,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1865,
+      "donations": 1927,
       "received": 772,
-      "offense_completion_pct": 84.0,
+      "offense_completion_pct": 84.5,
       "rush": {
-        "score": 9.7,
+        "score": 9.4,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 81,
+        "levels_behind_prev_th": 79,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17842,16 +17842,16 @@
       },
       "completion": {
         "heroes": 85.6,
-        "troops": 85.3,
-        "spells": 74.2,
+        "troops": 86.2,
+        "spells": 75.8,
         "pets": 63.2,
         "equipment": 65.5,
-        "defenses": 96.3,
+        "defenses": 96.9,
         "resources": 87.4,
         "army": 100.0,
         "traps": 60.2,
-        "guardians": 20.0,
-        "walls": 98.5
+        "guardians": 26.7,
+        "walls": 99.2
       },
       "items": [
         {
@@ -17939,12 +17939,11 @@
         {
           "category": "troops",
           "name": "Sky Wagon",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18041,13 +18040,13 @@
         {
           "category": "troops",
           "name": "Baby Dragon",
-          "level": 9,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "elixir": 13500000
+            "elixir": 16500000
           },
-          "seconds": 626400
+          "seconds": 864000
         },
         {
           "category": "troops",
@@ -18167,12 +18166,11 @@
         {
           "category": "troops",
           "name": "Witch",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18439,13 +18437,13 @@
         {
           "category": "spells",
           "name": "Poison Spell",
-          "level": 7,
+          "level": 8,
           "max": 12,
           "is_max": false,
           "cost": {
-            "dark_elixir": 100000
+            "dark_elixir": 135000
           },
-          "seconds": 561600
+          "seconds": 604800
         },
         {
           "category": "spells",
@@ -18500,12 +18498,11 @@
         {
           "category": "spells",
           "name": "Ice Block Spell",
-          "level": 5,
+          "level": 6,
           "max": 6,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "pets",
@@ -19077,6 +19074,15 @@
         {
           "category": "defenses",
           "name": "Mortar",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
           "level": 17,
           "max": 18,
           "is_max": false,
@@ -19086,9 +19092,9 @@
         },
         {
           "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 17,
+          "name": "Mortar",
+          "level": 17,
+          "max": 18,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -19200,33 +19206,21 @@
         },
         {
           "category": "defenses",
-          "name": "Mortar",
+          "name": "Hidden Tesla",
           "level": 17,
-          "max": 18,
-          "is_max": false,
+          "max": 17,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 18,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Hidden Tesla",
-          "level": 16,
+          "level": 17,
           "max": 17,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -20450,7 +20444,7 @@
         {
           "category": "guardians",
           "name": "Logger",
-          "level": 1,
+          "level": 2,
           "max": 5,
           "is_max": false,
           "cost": {},
@@ -20459,25 +20453,25 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x90",
+          "name": "Wall lvl 18 x50",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 900000000
+            "gold": 500000000
           },
           "seconds": 0,
-          "count": 90
+          "count": 50
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x235",
+          "name": "Wall lvl 19 x275",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 235
+          "count": 275
         }
       ],
       "ranked": {
@@ -20497,7 +20491,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "16d 21h",
+          "ends_in": "16d 11h",
           "active": true
         },
         "scheduled": [
@@ -20505,25 +20499,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "16d 21h"
+            "starts_in": "16d 11h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "6d 21h"
+            "starts_in": "6d 11h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "16d 21h"
+            "starts_in": "16d 11h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "20h 6m"
+            "starts_in": "10h 3m"
           }
         ],
         "raid_weekend": {

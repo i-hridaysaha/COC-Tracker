@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2268 days, 12:30:00 of build time (one builder), 2,376,495,000 gold, 1,167,900,000 elixir, 25,146,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry.
+Total remaining: 2254 days, 18:30:00 of build time (one builder), 1,976,495,000 gold, 1,154,400,000 elixir, 25,046,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry.
 
 1. **Barbarian King** (heroes) 87 → 110 — 6,190,000 DE, 138 days, 12:00:00
    _one of your longest builds at 138 days, 12:00:00, start early to reach max sooner_
@@ -20,8 +20,8 @@ Total remaining: 2268 days, 12:30:00 of build time (one builder), 2,376,495,000 
    _one of your longest builds at 50 days, 12:00:00, start early to reach max sooner_
 8. **Mighty Yak** (pets) 6 → 15 — 1,170,000 DE, 49 days, 12:00:00
    _one of your longest builds at 49 days, 12:00:00, start early to reach max sooner_
-9. **Poison Spell** (spells) 7 → 12 — 990,000 DE, 45 days, 16:00:00
-   _one of your longest builds at 45 days, 16:00:00, start early to reach max sooner_
+9. **Poison Spell** (spells) 8 → 12 — 890,000 DE, 39 days, 4:00:00
+   _one of your longest builds at 39 days, 4:00:00, start early to reach max sooner_
 10. **Healing Spell** (spells) 8 → 12 — 73,000,000 elixir, 39 days
    _one of your longest builds at 39 days, start early to reach max sooner_
 11. **Miner** (troops) 8 → 12 — 67,500,000 elixir, 37 days, 20:00:00
@@ -104,39 +104,39 @@ Total remaining: 2268 days, 12:30:00 of build time (one builder), 2,376,495,000 
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
 50. **Bomb** (traps) 10 → 14 — 29,000,000 gold, 17 days, 12:00:00
    _one of your longest builds at 17 days, 12:00:00, start early to reach max sooner_
-51. **Baby Dragon** (troops) 9 → 12 — 30,000,000 elixir, 17 days, 6:00:00
-   _one of your longest builds at 17 days, 6:00:00, start early to reach max sooner_
-52. **Battle Blimp** (troops) 3 → 6 — 16,500,000 elixir, 16 days
+51. **Battle Blimp** (troops) 3 → 6 — 16,500,000 elixir, 16 days
    _one of your longest builds at 16 days, start early to reach max sooner_
-53. **Apprentice Warden** (troops) 2 → 4 — 295,000 DE, 15 days, 12:00:00
+52. **Apprentice Warden** (troops) 2 → 4 — 295,000 DE, 15 days, 12:00:00
    _one of your longest builds at 15 days, 12:00:00, start early to reach max sooner_
-54. **Dark Elixir Drill** (resources) 6 → 11 — 25,500,000 elixir, 15 days, 6:00:00
+53. **Dark Elixir Drill** (resources) 6 → 11 — 25,500,000 elixir, 15 days, 6:00:00
    _one of your longest builds at 15 days, 6:00:00, start early to reach max sooner_
-55. **P.E.K.K.A** (troops) 12 → 13 — 28,000,000 elixir, 14 days, 12:00:00
+54. **P.E.K.K.A** (troops) 12 → 13 — 28,000,000 elixir, 14 days, 12:00:00
    _one of your longest builds at 14 days, 12:00:00, start early to reach max sooner_
-56. **Wall Breaker** (troops) 13 → 14 — 26,000,000 elixir, 14 days
+55. **Wall Breaker** (troops) 13 → 14 — 26,000,000 elixir, 14 days
    _one of your longest builds at 14 days, start early to reach max sooner_
-57. **Minion** (troops) 13 → 14 — 335,000 DE, 14 days
+56. **Minion** (troops) 13 → 14 — 335,000 DE, 14 days
    _one of your longest builds at 14 days, start early to reach max sooner_
-58. **Giant Bomb** (traps) 3 → 12 — 25,150,000 gold, 13 days, 17:00:00
+57. **Giant Bomb** (traps) 3 → 12 — 25,150,000 gold, 13 days, 17:00:00
    _one of your longest builds at 13 days, 17:00:00, start early to reach max sooner_
-59. **Wall Wrecker** (troops) 5 → 6 — 26,000,000 elixir, 13 days, 12:00:00
+58. **Wall Wrecker** (troops) 5 → 6 — 26,000,000 elixir, 13 days, 12:00:00
    _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
-60. **Giant** (troops) 13 → 14 — 25,000,000 elixir, 13 days, 12:00:00
+59. **Giant** (troops) 13 → 14 — 25,000,000 elixir, 13 days, 12:00:00
+   _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
+60. **Dark Elixir Drill** (resources) 7 → 11 — 23,400,000 elixir, 13 days, 12:00:00
    _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
 61. **Dark Elixir Drill** (resources) 7 → 11 — 23,400,000 elixir, 13 days, 12:00:00
    _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
-62. **Dark Elixir Drill** (resources) 7 → 11 — 23,400,000 elixir, 13 days, 12:00:00
-   _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
-63. **Giant Bomb** (traps) 4 → 12 — 24,400,000 gold, 13 days, 9:00:00
+62. **Giant Bomb** (traps) 4 → 12 — 24,400,000 gold, 13 days, 9:00:00
    _one of your longest builds at 13 days, 9:00:00, start early to reach max sooner_
+63. **Bomb Tower** (defenses) 12 → 13 — 25,000,000 gold, 13 days
+   _one of your longest builds at 13 days, start early to reach max sooner_
 64. **Bomb Tower** (defenses) 12 → 13 — 25,000,000 gold, 13 days
    _one of your longest builds at 13 days, start early to reach max sooner_
-65. **Bomb Tower** (defenses) 12 → 13 — 25,000,000 gold, 13 days
-   _one of your longest builds at 13 days, start early to reach max sooner_
-66. **Giant Bomb** (traps) 5 → 12 — 23,500,000 gold, 12 days, 23:00:00
+65. **Giant Bomb** (traps) 5 → 12 — 23,500,000 gold, 12 days, 23:00:00
    _one of your longest builds at 12 days, 23:00:00, start early to reach max sooner_
-67. **Giant Bomb** (traps) 6 → 12 — 22,200,000 gold, 12 days, 12:00:00
+66. **Giant Bomb** (traps) 6 → 12 — 22,200,000 gold, 12 days, 12:00:00
+   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
+67. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 68. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
@@ -144,7 +144,7 @@ Total remaining: 2268 days, 12:30:00 of build time (one builder), 2,376,495,000 
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 70. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-71. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
+71. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 72. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
@@ -152,19 +152,19 @@ Total remaining: 2268 days, 12:30:00 of build time (one builder), 2,376,495,000 
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 74. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-75. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
-   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
+75. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
+   _one of your longest builds at 12 days, start early to reach max sooner_
 76. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
    _one of your longest builds at 12 days, start early to reach max sooner_
-77. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
-   _one of your longest builds at 12 days, start early to reach max sooner_
-78. **Giant Bomb** (traps) 8 → 12 — 18,700,000 gold, 11 days
+77. **Giant Bomb** (traps) 8 → 12 — 18,700,000 gold, 11 days
    _one of your longest builds at 11 days, start early to reach max sooner_
+78. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
+   _one of your longest builds at 10 days, start early to reach max sooner_
 79. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
    _one of your longest builds at 10 days, start early to reach max sooner_
 80. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
    _one of your longest builds at 10 days, start early to reach max sooner_
-81. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
+81. **Baby Dragon** (troops) 10 → 12 — 16,500,000 elixir, 10 days
    _one of your longest builds at 10 days, start early to reach max sooner_
 82. **Giant Bomb** (traps) 9 → 12 — 15,500,000 gold, 9 days
    _one of your longest builds at 9 days, start early to reach max sooner_
@@ -214,7 +214,7 @@ Total remaining: 2268 days, 12:30:00 of build time (one builder), 2,376,495,000 
    _one of your longest builds at 4 days, start early to reach max sooner_
 105. **Gold Mine** (resources) 16 → 17 — 8,000,000 elixir, 4 days
    _one of your longest builds at 4 days, start early to reach max sooner_
-106. **Wall lvl 18->19 x90** (walls) 18 → 19 — 900,000,000 gold, no build time
+106. **Wall lvl 18->19 x50** (walls) 18 → 19 — 500,000,000 gold, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 107. **Dark Crown** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
