@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#2PPQGVYY8_2026-10-1502:54:30",
   "war_type": "random",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "STRIKE FORCE\u2694\ufe0f",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 8,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 5,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-10-15",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "War Ended",
+      "war_id": "#9GU0UC9J_vs_#2PPQGVYY8_2026-10-1502:54:30",
+      "opponent_clan": "STRIKE FORCE\u2694\ufe0f",
+      "team_size": 20,
+      "attack_order": 53,
+      "attacker_th": 18,
+      "defender_tag": "#L02UP2UY8",
+      "defender_name": "Guh",
+      "defender_th": 18,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": false,
+      "duration_sec": 104
+    },
+    {
+      "date_seen": "2026-10-15",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "War Ended",
+      "war_id": "#9GU0UC9J_vs_#2PPQGVYY8_2026-10-1502:54:30",
+      "opponent_clan": "STRIKE FORCE\u2694\ufe0f",
+      "team_size": 20,
+      "attack_order": 54,
+      "attacker_th": 18,
+      "defender_tag": "#8JY2PV0LR",
+      "defender_name": "soso",
+      "defender_th": 18,
+      "stars": 2,
+      "destruction": 69,
+      "is_fresh": false,
+      "duration_sec": 103
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 2,
+    "worst_defense_stars": 2,
+    "worst_defense_destruction": 86
   }
 }

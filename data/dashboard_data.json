@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-14T11:13:52.567286+00:00",
+  "captured_at": "2026-10-15T10:53:11.282417+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17792,16 +17792,16 @@
       "town_hall": 18,
       "trophies": 58,
       "best_trophies": 4909,
-      "war_stars": 656,
+      "war_stars": 659,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1713,
-      "received": 654,
-      "offense_completion_pct": 83.9,
+      "donations": 1865,
+      "received": 772,
+      "offense_completion_pct": 84.0,
       "rush": {
-        "score": 9.8,
+        "score": 9.7,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 82,
+        "levels_behind_prev_th": 81,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17843,7 +17843,7 @@
       "completion": {
         "heroes": 85.6,
         "troops": 85.3,
-        "spells": 73.5,
+        "spells": 74.2,
         "pets": 63.2,
         "equipment": 65.5,
         "defenses": 96.3,
@@ -18500,13 +18500,12 @@
         {
           "category": "spells",
           "name": "Ice Block Spell",
-          "level": 4,
+          "level": 5,
           "max": 6,
           "is_max": false,
-          "cost": {
-            "dark_elixir": 320000
-          },
-          "seconds": 1382400
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "pets",
@@ -20498,7 +20497,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "17d 20h",
+          "ends_in": "16d 21h",
           "active": true
         },
         "scheduled": [
@@ -20506,25 +20505,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "17d 20h"
+            "starts_in": "16d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "7d 20h"
+            "starts_in": "6d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "17d 20h"
+            "starts_in": "16d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 19h"
+            "starts_in": "20h 6m"
           }
         ],
         "raid_weekend": {
@@ -20807,6 +20806,44 @@
           "destruction": "83",
           "is_fresh": "False",
           "duration_sec": "180"
+        },
+        {
+          "date_seen": "2026-10-15",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "War Ended",
+          "war_id": "#9GU0UC9J_vs_#2PPQGVYY8_2026-10-1502:54:30",
+          "opponent_clan": "STRIKE FORCE\u2694\ufe0f",
+          "team_size": "20",
+          "attack_order": "53",
+          "attacker_th": "18",
+          "defender_tag": "#L02UP2UY8",
+          "defender_name": "Guh",
+          "defender_th": "18",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "False",
+          "duration_sec": "104"
+        },
+        {
+          "date_seen": "2026-10-15",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "War Ended",
+          "war_id": "#9GU0UC9J_vs_#2PPQGVYY8_2026-10-1502:54:30",
+          "opponent_clan": "STRIKE FORCE\u2694\ufe0f",
+          "team_size": "20",
+          "attack_order": "54",
+          "attacker_th": "18",
+          "defender_tag": "#8JY2PV0LR",
+          "defender_name": "soso",
+          "defender_th": "18",
+          "stars": "2",
+          "destruction": "69",
+          "is_fresh": "False",
+          "duration_sec": "103"
         },
         {
           "date_seen": "2026-08-19",
