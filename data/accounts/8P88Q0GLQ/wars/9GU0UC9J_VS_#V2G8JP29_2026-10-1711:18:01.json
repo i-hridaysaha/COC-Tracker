@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#V2G8JP29_2026-10-1711:18:01",
   "war_type": "random",
-  "state": "Preparation",
+  "state": "In War",
   "opponent_clan": "PANTANG MUNDUR",
   "team_size": 20,
   "attacks_per_member": 2,
@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 9,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 3,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-10-17",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#V2G8JP29_2026-10-1711:18:01",
+      "opponent_clan": "PANTANG MUNDUR",
+      "team_size": 20,
+      "attack_order": 53,
+      "attacker_th": 18,
+      "defender_tag": "#YJ8CCL9Y",
+      "defender_name": "M I R A C L E",
+      "defender_th": 18,
+      "stars": 2,
+      "destruction": 98,
+      "is_fresh": false,
+      "duration_sec": 166
+    },
+    {
+      "date_seen": "2026-10-17",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#V2G8JP29_2026-10-1711:18:01",
+      "opponent_clan": "PANTANG MUNDUR",
+      "team_size": 20,
+      "attack_order": 54,
+      "attacker_th": 18,
+      "defender_tag": "#CJYPGUR0",
+      "defender_name": "\u2606Excel_Rezpect\u2606",
+      "defender_th": 18,
+      "stars": 1,
+      "destruction": 94,
+      "is_fresh": false,
+      "duration_sec": 180
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 2,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
