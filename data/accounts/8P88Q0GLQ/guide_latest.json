@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2246 days, 18:30:00",
+  "total_build_time_one_builder": "2238 days, 18:30:00",
   "total_cost": {
-    "dark_elixir": 24716000,
+    "dark_elixir": 24376000,
     "elixir": 1154400000,
     "gold": 1976495000,
-    "shiny_ore": 610220,
-    "glowy_ore": 45500,
+    "shiny_ore": 602420,
+    "glowy_ore": 44900,
     "starry_ore": 4110
   },
-  "total_cost_text": "1,976,495,000 gold, 1,154,400,000 elixir, 24,716,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry",
+  "total_cost_text": "1,976,495,000 gold, 1,154,400,000 elixir, 24,376,000 DE, 602,420 shiny, 44,900 glowy, 4,110 starry",
   "items": [
     {
       "rank": 1,
@@ -45,9 +45,9 @@
     {
       "rank": 3,
       "category": "heroes",
-      "name": "Archer Queen",
-      "from_level": 95,
-      "to_level": 110,
+      "name": "Minion Prince",
+      "from_level": 85,
+      "to_level": 95,
       "cost": {
         "dark_elixir": 3910000
       },
@@ -59,16 +59,16 @@
     {
       "rank": 4,
       "category": "heroes",
-      "name": "Minion Prince",
-      "from_level": 85,
-      "to_level": 95,
+      "name": "Archer Queen",
+      "from_level": 96,
+      "to_level": 110,
       "cost": {
-        "dark_elixir": 3910000
+        "dark_elixir": 3570000
       },
-      "cost_text": "3,910,000 DE",
-      "build_time": "80 days",
-      "build_seconds": 6912000,
-      "reason": "one of your longest builds at 80 days, start early to reach max sooner"
+      "cost_text": "3,570,000 DE",
+      "build_time": "72 days",
+      "build_seconds": 6220800,
+      "reason": "one of your longest builds at 72 days, start early to reach max sooner"
     },
     {
       "rank": 5,
@@ -1825,21 +1825,6 @@
     {
       "rank": 128,
       "category": "equipment",
-      "name": "Vampstache",
-      "from_level": 15,
-      "to_level": 18,
-      "cost": {
-        "shiny_ore": 7800,
-        "glowy_ore": 600
-      },
-      "cost_text": "7,800 shiny, 600 glowy",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 129,
-      "category": "equipment",
       "name": "Rocket Spear",
       "from_level": 26,
       "to_level": 27,
@@ -1854,7 +1839,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 130,
+      "rank": 129,
       "category": "equipment",
       "name": "Snake Bracelet",
       "from_level": 26,
@@ -1870,7 +1855,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 131,
+      "rank": 130,
       "category": "equipment",
       "name": "Magic Mirror",
       "from_level": 26,
@@ -1886,7 +1871,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 132,
+      "rank": 131,
       "category": "equipment",
       "name": "Electro Boots",
       "from_level": 26,

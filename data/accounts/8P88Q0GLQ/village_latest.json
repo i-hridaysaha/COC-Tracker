@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 0,
+    "trophies": 47,
     "best_trophies": 4909,
     "war_stars": 662,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 2344,
+    "donations": 2586,
     "received": 1038
   },
   "ranked": {
-    "trophies": 0,
+    "trophies": 47,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,18 +30,18 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 85.8,
+    "heroes": 86.0,
     "troops": 86.2,
     "spells": 75.8,
-    "pets": 63.2,
-    "equipment": 65.5
+    "pets": 63.9,
+    "equipment": 65.9
   },
-  "offense_completion_pct": 84.6,
-  "total_levels_remaining": 513,
+  "offense_completion_pct": 84.7,
+  "total_levels_remaining": 508,
   "rush_risk": {
-    "score": 9.3,
+    "score": 9.2,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 78,
+    "levels_behind_prev_th": 77,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -58,17 +58,17 @@
         "category": "heroes"
       },
       {
-        "name": "Archer Queen",
-        "level": 95,
-        "prev_th_max": 100,
-        "behind": 5,
-        "category": "heroes"
-      },
-      {
         "name": "Minion Prince",
         "level": 85,
         "prev_th_max": 90,
         "behind": 5,
+        "category": "heroes"
+      },
+      {
+        "name": "Archer Queen",
+        "level": 96,
+        "prev_th_max": 100,
+        "behind": 4,
         "category": "heroes"
       },
       {
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 412,
+      "current_total": 413,
       "max_total": 480,
-      "levels_remaining": 68,
-      "completion_pct": 85.8,
+      "levels_remaining": 67,
+      "completion_pct": 86.0,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -103,9 +103,9 @@
         },
         {
           "name": "Archer Queen",
-          "level": 95,
+          "level": 96,
           "max": 110,
-          "remaining": 15
+          "remaining": 14
         },
         {
           "name": "Minion Prince",
@@ -198,10 +198,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 98,
+      "current_total": 99,
       "max_total": 155,
-      "levels_remaining": 57,
-      "completion_pct": 63.2,
+      "levels_remaining": 56,
+      "completion_pct": 63.9,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -238,10 +238,10 @@
     "equipment": {
       "category": "equipment",
       "items_counted": 41,
-      "current_total": 584,
+      "current_total": 587,
       "max_total": 891,
-      "levels_remaining": 307,
-      "completion_pct": 65.5,
+      "levels_remaining": 304,
+      "completion_pct": 65.9,
       "biggest_gaps": [
         {
           "name": "Dark Crown",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-19T12:11:28.199118+00:00",
+  "captured_at": "2026-10-20T10:57:04.187051+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,34 +284,34 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 24716000,
+        "dark_elixir": 24376000,
         "elixir": 940500000,
-        "shiny_ore": 610220,
-        "glowy_ore": 45500,
+        "shiny_ore": 602420,
+        "glowy_ore": 44900,
         "starry_ore": 4110
       },
-      "build_seconds": 104760000,
-      "build_time_one_builder": "1212d 12h"
+      "build_seconds": 104068800,
+      "build_time_one_builder": "1204d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 24716000,
+        "dark_elixir": 24376000,
         "elixir": 940500000,
-        "shiny_ore": 610220,
-        "glowy_ore": 45500,
+        "shiny_ore": 602420,
+        "glowy_ore": 44900,
         "starry_ore": 4110
       },
-      "build_seconds": 104760000,
-      "build_time_one_builder": "1212d 12h"
+      "build_seconds": 104068800,
+      "build_time_one_builder": "1204d 12h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 14010000,
+          "dark_elixir": 13670000,
           "elixir": 337500000
         },
-        "build_seconds": 35769600,
-        "build_time": "414d"
+        "build_seconds": 35078400,
+        "build_time": "406d"
       },
       "troops": {
         "cost": {
@@ -338,8 +338,8 @@
       },
       "equipment": {
         "cost": {
-          "shiny_ore": 610220,
-          "glowy_ore": 45500,
+          "shiny_ore": 602420,
+          "glowy_ore": 44900,
           "starry_ore": 4110
         },
         "build_seconds": 0,

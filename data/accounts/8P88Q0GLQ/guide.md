@@ -2,16 +2,16 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2246 days, 18:30:00 of build time (one builder), 1,976,495,000 gold, 1,154,400,000 elixir, 24,716,000 DE, 610,220 shiny, 45,500 glowy, 4,110 starry.
+Total remaining: 2238 days, 18:30:00 of build time (one builder), 1,976,495,000 gold, 1,154,400,000 elixir, 24,376,000 DE, 602,420 shiny, 44,900 glowy, 4,110 starry.
 
 1. **Barbarian King** (heroes) 87 → 110 — 6,190,000 DE, 138 days, 12:00:00
    _one of your longest builds at 138 days, 12:00:00, start early to reach max sooner_
 2. **Grand Warden** (heroes) 65 → 85 — 337,500,000 elixir, 115 days, 12:00:00
    _one of your longest builds at 115 days, 12:00:00, start early to reach max sooner_
-3. **Archer Queen** (heroes) 95 → 110 — 3,910,000 DE, 80 days
+3. **Minion Prince** (heroes) 85 → 95 — 3,910,000 DE, 80 days
    _one of your longest builds at 80 days, start early to reach max sooner_
-4. **Minion Prince** (heroes) 85 → 95 — 3,910,000 DE, 80 days
-   _one of your longest builds at 80 days, start early to reach max sooner_
+4. **Archer Queen** (heroes) 96 → 110 — 3,570,000 DE, 72 days
+   _one of your longest builds at 72 days, start early to reach max sooner_
 5. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
 6. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
@@ -258,13 +258,11 @@ Total remaining: 2246 days, 18:30:00 of build time (one builder), 1,976,495,000 
    _no build time, a pure resource sink, slot in when a builder is free_
 127. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-128. **Vampstache** (equipment) 15 → 18 — 7,800 shiny, 600 glowy, no build time
+128. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-129. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+129. **Snake Bracelet** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-130. **Snake Bracelet** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+130. **Magic Mirror** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-131. **Magic Mirror** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
-   _no build time, a pure resource sink, slot in when a builder is free_
-132. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+131. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
