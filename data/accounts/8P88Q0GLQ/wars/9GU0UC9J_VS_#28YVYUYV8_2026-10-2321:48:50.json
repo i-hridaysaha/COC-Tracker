@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#28YVYUYV8_2026-10-2321:48:50",
   "war_type": "random",
-  "state": "Preparation",
+  "state": "In War",
   "opponent_clan": "Mad Bunnies 72",
   "team_size": 25,
   "attacks_per_member": 2,
@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 13,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 5,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-10-23",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#28YVYUYV8_2026-10-2321:48:50",
+      "opponent_clan": "Mad Bunnies 72",
+      "team_size": 25,
+      "attack_order": 47,
+      "attacker_th": 18,
+      "defender_tag": "#2JYV8L9UQ",
+      "defender_name": "Luka",
+      "defender_th": 18,
+      "stars": 2,
+      "destruction": 94,
+      "is_fresh": true,
+      "duration_sec": 178
+    },
+    {
+      "date_seen": "2026-10-23",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#28YVYUYV8_2026-10-2321:48:50",
+      "opponent_clan": "Mad Bunnies 72",
+      "team_size": 25,
+      "attack_order": 51,
+      "attacker_th": 18,
+      "defender_tag": "#GY9JYRGYG",
+      "defender_name": "Robo@coc",
+      "defender_th": 18,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": true,
+      "duration_sec": 98
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
