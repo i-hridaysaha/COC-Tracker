@@ -1,7 +1,7 @@
 {
   "war_id": "#9GU0UC9J_vs_#28YVYUYV8_2026-10-2321:48:50",
   "war_type": "random",
-  "state": "In War",
+  "state": "War Ended",
   "opponent_clan": "Mad Bunnies 72",
   "team_size": 25,
   "attacks_per_member": 2,
@@ -15,11 +15,11 @@
   },
   "attacks": [
     {
-      "date_seen": "2026-10-23",
+      "date_seen": "2026-10-24",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#28YVYUYV8_2026-10-2321:48:50",
       "opponent_clan": "Mad Bunnies 72",
       "team_size": 25,
@@ -34,11 +34,11 @@
       "duration_sec": 178
     },
     {
-      "date_seen": "2026-10-23",
+      "date_seen": "2026-10-24",
       "player_tag": "#8P88Q0GLQ",
       "player_name": "the dark LORD",
       "war_type": "random",
-      "war_state": "In War",
+      "war_state": "War Ended",
       "war_id": "#9GU0UC9J_vs_#28YVYUYV8_2026-10-2321:48:50",
       "opponent_clan": "Mad Bunnies 72",
       "team_size": 25,

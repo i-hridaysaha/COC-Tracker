@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2228 days, 18:30:00",
+  "total_build_time_one_builder": "2220 days, 18:30:00",
   "total_cost": {
-    "dark_elixir": 24376000,
+    "dark_elixir": 24036000,
     "elixir": 1137900000,
     "gold": 1976495000,
     "shiny_ore": 602420,
     "glowy_ore": 44900,
     "starry_ore": 4110
   },
-  "total_cost_text": "1,976,495,000 gold, 1,137,900,000 elixir, 24,376,000 DE, 602,420 shiny, 44,900 glowy, 4,110 starry",
+  "total_cost_text": "1,976,495,000 gold, 1,137,900,000 elixir, 24,036,000 DE, 602,420 shiny, 44,900 glowy, 4,110 starry",
   "items": [
     {
       "rank": 1,
@@ -45,23 +45,23 @@
     {
       "rank": 3,
       "category": "heroes",
-      "name": "Minion Prince",
-      "from_level": 85,
-      "to_level": 95,
+      "name": "Archer Queen",
+      "from_level": 96,
+      "to_level": 110,
       "cost": {
-        "dark_elixir": 3910000
+        "dark_elixir": 3570000
       },
-      "cost_text": "3,910,000 DE",
-      "build_time": "80 days",
-      "build_seconds": 6912000,
-      "reason": "one of your longest builds at 80 days, start early to reach max sooner"
+      "cost_text": "3,570,000 DE",
+      "build_time": "72 days",
+      "build_seconds": 6220800,
+      "reason": "one of your longest builds at 72 days, start early to reach max sooner"
     },
     {
       "rank": 4,
       "category": "heroes",
-      "name": "Archer Queen",
-      "from_level": 96,
-      "to_level": 110,
+      "name": "Minion Prince",
+      "from_level": 86,
+      "to_level": 95,
       "cost": {
         "dark_elixir": 3570000
       },
