@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2220 days, 18:30:00",
+  "total_build_time_one_builder": "2212 days, 18:30:00",
   "total_cost": {
-    "dark_elixir": 24036000,
+    "dark_elixir": 23686000,
     "elixir": 1137900000,
     "gold": 1976495000,
-    "shiny_ore": 602420,
-    "glowy_ore": 44900,
-    "starry_ore": 4110
+    "shiny_ore": 592220,
+    "glowy_ore": 44300,
+    "starry_ore": 3990
   },
-  "total_cost_text": "1,976,495,000 gold, 1,137,900,000 elixir, 24,036,000 DE, 602,420 shiny, 44,900 glowy, 4,110 starry",
+  "total_cost_text": "1,976,495,000 gold, 1,137,900,000 elixir, 23,686,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry",
   "items": [
     {
       "rank": 1,
@@ -60,15 +60,15 @@
       "rank": 4,
       "category": "heroes",
       "name": "Minion Prince",
-      "from_level": 86,
+      "from_level": 87,
       "to_level": 95,
       "cost": {
-        "dark_elixir": 3570000
+        "dark_elixir": 3220000
       },
-      "cost_text": "3,570,000 DE",
-      "build_time": "72 days",
-      "build_seconds": 6220800,
-      "reason": "one of your longest builds at 72 days, start early to reach max sooner"
+      "cost_text": "3,220,000 DE",
+      "build_time": "64 days",
+      "build_seconds": 5529600,
+      "reason": "one of your longest builds at 64 days, start early to reach max sooner"
     },
     {
       "rank": 5,
@@ -1748,7 +1748,7 @@
     {
       "rank": 123,
       "category": "equipment",
-      "name": "Spiky Ball",
+      "name": "Fireball",
       "from_level": 23,
       "to_level": 27,
       "cost": {
@@ -1764,7 +1764,7 @@
     {
       "rank": 124,
       "category": "equipment",
-      "name": "Fireball",
+      "name": "Meteor Staff",
       "from_level": 23,
       "to_level": 27,
       "cost": {
@@ -1780,22 +1780,6 @@
     {
       "rank": 125,
       "category": "equipment",
-      "name": "Meteor Staff",
-      "from_level": 23,
-      "to_level": 27,
-      "cost": {
-        "shiny_ore": 13800,
-        "glowy_ore": 1200,
-        "starry_ore": 270
-      },
-      "cost_text": "13,800 shiny, 1,200 glowy, 270 starry",
-      "build_time": "no build time",
-      "build_seconds": 0,
-      "reason": "no build time, a pure resource sink, slot in when a builder is free"
-    },
-    {
-      "rank": 126,
-      "category": "equipment",
       "name": "Earthquake Boots",
       "from_level": 14,
       "to_level": 18,
@@ -1809,9 +1793,25 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 127,
+      "rank": 126,
       "category": "equipment",
       "name": "Rocket Spear",
+      "from_level": 26,
+      "to_level": 27,
+      "cost": {
+        "shiny_ore": 3600,
+        "glowy_ore": 600,
+        "starry_ore": 150
+      },
+      "cost_text": "3,600 shiny, 600 glowy, 150 starry",
+      "build_time": "no build time",
+      "build_seconds": 0,
+      "reason": "no build time, a pure resource sink, slot in when a builder is free"
+    },
+    {
+      "rank": 127,
+      "category": "equipment",
+      "name": "Spiky Ball",
       "from_level": 26,
       "to_level": 27,
       "cost": {

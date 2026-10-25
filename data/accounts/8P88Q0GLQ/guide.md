@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2220 days, 18:30:00 of build time (one builder), 1,976,495,000 gold, 1,137,900,000 elixir, 24,036,000 DE, 602,420 shiny, 44,900 glowy, 4,110 starry.
+Total remaining: 2212 days, 18:30:00 of build time (one builder), 1,976,495,000 gold, 1,137,900,000 elixir, 23,686,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry.
 
 1. **Barbarian King** (heroes) 87 → 110 — 6,190,000 DE, 138 days, 12:00:00
    _one of your longest builds at 138 days, 12:00:00, start early to reach max sooner_
@@ -10,8 +10,8 @@ Total remaining: 2220 days, 18:30:00 of build time (one builder), 1,976,495,000 
    _one of your longest builds at 115 days, 12:00:00, start early to reach max sooner_
 3. **Archer Queen** (heroes) 96 → 110 — 3,570,000 DE, 72 days
    _one of your longest builds at 72 days, start early to reach max sooner_
-4. **Minion Prince** (heroes) 86 → 95 — 3,570,000 DE, 72 days
-   _one of your longest builds at 72 days, start early to reach max sooner_
+4. **Minion Prince** (heroes) 87 → 95 — 3,220,000 DE, 64 days
+   _one of your longest builds at 64 days, start early to reach max sooner_
 5. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
 6. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
@@ -248,15 +248,15 @@ Total remaining: 2220 days, 18:30:00 of build time (one builder), 1,976,495,000 
    _no build time, a pure resource sink, slot in when a builder is free_
 122. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-123. **Spiky Ball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+123. **Fireball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-124. **Fireball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+124. **Meteor Staff** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-125. **Meteor Staff** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+125. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-126. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
+126. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-127. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+127. **Spiky Ball** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
 128. **Snake Bracelet** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_

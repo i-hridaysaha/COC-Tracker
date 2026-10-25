@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-24T10:18:50.120651+00:00",
+  "captured_at": "2026-10-25T10:45:52.852704+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 579,
+      "trophies": 597,
       "best_trophies": 4909,
       "war_stars": 670,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3242,
-      "received": 1303,
-      "offense_completion_pct": 83.2,
+      "donations": 3412,
+      "received": 1358,
+      "offense_completion_pct": 83.3,
       "rush": {
-        "score": 11.2,
+        "score": 11.1,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 97,
+        "levels_behind_prev_th": 96,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17841,11 +17841,11 @@
         ]
       },
       "completion": {
-        "heroes": 86.2,
+        "heroes": 86.5,
         "troops": 81.9,
         "spells": 75.8,
         "pets": 63.9,
-        "equipment": 65.9,
+        "equipment": 66.6,
         "defenses": 96.9,
         "resources": 87.4,
         "army": 100.0,
@@ -17879,11 +17879,11 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 86,
+          "level": 87,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 350000
+            "dark_elixir": 360000
           },
           "seconds": 691200
         },
@@ -18669,7 +18669,7 @@
         {
           "category": "equipment",
           "name": "Revenge Deck",
-          "level": 23,
+          "level": 26,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -18868,13 +18868,13 @@
         {
           "category": "equipment",
           "name": "Spiky Ball",
-          "level": 23,
+          "level": 26,
           "max": 27,
           "is_max": false,
           "cost": {
-            "shiny_ore": 3300,
+            "shiny_ore": 3600,
             "glowy_ore": 600,
-            "starry_ore": 120
+            "starry_ore": 150
           },
           "seconds": 0
         },
@@ -20492,7 +20492,7 @@
         }
       ],
       "ranked": {
-        "trophies": 579,
+        "trophies": 597,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20508,7 +20508,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "7d 21h",
+          "ends_in": "6d 21h",
           "active": true
         },
         "scheduled": [
@@ -20516,34 +20516,28 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "7d 21h"
+            "starts_in": "6d 21h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 21h"
+            "ends_in": "2d 21h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "7d 21h"
+            "starts_in": "6d 21h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 20h"
+            "ends_in": "20h 14m"
           }
         ],
-        "raid_weekend": {
-          "source": "api",
-          "state": "ongoing",
-          "start": "2026-10-23 07:00:00+00:00",
-          "end": "2026-10-26 07:00:00+00:00",
-          "ends_in": "1d 20h"
-        },
+        "raid_weekend": null,
         "cwl": null
       },
       "wars": [
