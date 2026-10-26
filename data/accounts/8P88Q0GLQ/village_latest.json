@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 597,
+    "trophies": 0,
     "best_trophies": 4909,
     "war_stars": 670,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 3412,
+    "donations": 3486,
     "received": 1358
   },
   "ranked": {
-    "trophies": 597,
+    "trophies": 0,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -31,17 +31,17 @@
   },
   "completion": {
     "heroes": 86.5,
-    "troops": 81.9,
+    "troops": 84.6,
     "spells": 75.8,
-    "pets": 63.9,
+    "pets": 64.5,
     "equipment": 66.6
   },
-  "offense_completion_pct": 83.3,
-  "total_levels_remaining": 519,
+  "offense_completion_pct": 84.3,
+  "total_levels_remaining": 506,
   "rush_risk": {
-    "score": 11.1,
+    "score": 10.0,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 96,
+    "levels_behind_prev_th": 85,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -51,10 +51,10 @@
         "category": "heroes"
       },
       {
-        "name": "Super Wall Breaker",
+        "name": "Rocket Balloon",
         "level": 1,
-        "prev_th_max": 13,
-        "behind": 12,
+        "prev_th_max": 12,
+        "behind": 11,
         "category": "troops"
       },
       {
@@ -65,18 +65,18 @@
         "category": "heroes"
       },
       {
-        "name": "Super Miner",
-        "level": 1,
-        "prev_th_max": 11,
-        "behind": 10,
-        "category": "troops"
-      },
-      {
         "name": "Archer Queen",
         "level": 96,
         "prev_th_max": 100,
         "behind": 4,
         "category": "heroes"
+      },
+      {
+        "name": "Archer",
+        "level": 9,
+        "prev_th_max": 13,
+        "behind": 4,
+        "category": "troops"
       }
     ]
   },
@@ -117,23 +117,17 @@
     },
     "troops": {
       "category": "troops",
-      "items_counted": 43,
-      "current_total": 308,
-      "max_total": 376,
-      "levels_remaining": 68,
-      "completion_pct": 81.9,
+      "items_counted": 42,
+      "current_total": 307,
+      "max_total": 363,
+      "levels_remaining": 56,
+      "completion_pct": 84.6,
       "biggest_gaps": [
         {
-          "name": "Super Miner",
+          "name": "Rocket Balloon",
           "level": 1,
-          "max": 12,
-          "remaining": 11
-        },
-        {
-          "name": "Super Wall Breaker",
-          "level": 1,
-          "max": 10,
-          "remaining": 9
+          "max": 9,
+          "remaining": 8
         },
         {
           "name": "Archer",
@@ -152,6 +146,12 @@
           "level": 8,
           "max": 12,
           "remaining": 4
+        },
+        {
+          "name": "Barbarian",
+          "level": 10,
+          "max": 13,
+          "remaining": 3
         }
       ]
     },
@@ -198,10 +198,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 99,
+      "current_total": 100,
       "max_total": 155,
-      "levels_remaining": 56,
-      "completion_pct": 63.9,
+      "levels_remaining": 55,
+      "completion_pct": 64.5,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-10-25T10:54:44.606030+00:00",
+  "captured_at": "2026-10-26T12:17:16.320296+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,

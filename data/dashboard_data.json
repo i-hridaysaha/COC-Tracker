@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-25T10:45:52.852704+00:00",
+  "captured_at": "2026-10-26T12:17:15.476693+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 597,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 670,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3412,
+      "donations": 3486,
       "received": 1358,
-      "offense_completion_pct": 83.3,
+      "offense_completion_pct": 84.3,
       "rush": {
-        "score": 11.1,
+        "score": 10.0,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 96,
+        "levels_behind_prev_th": 85,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17811,10 +17811,10 @@
             "category": "heroes"
           },
           {
-            "name": "Super Wall Breaker",
+            "name": "Rocket Balloon",
             "level": 1,
-            "prev_th_max": 13,
-            "behind": 12,
+            "prev_th_max": 12,
+            "behind": 11,
             "category": "troops"
           },
           {
@@ -17825,26 +17825,26 @@
             "category": "heroes"
           },
           {
-            "name": "Super Miner",
-            "level": 1,
-            "prev_th_max": 11,
-            "behind": 10,
-            "category": "troops"
-          },
-          {
             "name": "Archer Queen",
             "level": 96,
             "prev_th_max": 100,
             "behind": 4,
             "category": "heroes"
+          },
+          {
+            "name": "Archer",
+            "level": 9,
+            "prev_th_max": 13,
+            "behind": 4,
+            "category": "troops"
           }
         ]
       },
       "completion": {
         "heroes": 86.5,
-        "troops": 81.9,
+        "troops": 84.6,
         "spells": 75.8,
-        "pets": 63.9,
+        "pets": 64.5,
         "equipment": 66.6,
         "defenses": 96.9,
         "resources": 87.4,
@@ -17929,19 +17929,9 @@
         },
         {
           "category": "troops",
-          "name": "Super Wall Breaker",
+          "name": "Rocket Balloon",
           "level": 1,
-          "max": 10,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "troops",
-          "name": "Super Miner",
-          "level": 1,
-          "max": 12,
+          "max": 9,
           "is_max": false,
           "cost": {},
           "seconds": 0,
@@ -18639,7 +18629,7 @@
         {
           "category": "pets",
           "name": "Greedy Raven",
-          "level": 6,
+          "level": 7,
           "max": 10,
           "is_max": false,
           "cost": {},
@@ -20492,7 +20482,7 @@
         }
       ],
       "ranked": {
-        "trophies": 597,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20508,7 +20498,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "6d 21h",
+          "ends_in": "5d 19h",
           "active": true
         },
         "scheduled": [
@@ -20516,28 +20506,34 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "6d 21h"
+            "starts_in": "5d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 21h"
+            "ends_in": "1d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "6d 21h"
+            "starts_in": "5d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "20h 14m"
+            "active": false,
+            "starts_in": "3d 18h"
           }
         ],
-        "raid_weekend": null,
+        "raid_weekend": {
+          "source": "api",
+          "state": "ended",
+          "start": "2026-10-23 07:00:00+00:00",
+          "end": "2026-10-26 07:00:00+00:00",
+          "ends_in": null
+        },
         "cwl": null
       },
       "wars": [
