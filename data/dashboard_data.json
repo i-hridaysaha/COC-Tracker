@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-28T12:08:52.940641+00:00",
+  "captured_at": "2026-10-29T02:29:03.986723+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 86,
+      "trophies": 126,
       "best_trophies": 4909,
-      "war_stars": 673,
+      "war_stars": 676,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3868,
-      "received": 1476,
-      "offense_completion_pct": 84.3,
+      "donations": 4165,
+      "received": 1590,
+      "offense_completion_pct": 85.1,
       "rush": {
-        "score": 10.0,
+        "score": 8.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 85,
+        "levels_behind_prev_th": 74,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17809,13 +17809,6 @@
             "prev_th_max": 100,
             "behind": 13,
             "category": "heroes"
-          },
-          {
-            "name": "Rocket Balloon",
-            "level": 1,
-            "prev_th_max": 12,
-            "behind": 11,
-            "category": "troops"
           },
           {
             "name": "Grand Warden",
@@ -17837,21 +17830,28 @@
             "prev_th_max": 13,
             "behind": 4,
             "category": "troops"
+          },
+          {
+            "name": "Battle Drill",
+            "level": 1,
+            "prev_th_max": 5,
+            "behind": 4,
+            "category": "troops"
           }
         ]
       },
       "completion": {
         "heroes": 86.5,
-        "troops": 84.6,
+        "troops": 86.7,
         "spells": 75.8,
         "pets": 64.5,
         "equipment": 66.6,
-        "defenses": 96.9,
+        "defenses": 98.6,
         "resources": 87.4,
         "army": 100.0,
-        "traps": 60.2,
-        "guardians": 26.7,
-        "walls": 99.2
+        "traps": 60.6,
+        "guardians": 40.0,
+        "walls": 99.7
       },
       "items": [
         {
@@ -17926,16 +17926,6 @@
             "elixir": 6000000
           },
           "seconds": 259200
-        },
-        {
-          "category": "troops",
-          "name": "Rocket Balloon",
-          "level": 1,
-          "max": 9,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -18212,12 +18202,11 @@
         {
           "category": "troops",
           "name": "Headhunter",
-          "level": 3,
+          "level": 4,
           "max": 4,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -19089,72 +19078,32 @@
         },
         {
           "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 18,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Mortar",
-          "level": 17,
-          "max": 18,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 17,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Hidden Tesla",
-          "level": 16,
-          "max": 17,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
           "name": "Wizard Tower",
-          "level": 9,
+          "level": 11,
           "max": 17,
           "is_max": false,
           "cost": {
-            "gold": 2000000
+            "gold": 2600000
           },
-          "seconds": 108000
+          "seconds": 151200
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -19210,6 +19159,42 @@
           "cost": {},
           "seconds": 0,
           "unknown_cost": true
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Mortar",
+          "level": 18,
+          "max": 18,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Hidden Tesla",
+          "level": 17,
+          "max": 17,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -19322,24 +19307,20 @@
         {
           "category": "defenses",
           "name": "Bomb Tower",
-          "level": 12,
+          "level": 13,
           "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 25000000
-          },
-          "seconds": 1123200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
           "name": "Bomb Tower",
-          "level": 12,
+          "level": 13,
           "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 25000000
-          },
-          "seconds": 1123200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "defenses",
@@ -19906,6 +19887,27 @@
         },
         {
           "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 7,
+          "max": 8,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 6,
+          "max": 8,
+          "is_max": false,
+          "cost": {
+            "gold": 12000000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "traps",
           "name": "Bomb",
           "level": 9,
           "max": 14,
@@ -20292,17 +20294,6 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 5,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "gold": 6500000
-          },
-          "seconds": 388800
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
           "level": 6,
           "max": 8,
           "is_max": false,
@@ -20346,22 +20337,11 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 7,
-          "max": 8,
-          "is_max": false,
-          "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "traps",
@@ -20451,7 +20431,7 @@
         {
           "category": "guardians",
           "name": "Logger",
-          "level": 2,
+          "level": 4,
           "max": 5,
           "is_max": false,
           "cost": {},
@@ -20460,29 +20440,29 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x50",
+          "name": "Wall lvl 18 x21",
           "level": 18,
           "max": 19,
           "is_max": false,
           "cost": {
-            "gold": 500000000
+            "gold": 210000000
           },
           "seconds": 0,
-          "count": 50
+          "count": 21
         },
         {
           "category": "walls",
-          "name": "Wall lvl 19 x275",
+          "name": "Wall lvl 19 x304",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 275
+          "count": 304
         }
       ],
       "ranked": {
-        "trophies": 86,
+        "trophies": 126,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20498,7 +20478,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "3d 19h",
+          "ends_in": "3d 5h",
           "active": true
         },
         "scheduled": [
@@ -20506,25 +20486,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "3d 19h"
+            "starts_in": "3d 5h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "24d 19h"
+            "starts_in": "24d 5h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 19h"
+            "starts_in": "3d 5h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 18h"
+            "starts_in": "1d 4h"
           }
         ],
         "raid_weekend": {
@@ -21068,6 +21048,44 @@
           "destruction": "100",
           "is_fresh": "False",
           "duration_sec": "93"
+        },
+        {
+          "date_seen": "2026-10-29",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#JG8RGJRV_2026-10-2904:04:48",
+          "opponent_clan": "Cantina Sociale",
+          "team_size": "15",
+          "attack_order": "45",
+          "attacker_th": "18",
+          "defender_tag": "#YV02GQLV0",
+          "defender_name": "DRONE PX2",
+          "defender_th": "18",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "False",
+          "duration_sec": "137"
+        },
+        {
+          "date_seen": "2026-10-29",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "random",
+          "war_state": "In War",
+          "war_id": "#9GU0UC9J_vs_#JG8RGJRV_2026-10-2904:04:48",
+          "opponent_clan": "Cantina Sociale",
+          "team_size": "15",
+          "attack_order": "46",
+          "attacker_th": "18",
+          "defender_tag": "#JJLG8YR2",
+          "defender_name": "giampi",
+          "defender_th": "18",
+          "stars": "1",
+          "destruction": "90",
+          "is_fresh": "False",
+          "duration_sec": "156"
         },
         {
           "date_seen": "2026-07-19",

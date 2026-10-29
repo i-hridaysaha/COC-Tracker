@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2212 days, 18:30:00 of build time (one builder), 1,976,495,000 gold, 1,137,900,000 elixir, 23,686,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry.
+Total remaining: 2179 days, 12:30:00 of build time (one builder), 1,625,495,000 gold, 1,137,900,000 elixir, 23,686,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry.
 
 1. **Barbarian King** (heroes) 87 → 110 — 6,190,000 DE, 138 days, 12:00:00
    _one of your longest builds at 138 days, 12:00:00, start early to reach max sooner_
@@ -54,14 +54,14 @@ Total remaining: 2212 days, 18:30:00 of build time (one builder), 1,976,495,000 
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
 25. **Haste Spell** (spells) 3 → 7 — 588,500 DE, 28 days, 12:00:00
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
-26. **Wizard Tower** (defenses) 9 → 17 — 42,100,000 gold, 26 days, 12:00:00
-   _one of your longest builds at 26 days, 12:00:00, start early to reach max sooner_
-27. **Battle Drill** (troops) 1 → 6 — 41,500,000 elixir, 26 days
+26. **Battle Drill** (troops) 1 → 6 — 41,500,000 elixir, 26 days
    _one of your longest builds at 26 days, start early to reach max sooner_
-28. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
+27. **Troop Launcher** (troops) 1 → 4 — 35,500,000 elixir, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
-29. **Frosty** (pets) 12 → 15 — 870,000 DE, 24 days
+28. **Frosty** (pets) 12 → 15 — 870,000 DE, 24 days
    _one of your longest builds at 24 days, start early to reach max sooner_
+29. **Wizard Tower** (defenses) 11 → 17 — 37,600,000 gold, 23 days, 18:00:00
+   _one of your longest builds at 23 days, 18:00:00, start early to reach max sooner_
 30. **Phoenix** (pets) 6 → 10 — 695,000 DE, 23 days
    _one of your longest builds at 23 days, start early to reach max sooner_
 31. **Diggy** (pets) 6 → 15 — 660,000 DE, 23 days
@@ -128,139 +128,135 @@ Total remaining: 2212 days, 18:30:00 of build time (one builder), 1,976,495,000 
    _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
 62. **Giant Bomb** (traps) 4 → 12 — 24,400,000 gold, 13 days, 9:00:00
    _one of your longest builds at 13 days, 9:00:00, start early to reach max sooner_
-63. **Bomb Tower** (defenses) 12 → 13 — 25,000,000 gold, 13 days
-   _one of your longest builds at 13 days, start early to reach max sooner_
-64. **Bomb Tower** (defenses) 12 → 13 — 25,000,000 gold, 13 days
-   _one of your longest builds at 13 days, start early to reach max sooner_
-65. **Giant Bomb** (traps) 5 → 12 — 23,500,000 gold, 12 days, 23:00:00
+63. **Giant Bomb** (traps) 5 → 12 — 23,500,000 gold, 12 days, 23:00:00
    _one of your longest builds at 12 days, 23:00:00, start early to reach max sooner_
-66. **Giant Bomb** (traps) 6 → 12 — 22,200,000 gold, 12 days, 12:00:00
+64. **Giant Bomb** (traps) 6 → 12 — 22,200,000 gold, 12 days, 12:00:00
+   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
+65. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
+   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
+66. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 67. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 68. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-69. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
+69. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-70. **Elixir Storage** (resources) 18 → 19 — 18,000,000 gold, 12 days, 12:00:00
+70. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 71. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 72. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-73. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
-   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-74. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
-   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-75. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
+73. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
    _one of your longest builds at 12 days, start early to reach max sooner_
-76. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
+74. **Giant Bomb** (traps) 7 → 12 — 20,700,000 gold, 12 days
    _one of your longest builds at 12 days, start early to reach max sooner_
-77. **Giant Bomb** (traps) 8 → 12 — 18,700,000 gold, 11 days
+75. **Giant Bomb** (traps) 8 → 12 — 18,700,000 gold, 11 days
    _one of your longest builds at 11 days, start early to reach max sooner_
-78. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
+76. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
    _one of your longest builds at 10 days, start early to reach max sooner_
-79. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
+77. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
    _one of your longest builds at 10 days, start early to reach max sooner_
-80. **Seeking Air Mine** (traps) 5 → 8 — 18,500,000 gold, 10 days
-   _one of your longest builds at 10 days, start early to reach max sooner_
-81. **Giant Bomb** (traps) 9 → 12 — 15,500,000 gold, 9 days
+78. **Giant Bomb** (traps) 9 → 12 — 15,500,000 gold, 9 days
    _one of your longest builds at 9 days, start early to reach max sooner_
-82. **Barbarian** (troops) 10 → 13 — 14,000,000 elixir, 7 days, 12:00:00
+79. **Barbarian** (troops) 10 → 13 — 14,000,000 elixir, 7 days, 12:00:00
    _one of your longest builds at 7 days, 12:00:00, start early to reach max sooner_
+80. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
+   _one of your longest builds at 7 days, start early to reach max sooner_
+81. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
+   _one of your longest builds at 7 days, start early to reach max sooner_
+82. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
+   _one of your longest builds at 7 days, start early to reach max sooner_
 83. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
    _one of your longest builds at 7 days, start early to reach max sooner_
-84. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
+84. **Clone Spell** (spells) 7 → 9 — 9,000,000 elixir, 7 days
    _one of your longest builds at 7 days, start early to reach max sooner_
-85. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
-   _one of your longest builds at 7 days, start early to reach max sooner_
-86. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
-   _one of your longest builds at 7 days, start early to reach max sooner_
-87. **Clone Spell** (spells) 7 → 9 — 9,000,000 elixir, 7 days
-   _one of your longest builds at 7 days, start early to reach max sooner_
+85. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
+   _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
+86. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
+   _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
+87. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
+   _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
 88. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
    _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
 89. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
    _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-90. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
+90. **Gold Mine** (resources) 14 → 17 — 11,200,000 elixir, 6 days, 18:00:00
    _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-91. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
+91. **Gold Mine** (resources) 14 → 17 — 11,200,000 elixir, 6 days, 18:00:00
    _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-92. **Elixir Collector** (resources) 14 → 17 — 11,200,000 gold, 6 days, 18:00:00
+92. **Gold Mine** (resources) 14 → 17 — 11,200,000 elixir, 6 days, 18:00:00
    _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-93. **Gold Mine** (resources) 14 → 17 — 11,200,000 elixir, 6 days, 18:00:00
-   _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-94. **Gold Mine** (resources) 14 → 17 — 11,200,000 elixir, 6 days, 18:00:00
-   _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-95. **Gold Mine** (resources) 14 → 17 — 11,200,000 elixir, 6 days, 18:00:00
-   _one of your longest builds at 6 days, 18:00:00, start early to reach max sooner_
-96. **Elixir Collector** (resources) 15 → 17 — 10,000,000 gold, 6 days
+93. **Elixir Collector** (resources) 15 → 17 — 10,000,000 gold, 6 days
    _one of your longest builds at 6 days, start early to reach max sooner_
-97. **Elixir Collector** (resources) 15 → 17 — 10,000,000 gold, 6 days
+94. **Elixir Collector** (resources) 15 → 17 — 10,000,000 gold, 6 days
    _one of your longest builds at 6 days, start early to reach max sooner_
-98. **Gold Mine** (resources) 15 → 17 — 10,000,000 elixir, 6 days
+95. **Gold Mine** (resources) 15 → 17 — 10,000,000 elixir, 6 days
    _one of your longest builds at 6 days, start early to reach max sooner_
-99. **Gold Mine** (resources) 15 → 17 — 10,000,000 elixir, 6 days
+96. **Gold Mine** (resources) 15 → 17 — 10,000,000 elixir, 6 days
    _one of your longest builds at 6 days, start early to reach max sooner_
+97. **Seeking Air Mine** (traps) 6 → 8 — 12,000,000 gold, 5 days, 12:00:00
+   _one of your longest builds at 5 days, 12:00:00, start early to reach max sooner_
+98. **Seeking Air Mine** (traps) 6 → 8 — 12,000,000 gold, 5 days, 12:00:00
+   _one of your longest builds at 5 days, 12:00:00, start early to reach max sooner_
+99. **Seeking Air Mine** (traps) 6 → 8 — 12,000,000 gold, 5 days, 12:00:00
+   _one of your longest builds at 5 days, 12:00:00, start early to reach max sooner_
 100. **Seeking Air Mine** (traps) 6 → 8 — 12,000,000 gold, 5 days, 12:00:00
    _one of your longest builds at 5 days, 12:00:00, start early to reach max sooner_
-101. **Seeking Air Mine** (traps) 6 → 8 — 12,000,000 gold, 5 days, 12:00:00
-   _one of your longest builds at 5 days, 12:00:00, start early to reach max sooner_
-102. **Seeking Air Mine** (traps) 6 → 8 — 12,000,000 gold, 5 days, 12:00:00
-   _one of your longest builds at 5 days, 12:00:00, start early to reach max sooner_
-103. **Gold Mine** (resources) 16 → 17 — 8,000,000 elixir, 4 days
+101. **Gold Mine** (resources) 16 → 17 — 8,000,000 elixir, 4 days
    _one of your longest builds at 4 days, start early to reach max sooner_
-104. **Gold Mine** (resources) 16 → 17 — 8,000,000 elixir, 4 days
+102. **Gold Mine** (resources) 16 → 17 — 8,000,000 elixir, 4 days
    _one of your longest builds at 4 days, start early to reach max sooner_
-105. **Wall lvl 18->19 x50** (walls) 18 → 19 — 500,000,000 gold, no build time
+103. **Wall lvl 18->19 x21** (walls) 18 → 19 — 210,000,000 gold, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-106. **Dark Crown** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
+104. **Dark Crown** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-107. **Frost Flake** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
+105. **Frost Flake** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-108. **Stick Horse** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
+106. **Stick Horse** (equipment) 1 → 27 — 56,060 shiny, 3,720 glowy, 480 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-109. **Giant Gauntlet** (equipment) 15 → 27 — 36,600 shiny, 2,400 glowy, 420 starry, no build time
+107. **Giant Gauntlet** (equipment) 15 → 27 — 36,600 shiny, 2,400 glowy, 420 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-110. **Lavaloon Puppet** (equipment) 15 → 27 — 36,600 shiny, 2,400 glowy, 420 starry, no build time
+108. **Lavaloon Puppet** (equipment) 15 → 27 — 36,600 shiny, 2,400 glowy, 420 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-111. **Frozen Arrow** (equipment) 16 → 27 — 34,100 shiny, 2,400 glowy, 420 starry, no build time
+109. **Frozen Arrow** (equipment) 16 → 27 — 34,100 shiny, 2,400 glowy, 420 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-112. **Hog Rider Puppet** (equipment) 1 → 18 — 27,260 shiny, 1,920 glowy, no build time
+110. **Hog Rider Puppet** (equipment) 1 → 18 — 27,260 shiny, 1,920 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-113. **Haste Vial** (equipment) 1 → 18 — 27,260 shiny, 1,920 glowy, no build time
+111. **Haste Vial** (equipment) 1 → 18 — 27,260 shiny, 1,920 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-114. **Henchmen Puppet** (equipment) 5 → 18 — 25,900 shiny, 1,900 glowy, no build time
+112. **Henchmen Puppet** (equipment) 5 → 18 — 25,900 shiny, 1,900 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-115. **Metal Pants** (equipment) 5 → 18 — 25,900 shiny, 1,900 glowy, no build time
+113. **Metal Pants** (equipment) 5 → 18 — 25,900 shiny, 1,900 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-116. **Noble Iron** (equipment) 5 → 18 — 25,900 shiny, 1,900 glowy, no build time
+114. **Noble Iron** (equipment) 5 → 18 — 25,900 shiny, 1,900 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-117. **Barbarian Puppet** (equipment) 6 → 18 — 25,060 shiny, 1,800 glowy, no build time
+115. **Barbarian Puppet** (equipment) 6 → 18 — 25,060 shiny, 1,800 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-118. **Rage Vial** (equipment) 6 → 18 — 25,060 shiny, 1,800 glowy, no build time
+116. **Rage Vial** (equipment) 6 → 18 — 25,060 shiny, 1,800 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-119. **Archer Puppet** (equipment) 8 → 18 — 22,500 shiny, 1,800 glowy, no build time
+117. **Archer Puppet** (equipment) 8 → 18 — 22,500 shiny, 1,800 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-120. **Seeking Shield** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+118. **Seeking Shield** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-121. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
+119. **Royal Gem** (equipment) 9 → 18 — 20,700 shiny, 1,600 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-122. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
+120. **Invisibility Vial** (equipment) 12 → 18 — 14,700 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-123. **Fireball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+121. **Fireball** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-124. **Meteor Staff** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
+122. **Meteor Staff** (equipment) 23 → 27 — 13,800 shiny, 1,200 glowy, 270 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-125. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
+123. **Earthquake Boots** (equipment) 14 → 18 — 10,200 shiny, 1,200 glowy, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-126. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+124. **Rocket Spear** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-127. **Spiky Ball** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+125. **Spiky Ball** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-128. **Snake Bracelet** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+126. **Snake Bracelet** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-129. **Magic Mirror** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+127. **Magic Mirror** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_
-130. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
+128. **Electro Boots** (equipment) 26 → 27 — 3,600 shiny, 600 glowy, 150 starry, no build time
    _no build time, a pure resource sink, slot in when a builder is free_

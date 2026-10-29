@@ -10,13 +10,52 @@
     "name": "the dark LORD",
     "town_hall": 18,
     "map_position": 9,
-    "stars_earned": 0,
-    "attacks_used": 0
+    "stars_earned": 4,
+    "attacks_used": 2
   },
-  "attacks": [],
+  "attacks": [
+    {
+      "date_seen": "2026-10-29",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#JG8RGJRV_2026-10-2904:04:48",
+      "opponent_clan": "Cantina Sociale",
+      "team_size": 15,
+      "attack_order": 45,
+      "attacker_th": 18,
+      "defender_tag": "#YV02GQLV0",
+      "defender_name": "DRONE PX2",
+      "defender_th": 18,
+      "stars": 3,
+      "destruction": 100,
+      "is_fresh": false,
+      "duration_sec": 137
+    },
+    {
+      "date_seen": "2026-10-29",
+      "player_tag": "#8P88Q0GLQ",
+      "player_name": "the dark LORD",
+      "war_type": "random",
+      "war_state": "In War",
+      "war_id": "#9GU0UC9J_vs_#JG8RGJRV_2026-10-2904:04:48",
+      "opponent_clan": "Cantina Sociale",
+      "team_size": 15,
+      "attack_order": 46,
+      "attacker_th": 18,
+      "defender_tag": "#JJLG8YR2",
+      "defender_name": "giampi",
+      "defender_th": 18,
+      "stars": 1,
+      "destruction": 90,
+      "is_fresh": false,
+      "duration_sec": 156
+    }
+  ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
