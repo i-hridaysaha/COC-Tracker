@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-29T12:19:45.761920+00:00",
+  "captured_at": "2026-10-30T12:10:00.131918+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 134,
+      "trophies": 196,
       "best_trophies": 4909,
       "war_stars": 676,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4167,
+      "donations": 4173,
       "received": 1590,
-      "offense_completion_pct": 85.1,
+      "offense_completion_pct": 85.2,
       "rush": {
-        "score": 8.8,
+        "score": 8.7,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 74,
+        "levels_behind_prev_th": 73,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17818,13 +17818,6 @@
             "category": "heroes"
           },
           {
-            "name": "Archer Queen",
-            "level": 96,
-            "prev_th_max": 100,
-            "behind": 4,
-            "category": "heroes"
-          },
-          {
             "name": "Archer",
             "level": 9,
             "prev_th_max": 13,
@@ -17837,14 +17830,21 @@
             "prev_th_max": 5,
             "behind": 4,
             "category": "troops"
+          },
+          {
+            "name": "Archer Queen",
+            "level": 97,
+            "prev_th_max": 100,
+            "behind": 3,
+            "category": "heroes"
           }
         ]
       },
       "completion": {
-        "heroes": 86.5,
+        "heroes": 86.7,
         "troops": 86.7,
         "spells": 75.8,
-        "pets": 64.5,
+        "pets": 65.2,
         "equipment": 66.6,
         "defenses": 98.6,
         "resources": 87.4,
@@ -17868,11 +17868,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 96,
+          "level": 97,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 350000
+            "dark_elixir": 360000
           },
           "seconds": 691200
         },
@@ -18618,7 +18618,7 @@
         {
           "category": "pets",
           "name": "Greedy Raven",
-          "level": 7,
+          "level": 8,
           "max": 10,
           "is_max": false,
           "cost": {},
@@ -20462,7 +20462,7 @@
         }
       ],
       "ranked": {
-        "trophies": 134,
+        "trophies": 196,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20478,7 +20478,7 @@
           "source": "api",
           "season_start": "2026-10-01 08:00:00+00:00",
           "season_end": "2026-11-01 08:00:00+00:00",
-          "ends_in": "2d 19h",
+          "ends_in": "1d 19h",
           "active": true
         },
         "scheduled": [
@@ -20486,33 +20486,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "2d 19h"
+            "starts_in": "1d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "23d 19h"
+            "starts_in": "22d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 19h"
+            "starts_in": "1d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "18h 40m"
+            "active": true,
+            "ends_in": "2d 18h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-10-23 07:00:00+00:00",
-          "end": "2026-10-26 07:00:00+00:00",
-          "ends_in": null
+          "state": "ongoing",
+          "start": "2026-10-30 07:00:00+00:00",
+          "end": "2026-11-02 07:00:00+00:00",
+          "ends_in": "2d 18h"
         },
         "cwl": null
       },
