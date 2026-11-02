@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-01T12:42:06.651795+00:00",
+  "captured_at": "2026-11-02T14:48:06.292356+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 284,
+      "trophies": 0,
       "best_trophies": 4909,
       "war_stars": 682,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4695,
-      "received": 1590,
-      "offense_completion_pct": 85.2,
+      "donations": 175,
+      "received": 0,
+      "offense_completion_pct": 85.3,
       "rush": {
-        "score": 8.7,
+        "score": 8.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 73,
+        "levels_behind_prev_th": 72,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17841,7 +17841,7 @@
         ]
       },
       "completion": {
-        "heroes": 86.7,
+        "heroes": 86.9,
         "troops": 86.7,
         "spells": 75.8,
         "pets": 65.2,
@@ -17879,11 +17879,11 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 87,
+          "level": 88,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 360000
+            "dark_elixir": 370000
           },
           "seconds": 691200
         },
@@ -20462,7 +20462,7 @@
         }
       ],
       "ranked": {
-        "trophies": 284,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20478,7 +20478,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "29d 19h",
+          "ends_in": "28d 17h",
           "active": true
         },
         "scheduled": [
@@ -20486,37 +20486,37 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "29d 19h"
+            "starts_in": "28d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "20d 19h"
+            "starts_in": "19d 17h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "8d 19h"
+            "ends_in": "7d 17h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "18h 17m"
+            "active": false,
+            "starts_in": "3d 16h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-10-30 07:00:00+00:00",
           "end": "2026-11-02 07:00:00+00:00",
-          "ends_in": "18h 17m"
+          "ends_in": null
         },
         "cwl": {
           "source": "api",
-          "state": "preparation",
+          "state": "inWar",
           "season": "2026-11-01",
           "number_of_rounds": 7
         }
