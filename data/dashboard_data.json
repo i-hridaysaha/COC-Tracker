@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-02T14:48:06.292356+00:00",
+  "captured_at": "2026-11-02T15:29:14.290173+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,7 +17795,7 @@
       "war_stars": 682,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 175,
+      "donations": 260,
       "received": 0,
       "offense_completion_pct": 85.3,
       "rush": {
@@ -17844,14 +17844,14 @@
         "heroes": 86.9,
         "troops": 86.7,
         "spells": 75.8,
-        "pets": 65.2,
+        "pets": 65.8,
         "equipment": 66.6,
-        "defenses": 98.6,
+        "defenses": 98.8,
         "resources": 87.4,
         "army": 100.0,
-        "traps": 60.6,
+        "traps": 61.4,
         "guardians": 40.0,
-        "walls": 99.7
+        "walls": 100.0
       },
       "items": [
         {
@@ -18618,7 +18618,7 @@
         {
           "category": "pets",
           "name": "Greedy Raven",
-          "level": 8,
+          "level": 9,
           "max": 10,
           "is_max": false,
           "cost": {},
@@ -19078,32 +19078,32 @@
         },
         {
           "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
+          "name": "Archer Tower",
+          "level": 21,
+          "max": 21,
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
+        },
+        {
+          "category": "defenses",
           "name": "Wizard Tower",
-          "level": 11,
+          "level": 12,
           "max": 17,
           "is_max": false,
           "cost": {
-            "gold": 2600000
+            "gold": 3000000
           },
-          "seconds": 151200
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
-        },
-        {
-          "category": "defenses",
-          "name": "Archer Tower",
-          "level": 21,
-          "max": 21,
-          "is_max": true,
-          "cost": {},
-          "seconds": 0
+          "seconds": 172800
         },
         {
           "category": "defenses",
@@ -19898,6 +19898,27 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
+          "level": 7,
+          "max": 8,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
+          "level": 6,
+          "max": 8,
+          "is_max": false,
+          "cost": {
+            "gold": 12000000
+          },
+          "seconds": 475200
+        },
+        {
+          "category": "traps",
+          "name": "Seeking Air Mine",
           "level": 6,
           "max": 8,
           "is_max": false,
@@ -20272,28 +20293,6 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 5,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "gold": 6500000
-          },
-          "seconds": 388800
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
-          "level": 5,
-          "max": 8,
-          "is_max": false,
-          "cost": {
-            "gold": 6500000
-          },
-          "seconds": 388800
-        },
-        {
-          "category": "traps",
-          "name": "Seeking Air Mine",
           "level": 6,
           "max": 8,
           "is_max": false,
@@ -20327,12 +20326,11 @@
         {
           "category": "traps",
           "name": "Seeking Air Mine",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "traps",
@@ -20440,25 +20438,13 @@
         },
         {
           "category": "walls",
-          "name": "Wall lvl 18 x21",
-          "level": 18,
-          "max": 19,
-          "is_max": false,
-          "cost": {
-            "gold": 210000000
-          },
-          "seconds": 0,
-          "count": 21
-        },
-        {
-          "category": "walls",
-          "name": "Wall lvl 19 x304",
+          "name": "Wall lvl 19 x325",
           "level": 19,
           "max": 19,
           "is_max": true,
           "cost": {},
           "seconds": 0,
-          "count": 304
+          "count": 325
         }
       ],
       "ranked": {
@@ -20478,7 +20464,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "28d 17h",
+          "ends_in": "28d 16h",
           "active": true
         },
         "scheduled": [
@@ -20486,25 +20472,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "28d 17h"
+            "starts_in": "28d 16h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "19d 17h"
+            "starts_in": "19d 16h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "7d 17h"
+            "ends_in": "7d 16h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 16h"
+            "starts_in": "3d 15h"
           }
         ],
         "raid_weekend": {

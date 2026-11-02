@@ -15,7 +15,7 @@
     "war_stars": 682,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 175,
+    "donations": 260,
     "received": 0
   },
   "ranked": {
@@ -33,11 +33,11 @@
     "heroes": 86.9,
     "troops": 86.7,
     "spells": 75.8,
-    "pets": 65.2,
+    "pets": 65.8,
     "equipment": 66.6
   },
   "offense_completion_pct": 85.3,
-  "total_levels_remaining": 494,
+  "total_levels_remaining": 493,
   "rush_risk": {
     "score": 8.6,
     "band": "slightly rushed",
@@ -198,10 +198,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 101,
+      "current_total": 102,
       "max_total": 155,
-      "levels_remaining": 54,
-      "completion_pct": 65.2,
+      "levels_remaining": 53,
+      "completion_pct": 65.8,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-02T14:48:06.642686+00:00",
+  "captured_at": "2026-11-02T15:29:15.381681+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
