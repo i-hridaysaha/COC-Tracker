@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2147 days, 6:30:00",
+  "total_build_time_one_builder": "2132 days, 6:30:00",
   "total_cost": {
-    "dark_elixir": 22976000,
-    "elixir": 1137900000,
+    "dark_elixir": 22616000,
+    "elixir": 1119900000,
     "gold": 1387895000,
     "shiny_ore": 592220,
     "glowy_ore": 44300,
     "starry_ore": 3990
   },
-  "total_cost_text": "1,387,895,000 gold, 1,137,900,000 elixir, 22,976,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry",
+  "total_cost_text": "1,387,895,000 gold, 1,119,900,000 elixir, 22,616,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry",
   "items": [
     {
       "rank": 1,
@@ -32,32 +32,18 @@
       "rank": 2,
       "category": "heroes",
       "name": "Grand Warden",
-      "from_level": 65,
+      "from_level": 66,
       "to_level": 85,
       "cost": {
-        "elixir": 337500000
+        "elixir": 319500000
       },
-      "cost_text": "337,500,000 elixir",
-      "build_time": "115 days, 12:00:00",
-      "build_seconds": 9979200,
-      "reason": "one of your longest builds at 115 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "319,500,000 elixir",
+      "build_time": "108 days, 12:00:00",
+      "build_seconds": 9374400,
+      "reason": "one of your longest builds at 108 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 3,
-      "category": "heroes",
-      "name": "Archer Queen",
-      "from_level": 97,
-      "to_level": 110,
-      "cost": {
-        "dark_elixir": 3220000
-      },
-      "cost_text": "3,220,000 DE",
-      "build_time": "64 days",
-      "build_seconds": 5529600,
-      "reason": "one of your longest builds at 64 days, start early to reach max sooner"
-    },
-    {
-      "rank": 4,
       "category": "pets",
       "name": "Electro Owl",
       "from_level": 6,
@@ -69,6 +55,20 @@
       "build_time": "62 days",
       "build_seconds": 5356800,
       "reason": "one of your longest builds at 62 days, start early to reach max sooner"
+    },
+    {
+      "rank": 4,
+      "category": "heroes",
+      "name": "Archer Queen",
+      "from_level": 98,
+      "to_level": 110,
+      "cost": {
+        "dark_elixir": 2860000
+      },
+      "cost_text": "2,860,000 DE",
+      "build_time": "56 days",
+      "build_seconds": 4838400,
+      "reason": "one of your longest builds at 56 days, start early to reach max sooner"
     },
     {
       "rank": 5,
