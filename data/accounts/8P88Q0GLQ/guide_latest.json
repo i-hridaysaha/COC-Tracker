@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "2114 days, 18:30:00",
+  "total_build_time_one_builder": "2088 days, 6:30:00",
   "total_cost": {
-    "dark_elixir": 22291000,
+    "dark_elixir": 21921000,
     "elixir": 1113400000,
-    "gold": 1387895000,
+    "gold": 1348895000,
     "shiny_ore": 592220,
     "glowy_ore": 44300,
     "starry_ore": 3990
   },
-  "total_cost_text": "1,387,895,000 gold, 1,113,400,000 elixir, 22,291,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry",
+  "total_cost_text": "1,348,895,000 gold, 1,113,400,000 elixir, 21,921,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry",
   "items": [
     {
       "rank": 1,
@@ -72,20 +72,6 @@
     },
     {
       "rank": 5,
-      "category": "heroes",
-      "name": "Minion Prince",
-      "from_level": 88,
-      "to_level": 95,
-      "cost": {
-        "dark_elixir": 2860000
-      },
-      "cost_text": "2,860,000 DE",
-      "build_time": "56 days",
-      "build_seconds": 4838400,
-      "reason": "one of your longest builds at 56 days, start early to reach max sooner"
-    },
-    {
-      "rank": 6,
       "category": "pets",
       "name": "L.A.S.S.I",
       "from_level": 5,
@@ -99,7 +85,7 @@
       "reason": "one of your longest builds at 52 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "category": "pets",
       "name": "Poison Lizard",
       "from_level": 7,
@@ -113,7 +99,7 @@
       "reason": "one of your longest builds at 50 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "category": "pets",
       "name": "Mighty Yak",
       "from_level": 6,
@@ -125,6 +111,20 @@
       "build_time": "49 days, 12:00:00",
       "build_seconds": 4276800,
       "reason": "one of your longest builds at 49 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 8,
+      "category": "heroes",
+      "name": "Minion Prince",
+      "from_level": 89,
+      "to_level": 95,
+      "cost": {
+        "dark_elixir": 2490000
+      },
+      "cost_text": "2,490,000 DE",
+      "build_time": "48 days",
+      "build_seconds": 4147200,
+      "reason": "one of your longest builds at 48 days, start early to reach max sooner"
     },
     {
       "rank": 9,
@@ -450,20 +450,6 @@
     },
     {
       "rank": 32,
-      "category": "defenses",
-      "name": "Wizard Tower",
-      "from_level": 12,
-      "to_level": 17,
-      "cost": {
-        "gold": 35000000
-      },
-      "cost_text": "35,000,000 gold",
-      "build_time": "22 days",
-      "build_seconds": 1900800,
-      "reason": "one of your longest builds at 22 days, start early to reach max sooner"
-    },
-    {
-      "rank": 33,
       "category": "troops",
       "name": "Archer",
       "from_level": 9,
@@ -475,6 +461,20 @@
       "build_time": "21 days, 12:00:00",
       "build_seconds": 1857600,
       "reason": "one of your longest builds at 21 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 33,
+      "category": "defenses",
+      "name": "Wizard Tower",
+      "from_level": 13,
+      "to_level": 17,
+      "cost": {
+        "gold": 32000000
+      },
+      "cost_text": "32,000,000 gold",
+      "build_time": "20 days",
+      "build_seconds": 1728000,
+      "reason": "one of your longest builds at 20 days, start early to reach max sooner"
     },
     {
       "rank": 34,
@@ -1360,76 +1360,34 @@
     },
     {
       "rank": 97,
-      "category": "traps",
-      "name": "Seeking Air Mine",
-      "from_level": 6,
-      "to_level": 8,
+      "category": "resources",
+      "name": "Gold Mine",
+      "from_level": 16,
+      "to_level": 17,
       "cost": {
-        "gold": 12000000
+        "elixir": 8000000
       },
-      "cost_text": "12,000,000 gold",
-      "build_time": "5 days, 12:00:00",
-      "build_seconds": 475200,
-      "reason": "one of your longest builds at 5 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "8,000,000 elixir",
+      "build_time": "4 days",
+      "build_seconds": 345600,
+      "reason": "one of your longest builds at 4 days, start early to reach max sooner"
     },
     {
       "rank": 98,
-      "category": "traps",
-      "name": "Seeking Air Mine",
-      "from_level": 6,
-      "to_level": 8,
+      "category": "resources",
+      "name": "Gold Mine",
+      "from_level": 16,
+      "to_level": 17,
       "cost": {
-        "gold": 12000000
+        "elixir": 8000000
       },
-      "cost_text": "12,000,000 gold",
-      "build_time": "5 days, 12:00:00",
-      "build_seconds": 475200,
-      "reason": "one of your longest builds at 5 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "8,000,000 elixir",
+      "build_time": "4 days",
+      "build_seconds": 345600,
+      "reason": "one of your longest builds at 4 days, start early to reach max sooner"
     },
     {
       "rank": 99,
-      "category": "traps",
-      "name": "Seeking Air Mine",
-      "from_level": 6,
-      "to_level": 8,
-      "cost": {
-        "gold": 12000000
-      },
-      "cost_text": "12,000,000 gold",
-      "build_time": "5 days, 12:00:00",
-      "build_seconds": 475200,
-      "reason": "one of your longest builds at 5 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 100,
-      "category": "resources",
-      "name": "Gold Mine",
-      "from_level": 16,
-      "to_level": 17,
-      "cost": {
-        "elixir": 8000000
-      },
-      "cost_text": "8,000,000 elixir",
-      "build_time": "4 days",
-      "build_seconds": 345600,
-      "reason": "one of your longest builds at 4 days, start early to reach max sooner"
-    },
-    {
-      "rank": 101,
-      "category": "resources",
-      "name": "Gold Mine",
-      "from_level": 16,
-      "to_level": 17,
-      "cost": {
-        "elixir": 8000000
-      },
-      "cost_text": "8,000,000 elixir",
-      "build_time": "4 days",
-      "build_seconds": 345600,
-      "reason": "one of your longest builds at 4 days, start early to reach max sooner"
-    },
-    {
-      "rank": 102,
       "category": "equipment",
       "name": "Dark Crown",
       "from_level": 1,
@@ -1445,7 +1403,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 103,
+      "rank": 100,
       "category": "equipment",
       "name": "Frost Flake",
       "from_level": 1,
@@ -1461,7 +1419,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 104,
+      "rank": 101,
       "category": "equipment",
       "name": "Stick Horse",
       "from_level": 1,
@@ -1477,7 +1435,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 105,
+      "rank": 102,
       "category": "equipment",
       "name": "Giant Gauntlet",
       "from_level": 15,
@@ -1493,7 +1451,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 106,
+      "rank": 103,
       "category": "equipment",
       "name": "Lavaloon Puppet",
       "from_level": 15,
@@ -1509,7 +1467,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 107,
+      "rank": 104,
       "category": "equipment",
       "name": "Frozen Arrow",
       "from_level": 16,
@@ -1525,7 +1483,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 108,
+      "rank": 105,
       "category": "equipment",
       "name": "Hog Rider Puppet",
       "from_level": 1,
@@ -1540,7 +1498,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 109,
+      "rank": 106,
       "category": "equipment",
       "name": "Haste Vial",
       "from_level": 1,
@@ -1555,7 +1513,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 110,
+      "rank": 107,
       "category": "equipment",
       "name": "Henchmen Puppet",
       "from_level": 5,
@@ -1570,7 +1528,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 111,
+      "rank": 108,
       "category": "equipment",
       "name": "Metal Pants",
       "from_level": 5,
@@ -1585,7 +1543,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 112,
+      "rank": 109,
       "category": "equipment",
       "name": "Noble Iron",
       "from_level": 5,
@@ -1600,7 +1558,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 113,
+      "rank": 110,
       "category": "equipment",
       "name": "Barbarian Puppet",
       "from_level": 6,
@@ -1615,7 +1573,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 114,
+      "rank": 111,
       "category": "equipment",
       "name": "Rage Vial",
       "from_level": 6,
@@ -1630,7 +1588,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 115,
+      "rank": 112,
       "category": "equipment",
       "name": "Archer Puppet",
       "from_level": 8,
@@ -1645,7 +1603,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 116,
+      "rank": 113,
       "category": "equipment",
       "name": "Seeking Shield",
       "from_level": 9,
@@ -1660,7 +1618,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 117,
+      "rank": 114,
       "category": "equipment",
       "name": "Royal Gem",
       "from_level": 9,
@@ -1675,7 +1633,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 118,
+      "rank": 115,
       "category": "equipment",
       "name": "Invisibility Vial",
       "from_level": 12,
@@ -1690,7 +1648,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 119,
+      "rank": 116,
       "category": "equipment",
       "name": "Fireball",
       "from_level": 23,
@@ -1706,7 +1664,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 120,
+      "rank": 117,
       "category": "equipment",
       "name": "Meteor Staff",
       "from_level": 23,
@@ -1722,7 +1680,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 121,
+      "rank": 118,
       "category": "equipment",
       "name": "Earthquake Boots",
       "from_level": 14,
@@ -1737,7 +1695,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 122,
+      "rank": 119,
       "category": "equipment",
       "name": "Rocket Spear",
       "from_level": 26,
@@ -1753,7 +1711,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 123,
+      "rank": 120,
       "category": "equipment",
       "name": "Spiky Ball",
       "from_level": 26,
@@ -1769,7 +1727,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 124,
+      "rank": 121,
       "category": "equipment",
       "name": "Snake Bracelet",
       "from_level": 26,
@@ -1785,7 +1743,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 125,
+      "rank": 122,
       "category": "equipment",
       "name": "Magic Mirror",
       "from_level": 26,
@@ -1801,7 +1759,7 @@
       "reason": "no build time, a pure resource sink, slot in when a builder is free"
     },
     {
-      "rank": 126,
+      "rank": 123,
       "category": "equipment",
       "name": "Electro Boots",
       "from_level": 26,
