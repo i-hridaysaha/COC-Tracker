@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-04T14:36:26.398998+00:00",
+  "captured_at": "2026-11-05T14:00:06.132634+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 280,
+      "trophies": 329,
       "best_trophies": 4909,
       "war_stars": 688,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 867,
+      "donations": 1280,
       "received": 0,
-      "offense_completion_pct": 85.9,
+      "offense_completion_pct": 86.0,
       "rush": {
-        "score": 8.1,
+        "score": 8.0,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 68,
+        "levels_behind_prev_th": 67,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17842,7 +17842,7 @@
       },
       "completion": {
         "heroes": 87.5,
-        "troops": 87.6,
+        "troops": 87.9,
         "spells": 75.8,
         "pets": 67.7,
         "equipment": 66.6,
@@ -18252,13 +18252,12 @@
         {
           "category": "troops",
           "name": "Battle Blimp",
-          "level": 4,
+          "level": 5,
           "max": 6,
           "is_max": false,
-          "cost": {
-            "elixir": 10000000
-          },
-          "seconds": 777600
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -20439,7 +20438,7 @@
         }
       ],
       "ranked": {
-        "trophies": 280,
+        "trophies": 329,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20455,7 +20454,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "26d 17h",
+          "ends_in": "25d 17h",
           "active": true
         },
         "scheduled": [
@@ -20463,25 +20462,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "26d 17h"
+            "starts_in": "25d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "17d 17h"
+            "starts_in": "16d 17h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "5d 17h"
+            "ends_in": "4d 17h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 16h"
+            "starts_in": "16h 59m"
           }
         ],
         "raid_weekend": {
