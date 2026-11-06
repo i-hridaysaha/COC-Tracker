@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 2079 days, 6:30:00 of build time (one builder), 1,348,895,000 gold, 1,103,400,000 elixir, 21,921,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry.
+Total remaining: 2075 days, 18:30:00 of build time (one builder), 1,348,895,000 gold, 1,103,400,000 elixir, 21,831,000 DE, 592,220 shiny, 44,300 glowy, 3,990 starry.
 
 1. **Barbarian King** (heroes) 87 → 110 — 6,190,000 DE, 138 days, 12:00:00
    _one of your longest builds at 138 days, 12:00:00, start early to reach max sooner_
@@ -16,10 +16,10 @@ Total remaining: 2079 days, 6:30:00 of build time (one builder), 1,348,895,000 g
    _one of your longest builds at 52 days, 12:00:00, start early to reach max sooner_
 6. **Poison Lizard** (pets) 7 → 15 — 1,520,000 DE, 50 days, 12:00:00
    _one of your longest builds at 50 days, 12:00:00, start early to reach max sooner_
-7. **Mighty Yak** (pets) 6 → 15 — 1,170,000 DE, 49 days, 12:00:00
-   _one of your longest builds at 49 days, 12:00:00, start early to reach max sooner_
-8. **Minion Prince** (heroes) 89 → 95 — 2,490,000 DE, 48 days
+7. **Minion Prince** (heroes) 89 → 95 — 2,490,000 DE, 48 days
    _one of your longest builds at 48 days, start early to reach max sooner_
+8. **Mighty Yak** (pets) 7 → 15 — 1,080,000 DE, 46 days
+   _one of your longest builds at 46 days, start early to reach max sooner_
 9. **Poison Spell** (spells) 8 → 12 — 890,000 DE, 39 days, 4:00:00
    _one of your longest builds at 39 days, 4:00:00, start early to reach max sooner_
 10. **Healing Spell** (spells) 8 → 12 — 73,000,000 elixir, 39 days

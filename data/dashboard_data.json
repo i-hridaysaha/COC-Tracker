@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-05T14:00:06.132634+00:00",
+  "captured_at": "2026-11-06T13:45:44.237523+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,12 +17790,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 329,
+      "trophies": 371,
       "best_trophies": 4909,
       "war_stars": 688,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1280,
+      "donations": 1441,
       "received": 0,
       "offense_completion_pct": 86.0,
       "rush": {
@@ -17844,7 +17844,7 @@
         "heroes": 87.5,
         "troops": 87.9,
         "spells": 75.8,
-        "pets": 67.7,
+        "pets": 68.4,
         "equipment": 66.6,
         "defenses": 99.0,
         "resources": 87.4,
@@ -18513,13 +18513,13 @@
         {
           "category": "pets",
           "name": "Mighty Yak",
-          "level": 6,
+          "level": 7,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 90000
+            "dark_elixir": 100000
           },
-          "seconds": 302400
+          "seconds": 345600
         },
         {
           "category": "pets",
@@ -20438,7 +20438,7 @@
         }
       ],
       "ranked": {
-        "trophies": 329,
+        "trophies": 371,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20454,7 +20454,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "25d 17h",
+          "ends_in": "24d 18h",
           "active": true
         },
         "scheduled": [
@@ -20462,33 +20462,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "25d 17h"
+            "starts_in": "24d 18h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "16d 17h"
+            "starts_in": "15d 18h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 17h"
+            "ends_in": "3d 18h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "16h 59m"
+            "active": true,
+            "ends_in": "2d 17h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-10-30 07:00:00+00:00",
-          "end": "2026-11-02 07:00:00+00:00",
-          "ends_in": null
+          "state": "ongoing",
+          "start": "2026-11-06 07:00:00+00:00",
+          "end": "2026-11-09 07:00:00+00:00",
+          "ends_in": "2d 17h"
         },
         "cwl": {
           "source": "api",
