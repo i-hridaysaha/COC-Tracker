@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-06T13:45:44.237523+00:00",
+  "captured_at": "2026-11-07T12:29:29.630391+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 371,
+      "trophies": 401,
       "best_trophies": 4909,
       "war_stars": 688,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 1441,
+      "donations": 1901,
       "received": 0,
-      "offense_completion_pct": 86.0,
+      "offense_completion_pct": 86.5,
       "rush": {
-        "score": 8.0,
+        "score": 7.6,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 67,
+        "levels_behind_prev_th": 64,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17812,9 +17812,9 @@
           },
           {
             "name": "Grand Warden",
-            "level": 66,
+            "level": 67,
             "prev_th_max": 75,
-            "behind": 9,
+            "behind": 8,
             "category": "heroes"
           },
           {
@@ -17841,11 +17841,11 @@
         ]
       },
       "completion": {
-        "heroes": 87.5,
-        "troops": 87.9,
+        "heroes": 88.1,
+        "troops": 88.4,
         "spells": 75.8,
-        "pets": 68.4,
-        "equipment": 66.6,
+        "pets": 69.0,
+        "equipment": 67.0,
         "defenses": 99.0,
         "resources": 87.4,
         "army": 100.0,
@@ -17868,11 +17868,11 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 98,
+          "level": 100,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 370000
+            "dark_elixir": 400000
           },
           "seconds": 691200
         },
@@ -17890,11 +17890,11 @@
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 66,
+          "level": 67,
           "max": 85,
           "is_max": false,
           "cost": {
-            "elixir": 18500000
+            "elixir": 19000000
           },
           "seconds": 604800
         },
@@ -18029,13 +18029,11 @@
         {
           "category": "troops",
           "name": "P.E.K.K.A",
-          "level": 12,
+          "level": 13,
           "max": 13,
-          "is_max": false,
-          "cost": {
-            "elixir": 28000000
-          },
-          "seconds": 1252800
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18252,12 +18250,11 @@
         {
           "category": "troops",
           "name": "Battle Blimp",
-          "level": 5,
+          "level": 6,
           "max": 6,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18544,13 +18541,13 @@
         {
           "category": "pets",
           "name": "Phoenix",
-          "level": 8,
+          "level": 9,
           "max": 10,
           "is_max": false,
           "cost": {
-            "dark_elixir": 180000
+            "dark_elixir": 190000
           },
-          "seconds": 518400
+          "seconds": 561600
         },
         {
           "category": "pets",
@@ -18776,13 +18773,10 @@
         {
           "category": "equipment",
           "name": "Earthquake Boots",
-          "level": 14,
+          "level": 18,
           "max": 18,
-          "is_max": false,
-          "cost": {
-            "shiny_ore": 2400,
-            "glowy_ore": 600
-          },
+          "is_max": true,
+          "cost": {},
           "seconds": 0
         },
         {
@@ -20438,7 +20432,7 @@
         }
       ],
       "ranked": {
-        "trophies": 371,
+        "trophies": 401,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20454,7 +20448,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "24d 18h",
+          "ends_in": "23d 19h",
           "active": true
         },
         "scheduled": [
@@ -20462,25 +20456,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "24d 18h"
+            "starts_in": "23d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "15d 18h"
+            "starts_in": "14d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "3d 18h"
+            "ends_in": "2d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 17h"
+            "ends_in": "1d 18h"
           }
         ],
         "raid_weekend": {
@@ -20488,7 +20482,12 @@
           "state": "ongoing",
           "start": "2026-11-06 07:00:00+00:00",
           "end": "2026-11-09 07:00:00+00:00",
-          "ends_in": "2d 17h"
+          "ends_in": "1d 18h",
+          "me": {
+            "capital_resources_looted": 24234,
+            "attacks_used": 6,
+            "attacks_available": 6
+          }
         },
         "cwl": {
           "source": "api",
