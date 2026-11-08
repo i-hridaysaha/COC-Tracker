@@ -35,8 +35,8 @@
     }
   ],
   "defended": {
-    "times_defended": 0,
-    "worst_defense_stars": null,
-    "worst_defense_destruction": null
+    "times_defended": 1,
+    "worst_defense_stars": 3,
+    "worst_defense_destruction": 100
   }
 }
