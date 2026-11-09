@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 401,
+    "trophies": 0,
     "best_trophies": 4909,
-    "war_stars": 691,
+    "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 2314,
-    "received": 59
+    "donations": 2648,
+    "received": 466
   },
   "ranked": {
-    "trophies": 401,
+    "trophies": 0,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,14 +30,14 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 88.5,
+    "heroes": 88.8,
     "troops": 88.4,
-    "spells": 75.8,
-    "pets": 69.7,
+    "spells": 77.3,
+    "pets": 70.3,
     "equipment": 67.1
   },
-  "offense_completion_pct": 86.7,
-  "total_levels_remaining": 468,
+  "offense_completion_pct": 87.1,
+  "total_levels_remaining": 464,
   "rush_risk": {
     "score": 7.4,
     "band": "slightly rushed",
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 425,
+      "current_total": 426,
       "max_total": 480,
-      "levels_remaining": 55,
-      "completion_pct": 88.5,
+      "levels_remaining": 54,
+      "completion_pct": 88.8,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -109,9 +109,9 @@
         },
         {
           "name": "Minion Prince",
-          "level": 90,
+          "level": 91,
           "max": 95,
-          "remaining": 5
+          "remaining": 4
         }
       ]
     },
@@ -158,10 +158,10 @@
     "spells": {
       "category": "spells",
       "items_counted": 18,
-      "current_total": 100,
+      "current_total": 102,
       "max_total": 132,
-      "levels_remaining": 32,
-      "completion_pct": 75.8,
+      "levels_remaining": 30,
+      "completion_pct": 77.3,
       "biggest_gaps": [
         {
           "name": "Lightning Spell",
@@ -198,10 +198,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 108,
+      "current_total": 109,
       "max_total": 155,
-      "levels_remaining": 47,
-      "completion_pct": 69.7,
+      "levels_remaining": 46,
+      "completion_pct": 70.3,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -216,12 +216,6 @@
           "remaining": 9
         },
         {
-          "name": "Diggy",
-          "level": 6,
-          "max": 15,
-          "remaining": 9
-        },
-        {
           "name": "Mighty Yak",
           "level": 7,
           "max": 15,
@@ -229,6 +223,12 @@
         },
         {
           "name": "Poison Lizard",
+          "level": 7,
+          "max": 15,
+          "remaining": 8
+        },
+        {
+          "name": "Diggy",
           "level": 7,
           "max": 15,
           "remaining": 8
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-08T12:47:18.061411+00:00",
+  "captured_at": "2026-11-09T15:14:21.871277+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,34 +284,34 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 20331000,
+        "dark_elixir": 19781000,
         "elixir": 824000000,
         "shiny_ore": 582020,
         "glowy_ore": 43100,
         "starry_ore": 3990
       },
-      "build_seconds": 90244800,
-      "build_time_one_builder": "1044d 12h"
+      "build_seconds": 89121600,
+      "build_time_one_builder": "1031d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 20331000,
+        "dark_elixir": 19781000,
         "elixir": 824000000,
         "shiny_ore": 582020,
         "glowy_ore": 43100,
         "starry_ore": 3990
       },
-      "build_seconds": 90244800,
-      "build_time_one_builder": "1044d 12h"
+      "build_seconds": 89121600,
+      "build_time_one_builder": "1031d 12h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 10410000,
+          "dark_elixir": 10010000,
           "elixir": 282000000
         },
-        "build_seconds": 27043200,
-        "build_time": "313d"
+        "build_seconds": 26352000,
+        "build_time": "305d"
       },
       "troops": {
         "cost": {
@@ -331,10 +331,10 @@
       },
       "pets": {
         "cost": {
-          "dark_elixir": 6665000
+          "dark_elixir": 6515000
         },
-        "build_seconds": 22291200,
-        "build_time": "258d"
+        "build_seconds": 21859200,
+        "build_time": "253d"
       },
       "equipment": {
         "cost": {

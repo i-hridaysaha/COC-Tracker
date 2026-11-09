@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-08T12:47:17.389083+00:00",
+  "captured_at": "2026-11-09T15:14:19.537396+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,14 +17790,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 401,
+      "trophies": 0,
       "best_trophies": 4909,
-      "war_stars": 691,
+      "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2314,
-      "received": 59,
-      "offense_completion_pct": 86.7,
+      "donations": 2648,
+      "received": 466,
+      "offense_completion_pct": 87.1,
       "rush": {
         "score": 7.4,
         "band": "slightly rushed",
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 88.5,
+        "heroes": 88.8,
         "troops": 88.4,
-        "spells": 75.8,
-        "pets": 69.7,
+        "spells": 77.3,
+        "pets": 70.3,
         "equipment": 67.1,
         "defenses": 99.4,
         "resources": 87.4,
@@ -17879,11 +17879,11 @@
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 90,
+          "level": 91,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 400000
+            "dark_elixir": 410000
           },
           "seconds": 691200
         },
@@ -18352,12 +18352,11 @@
         {
           "category": "spells",
           "name": "Rage Spell",
-          "level": 6,
+          "level": 7,
           "max": 7,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "spells",
@@ -18440,7 +18439,7 @@
         {
           "category": "spells",
           "name": "Earthquake Spell",
-          "level": 5,
+          "level": 6,
           "max": 8,
           "is_max": false,
           "cost": {},
@@ -18561,13 +18560,13 @@
         {
           "category": "pets",
           "name": "Diggy",
-          "level": 6,
+          "level": 7,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 150000
+            "dark_elixir": 160000
           },
-          "seconds": 432000
+          "seconds": 475200
         },
         {
           "category": "pets",
@@ -20424,7 +20423,7 @@
         }
       ],
       "ranked": {
-        "trophies": 401,
+        "trophies": 0,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20440,7 +20439,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "22d 19h",
+          "ends_in": "21d 16h",
           "active": true
         },
         "scheduled": [
@@ -20448,33 +20447,33 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "22d 19h"
+            "starts_in": "21d 16h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 19h"
+            "starts_in": "12d 16h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "1d 19h"
+            "ends_in": "16h 45m"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": true,
-            "ends_in": "18h 12m"
+            "active": false,
+            "starts_in": "3d 15h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ongoing",
+          "state": "ended",
           "start": "2026-11-06 07:00:00+00:00",
           "end": "2026-11-09 07:00:00+00:00",
-          "ends_in": "18h 12m",
+          "ends_in": null,
           "me": {
             "capital_resources_looted": 24234,
             "attacks_used": 6,
@@ -20483,7 +20482,7 @@
         },
         "cwl": {
           "source": "api",
-          "state": "inWar",
+          "state": "ended",
           "season": "2026-11-01",
           "number_of_rounds": 7
         }
@@ -20659,6 +20658,25 @@
           "destruction": "100",
           "is_fresh": "True",
           "duration_sec": "102"
+        },
+        {
+          "date_seen": "2026-11-09",
+          "player_tag": "#8P88Q0GLQ",
+          "player_name": "the dark LORD",
+          "war_type": "cwl",
+          "war_state": "War Ended",
+          "war_id": "#8QGCPRYQ9",
+          "opponent_clan": "CHALLENGER TEAM",
+          "team_size": "15",
+          "attack_order": "2",
+          "attacker_th": "18",
+          "defender_tag": "#YPUQCLR2R",
+          "defender_name": "Jay S ON",
+          "defender_th": "17",
+          "stars": "3",
+          "destruction": "100",
+          "is_fresh": "True",
+          "duration_sec": "111"
         },
         {
           "date_seen": "2026-11-08",

@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "1992 days, 18:30:00",
+  "total_build_time_one_builder": "1979 days, 18:30:00",
   "total_cost": {
-    "dark_elixir": 20331000,
+    "dark_elixir": 19781000,
     "elixir": 1037900000,
     "gold": 1314895000,
     "shiny_ore": 582020,
     "glowy_ore": 43100,
     "starry_ore": 3990
   },
-  "total_cost_text": "1,314,895,000 gold, 1,037,900,000 elixir, 20,331,000 DE, 582,020 shiny, 43,100 glowy, 3,990 starry",
+  "total_cost_text": "1,314,895,000 gold, 1,037,900,000 elixir, 19,781,000 DE, 582,020 shiny, 43,100 glowy, 3,990 starry",
   "items": [
     {
       "rank": 1,
@@ -114,20 +114,6 @@
     },
     {
       "rank": 8,
-      "category": "heroes",
-      "name": "Minion Prince",
-      "from_level": 90,
-      "to_level": 95,
-      "cost": {
-        "dark_elixir": 2110000
-      },
-      "cost_text": "2,110,000 DE",
-      "build_time": "40 days",
-      "build_seconds": 3456000,
-      "reason": "one of your longest builds at 40 days, start early to reach max sooner"
-    },
-    {
-      "rank": 9,
       "category": "spells",
       "name": "Poison Spell",
       "from_level": 8,
@@ -141,7 +127,7 @@
       "reason": "one of your longest builds at 39 days, 4:00:00, start early to reach max sooner"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "category": "spells",
       "name": "Healing Spell",
       "from_level": 8,
@@ -155,7 +141,7 @@
       "reason": "one of your longest builds at 39 days, start early to reach max sooner"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "category": "troops",
       "name": "Miner",
       "from_level": 8,
@@ -169,7 +155,7 @@
       "reason": "one of your longest builds at 37 days, 20:00:00, start early to reach max sooner"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "category": "spells",
       "name": "Lightning Spell",
       "from_level": 9,
@@ -183,7 +169,7 @@
       "reason": "one of your longest builds at 37 days, start early to reach max sooner"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "category": "spells",
       "name": "Recall Spell",
       "from_level": 3,
@@ -195,6 +181,20 @@
       "build_time": "33 days, 12:00:00",
       "build_seconds": 2894400,
       "reason": "one of your longest builds at 33 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 13,
+      "category": "traps",
+      "name": "Spring Trap",
+      "from_level": 5,
+      "to_level": 13,
+      "cost": {
+        "gold": 46700000
+      },
+      "cost_text": "46,700,000 gold",
+      "build_time": "32 days, 12:00:00",
+      "build_seconds": 2808000,
+      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 14,
@@ -270,15 +270,15 @@
       "rank": 19,
       "category": "traps",
       "name": "Spring Trap",
-      "from_level": 5,
+      "from_level": 6,
       "to_level": 13,
       "cost": {
-        "gold": 46700000
+        "gold": 45700000
       },
-      "cost_text": "46,700,000 gold",
-      "build_time": "32 days, 12:00:00",
-      "build_seconds": 2808000,
-      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "45,700,000 gold",
+      "build_time": "32 days",
+      "build_seconds": 2764800,
+      "reason": "one of your longest builds at 32 days, start early to reach max sooner"
     },
     {
       "rank": 20,
@@ -310,14 +310,14 @@
     },
     {
       "rank": 22,
-      "category": "traps",
-      "name": "Spring Trap",
-      "from_level": 6,
-      "to_level": 13,
+      "category": "heroes",
+      "name": "Minion Prince",
+      "from_level": 91,
+      "to_level": 95,
       "cost": {
-        "gold": 45700000
+        "dark_elixir": 1710000
       },
-      "cost_text": "45,700,000 gold",
+      "cost_text": "1,710,000 DE",
       "build_time": "32 days",
       "build_seconds": 2764800,
       "reason": "one of your longest builds at 32 days, start early to reach max sooner"
@@ -408,20 +408,6 @@
     },
     {
       "rank": 29,
-      "category": "pets",
-      "name": "Diggy",
-      "from_level": 6,
-      "to_level": 15,
-      "cost": {
-        "dark_elixir": 660000
-      },
-      "cost_text": "660,000 DE",
-      "build_time": "23 days",
-      "build_seconds": 1987200,
-      "reason": "one of your longest builds at 23 days, start early to reach max sooner"
-    },
-    {
-      "rank": 30,
       "category": "troops",
       "name": "Druid",
       "from_level": 3,
@@ -435,7 +421,7 @@
       "reason": "one of your longest builds at 23 days, start early to reach max sooner"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "category": "traps",
       "name": "Air Bomb",
       "from_level": 1,
@@ -449,7 +435,7 @@
       "reason": "one of your longest builds at 22 days, 23:30:00, start early to reach max sooner"
     },
     {
-      "rank": 32,
+      "rank": 31,
       "category": "troops",
       "name": "Archer",
       "from_level": 9,
@@ -463,7 +449,7 @@
       "reason": "one of your longest builds at 21 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "category": "troops",
       "name": "Siege Barracks",
       "from_level": 3,
@@ -475,6 +461,20 @@
       "build_time": "19 days",
       "build_seconds": 1641600,
       "reason": "one of your longest builds at 19 days, start early to reach max sooner"
+    },
+    {
+      "rank": 33,
+      "category": "traps",
+      "name": "Bomb",
+      "from_level": 9,
+      "to_level": 14,
+      "cost": {
+        "gold": 30300000
+      },
+      "cost_text": "30,300,000 gold",
+      "build_time": "18 days, 12:00:00",
+      "build_seconds": 1598400,
+      "reason": "one of your longest builds at 18 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 34,
@@ -548,17 +548,17 @@
     },
     {
       "rank": 39,
-      "category": "traps",
-      "name": "Bomb",
-      "from_level": 9,
-      "to_level": 14,
+      "category": "pets",
+      "name": "Diggy",
+      "from_level": 7,
+      "to_level": 15,
       "cost": {
-        "gold": 30300000
+        "dark_elixir": 510000
       },
-      "cost_text": "30,300,000 gold",
-      "build_time": "18 days, 12:00:00",
-      "build_seconds": 1598400,
-      "reason": "one of your longest builds at 18 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "510,000 DE",
+      "build_time": "18 days",
+      "build_seconds": 1555200,
+      "reason": "one of your longest builds at 18 days, start early to reach max sooner"
     },
     {
       "rank": 40,
