@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 70,
+    "trophies": 90,
     "best_trophies": 4909,
     "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 3242,
+    "donations": 3362,
     "received": 466
   },
   "ranked": {
-    "trophies": 70,
+    "trophies": 90,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,31 +30,24 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 90.0,
-    "troops": 89.0,
+    "heroes": 90.6,
+    "troops": 89.3,
     "spells": 78.0,
     "pets": 72.3,
-    "equipment": 67.1
+    "equipment": 67.5
   },
-  "offense_completion_pct": 88.0,
-  "total_levels_remaining": 452,
+  "offense_completion_pct": 88.4,
+  "total_levels_remaining": 445,
   "rush_risk": {
-    "score": 6.8,
+    "score": 6.4,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 57,
+    "levels_behind_prev_th": 54,
     "worst_offenders": [
       {
         "name": "Barbarian King",
-        "level": 88,
+        "level": 89,
         "prev_th_max": 100,
-        "behind": 12,
-        "category": "heroes"
-      },
-      {
-        "name": "Grand Warden",
-        "level": 71,
-        "prev_th_max": 75,
-        "behind": 4,
+        "behind": 11,
         "category": "heroes"
       },
       {
@@ -77,6 +70,13 @@
         "prev_th_max": 4,
         "behind": 3,
         "category": "troops"
+      },
+      {
+        "name": "Lightning Spell",
+        "level": 9,
+        "prev_th_max": 12,
+        "behind": 3,
+        "category": "spells"
       }
     ]
   },
@@ -84,22 +84,22 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 432,
+      "current_total": 435,
       "max_total": 480,
-      "levels_remaining": 48,
-      "completion_pct": 90.0,
+      "levels_remaining": 45,
+      "completion_pct": 90.6,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
-          "level": 88,
+          "level": 89,
           "max": 110,
-          "remaining": 22
+          "remaining": 21
         },
         {
           "name": "Grand Warden",
-          "level": 71,
+          "level": 73,
           "max": 85,
-          "remaining": 14
+          "remaining": 12
         },
         {
           "name": "Archer Queen",
@@ -118,10 +118,10 @@
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 315,
+      "current_total": 316,
       "max_total": 354,
-      "levels_remaining": 39,
-      "completion_pct": 89.0,
+      "levels_remaining": 38,
+      "completion_pct": 89.3,
       "biggest_gaps": [
         {
           "name": "Archer",
@@ -238,10 +238,10 @@
     "equipment": {
       "category": "equipment",
       "items_counted": 41,
-      "current_total": 598,
+      "current_total": 601,
       "max_total": 891,
-      "levels_remaining": 293,
-      "completion_pct": 67.1,
+      "levels_remaining": 290,
+      "completion_pct": 67.5,
       "biggest_gaps": [
         {
           "name": "Dark Crown",
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-10T14:22:07.941977+00:00",
+  "captured_at": "2026-11-10T23:42:15.274818+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,34 +284,34 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 18351000,
-        "elixir": 753500000,
-        "shiny_ore": 582020,
-        "glowy_ore": 43100,
-        "starry_ore": 3990
+        "dark_elixir": 18091000,
+        "elixir": 711000000,
+        "shiny_ore": 571820,
+        "glowy_ore": 42500,
+        "starry_ore": 3870
       },
-      "build_seconds": 83548800,
-      "build_time_one_builder": "967d"
+      "build_seconds": 81561600,
+      "build_time_one_builder": "944d"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 18351000,
-        "elixir": 753500000,
-        "shiny_ore": 582020,
-        "glowy_ore": 43100,
-        "starry_ore": 3990
+        "dark_elixir": 18091000,
+        "elixir": 711000000,
+        "shiny_ore": 571820,
+        "glowy_ore": 42500,
+        "starry_ore": 3870
       },
-      "build_seconds": 83548800,
-      "build_time_one_builder": "967d"
+      "build_seconds": 81561600,
+      "build_time_one_builder": "944d"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 8950000,
-          "elixir": 222000000
+          "dark_elixir": 8690000,
+          "elixir": 179500000
         },
-        "build_seconds": 22420800,
-        "build_time": "259d 12h"
+        "build_seconds": 20433600,
+        "build_time": "236d 12h"
       },
       "troops": {
         "cost": {
@@ -338,9 +338,9 @@
       },
       "equipment": {
         "cost": {
-          "shiny_ore": 582020,
-          "glowy_ore": 43100,
-          "starry_ore": 3990
+          "shiny_ore": 571820,
+          "glowy_ore": 42500,
+          "starry_ore": 3870
         },
         "build_seconds": 0,
         "build_time": "0m"
