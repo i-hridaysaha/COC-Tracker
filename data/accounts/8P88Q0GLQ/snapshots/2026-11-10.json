@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "name": "the dark LORD",
+    "tag": "#8P88Q0GLQ",
+    "town_hall": 18,
+    "town_hall_weapon": null,
+    "exp_level": 218,
+    "clan_name": "Fearless Axe",
+    "clan_tag": "#9GU0UC9J",
+    "role": "Co-Leader"
+  },
+  "ladder": {
+    "trophies": 70,
+    "best_trophies": 4909,
+    "war_stars": 694,
+    "attack_wins": 0,
+    "defense_wins": 0,
+    "donations": 3242,
+    "received": 466
+  },
+  "ranked": {
+    "trophies": 70,
+    "best_trophies": 4909,
+    "attack_wins": 0,
+    "defense_wins": 0,
+    "in_legend_league": false,
+    "legend_trophies": null,
+    "current_season": null,
+    "previous_season": null,
+    "best_season": null
+  },
+  "completion": {
+    "heroes": 90.0,
+    "troops": 89.0,
+    "spells": 78.0,
+    "pets": 72.3,
+    "equipment": 67.1
+  },
+  "offense_completion_pct": 88.0,
+  "total_levels_remaining": 452,
+  "rush_risk": {
+    "score": 6.8,
+    "band": "slightly rushed",
+    "levels_behind_prev_th": 57,
+    "worst_offenders": [
+      {
+        "name": "Barbarian King",
+        "level": 88,
+        "prev_th_max": 100,
+        "behind": 12,
+        "category": "heroes"
+      },
+      {
+        "name": "Grand Warden",
+        "level": 71,
+        "prev_th_max": 75,
+        "behind": 4,
+        "category": "heroes"
+      },
+      {
+        "name": "Archer",
+        "level": 9,
+        "prev_th_max": 13,
+        "behind": 4,
+        "category": "troops"
+      },
+      {
+        "name": "Battle Drill",
+        "level": 1,
+        "prev_th_max": 5,
+        "behind": 4,
+        "category": "troops"
+      },
+      {
+        "name": "Troop Launcher",
+        "level": 1,
+        "prev_th_max": 4,
+        "behind": 3,
+        "category": "troops"
+      }
+    ]
+  },
+  "categories": {
+    "heroes": {
+      "category": "heroes",
+      "items_counted": 6,
+      "current_total": 432,
+      "max_total": 480,
+      "levels_remaining": 48,
+      "completion_pct": 90.0,
+      "biggest_gaps": [
+        {
+          "name": "Barbarian King",
+          "level": 88,
+          "max": 110,
+          "remaining": 22
+        },
+        {
+          "name": "Grand Warden",
+          "level": 71,
+          "max": 85,
+          "remaining": 14
+        },
+        {
+          "name": "Archer Queen",
+          "level": 101,
+          "max": 110,
+          "remaining": 9
+        },
+        {
+          "name": "Minion Prince",
+          "level": 92,
+          "max": 95,
+          "remaining": 3
+        }
+      ]
+    },
+    "troops": {
+      "category": "troops",
+      "items_counted": 41,
+      "current_total": 315,
+      "max_total": 354,
+      "levels_remaining": 39,
+      "completion_pct": 89.0,
+      "biggest_gaps": [
+        {
+          "name": "Archer",
+          "level": 9,
+          "max": 14,
+          "remaining": 5
+        },
+        {
+          "name": "Battle Drill",
+          "level": 1,
+          "max": 6,
+          "remaining": 5
+        },
+        {
+          "name": "Barbarian",
+          "level": 10,
+          "max": 13,
+          "remaining": 3
+        },
+        {
+          "name": "Wizard",
+          "level": 11,
+          "max": 14,
+          "remaining": 3
+        },
+        {
+          "name": "Miner",
+          "level": 9,
+          "max": 12,
+          "remaining": 3
+        }
+      ]
+    },
+    "spells": {
+      "category": "spells",
+      "items_counted": 18,
+      "current_total": 103,
+      "max_total": 132,
+      "levels_remaining": 29,
+      "completion_pct": 78.0,
+      "biggest_gaps": [
+        {
+          "name": "Lightning Spell",
+          "level": 9,
+          "max": 13,
+          "remaining": 4
+        },
+        {
+          "name": "Healing Spell",
+          "level": 8,
+          "max": 12,
+          "remaining": 4
+        },
+        {
+          "name": "Recall Spell",
+          "level": 3,
+          "max": 7,
+          "remaining": 4
+        },
+        {
+          "name": "Poison Spell",
+          "level": 8,
+          "max": 12,
+          "remaining": 4
+        },
+        {
+          "name": "Haste Spell",
+          "level": 3,
+          "max": 7,
+          "remaining": 4
+        }
+      ]
+    },
+    "pets": {
+      "category": "pets",
+      "items_counted": 12,
+      "current_total": 112,
+      "max_total": 155,
+      "levels_remaining": 43,
+      "completion_pct": 72.3,
+      "biggest_gaps": [
+        {
+          "name": "L.A.S.S.I",
+          "level": 5,
+          "max": 15,
+          "remaining": 10
+        },
+        {
+          "name": "Electro Owl",
+          "level": 6,
+          "max": 15,
+          "remaining": 9
+        },
+        {
+          "name": "Diggy",
+          "level": 7,
+          "max": 15,
+          "remaining": 8
+        },
+        {
+          "name": "Mighty Yak",
+          "level": 8,
+          "max": 15,
+          "remaining": 7
+        },
+        {
+          "name": "Poison Lizard",
+          "level": 9,
+          "max": 15,
+          "remaining": 6
+        }
+      ]
+    },
+    "equipment": {
+      "category": "equipment",
+      "items_counted": 41,
+      "current_total": 598,
+      "max_total": 891,
+      "levels_remaining": 293,
+      "completion_pct": 67.1,
+      "biggest_gaps": [
+        {
+          "name": "Dark Crown",
+          "level": 1,
+          "max": 27,
+          "remaining": 26
+        },
+        {
+          "name": "Frost Flake",
+          "level": 1,
+          "max": 27,
+          "remaining": 26
+        },
+        {
+          "name": "Stick Horse",
+          "level": 1,
+          "max": 27,
+          "remaining": 26
+        },
+        {
+          "name": "Stun Blaster",
+          "level": 1,
+          "max": 18,
+          "remaining": 17
+        },
+        {
+          "name": "Hog Rider Puppet",
+          "level": 1,
+          "max": 18,
+          "remaining": 17
+        }
+      ]
+    }
+  },
+  "captured_at": "2026-11-10T14:22:07.941977+00:00",
+  "upgrades": {
+    "modifiers_applied": {
+      "gold_pass_boost_pct": 0,
+      "events": []
+    },
+    "base": {
+      "cost": {
+        "dark_elixir": 18351000,
+        "elixir": 753500000,
+        "shiny_ore": 582020,
+        "glowy_ore": 43100,
+        "starry_ore": 3990
+      },
+      "build_seconds": 83548800,
+      "build_time_one_builder": "967d"
+    },
+    "adjusted": {
+      "cost": {
+        "dark_elixir": 18351000,
+        "elixir": 753500000,
+        "shiny_ore": 582020,
+        "glowy_ore": 43100,
+        "starry_ore": 3990
+      },
+      "build_seconds": 83548800,
+      "build_time_one_builder": "967d"
+    },
+    "by_category": {
+      "heroes": {
+        "cost": {
+          "dark_elixir": 8950000,
+          "elixir": 222000000
+        },
+        "build_seconds": 22420800,
+        "build_time": "259d 12h"
+      },
+      "troops": {
+        "cost": {
+          "elixir": 339500000,
+          "dark_elixir": 1117500
+        },
+        "build_seconds": 21974400,
+        "build_time": "254d 8h"
+      },
+      "spells": {
+        "cost": {
+          "elixir": 192000000,
+          "dark_elixir": 2138500
+        },
+        "build_seconds": 18374400,
+        "build_time": "212d 16h"
+      },
+      "pets": {
+        "cost": {
+          "dark_elixir": 6145000
+        },
+        "build_seconds": 20779200,
+        "build_time": "240d 12h"
+      },
+      "equipment": {
+        "cost": {
+          "shiny_ore": 582020,
+          "glowy_ore": 43100,
+          "starry_ore": 3990
+        },
+        "build_seconds": 0,
+        "build_time": "0m"
+      }
+    },
+    "note": "Build time assumes one builder. Divide by your builder count for real elapsed time."
+  }
+}

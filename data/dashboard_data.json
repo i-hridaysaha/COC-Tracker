@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-09T15:14:19.537396+00:00",
+  "captured_at": "2026-11-10T14:22:07.015735+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,31 +17790,31 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 70,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 2648,
+      "donations": 3242,
       "received": 466,
-      "offense_completion_pct": 87.1,
+      "offense_completion_pct": 88.0,
       "rush": {
-        "score": 7.4,
+        "score": 6.8,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 62,
+        "levels_behind_prev_th": 57,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 87,
+            "level": 88,
             "prev_th_max": 100,
-            "behind": 13,
+            "behind": 12,
             "category": "heroes"
           },
           {
             "name": "Grand Warden",
-            "level": 68,
+            "level": 71,
             "prev_th_max": 75,
-            "behind": 7,
+            "behind": 4,
             "category": "heroes"
           },
           {
@@ -17832,19 +17832,19 @@
             "category": "troops"
           },
           {
-            "name": "Miner",
-            "level": 8,
-            "prev_th_max": 11,
+            "name": "Troop Launcher",
+            "level": 1,
+            "prev_th_max": 4,
             "behind": 3,
             "category": "troops"
           }
         ]
       },
       "completion": {
-        "heroes": 88.8,
-        "troops": 88.4,
-        "spells": 77.3,
-        "pets": 70.3,
+        "heroes": 90.0,
+        "troops": 89.0,
+        "spells": 78.0,
+        "pets": 72.3,
         "equipment": 67.1,
         "defenses": 99.4,
         "resources": 87.4,
@@ -17857,30 +17857,19 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 87,
+          "level": 88,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 250000
+            "dark_elixir": 260000
           },
           "seconds": 604800
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 100,
+          "level": 101,
           "max": 110,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 400000
-          },
-          "seconds": 691200
-        },
-        {
-          "category": "heroes",
-          "name": "Minion Prince",
-          "level": 91,
-          "max": 95,
           "is_max": false,
           "cost": {
             "dark_elixir": 410000
@@ -17889,14 +17878,25 @@
         },
         {
           "category": "heroes",
+          "name": "Minion Prince",
+          "level": 92,
+          "max": 95,
+          "is_max": false,
+          "cost": {
+            "dark_elixir": 420000
+          },
+          "seconds": 691200
+        },
+        {
+          "category": "heroes",
           "name": "Grand Warden",
-          "level": 68,
+          "level": 71,
           "max": 85,
           "is_max": false,
           "cost": {
-            "elixir": 19500000
+            "elixir": 21000000
           },
-          "seconds": 604800
+          "seconds": 691200
         },
         {
           "category": "heroes",
@@ -18047,23 +18047,22 @@
         {
           "category": "troops",
           "name": "Miner",
-          "level": 8,
+          "level": 9,
           "max": 12,
           "is_max": false,
           "cost": {
-            "elixir": 10500000
+            "elixir": 12500000
           },
-          "seconds": 561600
+          "seconds": 604800
         },
         {
           "category": "troops",
           "name": "Yeti",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18439,7 +18438,7 @@
         {
           "category": "spells",
           "name": "Earthquake Spell",
-          "level": 6,
+          "level": 7,
           "max": 8,
           "is_max": false,
           "cost": {},
@@ -18509,13 +18508,13 @@
         {
           "category": "pets",
           "name": "Mighty Yak",
-          "level": 7,
+          "level": 8,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 100000
+            "dark_elixir": 110000
           },
-          "seconds": 345600
+          "seconds": 388800
         },
         {
           "category": "pets",
@@ -18549,13 +18548,13 @@
         {
           "category": "pets",
           "name": "Poison Lizard",
-          "level": 7,
+          "level": 9,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 130000
+            "dark_elixir": 150000
           },
-          "seconds": 345600
+          "seconds": 432000
         },
         {
           "category": "pets",
@@ -20423,7 +20422,7 @@
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 70,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20439,7 +20438,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "21d 16h",
+          "ends_in": "20d 17h",
           "active": true
         },
         "scheduled": [
@@ -20447,25 +20446,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "21d 16h"
+            "starts_in": "20d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "12d 16h"
+            "starts_in": "11d 17h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": true,
-            "ends_in": "16h 45m"
+            "ends_in": "now"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 15h"
+            "starts_in": "2d 16h"
           }
         ],
         "raid_weekend": {
@@ -20660,7 +20659,7 @@
           "duration_sec": "102"
         },
         {
-          "date_seen": "2026-11-09",
+          "date_seen": "2026-11-10",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "cwl",

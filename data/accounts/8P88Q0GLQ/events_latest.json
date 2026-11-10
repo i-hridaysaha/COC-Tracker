@@ -3,7 +3,7 @@
     "source": "api",
     "season_start": "2026-11-01 08:00:00+00:00",
     "season_end": "2026-12-01 08:00:00+00:00",
-    "ends_in": "21d 16h",
+    "ends_in": "20d 17h",
     "active": true
   },
   "scheduled": [
@@ -11,25 +11,25 @@
       "event": "Season reset",
       "estimate": false,
       "active": false,
-      "starts_in": "21d 16h"
+      "starts_in": "20d 17h"
     },
     {
       "event": "Clan Games",
       "estimate": true,
       "active": false,
-      "starts_in": "12d 16h"
+      "starts_in": "11d 17h"
     },
     {
       "event": "CWL",
       "estimate": true,
       "active": true,
-      "ends_in": "16h 45m"
+      "ends_in": "now"
     },
     {
       "event": "Raid Weekend",
       "estimate": true,
       "active": false,
-      "starts_in": "3d 15h"
+      "starts_in": "2d 16h"
     }
   ],
   "raid_weekend": {
