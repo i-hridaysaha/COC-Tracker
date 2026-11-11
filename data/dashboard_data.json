@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-10T23:42:13.658327+00:00",
+  "captured_at": "2026-11-11T13:35:46.653540+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,14 +17790,14 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 90,
+      "trophies": 114,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3362,
+      "donations": 3434,
       "received": 466,
-      "offense_completion_pct": 88.4,
+      "offense_completion_pct": 88.7,
       "rush": {
         "score": 6.4,
         "band": "slightly rushed",
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 90.6,
-        "troops": 89.3,
+        "heroes": 91.0,
+        "troops": 89.5,
         "spells": 78.0,
-        "pets": 72.3,
+        "pets": 72.9,
         "equipment": 67.5,
         "defenses": 100.0,
         "resources": 87.4,
@@ -17868,22 +17868,22 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 101,
+          "level": 102,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 410000
+            "dark_elixir": 420000
           },
           "seconds": 691200
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 92,
+          "level": 93,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 420000
+            "dark_elixir": 430000
           },
           "seconds": 691200
         },
@@ -18238,13 +18238,11 @@
         {
           "category": "troops",
           "name": "Wall Wrecker",
-          "level": 5,
+          "level": 6,
           "max": 6,
-          "is_max": false,
-          "cost": {
-            "elixir": 26000000
-          },
-          "seconds": 1166400
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18547,13 +18545,13 @@
         {
           "category": "pets",
           "name": "Poison Lizard",
-          "level": 9,
+          "level": 10,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 150000
+            "dark_elixir": 180000
           },
-          "seconds": 432000
+          "seconds": 518400
         },
         {
           "category": "pets",
@@ -20415,7 +20413,7 @@
         }
       ],
       "ranked": {
-        "trophies": 90,
+        "trophies": 114,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20431,7 +20429,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "20d 8h",
+          "ends_in": "19d 18h",
           "active": true
         },
         "scheduled": [
@@ -20439,25 +20437,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "20d 8h"
+            "starts_in": "19d 18h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "11d 8h"
+            "starts_in": "10d 18h"
           },
           {
             "event": "CWL",
             "estimate": true,
-            "active": true,
-            "ends_in": "now"
+            "active": false,
+            "starts_in": "19d 18h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 7h"
+            "starts_in": "1d 17h"
           }
         ],
         "raid_weekend": {
@@ -20652,7 +20650,7 @@
           "duration_sec": "102"
         },
         {
-          "date_seen": "2026-11-10",
+          "date_seen": "2026-11-11",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "cwl",
