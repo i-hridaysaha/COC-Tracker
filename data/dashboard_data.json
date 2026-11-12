@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-11T13:35:46.653540+00:00",
+  "captured_at": "2026-11-12T14:39:20.774822+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,24 +17790,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 114,
+      "trophies": 161,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3434,
+      "donations": 3553,
       "received": 466,
-      "offense_completion_pct": 88.7,
+      "offense_completion_pct": 89.0,
       "rush": {
-        "score": 6.4,
+        "score": 6.2,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 54,
+        "levels_behind_prev_th": 52,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 89,
+            "level": 90,
             "prev_th_max": 100,
-            "behind": 11,
+            "behind": 10,
             "category": "heroes"
           },
           {
@@ -17841,8 +17841,8 @@
         ]
       },
       "completion": {
-        "heroes": 91.0,
-        "troops": 89.5,
+        "heroes": 91.5,
+        "troops": 89.8,
         "spells": 78.0,
         "pets": 72.9,
         "equipment": 67.5,
@@ -17857,13 +17857,13 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 89,
+          "level": 90,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 270000
+            "dark_elixir": 280000
           },
-          "seconds": 604800
+          "seconds": 648000
         },
         {
           "category": "heroes",
@@ -17890,11 +17890,11 @@
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 73,
+          "level": 74,
           "max": 85,
           "is_max": false,
           "cost": {
-            "elixir": 22000000
+            "elixir": 22500000
           },
           "seconds": 691200
         },
@@ -17959,12 +17959,11 @@
         {
           "category": "troops",
           "name": "Goblin",
-          "level": 9,
+          "level": 10,
           "max": 10,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -20413,7 +20412,7 @@
         }
       ],
       "ranked": {
-        "trophies": 114,
+        "trophies": 161,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20429,7 +20428,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "19d 18h",
+          "ends_in": "18d 17h",
           "active": true
         },
         "scheduled": [
@@ -20437,25 +20436,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "19d 18h"
+            "starts_in": "18d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "10d 18h"
+            "starts_in": "9d 17h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "19d 18h"
+            "starts_in": "18d 17h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 17h"
+            "starts_in": "16h 20m"
           }
         ],
         "raid_weekend": {
@@ -20650,7 +20649,7 @@
           "duration_sec": "102"
         },
         {
-          "date_seen": "2026-11-11",
+          "date_seen": "2026-11-12",
           "player_tag": "#8P88Q0GLQ",
           "player_name": "the dark LORD",
           "war_type": "cwl",

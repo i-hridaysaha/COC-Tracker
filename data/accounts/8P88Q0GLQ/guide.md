@@ -2,16 +2,16 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 1834 days, 5:30:00 of build time (one builder), 1,268,445,000 gold, 898,900,000 elixir, 17,111,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
+Total remaining: 1819 days, 5:30:00 of build time (one builder), 1,268,445,000 gold, 876,900,000 elixir, 16,841,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
 
-1. **Barbarian King** (heroes) 89 → 110 — 5,680,000 DE, 124 days, 12:00:00
-   _one of your longest builds at 124 days, 12:00:00, start early to reach max sooner_
+1. **Barbarian King** (heroes) 90 → 110 — 5,410,000 DE, 117 days, 12:00:00
+   _one of your longest builds at 117 days, 12:00:00, start early to reach max sooner_
 2. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
-3. **Grand Warden** (heroes) 73 → 85 — 179,500,000 elixir, 56 days
-   _one of your longest builds at 56 days, start early to reach max sooner_
-4. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
+3. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
    _one of your longest builds at 52 days, 12:00:00, start early to reach max sooner_
+4. **Grand Warden** (heroes) 74 → 85 — 157,500,000 elixir, 48 days
+   _one of your longest builds at 48 days, start early to reach max sooner_
 5. **Mighty Yak** (pets) 8 → 15 — 980,000 DE, 42 days
    _one of your longest builds at 42 days, start early to reach max sooner_
 6. **Poison Spell** (spells) 8 → 12 — 890,000 DE, 39 days, 4:00:00

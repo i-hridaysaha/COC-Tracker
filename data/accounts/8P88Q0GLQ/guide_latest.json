@@ -3,30 +3,30 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "1834 days, 5:30:00",
+  "total_build_time_one_builder": "1819 days, 5:30:00",
   "total_cost": {
-    "dark_elixir": 17111000,
-    "elixir": 898900000,
+    "dark_elixir": 16841000,
+    "elixir": 876900000,
     "gold": 1268445000,
     "shiny_ore": 571820,
     "glowy_ore": 42500,
     "starry_ore": 3870
   },
-  "total_cost_text": "1,268,445,000 gold, 898,900,000 elixir, 17,111,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry",
+  "total_cost_text": "1,268,445,000 gold, 876,900,000 elixir, 16,841,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry",
   "items": [
     {
       "rank": 1,
       "category": "heroes",
       "name": "Barbarian King",
-      "from_level": 89,
+      "from_level": 90,
       "to_level": 110,
       "cost": {
-        "dark_elixir": 5680000
+        "dark_elixir": 5410000
       },
-      "cost_text": "5,680,000 DE",
-      "build_time": "124 days, 12:00:00",
-      "build_seconds": 10756800,
-      "reason": "one of your longest builds at 124 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "5,410,000 DE",
+      "build_time": "117 days, 12:00:00",
+      "build_seconds": 10152000,
+      "reason": "one of your longest builds at 117 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 2,
@@ -44,20 +44,6 @@
     },
     {
       "rank": 3,
-      "category": "heroes",
-      "name": "Grand Warden",
-      "from_level": 73,
-      "to_level": 85,
-      "cost": {
-        "elixir": 179500000
-      },
-      "cost_text": "179,500,000 elixir",
-      "build_time": "56 days",
-      "build_seconds": 4838400,
-      "reason": "one of your longest builds at 56 days, start early to reach max sooner"
-    },
-    {
-      "rank": 4,
       "category": "pets",
       "name": "L.A.S.S.I",
       "from_level": 5,
@@ -69,6 +55,20 @@
       "build_time": "52 days, 12:00:00",
       "build_seconds": 4536000,
       "reason": "one of your longest builds at 52 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 4,
+      "category": "heroes",
+      "name": "Grand Warden",
+      "from_level": 74,
+      "to_level": 85,
+      "cost": {
+        "elixir": 157500000
+      },
+      "cost_text": "157,500,000 elixir",
+      "build_time": "48 days",
+      "build_seconds": 4147200,
+      "reason": "one of your longest builds at 48 days, start early to reach max sooner"
     },
     {
       "rank": 5,
