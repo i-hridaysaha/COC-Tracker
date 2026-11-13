@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-12T14:39:20.774822+00:00",
+  "captured_at": "2026-11-13T13:57:04.192136+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17795,7 +17795,7 @@
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3553,
+      "donations": 3836,
       "received": 466,
       "offense_completion_pct": 89.0,
       "rush": {
@@ -17844,7 +17844,7 @@
         "heroes": 91.5,
         "troops": 89.8,
         "spells": 78.0,
-        "pets": 72.9,
+        "pets": 73.5,
         "equipment": 67.5,
         "defenses": 100.0,
         "resources": 87.4,
@@ -18544,13 +18544,13 @@
         {
           "category": "pets",
           "name": "Poison Lizard",
-          "level": 10,
+          "level": 11,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 180000
+            "dark_elixir": 200000
           },
-          "seconds": 518400
+          "seconds": 604800
         },
         {
           "category": "pets",
@@ -20428,7 +20428,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "18d 17h",
+          "ends_in": "17d 18h",
           "active": true
         },
         "scheduled": [
@@ -20436,45 +20436,35 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "18d 17h"
+            "starts_in": "17d 18h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "9d 17h"
+            "starts_in": "8d 18h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "18d 17h"
+            "starts_in": "17d 18h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
-            "active": false,
-            "starts_in": "16h 20m"
+            "active": true,
+            "ends_in": "2d 17h"
           }
         ],
         "raid_weekend": {
           "source": "api",
-          "state": "ended",
-          "start": "2026-11-06 07:00:00+00:00",
-          "end": "2026-11-09 07:00:00+00:00",
-          "ends_in": null,
-          "me": {
-            "capital_resources_looted": 24234,
-            "attacks_used": 6,
-            "attacks_available": 6
-          }
+          "state": "ongoing",
+          "start": "2026-11-13 07:00:00+00:00",
+          "end": "2026-11-16 07:00:00+00:00",
+          "ends_in": "2d 17h"
         },
-        "cwl": {
-          "source": "api",
-          "state": "ended",
-          "season": "2026-11-01",
-          "number_of_rounds": 7
-        }
+        "cwl": null
       },
       "wars": [
         {

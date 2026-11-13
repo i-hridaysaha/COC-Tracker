@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "1819 days, 5:30:00",
+  "total_build_time_one_builder": "1813 days, 5:30:00",
   "total_cost": {
-    "dark_elixir": 16841000,
+    "dark_elixir": 16661000,
     "elixir": 876900000,
     "gold": 1268445000,
     "shiny_ore": 571820,
     "glowy_ore": 42500,
     "starry_ore": 3870
   },
-  "total_cost_text": "1,268,445,000 gold, 876,900,000 elixir, 16,841,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry",
+  "total_cost_text": "1,268,445,000 gold, 876,900,000 elixir, 16,661,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry",
   "items": [
     {
       "rank": 1,
@@ -128,20 +128,6 @@
     },
     {
       "rank": 9,
-      "category": "pets",
-      "name": "Poison Lizard",
-      "from_level": 10,
-      "to_level": 15,
-      "cost": {
-        "dark_elixir": 1100000
-      },
-      "cost_text": "1,100,000 DE",
-      "build_time": "37 days",
-      "build_seconds": 3196800,
-      "reason": "one of your longest builds at 37 days, start early to reach max sooner"
-    },
-    {
-      "rank": 10,
       "category": "spells",
       "name": "Recall Spell",
       "from_level": 3,
@@ -153,6 +139,20 @@
       "build_time": "33 days, 12:00:00",
       "build_seconds": 2894400,
       "reason": "one of your longest builds at 33 days, 12:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 10,
+      "category": "traps",
+      "name": "Spring Trap",
+      "from_level": 5,
+      "to_level": 13,
+      "cost": {
+        "gold": 46700000
+      },
+      "cost_text": "46,700,000 gold",
+      "build_time": "32 days, 12:00:00",
+      "build_seconds": 2808000,
+      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 11,
@@ -228,15 +228,15 @@
       "rank": 16,
       "category": "traps",
       "name": "Spring Trap",
-      "from_level": 5,
+      "from_level": 6,
       "to_level": 13,
       "cost": {
-        "gold": 46700000
+        "gold": 45700000
       },
-      "cost_text": "46,700,000 gold",
-      "build_time": "32 days, 12:00:00",
-      "build_seconds": 2808000,
-      "reason": "one of your longest builds at 32 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "45,700,000 gold",
+      "build_time": "32 days",
+      "build_seconds": 2764800,
+      "reason": "one of your longest builds at 32 days, start early to reach max sooner"
     },
     {
       "rank": 17,
@@ -268,20 +268,6 @@
     },
     {
       "rank": 19,
-      "category": "traps",
-      "name": "Spring Trap",
-      "from_level": 6,
-      "to_level": 13,
-      "cost": {
-        "gold": 45700000
-      },
-      "cost_text": "45,700,000 gold",
-      "build_time": "32 days",
-      "build_seconds": 2764800,
-      "reason": "one of your longest builds at 32 days, start early to reach max sooner"
-    },
-    {
-      "rank": 20,
       "category": "troops",
       "name": "Wizard",
       "from_level": 11,
@@ -295,7 +281,7 @@
       "reason": "one of your longest builds at 31 days, 12:00:00, start early to reach max sooner"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "category": "troops",
       "name": "Miner",
       "from_level": 9,
@@ -307,6 +293,20 @@
       "build_time": "31 days, 8:00:00",
       "build_seconds": 2707200,
       "reason": "one of your longest builds at 31 days, 8:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 21,
+      "category": "pets",
+      "name": "Poison Lizard",
+      "from_level": 11,
+      "to_level": 15,
+      "cost": {
+        "dark_elixir": 920000
+      },
+      "cost_text": "920,000 DE",
+      "build_time": "31 days",
+      "build_seconds": 2678400,
+      "reason": "one of your longest builds at 31 days, start early to reach max sooner"
     },
     {
       "rank": 22,

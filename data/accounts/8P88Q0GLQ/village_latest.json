@@ -15,7 +15,7 @@
     "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 3553,
+    "donations": 3836,
     "received": 466
   },
   "ranked": {
@@ -33,11 +33,11 @@
     "heroes": 91.5,
     "troops": 89.8,
     "spells": 78.0,
-    "pets": 72.9,
+    "pets": 73.5,
     "equipment": 67.5
   },
   "offense_completion_pct": 89.0,
-  "total_levels_remaining": 438,
+  "total_levels_remaining": 437,
   "rush_risk": {
     "score": 6.2,
     "band": "slightly rushed",
@@ -198,10 +198,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 113,
+      "current_total": 114,
       "max_total": 155,
-      "levels_remaining": 42,
-      "completion_pct": 72.9,
+      "levels_remaining": 41,
+      "completion_pct": 73.5,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -229,9 +229,9 @@
         },
         {
           "name": "Poison Lizard",
-          "level": 10,
+          "level": 11,
           "max": 15,
-          "remaining": 5
+          "remaining": 4
         }
       ]
     },
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-12T14:39:21.987672+00:00",
+  "captured_at": "2026-11-13T13:57:05.047521+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,25 +284,25 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 16841000,
+        "dark_elixir": 16661000,
         "elixir": 663000000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 77284800,
-      "build_time_one_builder": "894d 12h"
+      "build_seconds": 76766400,
+      "build_time_one_builder": "888d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 16841000,
+        "dark_elixir": 16661000,
         "elixir": 663000000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 77284800,
-      "build_time_one_builder": "894d 12h"
+      "build_seconds": 76766400,
+      "build_time_one_builder": "888d 12h"
     },
     "by_category": {
       "heroes": {
@@ -331,10 +331,10 @@
       },
       "pets": {
         "cost": {
-          "dark_elixir": 5995000
+          "dark_elixir": 5815000
         },
-        "build_seconds": 20347200,
-        "build_time": "235d 12h"
+        "build_seconds": 19828800,
+        "build_time": "229d 12h"
       },
       "equipment": {
         "cost": {

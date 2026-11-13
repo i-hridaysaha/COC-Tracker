@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 1819 days, 5:30:00 of build time (one builder), 1,268,445,000 gold, 876,900,000 elixir, 16,841,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
+Total remaining: 1813 days, 5:30:00 of build time (one builder), 1,268,445,000 gold, 876,900,000 elixir, 16,661,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
 
 1. **Barbarian King** (heroes) 90 → 110 — 5,410,000 DE, 117 days, 12:00:00
    _one of your longest builds at 117 days, 12:00:00, start early to reach max sooner_
@@ -20,10 +20,10 @@ Total remaining: 1819 days, 5:30:00 of build time (one builder), 1,268,445,000 g
    _one of your longest builds at 39 days, start early to reach max sooner_
 8. **Lightning Spell** (spells) 9 → 13 — 69,000,000 elixir, 37 days
    _one of your longest builds at 37 days, start early to reach max sooner_
-9. **Poison Lizard** (pets) 10 → 15 — 1,100,000 DE, 37 days
-   _one of your longest builds at 37 days, start early to reach max sooner_
-10. **Recall Spell** (spells) 3 → 7 — 41,000,000 elixir, 33 days, 12:00:00
+9. **Recall Spell** (spells) 3 → 7 — 41,000,000 elixir, 33 days, 12:00:00
    _one of your longest builds at 33 days, 12:00:00, start early to reach max sooner_
+10. **Spring Trap** (traps) 5 → 13 — 46,700,000 gold, 32 days, 12:00:00
+   _one of your longest builds at 32 days, 12:00:00, start early to reach max sooner_
 11. **Spring Trap** (traps) 5 → 13 — 46,700,000 gold, 32 days, 12:00:00
    _one of your longest builds at 32 days, 12:00:00, start early to reach max sooner_
 12. **Spring Trap** (traps) 5 → 13 — 46,700,000 gold, 32 days, 12:00:00
@@ -34,18 +34,18 @@ Total remaining: 1819 days, 5:30:00 of build time (one builder), 1,268,445,000 g
    _one of your longest builds at 32 days, 12:00:00, start early to reach max sooner_
 15. **Spring Trap** (traps) 5 → 13 — 46,700,000 gold, 32 days, 12:00:00
    _one of your longest builds at 32 days, 12:00:00, start early to reach max sooner_
-16. **Spring Trap** (traps) 5 → 13 — 46,700,000 gold, 32 days, 12:00:00
-   _one of your longest builds at 32 days, 12:00:00, start early to reach max sooner_
+16. **Spring Trap** (traps) 6 → 13 — 45,700,000 gold, 32 days
+   _one of your longest builds at 32 days, start early to reach max sooner_
 17. **Spring Trap** (traps) 6 → 13 — 45,700,000 gold, 32 days
    _one of your longest builds at 32 days, start early to reach max sooner_
 18. **Spring Trap** (traps) 6 → 13 — 45,700,000 gold, 32 days
    _one of your longest builds at 32 days, start early to reach max sooner_
-19. **Spring Trap** (traps) 6 → 13 — 45,700,000 gold, 32 days
-   _one of your longest builds at 32 days, start early to reach max sooner_
-20. **Wizard** (troops) 11 → 14 — 54,500,000 elixir, 31 days, 12:00:00
+19. **Wizard** (troops) 11 → 14 — 54,500,000 elixir, 31 days, 12:00:00
    _one of your longest builds at 31 days, 12:00:00, start early to reach max sooner_
-21. **Miner** (troops) 9 → 12 — 57,000,000 elixir, 31 days, 8:00:00
+20. **Miner** (troops) 9 → 12 — 57,000,000 elixir, 31 days, 8:00:00
    _one of your longest builds at 31 days, 8:00:00, start early to reach max sooner_
+21. **Poison Lizard** (pets) 11 → 15 — 920,000 DE, 31 days
+   _one of your longest builds at 31 days, start early to reach max sooner_
 22. **Bat Spell** (spells) 5 → 8 — 660,000 DE, 28 days, 12:00:00
    _one of your longest builds at 28 days, 12:00:00, start early to reach max sooner_
 23. **Haste Spell** (spells) 3 → 7 — 588,500 DE, 28 days, 12:00:00
