@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 161,
+    "trophies": 200,
     "best_trophies": 4909,
     "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 3836,
+    "donations": 4172,
     "received": 466
   },
   "ranked": {
-    "trophies": 161,
+    "trophies": 200,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,18 +30,18 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 91.5,
-    "troops": 89.8,
-    "spells": 78.0,
-    "pets": 73.5,
+    "heroes": 91.9,
+    "troops": 90.7,
+    "spells": 78.8,
+    "pets": 74.2,
     "equipment": 67.5
   },
-  "offense_completion_pct": 89.0,
-  "total_levels_remaining": 437,
+  "offense_completion_pct": 89.6,
+  "total_levels_remaining": 430,
   "rush_risk": {
-    "score": 6.2,
+    "score": 6.1,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 52,
+    "levels_behind_prev_th": 51,
     "worst_offenders": [
       {
         "name": "Barbarian King",
@@ -84,10 +84,10 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 439,
+      "current_total": 441,
       "max_total": 480,
-      "levels_remaining": 41,
-      "completion_pct": 91.5,
+      "levels_remaining": 39,
+      "completion_pct": 91.9,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
@@ -103,25 +103,25 @@
         },
         {
           "name": "Archer Queen",
-          "level": 102,
+          "level": 103,
           "max": 110,
-          "remaining": 8
+          "remaining": 7
         },
         {
           "name": "Minion Prince",
-          "level": 93,
+          "level": 94,
           "max": 95,
-          "remaining": 2
+          "remaining": 1
         }
       ]
     },
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 318,
+      "current_total": 321,
       "max_total": 354,
-      "levels_remaining": 36,
-      "completion_pct": 89.8,
+      "levels_remaining": 33,
+      "completion_pct": 90.7,
       "biggest_gaps": [
         {
           "name": "Archer",
@@ -142,15 +142,15 @@
           "remaining": 3
         },
         {
-          "name": "Wizard",
-          "level": 11,
-          "max": 14,
-          "remaining": 3
-        },
-        {
           "name": "Miner",
           "level": 9,
           "max": 12,
+          "remaining": 3
+        },
+        {
+          "name": "Druid",
+          "level": 3,
+          "max": 6,
           "remaining": 3
         }
       ]
@@ -158,10 +158,10 @@
     "spells": {
       "category": "spells",
       "items_counted": 18,
-      "current_total": 103,
+      "current_total": 104,
       "max_total": 132,
-      "levels_remaining": 29,
-      "completion_pct": 78.0,
+      "levels_remaining": 28,
+      "completion_pct": 78.8,
       "biggest_gaps": [
         {
           "name": "Lightning Spell",
@@ -198,10 +198,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 114,
+      "current_total": 115,
       "max_total": 155,
-      "levels_remaining": 41,
-      "completion_pct": 73.5,
+      "levels_remaining": 40,
+      "completion_pct": 74.2,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -229,9 +229,9 @@
         },
         {
           "name": "Poison Lizard",
-          "level": 11,
+          "level": 12,
           "max": 15,
-          "remaining": 4
+          "remaining": 3
         }
       ]
     },
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-13T13:57:05.047521+00:00",
+  "captured_at": "2026-11-14T12:58:53.513066+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,42 +284,42 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 16661000,
-        "elixir": 663000000,
+        "dark_elixir": 15611000,
+        "elixir": 625500000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 76766400,
-      "build_time_one_builder": "888d 12h"
+      "build_seconds": 72964800,
+      "build_time_one_builder": "844d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 16661000,
-        "elixir": 663000000,
+        "dark_elixir": 15611000,
+        "elixir": 625500000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 76766400,
-      "build_time_one_builder": "888d 12h"
+      "build_seconds": 72964800,
+      "build_time_one_builder": "844d 12h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 7590000,
+          "dark_elixir": 6740000,
           "elixir": 157500000
         },
-        "build_seconds": 17755200,
-        "build_time": "205d 12h"
+        "build_seconds": 16372800,
+        "build_time": "189d 12h"
       },
       "troops": {
         "cost": {
-          "elixir": 313500000,
+          "elixir": 276000000,
           "dark_elixir": 1117500
         },
-        "build_seconds": 20808000,
-        "build_time": "240d 20h"
+        "build_seconds": 18993600,
+        "build_time": "219d 20h"
       },
       "spells": {
         "cost": {
@@ -331,10 +331,10 @@
       },
       "pets": {
         "cost": {
-          "dark_elixir": 5815000
+          "dark_elixir": 5615000
         },
-        "build_seconds": 19828800,
-        "build_time": "229d 12h"
+        "build_seconds": 19224000,
+        "build_time": "222d 12h"
       },
       "equipment": {
         "cost": {

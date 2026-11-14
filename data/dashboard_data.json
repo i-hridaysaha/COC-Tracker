@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-13T13:57:04.192136+00:00",
+  "captured_at": "2026-11-14T12:58:52.166751+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 161,
+      "trophies": 200,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 3836,
+      "donations": 4172,
       "received": 466,
-      "offense_completion_pct": 89.0,
+      "offense_completion_pct": 89.6,
       "rush": {
-        "score": 6.2,
+        "score": 6.1,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 52,
+        "levels_behind_prev_th": 51,
         "worst_offenders": [
           {
             "name": "Barbarian King",
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 91.5,
-        "troops": 89.8,
-        "spells": 78.0,
-        "pets": 73.5,
+        "heroes": 91.9,
+        "troops": 90.7,
+        "spells": 78.8,
+        "pets": 74.2,
         "equipment": 67.5,
         "defenses": 100.0,
         "resources": 87.4,
@@ -17868,22 +17868,22 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 102,
+          "level": 103,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 420000
+            "dark_elixir": 430000
           },
           "seconds": 691200
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 93,
+          "level": 94,
           "max": 95,
           "is_max": false,
           "cost": {
-            "dark_elixir": 430000
+            "dark_elixir": 450000
           },
           "seconds": 691200
         },
@@ -17979,13 +17979,11 @@
         {
           "category": "troops",
           "name": "Wall Breaker",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
-          "cost": {
-            "elixir": 26000000
-          },
-          "seconds": 1209600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -17999,13 +17997,13 @@
         {
           "category": "troops",
           "name": "Wizard",
-          "level": 11,
+          "level": 12,
           "max": 14,
           "is_max": false,
           "cost": {
-            "elixir": 11500000
+            "elixir": 16000000
           },
-          "seconds": 604800
+          "seconds": 907200
         },
         {
           "category": "troops",
@@ -18169,12 +18167,11 @@
         {
           "category": "troops",
           "name": "Lava Hound",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18434,12 +18431,11 @@
         {
           "category": "spells",
           "name": "Earthquake Spell",
-          "level": 7,
+          "level": 8,
           "max": 8,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "spells",
@@ -18544,13 +18540,13 @@
         {
           "category": "pets",
           "name": "Poison Lizard",
-          "level": 11,
+          "level": 12,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 200000
+            "dark_elixir": 220000
           },
-          "seconds": 604800
+          "seconds": 691200
         },
         {
           "category": "pets",
@@ -20412,7 +20408,7 @@
         }
       ],
       "ranked": {
-        "trophies": 161,
+        "trophies": 200,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20428,7 +20424,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "17d 18h",
+          "ends_in": "16d 19h",
           "active": true
         },
         "scheduled": [
@@ -20436,25 +20432,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "17d 18h"
+            "starts_in": "16d 19h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "8d 18h"
+            "starts_in": "7d 19h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "17d 18h"
+            "starts_in": "16d 19h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 17h"
+            "ends_in": "1d 18h"
           }
         ],
         "raid_weekend": {
@@ -20462,7 +20458,7 @@
           "state": "ongoing",
           "start": "2026-11-13 07:00:00+00:00",
           "end": "2026-11-16 07:00:00+00:00",
-          "ends_in": "2d 17h"
+          "ends_in": "1d 18h"
         },
         "cwl": null
       },
