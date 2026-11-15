@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 200,
+    "trophies": 229,
     "best_trophies": 4909,
     "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 4172,
+    "donations": 4500,
     "received": 466
   },
   "ranked": {
-    "trophies": 200,
+    "trophies": 229,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,38 +30,38 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 91.9,
-    "troops": 90.7,
-    "spells": 78.8,
+    "heroes": 92.3,
+    "troops": 91.5,
+    "spells": 79.5,
     "pets": 74.2,
     "equipment": 67.5
   },
-  "offense_completion_pct": 89.6,
-  "total_levels_remaining": 430,
+  "offense_completion_pct": 90.3,
+  "total_levels_remaining": 424,
   "rush_risk": {
-    "score": 6.1,
+    "score": 5.5,
     "band": "slightly rushed",
-    "levels_behind_prev_th": 51,
+    "levels_behind_prev_th": 46,
     "worst_offenders": [
       {
         "name": "Barbarian King",
-        "level": 90,
+        "level": 91,
         "prev_th_max": 100,
-        "behind": 10,
+        "behind": 9,
         "category": "heroes"
-      },
-      {
-        "name": "Archer",
-        "level": 9,
-        "prev_th_max": 13,
-        "behind": 4,
-        "category": "troops"
       },
       {
         "name": "Battle Drill",
         "level": 1,
         "prev_th_max": 5,
         "behind": 4,
+        "category": "troops"
+      },
+      {
+        "name": "Archer",
+        "level": 10,
+        "prev_th_max": 13,
+        "behind": 3,
         "category": "troops"
       },
       {
@@ -84,22 +84,22 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 441,
+      "current_total": 443,
       "max_total": 480,
-      "levels_remaining": 39,
-      "completion_pct": 91.9,
+      "levels_remaining": 37,
+      "completion_pct": 92.3,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
-          "level": 90,
+          "level": 91,
           "max": 110,
-          "remaining": 20
+          "remaining": 19
         },
         {
           "name": "Grand Warden",
-          "level": 74,
+          "level": 75,
           "max": 85,
-          "remaining": 11
+          "remaining": 10
         },
         {
           "name": "Archer Queen",
@@ -118,22 +118,22 @@
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 321,
+      "current_total": 324,
       "max_total": 354,
-      "levels_remaining": 33,
-      "completion_pct": 90.7,
+      "levels_remaining": 30,
+      "completion_pct": 91.5,
       "biggest_gaps": [
-        {
-          "name": "Archer",
-          "level": 9,
-          "max": 14,
-          "remaining": 5
-        },
         {
           "name": "Battle Drill",
           "level": 1,
           "max": 6,
           "remaining": 5
+        },
+        {
+          "name": "Archer",
+          "level": 10,
+          "max": 14,
+          "remaining": 4
         },
         {
           "name": "Barbarian",
@@ -158,10 +158,10 @@
     "spells": {
       "category": "spells",
       "items_counted": 18,
-      "current_total": 104,
+      "current_total": 105,
       "max_total": 132,
-      "levels_remaining": 28,
-      "completion_pct": 78.8,
+      "levels_remaining": 27,
+      "completion_pct": 79.5,
       "biggest_gaps": [
         {
           "name": "Lightning Spell",
@@ -188,10 +188,10 @@
           "remaining": 4
         },
         {
-          "name": "Haste Spell",
-          "level": 3,
-          "max": 7,
-          "remaining": 4
+          "name": "Angry Spell",
+          "level": 1,
+          "max": 4,
+          "remaining": 3
         }
       ]
     },
@@ -276,7 +276,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-14T12:58:53.513066+00:00",
+  "captured_at": "2026-11-15T13:28:03.524527+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,50 +284,50 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 15611000,
-        "elixir": 625500000,
+        "dark_elixir": 15301000,
+        "elixir": 557500000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 72964800,
-      "build_time_one_builder": "844d 12h"
+      "build_seconds": 68990400,
+      "build_time_one_builder": "798d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 15611000,
-        "elixir": 625500000,
+        "dark_elixir": 15301000,
+        "elixir": 557500000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 72964800,
-      "build_time_one_builder": "844d 12h"
+      "build_seconds": 68990400,
+      "build_time_one_builder": "798d 12h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 6740000,
-          "elixir": 157500000
+          "dark_elixir": 6460000,
+          "elixir": 135000000
         },
-        "build_seconds": 16372800,
-        "build_time": "189d 12h"
+        "build_seconds": 15033600,
+        "build_time": "174d"
       },
       "troops": {
         "cost": {
-          "elixir": 276000000,
+          "elixir": 230500000,
           "dark_elixir": 1117500
         },
-        "build_seconds": 18993600,
-        "build_time": "219d 20h"
+        "build_seconds": 16617600,
+        "build_time": "192d 8h"
       },
       "spells": {
         "cost": {
           "elixir": 192000000,
-          "dark_elixir": 2138500
+          "dark_elixir": 2108500
         },
-        "build_seconds": 18374400,
-        "build_time": "212d 16h"
+        "build_seconds": 18115200,
+        "build_time": "209d 16h"
       },
       "pets": {
         "cost": {
