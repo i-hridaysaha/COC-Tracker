@@ -10,7 +10,7 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 279,
+    "trophies": 0,
     "best_trophies": 4909,
     "war_stars": 694,
     "attack_wins": 0,
@@ -19,7 +19,7 @@
     "received": 466
   },
   "ranked": {
-    "trophies": 279,
+    "trophies": 0,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,14 +30,14 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 94.2,
-    "troops": 93.2,
-    "spells": 79.5,
-    "pets": 74.8,
+    "heroes": 88.6,
+    "troops": 85.9,
+    "spells": 76.1,
+    "pets": 72.5,
     "equipment": 67.5
   },
-  "offense_completion_pct": 91.8,
-  "total_levels_remaining": 408,
+  "offense_completion_pct": 85.9,
+  "total_levels_remaining": 479,
   "rush_risk": {
     "score": 4.9,
     "band": "not rushed",
@@ -85,26 +85,38 @@
       "category": "heroes",
       "items_counted": 6,
       "current_total": 452,
-      "max_total": 480,
-      "levels_remaining": 28,
-      "completion_pct": 94.2,
+      "max_total": 510,
+      "levels_remaining": 58,
+      "completion_pct": 88.6,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
           "level": 93,
-          "max": 110,
-          "remaining": 17
+          "max": 115,
+          "remaining": 22
         },
         {
           "name": "Grand Warden",
           "level": 79,
-          "max": 85,
-          "remaining": 6
+          "max": 90,
+          "remaining": 11
         },
         {
           "name": "Archer Queen",
           "level": 105,
-          "max": 110,
+          "max": 115,
+          "remaining": 10
+        },
+        {
+          "name": "Minion Prince",
+          "level": 95,
+          "max": 100,
+          "remaining": 5
+        },
+        {
+          "name": "Royal Champion",
+          "level": 55,
+          "max": 60,
           "remaining": 5
         }
       ]
@@ -113,9 +125,9 @@
       "category": "troops",
       "items_counted": 41,
       "current_total": 330,
-      "max_total": 354,
-      "levels_remaining": 24,
-      "completion_pct": 93.2,
+      "max_total": 384,
+      "levels_remaining": 54,
+      "completion_pct": 85.9,
       "biggest_gaps": [
         {
           "name": "Battle Drill",
@@ -126,20 +138,20 @@
         {
           "name": "Barbarian",
           "level": 10,
-          "max": 13,
-          "remaining": 3
+          "max": 14,
+          "remaining": 4
         },
         {
           "name": "Miner",
           "level": 9,
-          "max": 12,
-          "remaining": 3
+          "max": 13,
+          "remaining": 4
         },
         {
           "name": "Druid",
           "level": 3,
-          "max": 6,
-          "remaining": 3
+          "max": 7,
+          "remaining": 4
         },
         {
           "name": "Siege Barracks",
@@ -153,21 +165,27 @@
       "category": "spells",
       "items_counted": 18,
       "current_total": 105,
-      "max_total": 132,
-      "levels_remaining": 27,
-      "completion_pct": 79.5,
+      "max_total": 138,
+      "levels_remaining": 33,
+      "completion_pct": 76.1,
       "biggest_gaps": [
         {
           "name": "Lightning Spell",
           "level": 9,
-          "max": 13,
-          "remaining": 4
+          "max": 14,
+          "remaining": 5
         },
         {
           "name": "Healing Spell",
           "level": 8,
-          "max": 12,
-          "remaining": 4
+          "max": 13,
+          "remaining": 5
+        },
+        {
+          "name": "Poison Spell",
+          "level": 8,
+          "max": 13,
+          "remaining": 5
         },
         {
           "name": "Recall Spell",
@@ -176,16 +194,10 @@
           "remaining": 4
         },
         {
-          "name": "Poison Spell",
-          "level": 8,
-          "max": 12,
+          "name": "Haste Spell",
+          "level": 4,
+          "max": 8,
           "remaining": 4
-        },
-        {
-          "name": "Angry Spell",
-          "level": 1,
-          "max": 4,
-          "remaining": 3
         }
       ]
     },
@@ -193,9 +205,9 @@
       "category": "pets",
       "items_counted": 12,
       "current_total": 116,
-      "max_total": 155,
-      "levels_remaining": 39,
-      "completion_pct": 74.8,
+      "max_total": 160,
+      "levels_remaining": 44,
+      "completion_pct": 72.5,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -222,10 +234,10 @@
           "remaining": 7
         },
         {
-          "name": "Frosty",
-          "level": 12,
+          "name": "Angry Jelly",
+          "level": 10,
           "max": 15,
-          "remaining": 3
+          "remaining": 5
         }
       ]
     },
@@ -270,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-16T06:56:55.899730+00:00",
+  "captured_at": "2026-11-16T14:50:17.520318+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,

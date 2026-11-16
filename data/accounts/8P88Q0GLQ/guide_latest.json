@@ -19,7 +19,7 @@
       "category": "heroes",
       "name": "Barbarian King",
       "from_level": 93,
-      "to_level": 110,
+      "to_level": 115,
       "cost": {
         "dark_elixir": 4540000
       },
@@ -75,7 +75,7 @@
       "category": "spells",
       "name": "Poison Spell",
       "from_level": 8,
-      "to_level": 12,
+      "to_level": 13,
       "cost": {
         "dark_elixir": 890000
       },
@@ -89,7 +89,7 @@
       "category": "spells",
       "name": "Healing Spell",
       "from_level": 8,
-      "to_level": 12,
+      "to_level": 13,
       "cost": {
         "elixir": 73000000
       },
@@ -103,7 +103,7 @@
       "category": "spells",
       "name": "Lightning Spell",
       "from_level": 9,
-      "to_level": 13,
+      "to_level": 14,
       "cost": {
         "elixir": 69000000
       },
@@ -201,7 +201,7 @@
       "category": "troops",
       "name": "Miner",
       "from_level": 9,
-      "to_level": 12,
+      "to_level": 13,
       "cost": {
         "elixir": 57000000
       },
@@ -271,7 +271,7 @@
       "category": "spells",
       "name": "Bat Spell",
       "from_level": 5,
-      "to_level": 8,
+      "to_level": 9,
       "cost": {
         "dark_elixir": 660000
       },
@@ -299,7 +299,7 @@
       "category": "spells",
       "name": "Haste Spell",
       "from_level": 4,
-      "to_level": 7,
+      "to_level": 8,
       "cost": {
         "dark_elixir": 558500
       },
@@ -341,7 +341,7 @@
       "category": "troops",
       "name": "Druid",
       "from_level": 3,
-      "to_level": 6,
+      "to_level": 7,
       "cost": {
         "dark_elixir": 487500
       },
@@ -649,7 +649,7 @@
       "category": "troops",
       "name": "Minion",
       "from_level": 13,
-      "to_level": 14,
+      "to_level": 15,
       "cost": {
         "dark_elixir": 335000
       },
@@ -761,7 +761,7 @@
       "category": "heroes",
       "name": "Grand Warden",
       "from_level": 79,
-      "to_level": 85,
+      "to_level": 90,
       "cost": {
         "elixir": 30000000
       },
@@ -775,7 +775,7 @@
       "category": "troops",
       "name": "Barbarian",
       "from_level": 10,
-      "to_level": 13,
+      "to_level": 14,
       "cost": {
         "elixir": 14000000
       },
