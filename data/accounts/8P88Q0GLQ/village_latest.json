@@ -10,16 +10,16 @@
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 229,
+    "trophies": 279,
     "best_trophies": 4909,
     "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 4500,
+    "donations": 4675,
     "received": 466
   },
   "ranked": {
-    "trophies": 229,
+    "trophies": 279,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -30,24 +30,24 @@
     "best_season": null
   },
   "completion": {
-    "heroes": 92.3,
-    "troops": 91.5,
+    "heroes": 94.2,
+    "troops": 93.2,
     "spells": 79.5,
-    "pets": 74.2,
+    "pets": 74.8,
     "equipment": 67.5
   },
-  "offense_completion_pct": 90.3,
-  "total_levels_remaining": 424,
+  "offense_completion_pct": 91.8,
+  "total_levels_remaining": 408,
   "rush_risk": {
-    "score": 5.5,
-    "band": "slightly rushed",
-    "levels_behind_prev_th": 46,
+    "score": 4.9,
+    "band": "not rushed",
+    "levels_behind_prev_th": 41,
     "worst_offenders": [
       {
         "name": "Barbarian King",
-        "level": 91,
+        "level": 93,
         "prev_th_max": 100,
-        "behind": 9,
+        "behind": 7,
         "category": "heroes"
       },
       {
@@ -55,13 +55,6 @@
         "level": 1,
         "prev_th_max": 5,
         "behind": 4,
-        "category": "troops"
-      },
-      {
-        "name": "Archer",
-        "level": 10,
-        "prev_th_max": 13,
-        "behind": 3,
         "category": "troops"
       },
       {
@@ -77,6 +70,13 @@
         "prev_th_max": 12,
         "behind": 3,
         "category": "spells"
+      },
+      {
+        "name": "Healing Spell",
+        "level": 8,
+        "prev_th_max": 11,
+        "behind": 3,
+        "category": "spells"
       }
     ]
   },
@@ -84,56 +84,44 @@
     "heroes": {
       "category": "heroes",
       "items_counted": 6,
-      "current_total": 443,
+      "current_total": 452,
       "max_total": 480,
-      "levels_remaining": 37,
-      "completion_pct": 92.3,
+      "levels_remaining": 28,
+      "completion_pct": 94.2,
       "biggest_gaps": [
         {
           "name": "Barbarian King",
-          "level": 91,
+          "level": 93,
           "max": 110,
-          "remaining": 19
+          "remaining": 17
         },
         {
           "name": "Grand Warden",
-          "level": 75,
+          "level": 79,
           "max": 85,
-          "remaining": 10
+          "remaining": 6
         },
         {
           "name": "Archer Queen",
-          "level": 103,
+          "level": 105,
           "max": 110,
-          "remaining": 7
-        },
-        {
-          "name": "Minion Prince",
-          "level": 94,
-          "max": 95,
-          "remaining": 1
+          "remaining": 5
         }
       ]
     },
     "troops": {
       "category": "troops",
       "items_counted": 41,
-      "current_total": 324,
+      "current_total": 330,
       "max_total": 354,
-      "levels_remaining": 30,
-      "completion_pct": 91.5,
+      "levels_remaining": 24,
+      "completion_pct": 93.2,
       "biggest_gaps": [
         {
           "name": "Battle Drill",
           "level": 1,
           "max": 6,
           "remaining": 5
-        },
-        {
-          "name": "Archer",
-          "level": 10,
-          "max": 14,
-          "remaining": 4
         },
         {
           "name": "Barbarian",
@@ -149,6 +137,12 @@
         },
         {
           "name": "Druid",
+          "level": 3,
+          "max": 6,
+          "remaining": 3
+        },
+        {
+          "name": "Siege Barracks",
           "level": 3,
           "max": 6,
           "remaining": 3
@@ -198,10 +192,10 @@
     "pets": {
       "category": "pets",
       "items_counted": 12,
-      "current_total": 115,
+      "current_total": 116,
       "max_total": 155,
-      "levels_remaining": 40,
-      "completion_pct": 74.2,
+      "levels_remaining": 39,
+      "completion_pct": 74.8,
       "biggest_gaps": [
         {
           "name": "L.A.S.S.I",
@@ -228,7 +222,7 @@
           "remaining": 7
         },
         {
-          "name": "Poison Lizard",
+          "name": "Frosty",
           "level": 12,
           "max": 15,
           "remaining": 3
@@ -276,7 +270,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-15T13:28:03.524527+00:00",
+  "captured_at": "2026-11-16T06:56:55.899730+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,
@@ -284,42 +278,42 @@
     },
     "base": {
       "cost": {
-        "dark_elixir": 15301000,
-        "elixir": 557500000,
+        "dark_elixir": 13161000,
+        "elixir": 396000000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 68990400,
-      "build_time_one_builder": "798d 12h"
+      "build_seconds": 59400000,
+      "build_time_one_builder": "687d 12h"
     },
     "adjusted": {
       "cost": {
-        "dark_elixir": 15301000,
-        "elixir": 557500000,
+        "dark_elixir": 13161000,
+        "elixir": 396000000,
         "shiny_ore": 571820,
         "glowy_ore": 42500,
         "starry_ore": 3870
       },
-      "build_seconds": 68990400,
-      "build_time_one_builder": "798d 12h"
+      "build_seconds": 59400000,
+      "build_time_one_builder": "687d 12h"
     },
     "by_category": {
       "heroes": {
         "cost": {
-          "dark_elixir": 6460000,
-          "elixir": 135000000
+          "dark_elixir": 4540000,
+          "elixir": 30000000
         },
-        "build_seconds": 15033600,
-        "build_time": "174d"
+        "build_seconds": 8899200,
+        "build_time": "103d"
       },
       "troops": {
         "cost": {
-          "elixir": 230500000,
+          "elixir": 174000000,
           "dark_elixir": 1117500
         },
-        "build_seconds": 16617600,
-        "build_time": "192d 8h"
+        "build_seconds": 13852800,
+        "build_time": "160d 8h"
       },
       "spells": {
         "cost": {
@@ -331,10 +325,10 @@
       },
       "pets": {
         "cost": {
-          "dark_elixir": 5615000
+          "dark_elixir": 5395000
         },
-        "build_seconds": 19224000,
-        "build_time": "222d 12h"
+        "build_seconds": 18532800,
+        "build_time": "214d 12h"
       },
       "equipment": {
         "cost": {

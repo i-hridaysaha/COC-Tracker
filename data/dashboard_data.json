@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-15T13:27:30.438559+00:00",
+  "captured_at": "2026-11-16T06:56:55.318899+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,24 +17790,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 229,
+      "trophies": 279,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4500,
+      "donations": 4675,
       "received": 466,
-      "offense_completion_pct": 90.3,
+      "offense_completion_pct": 91.8,
       "rush": {
-        "score": 5.5,
-        "band": "slightly rushed",
-        "levels_behind_prev_th": 46,
+        "score": 4.9,
+        "band": "not rushed",
+        "levels_behind_prev_th": 41,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 91,
+            "level": 93,
             "prev_th_max": 100,
-            "behind": 9,
+            "behind": 7,
             "category": "heroes"
           },
           {
@@ -17815,13 +17815,6 @@
             "level": 1,
             "prev_th_max": 5,
             "behind": 4,
-            "category": "troops"
-          },
-          {
-            "name": "Archer",
-            "level": 10,
-            "prev_th_max": 13,
-            "behind": 3,
             "category": "troops"
           },
           {
@@ -17837,64 +17830,68 @@
             "prev_th_max": 12,
             "behind": 3,
             "category": "spells"
+          },
+          {
+            "name": "Healing Spell",
+            "level": 8,
+            "prev_th_max": 11,
+            "behind": 3,
+            "category": "spells"
           }
         ]
       },
       "completion": {
-        "heroes": 92.3,
-        "troops": 91.5,
+        "heroes": 94.2,
+        "troops": 93.2,
         "spells": 79.5,
-        "pets": 74.2,
+        "pets": 74.8,
         "equipment": 67.5,
         "defenses": 100.0,
-        "resources": 87.4,
+        "resources": 88.1,
         "army": 100.0,
-        "traps": 66.9,
-        "guardians": 53.3,
+        "traps": 71.8,
+        "guardians": 66.7,
         "walls": 100.0
       },
       "items": [
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 91,
+          "level": 93,
           "max": 110,
           "is_max": false,
           "cost": {
-            "dark_elixir": 290000
+            "dark_elixir": 310000
           },
           "seconds": 648000
         },
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 103,
+          "level": 105,
           "max": 110,
           "is_max": false,
-          "cost": {
-            "dark_elixir": 430000
-          },
-          "seconds": 691200
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "heroes",
           "name": "Minion Prince",
-          "level": 94,
+          "level": 95,
           "max": 95,
-          "is_max": false,
-          "cost": {
-            "dark_elixir": 450000
-          },
-          "seconds": 691200
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 75,
+          "level": 79,
           "max": 85,
           "is_max": false,
           "cost": {
-            "elixir": 24000000
+            "elixir": 30000000
           },
           "seconds": 691200
         },
@@ -17948,13 +17945,12 @@
         {
           "category": "troops",
           "name": "Archer",
-          "level": 10,
+          "level": 13,
           "max": 14,
           "is_max": false,
-          "cost": {
-            "elixir": 6500000
-          },
-          "seconds": 345600
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -17995,13 +17991,11 @@
         {
           "category": "troops",
           "name": "Wizard",
-          "level": 13,
+          "level": 14,
           "max": 14,
-          "is_max": false,
-          "cost": {
-            "elixir": 27000000
-          },
-          "seconds": 1209600
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18127,12 +18121,11 @@
         {
           "category": "troops",
           "name": "Hog Rider",
-          "level": 14,
+          "level": 15,
           "max": 15,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18146,12 +18139,11 @@
         {
           "category": "troops",
           "name": "Golem",
-          "level": 14,
+          "level": 15,
           "max": 15,
-          "is_max": false,
+          "is_max": true,
           "cost": {},
-          "seconds": 0,
-          "unknown_cost": true
+          "seconds": 0
         },
         {
           "category": "troops",
@@ -18538,11 +18530,11 @@
         {
           "category": "pets",
           "name": "Poison Lizard",
-          "level": 12,
+          "level": 13,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 220000
+            "dark_elixir": 240000
           },
           "seconds": 691200
         },
@@ -19538,35 +19530,29 @@
         {
           "category": "resources",
           "name": "Elixir Storage",
-          "level": 18,
+          "level": 19,
           "max": 19,
-          "is_max": false,
-          "cost": {
-            "gold": 18000000
-          },
-          "seconds": 1080000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "resources",
           "name": "Elixir Storage",
-          "level": 18,
+          "level": 19,
           "max": 19,
-          "is_max": false,
-          "cost": {
-            "gold": 18000000
-          },
-          "seconds": 1080000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "resources",
           "name": "Elixir Storage",
-          "level": 18,
+          "level": 19,
           "max": 19,
-          "is_max": false,
-          "cost": {
-            "gold": 18000000
-          },
-          "seconds": 1080000
+          "is_max": true,
+          "cost": {},
+          "seconds": 0
         },
         {
           "category": "resources",
@@ -19860,24 +19846,24 @@
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 10000000
           },
-          "seconds": 172800
+          "seconds": 432000
         },
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 10000000
           },
-          "seconds": 172800
+          "seconds": 432000
         },
         {
           "category": "traps",
@@ -19970,68 +19956,24 @@
         {
           "category": "traps",
           "name": "Spring Trap",
-          "level": 5,
+          "level": 6,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 1000000
+            "gold": 1700000
           },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
           "name": "Spring Trap",
-          "level": 5,
+          "level": 6,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 1000000
+            "gold": 1700000
           },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
-        },
-        {
-          "category": "traps",
-          "name": "Spring Trap",
-          "level": 5,
-          "max": 13,
-          "is_max": false,
-          "cost": {
-            "gold": 1000000
-          },
-          "seconds": 43200
+          "seconds": 86400
         },
         {
           "category": "traps",
@@ -20068,80 +20010,124 @@
         },
         {
           "category": "traps",
-          "name": "Giant Bomb",
-          "level": 8,
-          "max": 12,
+          "name": "Spring Trap",
+          "level": 7,
+          "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 2000000
           },
-          "seconds": 172800
+          "seconds": 129600
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 7,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 2000000
+          },
+          "seconds": 129600
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 7,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 2000000
+          },
+          "seconds": 129600
+        },
+        {
+          "category": "traps",
+          "name": "Spring Trap",
+          "level": 7,
+          "max": 13,
+          "is_max": false,
+          "cost": {
+            "gold": 2000000
+          },
+          "seconds": 129600
         },
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 10000000
           },
-          "seconds": 172800
+          "seconds": 432000
         },
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 10000000
           },
-          "seconds": 172800
+          "seconds": 432000
         },
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 10000000
           },
-          "seconds": 172800
+          "seconds": 432000
         },
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 8,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 3200000
+            "gold": 10000000
           },
-          "seconds": 172800
+          "seconds": 432000
         },
         {
           "category": "traps",
           "name": "Giant Bomb",
-          "level": 9,
+          "level": 10,
           "max": 12,
           "is_max": false,
           "cost": {
-            "gold": 5500000
+            "gold": 10000000
           },
-          "seconds": 345600
+          "seconds": 432000
+        },
+        {
+          "category": "traps",
+          "name": "Giant Bomb",
+          "level": 10,
+          "max": 12,
+          "is_max": false,
+          "cost": {
+            "gold": 10000000
+          },
+          "seconds": 432000
         },
         {
           "category": "traps",
           "name": "Air Bomb",
-          "level": 1,
+          "level": 2,
           "max": 13,
           "is_max": false,
           "cost": {
-            "gold": 20000
+            "gold": 75000
           },
-          "seconds": 1800
+          "seconds": 3600
         },
         {
           "category": "traps",
@@ -20366,6 +20352,17 @@
         {
           "category": "guardians",
           "name": "Longshot",
+          "level": 3,
+          "max": 5,
+          "is_max": false,
+          "cost": {
+            "elixir": 26000000
+          },
+          "seconds": 950400
+        },
+        {
+          "category": "guardians",
+          "name": "Smasher",
           "level": 2,
           "max": 5,
           "is_max": false,
@@ -20373,17 +20370,6 @@
             "elixir": 22000000
           },
           "seconds": 777600
-        },
-        {
-          "category": "guardians",
-          "name": "Smasher",
-          "level": 1,
-          "max": 5,
-          "is_max": false,
-          "cost": {
-            "elixir": 18000000
-          },
-          "seconds": 604800
         },
         {
           "category": "guardians",
@@ -20406,7 +20392,7 @@
         }
       ],
       "ranked": {
-        "trophies": 229,
+        "trophies": 279,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20422,7 +20408,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "15d 18h",
+          "ends_in": "15d 1h",
           "active": true
         },
         "scheduled": [
@@ -20430,25 +20416,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "15d 18h"
+            "starts_in": "15d 1h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "6d 18h"
+            "starts_in": "6d 1h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "15d 18h"
+            "starts_in": "15d 1h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "17h 31m"
+            "ends_in": "3m"
           }
         ],
         "raid_weekend": {
@@ -20456,7 +20442,12 @@
           "state": "ongoing",
           "start": "2026-11-13 07:00:00+00:00",
           "end": "2026-11-16 07:00:00+00:00",
-          "ends_in": "17h 31m"
+          "ends_in": "3m",
+          "me": {
+            "capital_resources_looted": 25686,
+            "attacks_used": 6,
+            "attacks_available": 6
+          }
         },
         "cwl": null
       },
