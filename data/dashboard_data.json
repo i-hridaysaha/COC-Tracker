@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-17T15:30:31.694678+00:00",
+  "captured_at": "2026-11-18T15:07:59.989426+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,24 +17790,24 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 0,
+      "trophies": 67,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 4774,
+      "donations": 4923,
       "received": 466,
-      "offense_completion_pct": 85.9,
+      "offense_completion_pct": 86.2,
       "rush": {
-        "score": 4.9,
+        "score": 4.8,
         "band": "not rushed",
-        "levels_behind_prev_th": 41,
+        "levels_behind_prev_th": 40,
         "worst_offenders": [
           {
             "name": "Barbarian King",
-            "level": 93,
+            "level": 94,
             "prev_th_max": 100,
-            "behind": 7,
+            "behind": 6,
             "category": "heroes"
           },
           {
@@ -17841,10 +17841,10 @@
         ]
       },
       "completion": {
-        "heroes": 88.6,
-        "troops": 85.9,
+        "heroes": 89.0,
+        "troops": 86.2,
         "spells": 76.1,
-        "pets": 72.5,
+        "pets": 73.1,
         "equipment": 67.5,
         "defenses": 100.0,
         "resources": 88.1,
@@ -17857,11 +17857,11 @@
         {
           "category": "heroes",
           "name": "Barbarian King",
-          "level": 93,
+          "level": 94,
           "max": 115,
           "is_max": false,
           "cost": {
-            "dark_elixir": 310000
+            "dark_elixir": 320000
           },
           "seconds": 648000
         },
@@ -17888,13 +17888,12 @@
         {
           "category": "heroes",
           "name": "Grand Warden",
-          "level": 79,
+          "level": 80,
           "max": 90,
           "is_max": false,
-          "cost": {
-            "elixir": 30000000
-          },
-          "seconds": 691200
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "heroes",
@@ -17949,7 +17948,7 @@
         {
           "category": "troops",
           "name": "Archer",
-          "level": 13,
+          "level": 14,
           "max": 15,
           "is_max": false,
           "cost": {},
@@ -18581,11 +18580,11 @@
         {
           "category": "pets",
           "name": "Frosty",
-          "level": 12,
+          "level": 13,
           "max": 15,
           "is_max": false,
           "cost": {
-            "dark_elixir": 260000
+            "dark_elixir": 290000
           },
           "seconds": 691200
         },
@@ -20422,7 +20421,7 @@
         }
       ],
       "ranked": {
-        "trophies": 0,
+        "trophies": 67,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20438,7 +20437,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "13d 16h",
+          "ends_in": "12d 16h",
           "active": true
         },
         "scheduled": [
@@ -20446,25 +20445,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "13d 16h"
+            "starts_in": "12d 16h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "4d 16h"
+            "starts_in": "3d 16h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "13d 16h"
+            "starts_in": "12d 16h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "2d 15h"
+            "starts_in": "1d 15h"
           }
         ],
         "raid_weekend": {
