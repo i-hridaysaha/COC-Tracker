@@ -3,16 +3,16 @@
   "mode": "time_to_max",
   "active_events": null,
   "includes_defenses": true,
-  "total_build_time_one_builder": "1461 days, 17:00:00",
+  "total_build_time_one_builder": "1454 days, 5:00:00",
   "total_cost": {
-    "dark_elixir": 12256000,
+    "dark_elixir": 12121000,
     "elixir": 579900000,
     "gold": 1097225000,
     "shiny_ore": 571820,
     "glowy_ore": 42500,
     "starry_ore": 3870
   },
-  "total_cost_text": "1,097,225,000 gold, 579,900,000 elixir, 12,256,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry",
+  "total_cost_text": "1,097,225,000 gold, 579,900,000 elixir, 12,121,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry",
   "items": [
     {
       "rank": 1,
@@ -618,20 +618,6 @@
     },
     {
       "rank": 44,
-      "category": "troops",
-      "name": "Apprentice Warden",
-      "from_level": 2,
-      "to_level": 4,
-      "cost": {
-        "dark_elixir": 295000
-      },
-      "cost_text": "295,000 DE",
-      "build_time": "15 days, 12:00:00",
-      "build_seconds": 1339200,
-      "reason": "one of your longest builds at 15 days, 12:00:00, start early to reach max sooner"
-    },
-    {
-      "rank": 45,
       "category": "resources",
       "name": "Dark Elixir Drill",
       "from_level": 6,
@@ -643,6 +629,20 @@
       "build_time": "15 days, 6:00:00",
       "build_seconds": 1317600,
       "reason": "one of your longest builds at 15 days, 6:00:00, start early to reach max sooner"
+    },
+    {
+      "rank": 45,
+      "category": "resources",
+      "name": "Dark Elixir Drill",
+      "from_level": 7,
+      "to_level": 11,
+      "cost": {
+        "elixir": 23400000
+      },
+      "cost_text": "23,400,000 elixir",
+      "build_time": "13 days, 12:00:00",
+      "build_seconds": 1166400,
+      "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 46,
@@ -661,16 +661,16 @@
     {
       "rank": 47,
       "category": "resources",
-      "name": "Dark Elixir Drill",
-      "from_level": 7,
-      "to_level": 11,
+      "name": "Gold Storage",
+      "from_level": 18,
+      "to_level": 19,
       "cost": {
-        "elixir": 23400000
+        "elixir": 18000000
       },
-      "cost_text": "23,400,000 elixir",
-      "build_time": "13 days, 12:00:00",
-      "build_seconds": 1166400,
-      "reason": "one of your longest builds at 13 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "18,000,000 elixir",
+      "build_time": "12 days, 12:00:00",
+      "build_seconds": 1080000,
+      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
     },
     {
       "rank": 48,
@@ -716,17 +716,17 @@
     },
     {
       "rank": 51,
-      "category": "resources",
-      "name": "Gold Storage",
-      "from_level": 18,
-      "to_level": 19,
+      "category": "troops",
+      "name": "Apprentice Warden",
+      "from_level": 3,
+      "to_level": 4,
       "cost": {
-        "elixir": 18000000
+        "dark_elixir": 160000
       },
-      "cost_text": "18,000,000 elixir",
-      "build_time": "12 days, 12:00:00",
-      "build_seconds": 1080000,
-      "reason": "one of your longest builds at 12 days, 12:00:00, start early to reach max sooner"
+      "cost_text": "160,000 DE",
+      "build_time": "8 days",
+      "build_seconds": 691200,
+      "reason": "one of your longest builds at 8 days, start early to reach max sooner"
     },
     {
       "rank": 52,

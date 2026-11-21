@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-20T14:55:01.416253+00:00",
+  "captured_at": "2026-11-21T14:14:56.978336+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,18 +17790,18 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 130,
+      "trophies": 151,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 5175,
+      "donations": 5327,
       "received": 525,
-      "offense_completion_pct": 85.6,
+      "offense_completion_pct": 85.7,
       "rush": {
-        "score": 6.1,
+        "score": 6.0,
         "band": "slightly rushed",
-        "levels_behind_prev_th": 52,
+        "levels_behind_prev_th": 51,
         "worst_offenders": [
           {
             "name": "Super Wall Breaker",
@@ -17842,7 +17842,7 @@
       },
       "completion": {
         "heroes": 89.2,
-        "troops": 84.3,
+        "troops": 84.6,
         "spells": 76.1,
         "pets": 73.1,
         "equipment": 67.5,
@@ -18228,13 +18228,13 @@
         {
           "category": "troops",
           "name": "Apprentice Warden",
-          "level": 2,
+          "level": 3,
           "max": 4,
           "is_max": false,
           "cost": {
-            "dark_elixir": 135000
+            "dark_elixir": 160000
           },
-          "seconds": 648000
+          "seconds": 691200
         },
         {
           "category": "troops",
@@ -20426,7 +20426,7 @@
         }
       ],
       "ranked": {
-        "trophies": 130,
+        "trophies": 151,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20442,7 +20442,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "10d 17h",
+          "ends_in": "9d 17h",
           "active": true
         },
         "scheduled": [
@@ -20450,25 +20450,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "10d 17h"
+            "starts_in": "9d 17h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 17h"
+            "starts_in": "17h 45m"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "10d 17h"
+            "starts_in": "9d 17h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 16h"
+            "ends_in": "1d 16h"
           }
         ],
         "raid_weekend": {
@@ -20476,7 +20476,7 @@
           "state": "ongoing",
           "start": "2026-11-20 07:00:00+00:00",
           "end": "2026-11-23 07:00:00+00:00",
-          "ends_in": "2d 16h"
+          "ends_in": "1d 16h"
         },
         "cwl": null
       },

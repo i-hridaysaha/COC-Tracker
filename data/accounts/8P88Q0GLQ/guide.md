@@ -2,7 +2,7 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 1461 days, 17:00:00 of build time (one builder), 1,097,225,000 gold, 579,900,000 elixir, 12,256,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
+Total remaining: 1454 days, 5:00:00 of build time (one builder), 1,097,225,000 gold, 579,900,000 elixir, 12,121,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
 
 1. **Barbarian King** (heroes) 94 → 115 — 4,230,000 DE, 87 days, 12:00:00
    _one of your longest builds at 87 days, 12:00:00, start early to reach max sooner_
@@ -90,22 +90,22 @@ Total remaining: 1461 days, 17:00:00 of build time (one builder), 1,097,225,000 
    _one of your longest builds at 16 days, start early to reach max sooner_
 43. **Poison Lizard** (pets) 13 → 15 — 500,000 DE, 16 days
    _one of your longest builds at 16 days, start early to reach max sooner_
-44. **Apprentice Warden** (troops) 2 → 4 — 295,000 DE, 15 days, 12:00:00
-   _one of your longest builds at 15 days, 12:00:00, start early to reach max sooner_
-45. **Dark Elixir Drill** (resources) 6 → 11 — 25,500,000 elixir, 15 days, 6:00:00
+44. **Dark Elixir Drill** (resources) 6 → 11 — 25,500,000 elixir, 15 days, 6:00:00
    _one of your longest builds at 15 days, 6:00:00, start early to reach max sooner_
+45. **Dark Elixir Drill** (resources) 7 → 11 — 23,400,000 elixir, 13 days, 12:00:00
+   _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
 46. **Dark Elixir Drill** (resources) 7 → 11 — 23,400,000 elixir, 13 days, 12:00:00
    _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
-47. **Dark Elixir Drill** (resources) 7 → 11 — 23,400,000 elixir, 13 days, 12:00:00
-   _one of your longest builds at 13 days, 12:00:00, start early to reach max sooner_
+47. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
+   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 48. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 49. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
 50. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
    _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
-51. **Gold Storage** (resources) 18 → 19 — 18,000,000 elixir, 12 days, 12:00:00
-   _one of your longest builds at 12 days, 12:00:00, start early to reach max sooner_
+51. **Apprentice Warden** (troops) 3 → 4 — 160,000 DE, 8 days
+   _one of your longest builds at 8 days, start early to reach max sooner_
 52. **Barbarian** (troops) 10 → 14 — 14,000,000 elixir, 7 days, 12:00:00
    _one of your longest builds at 7 days, 12:00:00, start early to reach max sooner_
 53. **Skeleton Trap** (traps) 4 → 5 — 18,000,000 gold, 7 days
