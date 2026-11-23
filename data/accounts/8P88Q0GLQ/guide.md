@@ -2,10 +2,10 @@
 
 **No event live.** Ranked to reach max in the least time: longest builds first.
 
-Total remaining: 1454 days, 5:00:00 of build time (one builder), 1,097,225,000 gold, 579,900,000 elixir, 12,121,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
+Total remaining: 1446 days, 17:00:00 of build time (one builder), 1,097,225,000 gold, 579,900,000 elixir, 11,801,000 DE, 571,820 shiny, 42,500 glowy, 3,870 starry.
 
-1. **Barbarian King** (heroes) 94 → 115 — 4,230,000 DE, 87 days, 12:00:00
-   _one of your longest builds at 87 days, 12:00:00, start early to reach max sooner_
+1. **Barbarian King** (heroes) 95 → 115 — 3,910,000 DE, 80 days
+   _one of your longest builds at 80 days, start early to reach max sooner_
 2. **Electro Owl** (pets) 6 → 15 — 1,485,000 DE, 62 days
    _one of your longest builds at 62 days, start early to reach max sooner_
 3. **L.A.S.S.I** (pets) 5 → 15 — 1,050,000 DE, 52 days, 12:00:00
