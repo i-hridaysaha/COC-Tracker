@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-23T17:26:11.433249+00:00",
+  "captured_at": "2026-11-24T16:58:56.089761+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17797,12 +17797,19 @@
       "defense_wins": 0,
       "donations": 5810,
       "received": 525,
-      "offense_completion_pct": 86.8,
+      "offense_completion_pct": 86.1,
       "rush": {
-        "score": 4.5,
-        "band": "not rushed",
-        "levels_behind_prev_th": 38,
+        "score": 5.9,
+        "band": "slightly rushed",
+        "levels_behind_prev_th": 50,
         "worst_offenders": [
+          {
+            "name": "Super Wall Breaker",
+            "level": 1,
+            "prev_th_max": 13,
+            "behind": 12,
+            "category": "troops"
+          },
           {
             "name": "Barbarian King",
             "level": 95,
@@ -17830,22 +17837,15 @@
             "prev_th_max": 12,
             "behind": 3,
             "category": "spells"
-          },
-          {
-            "name": "Healing Spell",
-            "level": 8,
-            "prev_th_max": 11,
-            "behind": 3,
-            "category": "spells"
           }
         ]
       },
       "completion": {
-        "heroes": 89.8,
-        "troops": 86.7,
+        "heroes": 90.0,
+        "troops": 84.6,
         "spells": 76.1,
         "pets": 73.8,
-        "equipment": 67.5,
+        "equipment": 67.8,
         "defenses": 100.0,
         "resources": 88.3,
         "army": 100.0,
@@ -17868,7 +17868,7 @@
         {
           "category": "heroes",
           "name": "Archer Queen",
-          "level": 106,
+          "level": 107,
           "max": 115,
           "is_max": false,
           "cost": {},
@@ -17925,6 +17925,16 @@
             "elixir": 6000000
           },
           "seconds": 259200
+        },
+        {
+          "category": "troops",
+          "name": "Super Wall Breaker",
+          "level": 1,
+          "max": 11,
+          "is_max": false,
+          "cost": {},
+          "seconds": 0,
+          "unknown_cost": true
         },
         {
           "category": "troops",
@@ -18637,7 +18647,7 @@
         {
           "category": "equipment",
           "name": "Rocket Backpack",
-          "level": 20,
+          "level": 23,
           "max": 27,
           "is_max": false,
           "cost": {},
@@ -20432,7 +20442,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "7d 14h",
+          "ends_in": "6d 15h",
           "active": true
         },
         "scheduled": [
@@ -20440,25 +20450,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "7d 14h"
+            "starts_in": "6d 15h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "4d 14h"
+            "ends_in": "3d 15h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "7d 14h"
+            "starts_in": "6d 15h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 13h"
+            "starts_in": "2d 14h"
           }
         ],
         "raid_weekend": {
