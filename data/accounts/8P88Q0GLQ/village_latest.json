@@ -4,22 +4,22 @@
     "tag": "#8P88Q0GLQ",
     "town_hall": 18,
     "town_hall_weapon": null,
-    "exp_level": 219,
+    "exp_level": 220,
     "clan_name": "Fearless Axe",
     "clan_tag": "#9GU0UC9J",
     "role": "Co-Leader"
   },
   "ladder": {
-    "trophies": 25,
+    "trophies": 68,
     "best_trophies": 4909,
     "war_stars": 694,
     "attack_wins": 0,
     "defense_wins": 0,
-    "donations": 5983,
+    "donations": 6097,
     "received": 525
   },
   "ranked": {
-    "trophies": 25,
+    "trophies": 68,
     "best_trophies": 4909,
     "attack_wins": 0,
     "defense_wins": 0,
@@ -282,7 +282,7 @@
       ]
     }
   },
-  "captured_at": "2026-11-25T16:49:18.891541+00:00",
+  "captured_at": "2026-11-26T16:25:45.997270+00:00",
   "upgrades": {
     "modifiers_applied": {
       "gold_pass_boost_pct": 0,

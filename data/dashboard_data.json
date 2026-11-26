@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-25T16:49:18.360663+00:00",
+  "captured_at": "2026-11-26T16:25:45.556449+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,12 +17790,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 25,
+      "trophies": 68,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 5983,
+      "donations": 6097,
       "received": 525,
       "offense_completion_pct": 86.2,
       "rush": {
@@ -20424,7 +20424,7 @@
         }
       ],
       "ranked": {
-        "trophies": 25,
+        "trophies": 68,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20440,7 +20440,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "5d 15h",
+          "ends_in": "4d 15h",
           "active": true
         },
         "scheduled": [
@@ -20448,25 +20448,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "5d 15h"
+            "starts_in": "4d 15h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 15h"
+            "ends_in": "1d 15h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "5d 15h"
+            "starts_in": "4d 15h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": false,
-            "starts_in": "1d 14h"
+            "starts_in": "14h 34m"
           }
         ],
         "raid_weekend": {
