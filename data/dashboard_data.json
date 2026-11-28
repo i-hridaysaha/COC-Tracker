@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-11-27T16:10:45.041416+00:00",
+  "captured_at": "2026-11-28T15:03:27.219017+00:00",
   "modifiers_default": {
     "gold_pass_boost_pct": 0,
     "events": []
@@ -17790,12 +17790,12 @@
       "tag": "#8P88Q0GLQ",
       "name": "the dark LORD",
       "town_hall": 18,
-      "trophies": 111,
+      "trophies": 137,
       "best_trophies": 4909,
       "war_stars": 694,
       "attack_wins": 0,
       "defense_wins": 0,
-      "donations": 6191,
+      "donations": 6250,
       "received": 525,
       "offense_completion_pct": 87.0,
       "rush": {
@@ -20414,7 +20414,7 @@
         }
       ],
       "ranked": {
-        "trophies": 111,
+        "trophies": 137,
         "best_trophies": 4909,
         "attack_wins": 0,
         "defense_wins": 0,
@@ -20430,7 +20430,7 @@
           "source": "api",
           "season_start": "2026-11-01 08:00:00+00:00",
           "season_end": "2026-12-01 08:00:00+00:00",
-          "ends_in": "3d 15h",
+          "ends_in": "2d 16h",
           "active": true
         },
         "scheduled": [
@@ -20438,25 +20438,25 @@
             "event": "Season reset",
             "estimate": false,
             "active": false,
-            "starts_in": "3d 15h"
+            "starts_in": "2d 16h"
           },
           {
             "event": "Clan Games",
             "estimate": true,
-            "active": true,
-            "ends_in": "15h 49m"
+            "active": false,
+            "starts_in": "23d 16h"
           },
           {
             "event": "CWL",
             "estimate": true,
             "active": false,
-            "starts_in": "3d 15h"
+            "starts_in": "2d 16h"
           },
           {
             "event": "Raid Weekend",
             "estimate": true,
             "active": true,
-            "ends_in": "2d 14h"
+            "ends_in": "1d 15h"
           }
         ],
         "raid_weekend": {
@@ -20464,7 +20464,7 @@
           "state": "ongoing",
           "start": "2026-11-27 07:00:00+00:00",
           "end": "2026-11-30 07:00:00+00:00",
-          "ends_in": "2d 14h"
+          "ends_in": "1d 15h"
         },
         "cwl": null
       },
